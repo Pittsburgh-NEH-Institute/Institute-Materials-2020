@@ -1,3 +1,7 @@
+---
+permalink: /call/
+---
+
 # Call for Applications
 ## Advanced digital editing: modeling the text and making the edition
 
