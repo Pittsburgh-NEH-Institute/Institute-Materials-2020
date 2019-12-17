@@ -7,9 +7,10 @@ permalink: /call/
 
 ### A summer 2020 NEH Institute for Advanced Topics in the Digital Humanities 
 
-Application deadline: Applications are due **Friday, February 28, 2020**. Applicants will be notified of acceptance by **Monday, March 23, 2020**.
+#### Application deadline 
+Applications are due **Friday, February 28, 2020**. Applicants will be notified of acceptance by **Monday, March 23, 2020**.
 
-Institute dates: **Monday, July 6 through Friday, July 17, 2020**
+Institute dates: **Monday, July 6 through Friday, July 17, 2020**.
  
 #### Synopsis 
 
@@ -25,27 +26,27 @@ The Institute will introduce textual and manuscript scholars to a powerful and b
 
 #### Instructors 
 
-    • Birnbaum, David J. (University of Pittsburgh; Institute Director) 
-    • Bleeker, Elli (Royal Netherlands Academy of Arts and Sciences) 
-    • Cayless, Hugh (Duke University) 
-    • Haentjens Dekker, Ronald (Royal Netherlands Academy of Arts and Sciences) 
-    • Keane, Gabi (University of Pittsburgh) 
-    • Kulsdom, Astrid (Royal Netherlands Academy of Arts and Sciences) 
-    • Olsson, Leif-Jöran (University of Gothenburg) 
-    • Wicentowski, Joseph (US Department of State) 
+* Birnbaum, David J. (University of Pittsburgh; Institute Director) 
+* Bleeker, Elli (Royal Netherlands Academy of Arts and Sciences) 
+* Cayless, Hugh (Duke University) 
+* Haentjens Dekker, Ronald (Royal Netherlands Academy of Arts and Sciences) 
+* Keane, Gabi (University of Pittsburgh) 
+* Kulsdom, Astrid (Royal Netherlands Academy of Arts and Sciences) 
+* Olsson, Leif-Jöran (University of Gothenburg) 
+* Wicentowski, Joseph (US Department of State) 
 
 #### Guest instructors 
 
-    • Beshero-Bondar, Elisa (University of Pittsburgh, social network analysis) 
-    • Juola, Patrick (Duquesne University; stylometry and authorship attribution) 
-    • Langmead, Alison (University of Pittsburgh, sustainability) 
-    • Higgins, Shea (University of Pittsburgh, architecture, UX, UI, and visualization) 
-    • Witt, Jeffrey (Loyola University Maryland; IIIF) 
+* Beshero-Bondar, Elisa (University of Pittsburgh, social network analysis) 
+* Juola, Patrick (Duquesne University; stylometry and authorship attribution) 
+* Langmead, Alison (University of Pittsburgh, sustainability) 
+* Higgins, Shea (University of Pittsburgh, architecture, UX, UI, and visualization) 
+* Witt, Jeffrey (Loyola University Maryland; IIIF) 
 
 The instructors will be assisted by
 
-    • Schwarz, Emma (Senior Institute Assistant, University of Pittsburgh)
-    • Watkins, Samantha (Sam) (Institute Assistant, University of Pittsburgh)
+* Schwarz, Emma (Senior Institute Assistant, University of Pittsburgh)
+* Watkins, Samantha (Sam) (Institute Assistant, University of Pittsburgh)
 
 #### Details 
 
@@ -53,20 +54,20 @@ Applicants should already be familiar with digital textual editing in TEI XML or
 Participants accepted to the Institute will receive a travel allowance, complimentary accommodation in single-occupancy dormitory rooms with private bath, and a complimentary meal plan in the University Dining Services in lieu of per diem. 
 Participants must bring their own laptops, which must run one of the following operating systems: Mac OS X (10.11 [El Capitan] or later), Windows 10 (version 1909 or later), or GNU/Linux (any distribution); mobile and cloud-based operating systems, such as iOS and Chrome OS, are not supported. We welcome scholars at all career levels from graduate students through senior faculty. Applications to the Institute should include the following:
  
-    • A one- to two-page statement about how participation in the Institute will enhance the scholarly and professional goals of the applicant. This statement should describe the digital edition project that the applicant plans to pursue or undertake, with special attention to the research questions motivating the creation of that edition. Preference will be shown to applications that articulate a clear understanding of the textual research potential of digital scholarly editions. 
-    • A one-page description of the applicant’s experience with textual editing. Prior experience in programming for text processing is neither required nor expected, but those who have such experience should describe it here. If participants have prior experience with X-technologies for transformation and publication (XSLT, XQuery) they should list it here as well.
-    • Brief CV (maximum of two pages), concentrating on textual editing and Digital Humanities experience. 
-    • Participants are required to participate full-time in the Institute for the two weeks that they are in residence and must confirm that they will not undertake other significant commitments during the Institute period. Participants should plan to arrive on Sunday, July 5, 2020 and depart on Saturday, July 18, 2020.
+* A one- to two-page statement about how participation in the Institute will enhance the scholarly and professional goals of the applicant. This statement should describe the digital edition project that the applicant plans to pursue or undertake, with special attention to the research questions motivating the creation of that edition. Preference will be shown to applications that articulate a clear understanding of the textual research potential of digital scholarly editions. 
+* A one-page description of the applicant’s experience with textual editing. Prior experience in programming for text processing is neither required nor expected, but those who have such experience should describe it here. If participants have prior experience with X-technologies for transformation and publication (XSLT, XQuery) they should list it here as well.
+* Brief CV (maximum of two pages), concentrating on textual editing and Digital Humanities experience. 
+* Participants are required to participate full-time in the Institute for the two weeks that they are in residence and must confirm that they will not undertake other significant commitments during the Institute period. Participants should plan to arrive on Sunday, July 5, 2020 and depart on Saturday, July 18, 2020.
 
-All application materials should be submitted by email as a single PDF file to djbpitt+neh@pitt.edu. The deadline for applications is Friday, February 28, 2020, and applicants will be notified about acceptance by Monday, March 23, 2020. Questions may be directed to djbpitt+neh@pitt.edu.
+All application materials should be submitted by email as a single PDF file to [djbpitt+neh@pitt.edu](mailto:djbpitt+neh@pitt.edu). The deadline for applications is Friday, February 28, 2020, and applicants will be notified about acceptance by Monday, March 23, 2020. Questions may be directed to djbpitt+neh@pitt.edu.
 
-David J. Birnbaum, Institute Director
-Professor, Slavic Languages and Literatures
-Faculty Fellow, University Honors College
-Faculty Affiliate, Digital Studies and Methods
-University of Pittsburgh
-Email: djbpitt+neh@pitt.edu 
+David J. Birnbaum, Institute Director  
+Professor, Slavic Languages and Literatures  
+Faculty Fellow, University Honors College  
+Faculty Affiliate, Digital Studies and Methods  
+University of Pittsburgh  
+Email: [djbpitt+neh@pitt.edu](mailto:djbpitt+neh@pitt.edu)  
 
 #### Distribution 
 
-This announcement has been posted to Humanist (<http://dhhumanist.org/>), Digital Classicist (<http://www.digitalclassicist.org/>), Digital Medievalist (<https://digitalmedievalist.wordpress.com/>), TEI-L (<https://tei-c.org/support/#tei-l >), Scholarly Editing (SEDIT-L, http://www2004.lsoft.se/scripts/wl.exe?SL1=sedit-l&H=listserv.umd.edu), and WWP-Encoding (<https://listserv.neu.edu/cgi-bin/wa?A0=wwp-encoding >). DiXiT fellows, Society for the History of Authorship, Reading, and Publishing (SHARP-L, sharp-l@list.indiana.edu), members of the European Society for Textual Scholarship (ESTS, https://textualscholarship.eu/). Please circulate.
+This announcement has been posted to [Humanist](http://dhhumanist.org/), [Digital Classicist](http://www.digitalclassicist.org/), [Digital Medievalist](https://digitalmedievalist.wordpress.com/), [TEI-L](https://tei-c.org/support/#tei-l), [Scholarly Editing](http://www2004.lsoft.se/scripts/wl.exe?SL1=sedit-l&H=listserv.umd.edu), and [WWP-Encoding] (https://listserv.neu.edu/cgi-bin/wa?A0=wwp-encoding). DiXiT fellows, Society for the History of Authorship, Reading, and Publishing ([SHARP-L](mailto:sharp-l@list.indiana.edu)). Please circulate.
