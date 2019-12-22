@@ -1,4 +1,4 @@
-# Editing XQuery inside eXist-db with \<oXygen\>
+# Editing XQuery inside eXist-db with \<oXygen/\>
 
 ## Configuration
 
