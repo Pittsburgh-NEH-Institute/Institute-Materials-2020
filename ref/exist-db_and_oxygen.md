@@ -7,7 +7,7 @@ There are multiple ways to configure eXist-db to use \<oXygen/\> (instead of, fo
 ### Notes
 
 * \<oXygen/\> will let you establish connections of this sort with multiple eXist-db servers (for example, one running on your local machine, one running on a remove server, etc.), but it is not able to use those multiple connection in a reliable manner. For reliable functionality, do not establish more than one eXist-db database connection of this type inside \<oXygen/\>. 
-* You need to configure the database resource only once, but it is available only while eXist-db is running. That means that you need to start eXist-db on your system not only to worth with files inside it, but also if you want to use it as your XQuery validation engine (see below).
+* You need to configure the database resource only once, but it is available only while eXist-db is running. That means that you need to start eXist-db on your system not only to work with files inside it, but also if you want to use it as your XQuery validation engine (see below).
 
 ## Editing XQuery inside eXist-db
 
