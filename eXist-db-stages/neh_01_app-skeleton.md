@@ -16,7 +16,7 @@ eXist-db is organized hierarchically, like your file system, but instead of the 
 
 1. Launch eXist-db, log in as userid *admin*, and launch eXide from the eXist-db dashboard.
 2. In the eXide menu bar, click on Application → New application. The completed first screen of the app-creation wizard will look as follows; see below the image for an explanation of the values we input.
-![Wizard, screen 1](images/eXide-app-wizard_01.png) <!-- .element height="50%" width="50%" -->
+![Wizard, screen 1](images/eXide-app-wizard_01.png)
 2. For **Type of the package** choose “Application” (the default). 
 3. For **Template** select *empty package*. The other options incorporate preconfigured CSS and JavaScript libraries; we’ll create our own CSS and JavaScript as needed.
 4. Under **Target collection** specify the name you would like the app root collection (that is, the collection that contains all app resources) to have inside eXist-db. The default installation location is inside the *apps* collection, and since we’ll specify just the collection name (without a path), the app will be installed into that default location, that is, into a collection at */db/apps/neh\_01\_app-skeleton*.
