@@ -1,4 +1,9 @@
-# neh\_03\_uploading-xml
+# Uploading XML
+
+Download links for *xar* packages
+
+* [Starting point](neh_02_collection-hierarchy-0.1.xar) (end of preceding stage)
+* [Ending point](neh_03_uploading-xml-0.1.xar) (end of this stage)
 
 ## Synopsis
 

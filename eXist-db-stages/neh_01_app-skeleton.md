@@ -1,4 +1,9 @@
-# neh\_01\_app-skeleton
+# App skeleton
+
+Download links for *xar* packages
+
+* There is no preconfigured starting point.
+* Download link for [ending point of this stage](neh_01_app-skeleton-0.1.xar)
 
 ## Synopsis
 

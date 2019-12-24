@@ -1,4 +1,9 @@
-# neh\_02\_collection-hierarchy
+# Collection hierarchy
+
+Download links for *xar* packages
+
+* [Starting point](neh_01_app-skeleton-0.1.xar) (end of preceding stage)
+* [Ending point](neh_02_collection-hierarchy-0.1.xar) (end of this stage)
 
 ## Synopsis
 
