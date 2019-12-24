@@ -37,4 +37,4 @@ This shows that the app was installed where we wanted it (inside a new */db/apps
 
 ## What next?
 
-Your app skeleton contains only the three housekeeping files, but no real content and no real functionality. In the next stage ([neh\_02\_collection_hierarchy](neh_02_collection_hierarchy.md)) we’ll create some subcollections to hold different types of content for the app.
+Your app skeleton contains only the three housekeeping files, but no real content and no real functionality. In the next stage ([neh\_02\_collection_hierarchy](neh_02_collection_hierarchy.md)) we will create some subcollections to hold different types of content for the app.
