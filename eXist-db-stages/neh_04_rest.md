@@ -60,7 +60,6 @@ declare variable $initial as xs:string :=
 declare variable $hits as document-node()* := 
     $stories[descendant::tei:titleStmt/tei:title[starts-with(., $initial)]];
 $hits/descendant::tei:titleStmt/tei:title ! string()
-
 ```
 
 XQuery lets you split or add spaces to what would otherwise be long lines to improve legibility, with no impact on the meaning, and here we’ve split the long statements over two lines, indenting the second line. 
