@@ -16,8 +16,11 @@ eXist-db is organized hierarchically, like your file system, but instead of the 
 ## How to create a subcollection
 
 To create a subcollection in eXide, go to File → Manage, as in this illustration:
+
 ![Accessing the file manager](images/eXide-file_manage_menu.png)
+
 and navigate to inside the root collection of your app, where you will see the three housekeeping files you created in [Stage 1](neh_01_app-skeleton.md). Create a new collection by clicking on the icon that looks like a file folder:
+
 ![Creating a collection](images/eXide-file-manage_create-collection.png)
 
 ## Subcollections for our edition
@@ -39,6 +42,7 @@ Create the following subcollections, which will hold different types of edition 
 Other projects might include subcollections under resources for *pdf* or other non-XML content types.
 
 You can move up from inside the *resources* subcollection by double-clicking on the first line (the two dots mean ‘parent collection’) or by single-clicking on the level you want to move up to in the collection path near the top of the File manager:
+
 ![Moving up in the File manager](images/eXide-file-manage_move-up.png)
 
 ### Code
@@ -50,7 +54,8 @@ Some apps use XSLT ([XSL transformations](https://www.w3.org/TR/xslt/all/)) as p
 ## The result
 
 When you have created the subcollections, the view in the File manager should look as follows:
-	![Subcollections created](images/eXide-file-manage_collections-created.png)
+
+![Subcollections created](images/eXide-file-manage_collections-created.png)
 
 ## What next?
 
