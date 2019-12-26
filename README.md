@@ -27,8 +27,8 @@ Digital humanists already have access to workshops and tutorials to help them le
                 />
             </a>
         </td>
-        <td style="border: none;">eXist-db is an open source native XML database and application
-            platform. <a href="http://teipublisher.com/">TEI Publisher</a> is an open source product
-            of <a href="http://www.existsolutions.com/">eXist Solutions</a>.</td>
+        <td style="vertical-align: middle; border: none;">eXist-db is an open source native XML database
+        		and application platform. <a href="http://teipublisher.com/">TEI Publisher</a> is an open 
+        		source product of <a href="http://www.existsolutions.com/">eXist Solutions</a>.</td>
     </tr>
 </table>
