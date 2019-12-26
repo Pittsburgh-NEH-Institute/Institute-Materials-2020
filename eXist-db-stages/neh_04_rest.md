@@ -6,13 +6,15 @@ Download links for *xar* packages
 
 ## Synopsis
 
-In this stage we create an XQuery that can do more than retrieve an file by name. We work with this query in three stages:
+In this stage we create an XQuery that can apply user input to do more than just retrieve a file by name. We develop this query in three stages:
 
-1. We develop and test it in eXide, returning plain text and showing how a user-supplied parameter value can determine the output.
-2. We change the output format from plain text to minimal XML and then run the same query, with the same user input, in both eXide and a browser.
-3. We change the output to richer XML and run it in both eXide and a browser.
+1. The first version, which runs only in eXide (not in a web browser), returns plain text and shows how a user-supplied parameter value can determine the output.
+2. The second version changes the output format from plain text to XML so that it will run in both eXide and a browser.
+3. The first version changes the output to richer XML.
 
-This lesson is longer than the preceding ones because it begins with a long set of terminological notes (which you can skim, but don’t skip them entirely) and it discusses the first XQuery script in minute detail. Our explanations become shorter after that, but the results become more interesting. We’ve kept it all in one lesson because the pieces are closely interconnected; the three XQuery scripts differ in only part of the last statement, and everything that precedes is the same.
+This lesson is longer than the preceding ones because it begins with a longer set of terminological notes (which you can skim, but don’t skip them entirely) and it discusses the first XQuery script in detail (our explanations become shorter after that). We’ve kept it all in one lesson because the pieces are closely interconnected; the three XQuery scripts differ only in the last statement, and everything that precedes is the same.
+
+If you are not already at least passingly familiar with XPath and XQuery, we would recommend reading the brief tutorials listed on our [XQuery References page](../ref/xquery_resources.md) before beginning this lesson.
 
 ## Notes on terminology
 
@@ -28,7 +30,7 @@ Queries can be written in advance and stored in the database, so that at run tim
 
 ### REST
 
-[*REST*](https://en.wikipedia.org/wiki/Representational_state_transfer) (representational state transfer) is a set of conventions for web interactions. REST uses HTTP to communicate information according to a small, predefined set of possible actions, the most important of which for our purposes is *GET*. GET uses a URL (a *web address* that you can type into the address bar of the browser) to request information, e.g.:
+[*REST*](https://en.wikipedia.org/wiki/Representational_state_transfer) (representational state transfer) is a set of conventions for web interactions. REST uses HTTP to communicate information according to a small, predefined set of actions, the most important of which for our purposes is *GET*. GET uses a URL (a *web address* that you can type into the address bar of the browser) to request information, e.g.:
 
 ```
 http://localhost:8080/exist/rest/db/apps/neh_04_http/modules/03_document_by_first_letter.xql?initial=A
@@ -39,10 +41,10 @@ This URL has the following parts (some URLs have additional components):
 1. **Scheme:** The transfer protocol, in this case *http*. The scheme is followed by a colon and two slashes.
 3. **Host:** The address of the server on the web, in this case *localhost*, which means that the server is the same machine as the client. A more common shape for a hostname is *www.example.com*.
 4. **Port:** Hosts can listen on multiple *ports* (communication channels), which makes it possible for a single host machine to run multiple servers and route requests to the correct one. By default, http communications go to port 80; since we run Jetty (the web server bundled with eXist-db) on a different port, we need to specify it explicitly, in this case as *8080*. The port, if specified, is separated from the host by a colon.
-5. **Path:** The location on the server where the desired resource is located, ending with the resource name itself, in this case */exist/rest/db/apps/neh\_04\_http/modules/03\_\document\_by\_first_letter.xql*. You’ll recognize the part beginning with */db* as the path through the database collections to a query inside your app. The */exist/rest* part is one way that eXist-db knows that it is receiving a REST request.
-6. **Query string:** Parameters (values) that the resource will use to tailor the response, expressed as name/value pairs. In this case, we tell the script that we want titles beginning with “A” by passing it in as the value of the parameter name `initial`. We’ll see in a later lesson how to pass multiple parameters.
+5. **Path:** The location on the server where the desired resource is located, ending with the resource name itself, in this case */exist/rest/db/apps/neh\_04\_http/modules/03\_\document\_by\_first_letter.xql*. You’ll recognize the part beginning with */db* as the path through the database collections to a query inside your app. The */exist/rest* part is how eXist-db knows that it is receiving a REST request.
+6. **Query string:** Parameters (values) that the resource will use to tailor the response, expressed as name/value pairs, preceded by a question mark. In this case, we tell the script that we want titles beginning with “A” by passing it in as the value of the parameter name `initial`.
 
-The query string is a REST GET convention for passing parameter values into a stored procedure. We’ll look at other ways to submit queries and otherwise pass information into eXist-db later.
+The query string is a REST GET convention for passing parameter values into a stored procedure. We’ll look at other ways to submit queries and otherwise pass information into eXist-db later. We’ll also see how to pass in multiple parameters, as well as parameters with spaces or punctuation.
 
 ## Querying inside eXide
 
@@ -66,9 +68,9 @@ XQuery lets you split or add spaces to what would otherwise be long lines to imp
 
 The first statement is the XQuery declaration, and it is added automatically by eXide when you create a new XQuery document. It is optional, but it’s good practice to leave it in. Note that it ends in a semicolon, which is required.
 
-The next four statements are *declarations*: one *namespace declaration* and three *variable declarations*. All declarations in XQuery also end in a semicolon. Here is how they work:
+The next four statements are *declarations*: one *namespace declaration* and three *variable declarations*. All declarations in XQuery begin with the keyword `declare` and end with a semicolon. Here is how they work:
 
-**The namespace declaration:** XQuery, like all modern XML technologies, is *namespace-aware*. Since TEI documents are in the TEI namespace, if you query them, you need to look for their elements in that namespace. The namespace declaration lets you use `tei:` as the namespace prefix for TEI elements (we’ll do that later in the script).
+**The namespace declaration:** XQuery, like all modern XML technologies, is *namespace-aware*. Since TEI documents are in the TEI namespace, if you query them, you need to look for their elements in that namespace. The namespace declaration lets you use `tei:` as the namespace prefix for TEI elements.
 
 **Variable declarations:** Variable declaration have the following parts:
 
