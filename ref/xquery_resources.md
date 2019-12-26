@@ -13,6 +13,7 @@
 
 ## W3C specifications
 
+* [XML Path Language (XPath) 3.1](https://www.w3.org/TR/xpath-31/)
 * [XQuery 3.1: An XML Query Language](https://www.w3.org/TR/xquery-31/)
 * [XPath and XQuery Functions and Operators 3.1](https://www.w3.org/TR/xpath-functions-31/)
 
