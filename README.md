@@ -5,6 +5,30 @@
 Digital humanists already have access to workshops and tutorials to help them learn to transcribe, edit, and tag a text in preparation for publishing a digital edition. Nonetheless, sophisticated markup expertise alone is not enough to make an edition, and learning nothing more than tagging may leave scholars staring at their angle brackets and wondering what to do next. Digital humanists cannot build editions that break methodological ground solely on the basis of solutions prepared largely by others, and the focus of this Institute is on the creation of digital editions motivated by project-specific research questions and implemented from a perspective driven first by theory of edition, second by editorial methodology, and necessarily but less importantly by specific toolkits. In this respect, this Institute recognizes thinking digitally in ways driven by project-specific research goals as the most important feature of sustainable Digital Humanities training and education.
 
 ### Acknowledgements
-<a href="https://www.neh.gov/" title="National Endowment for the Humanities: Exploring the Human Endeavour"><img align="left" width="20%" src="images/NEH-Preferred-Seal820.jpg" alt="NEH" class="rpad"></a>_Advanced digital editing: modeling the text and making the edition_ is awarded by the NEH Office of Digital Humanities (ODH) and co-funded by the NEH Division of Research Programs. Any views, findings, conclusions, or recommendations expressed in materials developed for this project do not necessarily represent those of the National Endowment for the Humanities.
-
-<a href="http://www.exist-db.org"><img align="left" src="images/existdb.gif" alt="eXist-db" class="rpad" width="156px"/></a> eXist-db is an open source native XML database and application platform. <a href="http://teipublisher.com/">TEI Publisher</a> is an open source product of <a href="http://www.existsolutions.com/">eXist Solutions</a>.
+<table style="border: none;">
+    <tr style="border: none;">
+        <td style="border: none;">
+            <a href="https://www.neh.gov/"
+                title="National Endowment for the Humanities: Exploring the Human Endeavour">
+                <img align="left" width="156px" src="images/NEH-Preferred-Seal820.jpg" alt="NEH"
+                    class="rpad"/>
+            </a>
+        </td>
+        <td style="vertical-align: middle; border: none;"><em>Advanced digital editing: modeling the
+                text and making the edition</em> is awarded by the NEH Office of Digital Humanities
+            (ODH) and co-funded by the NEH Division of Research Programs. Any views, findings,
+            conclusions, or recommendations expressed in materials developed for this project do not
+            necessarily represent those of the National Endowment for the Humanities.</td>
+    </tr>
+    <tr style="border: none;">
+        <td style="border: none;">
+            <a href="http://www.exist-db.org">
+                <img align="left" src="images/existdb.gif" alt="eXist-db" class="rpad" width="156px"
+                />
+            </a>
+        </td>
+        <td style="vertical-align: middle; border: none;">eXist-db is an open source native XML database
+        		and application platform. <a href="http://teipublisher.com/">TEI Publisher</a> is an open 
+        		source product of <a href="http://www.existsolutions.com/">eXist Solutions</a>.</td>
+    </tr>
+</table>
