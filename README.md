@@ -6,16 +6,17 @@ Digital humanists already have access to workshops and tutorials to help them le
 
 ### Acknowledgements
 <style>
-.site-main table.no-border td {
+.site-main .no-border {
     border: none;
 }
 </style>
-<table class="no-border"><tr>
-<td><a href="https://www.neh.gov/" title="National Endowment for the Humanities: Exploring the Human Endeavour"><img align="left" width="156px" src="images/NEH-Preferred-Seal820.jpg" alt="NEH" class="rpad"></a></td>
-<td><em>Advanced digital editing: modeling the text and making the edition</em> is awarded by the NEH Office of Digital Humanities (ODH) and co-funded by the NEH Division of Research Programs. Any views, findings, conclusions, or recommendations expressed in materials developed for this project do not necessarily represent those of the National Endowment for the Humanities.</td>
+<table class="no-border">
+<tr class="no-border">
+<td class="no-border"><a href="https://www.neh.gov/" title="National Endowment for the Humanities: Exploring the Human Endeavour"><img align="left" width="156px" src="images/NEH-Preferred-Seal820.jpg" alt="NEH" class="rpad"></a></td>
+<td class="no-border"><em>Advanced digital editing: modeling the text and making the edition</em> is awarded by the NEH Office of Digital Humanities (ODH) and co-funded by the NEH Division of Research Programs. Any views, findings, conclusions, or recommendations expressed in materials developed for this project do not necessarily represent those of the National Endowment for the Humanities.</td>
 </tr>
-<tr>
-<td><a href="http://www.exist-db.org"><img align="left" src="images/existdb.gif" alt="eXist-db" class="rpad" width="156px"/></a></td>
-<td>eXist-db is an open source native XML database and application platform. <a href="http://teipublisher.com/">TEI Publisher</a> is an open source product of <a href="http://www.existsolutions.com/">eXist Solutions</a>.</td>
+<tr class="no-border">
+<td class="no-border"><a href="http://www.exist-db.org"><img align="left" src="images/existdb.gif" alt="eXist-db" class="rpad" width="156px"/></a></td>
+<td class="no-border">eXist-db is an open source native XML database and application platform. <a href="http://teipublisher.com/">TEI Publisher</a> is an open source product of <a href="http://www.existsolutions.com/">eXist Solutions</a>.</td>
 </tr>
 </table>
