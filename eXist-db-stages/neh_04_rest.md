@@ -50,7 +50,9 @@ The query string is a REST GET convention for passing parameter values into a st
 
 ### Query #1: plain text
 
-*01\_document\_by\_first\_letter.xql* can be run in eXide to return, as plain text, the titles of all documents in the collection that begin with a specific letter. Here is the XQuery code, which consists of six statements; we have removed the comments that you’ll find in the app to make the code easier to read:
+*01\_document\_by\_first\_letter.xql* can be run in eXide to return, as plain text, the titles of all documents in the collection that begin with a specific letter. Run queries in eXide by hitting the Eval button (not, confusingly, the Run button).
+
+Here is the XQuery code for version #1, which consists of six statements; we have removed the comments that you’ll find in the app to make the code easier to read:
 
 ```xquery
 xquery version "3.1";
@@ -70,7 +72,7 @@ The first statement is the XQuery declaration, and it is added automatically by 
 
 The next four statements are *declarations*: one *namespace declaration* and three *variable declarations*. All declarations in XQuery begin with the keyword `declare` and end with a semicolon. Here is how they work:
 
-**The namespace declaration:** XQuery, like all modern XML technologies, is *namespace-aware*. Since TEI documents are in the TEI namespace, if you query them, you need to look for their elements in that namespace. The namespace declaration lets you use `tei:` as the namespace prefix for TEI elements.
+**The namespace declaration:** Since TEI documents are in the TEI namespace, if you query them, you need to look for their elements in that namespace. The namespace declaration lets you use `tei:` as the namespace prefix for TEI elements.
 
 **Variable declarations:** Variable declaration have the following parts:
 
@@ -81,18 +83,16 @@ The next four statements are *declarations*: one *namespace declaration* and thr
 * The value of the variable comes last. This can be an *atomic value* (string, integer, etc.) or something computed using XPath or XQuery.
 * Because these statements are declarations (i.e., they begin with the keyword `declare`), they must end with a semicolon. 
 
-We declare the following variables:
+We declare the following three variables:
 
 * `$stories` points to all XML story documents in our app, using the XPath `collection()` function.
-* `$initial` specifies the first letter that interests us, that is, we can ask for titles that begin with “A” or “T” or anything else. The eXist-db way of letting the user specify a parameter at run-time (we’ll do this when we run our query in a browser) is to use the `request:request()` function, which takes two arguments: the parameter name to which the variable is assigned when the user makes the request and a default value. Here we say that the parameter will be called `initial` and the default value will be “A”.
-* `$hits` holds the result of an XQuery path expression that filters the full collection of stories and keeps only those that have a title that begins with the value we’ve assigned to `$initial`. Parse this expression as:
+* `$initial` specifies the first letter that interests us, that is, we can ask for titles that begin with “A” or “T” or anything else. The eXist-db way of letting the user specify a parameter at run-time (we’ll do this when we run version #2 of our query in a browser) is to use the `request:request()` function, which takes two arguments: the parameter name to which the variable is assigned when the user makes the request and a default value. Here we say that the parameter will be called `initial` and the default value will be “A”.
+* `$hits` holds the result of an XPath expression that filters the full collection of stories and keeps only those that have a title that begins with the value we’ve assigned to `$initial`. Parse this expression as:
   * Find all story documents.
-  * Filter them to keep only those that have a descendant `<title>` in the TEI namespace that is a child of `<titleStmt>`, also in the TEI namespace. This is where TEI documents store their titles. Note that *all* elements in a namespace (here `<titleStmt>` and `<title>`) must be preceded by the namespace prefix. If your query retrieves no results and you think it should have found sommething, most often that’s because you forgot to include the namespace declaration at every step of the path.
+  * Filter them to keep only those that have a descendant `<title>` in the TEI namespace that is a child of `<titleStmt>`, also in the TEI namespace. This is where TEI documents store their titles. Note that *all* elements in a namespace (here `<titleStmt>` and `<title>`) must be preceded by the namespace prefix.
   * But don’t keep *all* documents that have just any `<title>` element as described above! Filter them further to keep only those where the `<title>` element begins with the value assigned to the `$initial` variable.
 
-The last line specifies what the XQuery returns, and since it is not a declaration, it has no semicolon at the end. If we return just `$hits`, without the predicate, we’ll return the entire documents (try it!). That’s often what we want in Real Life, but for legibility in this exercise, we’ll use XPath to return just the titles of those documents. If we just ask for the titles, without the trailing `! string()`, we’re asking not for what a human thinks of as a title, but for the `<title>` elements, complete with markup. To make it more legible, we use the XPath *simple map* operator to extract just the string value of the titles. This takes each item to the left (the titles with their markup) and applies the function to the right (“extract the string value, without markup”) to each of them. To see the difference, removie the `! string()` and run the query without it.
-
-Run your query by hitting the Eval button in eXide (not, confusingly, the Run button).
+The last line specifies what the XQuery returns, and since it is not a declaration, it has no semicolon at the end. If we return just `$hits`, without the predicate, we’ll return the entire documents (try it!). That’s often what we want in Real Life, but for legibility in this exercise, we’ll use XPath to return just the titles of those documents. If we just ask for the titles, without the trailing `! string()`, we’re asking not for what a human thinks of as a title, but for the `<title>` *elements*, complete with markup. To make the output more legible, we use the XPath *simple map* operator to extract just the string value of the titles, thus removing the markup. The simple map operator takes each item to the left (the titles with their markup) and applies the function to the right (“extract the string value, without markup”) to each of them. To see the difference, removie the `! string()` and run the query without it.
 
 To return titles that begin with a different letter, change the second argument to the `request:request()` function, that is, change the default. What do you expect to happen if you specify a letter that doesn’t begin any titles, like “Q” (try it!)? 
 
@@ -102,19 +102,19 @@ You can address this first query from your browser at:
 http://localhost:8080/exist/apps/neh_04_http/modules/01_document_by_first_letter.xql?initial=A
 ```
 
-but you’ll raise an error. That’s because eXist-db by default sends the output of the query as XML, but we’re creating only plain text, without markup, which the browser cannot interpret as XML. eXist does have a mechanism to tell the browser to expect plain text instead of XML, but we’ll skip over that for now and look into keeping the browser happy by creating XML instead of plain text.
+but you’ll raise an error. That’s because eXist-db by default sends the output of the query as XML, but we’re creating only plain text, without markup, which the browser cannot interpret as XML. eXist does have a mechanism (additional declarations) to tell the browser to expect plain text instead of XML, but we’ll skip over that for now and look into keeping the browser happy by creating XML instead of plain text.
 
 ### Query #2: simple XML
 
-The second query (inside the app) is identical to the first except for the last line, which reads:
+The second query is identical to the first except for the last line, which reads:
 
 ```xquery
 <result>{$hits/descendant::tei:titleStmt/tei:title ! string()}</result>
 ```
 
-The only difference is that we’ve wrapped the result in `<result>` tags. You can use any element name you want (try it!); the important difference is that by wrapping it in tags we are now returning XML, instead of plain text. 
+The difference is that we’ve wrapped the result in `<result>` tags. You can use any element name you want (try it!); the important difference is that by wrapping it in tags we are now returning XML, instead of plain text. 
 
-So what are the curly braces doing, just inside the new tags? XQuery lets you intermingle XQuery code with literal XML, and it has to be able to switch from one to the other. An XQuery script starts out in XQuery mode, and parses everything as XQuery instructions, to be interpreted and executed. To switch into XML mode, just type some XML; that’s what we do when we type our `<request>` start-tag. Once you’re in XML mode, though, everything you type will be understood as XML, and not XQuery, unless you specify otherwise, and curly braces switch back into XQuery mode once you’re in XML mode. Here the `<result>` start- and end-tag demarcate an XML zone, and the curly braces inside that element demarcate an XQuery zone inside the XML zone. This is how XQuery lets you output the results of interpreting your XQuery inside XML tags. You can nest XQuery and XML inside each other as deeply as you need.
+So what are the curly braces doing, just inside the new tags? XQuery lets you intermingle XQuery code with literal XML, and to do that it has to be able to switch from one to the other. An XQuery script starts out in XQuery mode, and parses everything as XQuery instructions, to be interpreted and executed. To switch into XML mode, just type some XML; that’s what we do when we type our `<request>` start-tag. Within XML mode, though, everything you type will be understood as XML, and not XQuery, unless you specify otherwise, and curly braces switch back into XQuery mode when you’re inside XML mode. Here the `<result>` start- and end-tag demarcate an XML zone, and the curly braces inside that element demarcate an XQuery zone inside the XML zone. This is how XQuery lets you output the results of interpreting your XQuery inside XML tags. You can nest XQuery and XML inside each other as deeply as you need.
 
 When you run this query inside eXide, the output is the same as with the first version, except that it is wrapped in the XML tags and run together as a single line. The text runs together because eXist-db assumes that you don’t care about white-space differences inside your XML; this is similar to the way an XML editor like \<oXygen/\> freely changes whitespace when you pretty-print a document during editing.
 
@@ -126,7 +126,7 @@ http://localhost:8080/exist/apps/neh_04_http/modules/02_document_by_first_letter
 
 in your browser address bar, eXist-db will return the XML to you. See that *query string* at the end of the URL, after the question mark (*initial=A*)? That consists of a parameter name `initial` and a value “A”, separated by an equal sign. If you change the value to a different letter, you’ll get a different result (try it!). This works because when you address an XQuery script inside eXist-db (that is, a *stored procedure*) with an HTTP request, which is what happens when you type the address of the script into the browser address bar, eXist-db executes it instead of just returning it to you literally. And if you add a query string after the resource name, eXist-db interprets this as a GET request, looks for a parameter with the specified name, and assigns the specified value to it. This is why the first argument to the `request:request()` function and the parameter name in the URL, in this case `initial`, must agree.
 
-What happens if you try to match a lowercase letter instead of an uppercase one? Omit the value after the equal sign? Omit the entire query string (after the question mark)? Specify something nonsensical? Specify a word, instead of just a letter? Capitalize the parameter name? 
+What happens if you try to match a lowercase letter instead of an uppercase one? Omit the value after the equal sign? Omit the entire query string (after the question mark)? Specify a word, instead of just a letter? Capitalize the parameter name? 
 
 ### Query #3: smarter XML
 
@@ -141,12 +141,14 @@ In Real Life we’ll return our list of titles not as a blob of continuous text,
 </results>
 ```
 
-The white space is for human legibility, so you can modify it as you want. As with query #2, we return a `<results>` element and we switch into XQuery mode inside it with curly braces. But now instead of just dumping all of the raw titles in plain text, as we did in query #2, we loop over them with an XQuery FLWOR expression. This is a simple FLWOR with only two statements, a `for` and a `return`:
+The white space is for human legibility, so you can modify it as you want. As with query #2, we return a `<results>` element and we switch into XQuery mode inside it with curly braces. But now instead of just dumping all of the raw titles in plain text, as we did in query #2, we loop over them with an XQuery FLWOR expression. This is a simple FLWOR with only two statements, one `for` statement and a `return`:
 
 * The `for` statement uses the *sequence variable* `$hits`, which we declared earlier, and loops over it with the *range variable* `$hit`. The variable names are up to you, but using a singular noun for a range variable that loops over the same noun in the plural as the sequence variable is common, since it’s self-documenting.
 * The `return` after the `for` uses the range variable to return one thing for each item in the sequence over which we’re looping, and we wrap the individual titles in `<title>` tags.
 
 You can execute this in eXide or in the browser and the result will come back looking like legible XML.
+
+## Thinking about namespaces
 
 We said earlier that we used the *simple map operator* (the `! string()`) to strip off the markup and get just the text of the title, and now we’re wrapping `<title>` tags around it before output. Why didn’t we just leave the original `<title>` tags there? To try it and see what happens, change the `return` statement to:
 
@@ -154,7 +156,7 @@ We said earlier that we used the *simple map operator* (the `! string()`) to str
 return $hit/descendant::tei:titleStmt/tei:title
 ```
 
-Here we don’t strip the original markup and we don’t add our own `<title>` tags. How do we understand the different output?
+In this new version we don’t strip the original markup and we don’t add our own `<title>` tags. How do we understand the different output of the two versions?
 
 ## Optional (advanced)
 
