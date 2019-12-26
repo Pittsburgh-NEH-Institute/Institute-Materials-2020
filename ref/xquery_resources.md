@@ -1,16 +1,20 @@
 # XQuery resources
 
+## First steps
+
+* From David J. Birnbaum’s course materials
+    * [What can XPath do for me?](http://dh.obdurodon.org/introduction-xpath.xhtml) 
+    * [The XPath functions we use most
+](http://dh.obdurodon.org/functions.xhtml)
+    * [Getting started with XQuery](http://dh.obdurodon.org/xquery-abcs.xhtml)
+* By Michael Kay
+    * [Learn XQuery in 10 minutes: an XQuery tutorial](https://www.stylusstudio.com/xquery-primer-new.html) (updated version)
+    * [Blooming FLWOR - an introduction to the XQuery FLWOR expression](https://www.stylusstudio.com/xquery-flwor.html)
+
 ## W3C specifications
 
 * [XQuery 3.1: An XML Query Language](https://www.w3.org/TR/xquery-31/)
 * [XPath and XQuery Functions and Operators 3.1](https://www.w3.org/TR/xpath-functions-31/)
-
-## First steps
-
-* [Getting started with XQuery](http://dh.obdurodon.org/xquery-abcs.xhtml) (from David J. Birnbaum’s course materials)
-* Michael Kay
-    * [Learn XQuery in 10 minutes: an XQuery tutorial](https://www.stylusstudio.com/xquery-primer-new.html) (updated version)
-    * [Blooming FLWOR - an introduction to the XQuery FLWOR expression](https://www.stylusstudio.com/xquery-flwor.html)
 
 ## Other Internet references
 * Official eXist-db [documentation](https://exist-db.org/exist/apps/doc/) and [function library](https://exist-db.org/exist/apps/fundocs/index.html)
