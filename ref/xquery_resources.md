@@ -5,8 +5,16 @@
 * [XQuery 3.1: An XML Query Language](https://www.w3.org/TR/xquery-31/)
 * [XPath and XQuery Functions and Operators 3.1](https://www.w3.org/TR/xpath-functions-31/)
 
-## Other Internet resources
-* [Official eXist-db documentation](https://exist-db.org/exist/apps/doc/)
+## First steps
+
+* [Getting started with XQuery](http://dh.obdurodon.org/xquery-abcs.xhtml) (from David J. Birnbaum’s course materials)
+* Michael Kay
+    * [Learn XQuery in 10 minutes: an XQuery tutorial](https://www.stylusstudio.com/xquery-primer-new.html) (updated version)
+    * [Blooming FLWOR - an introduction to the XQuery FLWOR expression](https://www.stylusstudio.com/xquery-flwor.html)
+
+## Other Internet references
+* Official eXist-db [documentation](https://exist-db.org/exist/apps/doc/) and [function library](https://exist-db.org/exist/apps/fundocs/index.html)
+* Priscilla Walmsley’s [ FunctX XQuery function library](http://www.xqueryfunctions.com/)
 * [XQuery WikiBook](https://en.wikibooks.org/wiki/XQuery)
 
 ## Books
