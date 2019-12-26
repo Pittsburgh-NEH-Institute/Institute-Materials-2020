@@ -6,15 +6,15 @@ Download links for *xar* packages
 
 ## Synopsis
 
-In this stage we create an XQuery that can apply user input to do more than just retrieve a file by name. We develop this query in three stages:
+In this stage we create XQuery that can employ user input to do more than just retrieve a file by name. We develop this query in three stages:
 
-1. The first version, which runs only in eXide (not in a web browser), returns plain text and shows how a user-supplied parameter value can determine the output.
+1. The first version, which runs only in eXide (not in a web browser), returns plain text and shows how a user-supplied parameter value can control the output.
 2. The second version changes the output format from plain text to XML so that it will run in both eXide and a browser.
-3. The first version changes the output to richer XML.
+3. The third version changes the output to richer XML.
 
 This lesson is longer than the preceding ones because it begins with a longer set of terminological notes (which you can skim, but don’t skip them entirely) and it discusses the first XQuery script in detail (our explanations become shorter after that). We’ve kept it all in one lesson because the pieces are closely interconnected; the three XQuery scripts differ only in the last statement, and everything that precedes is the same.
 
-If you are not already at least passingly familiar with XPath and XQuery, we would recommend reading the brief tutorials listed on our [XQuery References page](../ref/xquery_resources.md) before beginning this lesson.
+If you are not already at least passingly familiar with XPath and XQuery, we would recommend reading the brief tutorials listed on our [XQuery Resources](../ref/xquery_resources.md) page before beginning the lesson.
 
 ## Notes on terminology
 
@@ -26,7 +26,7 @@ Queries can be written in advance and stored in the database, so that at run tim
 
 ### HTTP
 
-[*HTTP*](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) (hypertext transfer protocol) is best known as the language that web browsers and web servers use to communicate with each other. HTTP observes a *client-server* architecture, where the *client* (e.g., web browser) sends a request to the *server* (e.g., web server) and receives information in response. Most often the user sees (and needs to see) only part of the initial request (in the browser address bar) and part of the result (in the browser window), but HTTP connections also exchange other information (*headers*) that describe and facilitate the communication. Most often the server and client are different physical machines (e.g., people all over the world will read your edition by pointing their browsers at your web server), but in this exercise you will be running both the server (eXist-db runs inside Jetty, a web server installed automatically when you install eXist-db) and the browser on your laptop.
+[*HTTP*](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) (hypertext transfer protocol) is best known as the language that web browsers and web servers use to communicate with each other. HTTP observes a *client-server* architecture, where the *client* (e.g., web browser) sends a request to the *server* (e.g., web server) and receives information in response. Most often the user sees (and needs to see) only part of the initial request (in the browser address bar) and part of the result (in the browser window), but HTTP connections also exchange other information (*headers*) that describe and facilitate the communication. Most often the server and client are different physical machines, but in this exercise you will be running both the server (eXist-db runs inside Jetty, a web server installed automatically when you install eXist-db) and the browser on your laptop.
 
 ### REST
 
@@ -41,10 +41,10 @@ This URL has the following parts (some URLs have additional components):
 1. **Scheme:** The transfer protocol, in this case *http*. The scheme is followed by a colon and two slashes.
 3. **Host:** The address of the server on the web, in this case *localhost*, which means that the server is the same machine as the client. A more common shape for a hostname is *www.example.com*.
 4. **Port:** Hosts can listen on multiple *ports* (communication channels), which makes it possible for a single host machine to run multiple servers and route requests to the correct one. By default, http communications go to port 80; since we run Jetty (the web server bundled with eXist-db) on a different port, we need to specify it explicitly, in this case as *8080*. The port, if specified, is separated from the host by a colon.
-5. **Path:** The location on the server where the desired resource is located, ending with the resource name itself, in this case */exist/rest/db/apps/neh\_04\_http/modules/03\_\document\_by\_first_letter.xql*. You’ll recognize the part beginning with */db* as the path through the database collections to a query inside your app. The */exist/rest* part is how eXist-db knows that it is receiving a REST request.
-6. **Query string:** Parameters (values) that the resource will use to tailor the response, expressed as name/value pairs, preceded by a question mark. In this case, we tell the script that we want titles beginning with “A” by passing it in as the value of the parameter name `initial`.
+5. **Path:** The location on the server where the desired resource is located, ending with the resource name itself, in this case */exist/rest/db/apps/neh\_04\_http/modules/03\_document\_by\_first_letter.xql*. You’ll recognize the part beginning with */db* as the path through the database collections to a query inside your app. The */exist/rest* part is how eXist-db knows that it is receiving a REST request.
+6. **Query string:** Information that the resource will use to tailor the response, expressed as name/value pairs, preceded by a question mark. In this case, we tell the script that we want titles beginning with “A” by passing “A” in as the value of the parameter name `initial`.
 
-The query string is a REST GET convention for passing parameter values into a stored procedure. We’ll look at other ways to submit queries and otherwise pass information into eXist-db later. We’ll also see how to pass in multiple parameters, as well as parameters with spaces or punctuation.
+The query string is a REST GET convention for passing parameter values into a stored procedure. We’ll look at other ways to submit queries and pass information into eXist-db later. We’ll also see how to pass in multiple parameters, as well as parameters with spaces or punctuation.
 
 ## Querying inside eXide
 
