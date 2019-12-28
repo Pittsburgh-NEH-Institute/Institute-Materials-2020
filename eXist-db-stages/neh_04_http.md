@@ -18,7 +18,7 @@ If you are not already at least passingly familiar with XPath and XQuery, we wou
 
 ## Notes on terminology
 
-The notes on terminology are longer in this tutorial than in previous ones. You don’t need to memorize the details, but reading through them will help clarify how eXist-db is able to run queries in response to browser requests. We will return to HTTP and REST in more detail toward the end of the Institute, when we discuss *APIs* (application program interfaces).
+The notes on terminology are longer in this tutorial than in previous ones. You don’t need to memorize the details, but reading through them will help clarify how eXist-db is able to run queries in response to browser requests. We will return to HTTP in more detail toward the end of the Institute, when we discuss *APIs* (application program interfaces).
 
 ### Stored procedure
 
@@ -28,12 +28,12 @@ Queries can be written in advance and stored in the database, so that at run tim
 
 [*HTTP*](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) (hypertext transfer protocol) is best known as the language that web browsers and web servers use to communicate with each other. HTTP observes a *client-server* architecture, where the *client* (e.g., web browser) sends a request to the *server* (e.g., web server) and receives information in response. Most often the user sees (and needs to see) only part of the initial request (in the browser address bar) and part of the result (in the browser window), but HTTP connections also exchange other information (*headers*) that describe and facilitate the communication. Most often the server and client are different physical machines, but in this exercise you will be running both the server (eXist-db runs inside Jetty, a web server installed automatically when you install eXist-db) and the browser on your laptop.
 
-### REST
+### GET queries
 
-[*REST*](https://en.wikipedia.org/wiki/Representational_state_transfer) (representational state transfer) is a set of conventions for web interactions. REST uses HTTP to communicate information according to a small, predefined set of actions, the most important of which for our purposes is *GET*. GET uses a URL (a *web address* that you can type into the address bar of the browser) to request information, e.g.:
+In addition to being able to request a web page, an HTTP URL is able to pass additional information to the server by using a GET, which appends a *query string* to the rest of the URL, as in the following example:
 
 ```
-http://localhost:8080/exist/rest/db/apps/neh_04_http/modules/03_document_by_first_letter.xql?initial=A
+http://localhost:8080/exist/apps/neh_04_http/modules/03_document_by_first_letter.xql?initial=A
 ```
 
 This URL has the following parts (some URLs have additional components):
@@ -41,10 +41,10 @@ This URL has the following parts (some URLs have additional components):
 1. **Scheme:** The transfer protocol, in this case *http*. The scheme is followed by a colon and two slashes.
 3. **Host:** The address of the server on the web, in this case *localhost*, which means that the server is the same machine as the client. A more common shape for a hostname is *www.example.com*.
 4. **Port:** Hosts can listen on multiple *ports* (communication channels), which makes it possible for a single host machine to run multiple servers and route requests to the correct one. By default, http communications go to port 80; since we run Jetty (the web server bundled with eXist-db) on a different port, we need to specify it explicitly, in this case as *8080*. The port, if specified, is separated from the host by a colon.
-5. **Path:** The location on the server where the desired resource is located, ending with the resource name itself, in this case */exist/rest/db/apps/neh\_04\_http/modules/03\_document\_by\_first_letter.xql*. You’ll recognize the part beginning with */db* as the path through the database collections to a query inside your app. The */exist/rest* part is how eXist-db knows that it is receiving a REST request.
+5. **Path:** The location on the server where the desired resource is located, ending with the resource name itself, in this case */exist/apps/neh\_04\_http/modules/03\_document\_by\_first_letter.xql*. The document actually lives at */db/apps/neh\_04\_http/modules/03\_document\_by\_first_letter.xql* (note the different beginning); in a standard eXist-db installation, paths the begin with */exist/apps* are already routed to the */db/apps* collction.
 6. **Query string:** Information that the resource will use to tailor the response, expressed as name/value pairs, preceded by a question mark. In this case, we tell the script that we want titles beginning with “A” by passing “A” in as the value of the parameter name `initial`.
 
-The query string is a REST GET convention for passing parameter values into a stored procedure. We’ll look at other ways to submit queries and pass information into eXist-db later. We’ll also see how to pass in multiple parameters, as well as parameters with spaces or punctuation.
+The query string is an HTTP GET convention for passing parameter values to the server—in this case,into a stored procedure. We’ll look at other ways to submit queries and pass information into eXist-db later. We’ll also see how to pass in multiple parameters, as well as parameters with spaces or punctuation.
 
 ## Querying inside eXide
 
@@ -86,7 +86,7 @@ The next four statements are *declarations*: one *namespace declaration* and thr
 We declare the following three variables:
 
 * `$stories` points to all XML story documents in our app, using the XPath `collection()` function.
-* `$initial` specifies the first letter that interests us, that is, we can ask for titles that begin with “A” or “T” or anything else. The eXist-db way of letting the user specify a parameter at run-time (we’ll do this when we run version #2 of our query in a browser) is to use the `request:request()` function, which takes two arguments: the parameter name to which the variable is assigned when the user makes the request and a default value. Here we say that the parameter will be called `initial` and the default value will be “A”.
+	* `$initial` specifies the first letter that interests us, that is, we can ask for titles that begin with “A” or “T” or anything else. The eXist-db way of letting the user specify a parameter at run-time (we’ll do this when we run version #2 of our query in a browser) is to use the `request:request()` function, which takes two arguments: the parameter name to which the variable is assigned when the user makes the request and a default value. Here we say that the parameter will be called `initial` and the default value will be “A”.
 * `$hits` holds the result of an XPath expression that filters the full collection of stories and keeps only those that have a title that begins with the value we’ve assigned to `$initial`. Parse this expression as:
   * Find all story documents.
   * Filter them to keep only those that have a descendant `<title>` in the TEI namespace that is a child of `<titleStmt>`, also in the TEI namespace. This is where TEI documents store their titles. Note that *all* elements in a namespace (here `<titleStmt>` and `<title>`) must be preceded by the namespace prefix.
