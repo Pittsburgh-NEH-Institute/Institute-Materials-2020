@@ -3,7 +3,7 @@
 Download links for *xar* packages
 
 * [Starting point](neh_05_http-01.xar)
-* [Ending point](neh_06_query-rewriting_reading-view.md) (end of this stage)
+* [Ending point](neh_06_reading_tei-0.1.xar) (end of this stage)
 
 ## Synopsis
 
@@ -14,6 +14,8 @@ In this lesson we add functionality to enable our app to display a reading view 
 3. Next we will add real code to our module to find and return the actual story we requested, as the raw TEI XML.
 
 While our edition may want to make raw TEI XML available to users, that won’t be the default reading view, and the next steps will involve transforming the TEI XML for a single story into HTML, so that we can embed it inside a header, navigation bar, and other boilerplate and style it with CSS. We’ll save that for the next lesson; for now our goal will be to work up to returning just the requested raw TEI XML.
+
+We have removed the XQuery that we used in an earlier lesson to list documents according to the first letter of the title. The starting app for this lesson also contains the (temporarily invalid) beginnings of a *controller.xql* file, which we will repair during the lesson.
 
 ## About development
 
@@ -40,11 +42,12 @@ Inside eXide click on the black New XQuery icon, create the following file, and 
 
 ```xquery
 xquery version "3.1";
-declare variable $story_id as xs:string := request:get-parameter('story', 'hi');
+declare variable $story_id as xs:string := 
+	request:get-parameter('story', 'hi', false());
 <root>{$story_id}</root>
 ```
 
-This module consists of three statements, the first of which is the formulaic XQuery declaration. The second statement uses the eXist-db function `request:get-parameter()` to ask for the value of the parameter that will eventually be passed in with the name `story`. `request:get-parameter()` takes two arguments: the first is the name of the parameter and the second is a default value. We specify the default as “hi” for diagnostic purposes, so that we can verify that the module is functioning. In real life we might want to return an informative documentation message, redirect to the main page, or something else.
+This module consists of three statements, the first of which is the formulaic XQuery declaration. The second statement uses the eXist-db function `request:get-parameter()` to ask for the value of the parameter that will eventually be passed in with the name `story`. `request:get-parameter()` takes three arguments, only the first two of which need concern us: the first is the name of the parameter (which will be passed as part of the query string in an HTTP request), the second is a default value (if the parameter value is missing from the HTTP request), and the third is a bit of housekeeping that helps with debugging. We specify the default as “hi” for diagnostic purposes, so that we can verify that the module is functioning. In real life we might want to return an informative documentation message, redirect to the main page, or something else.
 
 When you push the black Eval (not Run) icon in the eXide menu bar, you should see `<root>hi<root>` in a sidebar. If you don’t, you need to debug the code before you proceed; the point of our incremental development workflow is that we develop and test just one thing at a time. If your module does not work at this stage, it contains an error, and until you fix the error, code that you write on top of it cannot realistically be expected to work. 
 
@@ -111,7 +114,8 @@ xquery version "3.1";
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare variable $stories as document-node()+ := 
 	collection('/db/apps/neh_06_reading_tei/xml');
-declare variable $story_id as xs:string := request:get-parameter('story', 'hi');
+declare variable $story_id as xs:string := 
+	request:get-parameter('story', 'hi', false());
 declare variable $story_filename as xs:string: = concat($story_id, '.xml');
 declare variable $story as document-node()? := 
 	$stories[ends-with(base-uri(), $story_filename)];
@@ -126,7 +130,7 @@ We begin with six declarations, some of which will by now be familiar:
 
 * The XQuery declaration is added by eXide when we create a new XQuery script. It is optional, but we recommend leaving it in place.
 * XQuery lets us declare a default element namespace, which saves us from having to use namespace prefixes to refer to elements in the input documents or when we create elements for output. Since both our input (our corpus of stories) and our output (the information we choose to provide from the story requested by the user) are in the TEI namespace, this is a good opportunity to declare the TEI namespace as a default.
-* We then declare three variables:
+* We then declare four variables:
 	* `$stories` is a collection of all stories in our corpus, defined using the XPath `collection()` function. Since each story is an XML document and we know that we have at least one of them, we use the plus sign as a repetition operator.
 	* `$story_id` is the parameter value supplied by the user in the query string. It is unchanged from the earlier version of the XQuery script.
 	* `$story_filename` is formed by appending the string `.xml` to the value of `$story_id`. We could, alternatively, have required the user to add the extension in the original URL.
@@ -155,7 +159,8 @@ xquery version "3.1";
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare variable $stories as document-node()+ := 
 	collection('/db/apps/neh_06_reading_tei/xml');
-declare variable $story_id as xs:string := request:get-parameter('story', 'hammersmithghost_times_1804');
+declare variable $story_id as xs:string 
+	:= request:get-parameter('story', 'hammersmithghost_times_1804', false());
 declare variable $story_filename as xs:string: = concat($story_id, '.xml');
 declare variable $story as document-node()? := 
 	$stories[ends-with(base-uri(), $story_filename)];
@@ -194,4 +199,10 @@ Perhaps confusingly, the comma operator does not behave the same way as the unio
 
 Our simplified initial controller rewrote our query to insert the *modules* subcollection into the path. It is possible to use a deep hierarchy to group modules in subcollections inside other subcollections, but the more varied the resource locations grow, the more complicated it will become to perform string surgery on URLs. For that reason, you will want to balance the organizational convenience of grouping and subgrouping similar resources, on the one hand, against the code complexity of having to rewrite the URLs for those resources differently depending on their location. In practice we are more likely to rewrite URLs that point to XQuery modules than those that point to static resources, such as images, CSS, etc., for which we will specify `<ignore>` in *controller.xql*. For that reason, we are not concerned about having subcollections inside *resources* in our app, but we will be cautious about splitting XQuery modules into separate subcollections.
 
+### About `request:get-parameter()`
+
+The `request:get-parameter()` function takes two or three arguments. The first argument is the name of the parameter, and it must match the parameter name that will be used in the query string in the HTTP request. The second argument is the default. For information about the third argument, which is needed only when using \<oXygen/\> instead of eXide to edit the query, see <https://www.oxygenxml.com/pipermail/oxygen-user/2019-December/006495.html>.
+
 ## What next?
+
+We are successfully returning the information we care about from a story we care about, but the information is coming back as raw TEI XML. In the next lesson ([neh_07_view](neh_07_view.md)) we will enhance our app to transform the XML that we have requested into HTML and style it with CSS.
