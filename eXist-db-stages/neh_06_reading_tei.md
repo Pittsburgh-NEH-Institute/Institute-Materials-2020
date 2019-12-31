@@ -213,4 +213,4 @@ We retrieve a specified story by comparing the resource names of each and every 
 
 ## What next?
 
-We are successfully returning the information we care about from a story we care about, but the information is coming back as raw TEI XML. In the next lesson ([neh_07_view](neh_07_view.md)) we will enhance our app to transform the XML that we have requested into HTML and style it with CSS.
+We are successfully returning the information we care about from a story we care about, but the information is coming back as raw TEI XML. In the next lesson ([neh_07_view](neh_07_tei-view.md)) we will enhance our app to transform the XML that we have requested into HTML and style it with CSS.
