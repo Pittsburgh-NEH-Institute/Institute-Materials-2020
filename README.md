@@ -21,7 +21,6 @@ Digital humanists already have access to workshops and tutorials to help them le
             conclusions, or recommendations expressed in materials developed for this project do not
             necessarily represent those of the National Endowment for the Humanities.</td>
     </tr>
-
     <tr style="border: none;">
         <td style="border: none;">
             <a href="https://www.oxygenxml.com/">
@@ -34,7 +33,6 @@ Digital humanists already have access to workshops and tutorials to help them le
             extended trial licenses for their <a href="https://www.oxygenxml.com/">&lt;oXygen/&gt;
                 XML editor</a> for the use of Institute participants.</td>
     </tr>
-
     <tr style="border: none;">
         <td style="border: none;">
             <a href="http://www.exist-db.org">
