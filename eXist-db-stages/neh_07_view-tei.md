@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-In the preceding lesson we used XQuery to return part of the TEI XML content of a story chosen by the user. At that stage we returned the raw TEI XML; in this lesson we will convert that TEI XML to HTML. We will view the HTML with whatever styling the browser supplies by default; later we will enrich the HTML with CSS in order to implement our own styling.
+In the preceding lesson we used XQuery to return part of the TEI XML content of a story chosen by the user. At that stage we returned the raw TEI XML; in this lesson we will convert the TEI XML to HTML. For now we will view the HTML with whatever styling the browser supplies by default; later we will enrich the HTML with CSS in order to implement our own styling.
 
 Transforming XML to HTML using XQuery requires some background information, and this lesson is therefore divided into the following topics:
 
@@ -19,7 +19,7 @@ Transforming XML to HTML using XQuery requires some background information, and 
 	* Telling *controller.xql* about the new View
 	* Wrapping the output in boilerplate
 
-This lesson is longer than many of the others because of the new concepts that it introduces in the Preparatory sections. Much of that is background information that you can read once without trying to memorize it, just to familiarize yourself with the concepts. You’ll want, though, to pay especially careful attention to the Preparatory section about declaring your own functions, since we’ll be doing that extensively in the Implementation section.
+This lesson is longer than many of the others because of the new concepts that it introduces in the Preparatory sections. Much of that is background information that you can read once without trying to memorize it, just to familiarize yourself with the concepts. You’ll want, though, to pay careful attention to the Preparatory section about declaring your own functions, since we’ll be doing that extensively in the Implementation section.
 
 ## Preparatory sections
 
@@ -32,25 +32,25 @@ We mentioned earlier the [Model–View–Controller](https://en.wikipedia.org/wi
 
 In the previous lesson we used XQuery to select information from the collection of stories (specifically, part of the content of one story, ass specified by the user), which we returned as TEI XML using XQuery in the *read.xql* module. Had we wanted to return HTML instead of XML, we could have incorporated the code to transform the XML to HTML in that module, but we deliberately separated them, as in the MVC design pattern described above. There are several reasons for this separation, two of which are:
 
-* We will perform the transformation to HTML using XQuery, but that task is also well suited to XSLT, and the two languages can work together smoothly within eXist-db. (We use XQuery in these lessons for pedagogical reasons, to avoid having to teach an additional programming language in a limited amount of time.) By separating the code that produces the model from the code that transforms it into the view, we can switch the transformation code from XQuery to XSLT later without having to touch *read.xql*. 
-* If our entire app consisted of only the *read.xql* module, the preceding wouldn’t seem like much of an advantage, but an important payoff accrues when we use the same code to transform XML to HTML for multiple modules. If the XQuery script that does the transformation to HTML is separate from the module that selects the data to present, we don’t have to repeat the same transformation instructions inside every module. This is consistent with a software development principle called DRY (Don’t Repeat Yourself), and the motivation is that repetitive code takes longer to write, and, especially, that it is more difficult to maintain without accidentally forgetting to change the repeated code everywhere it occurs. The extent to which we can reuse parts of the View will vary depending on the app, and we’ll examine some ways of organizing the code as our app grows more complex over the course of this project.
+* We will perform the transformation to HTML using XQuery, but that task is also well suited to XSLT, and the two languages can work together smoothly within eXist-db. (We use XQuery in these lessons for pedagogical reasons, to avoid having to teach an additional programming language in a limited amount of time.) By separating the code that produces the model from the code that transforms it into the view, we can switch the transformation code from XQuery to XSLT later without having to touch *read.xql* or similar modules. 
+* If our entire app consisted of only the *read.xql* module, the preceding wouldn’t seem like much of an advantage, but an important payoff accrues when we use the same code to transform XML to HTML for multiple modules. If the XQuery script that does the transformation to HTML is separate from the module that selects the data to present, we don’t have to repeat the same transformation instructions inside every module. This is consistent with a software development principle called DRY (Don’t Repeat Yourself), and the motivation is that repetitive code takes longer to write, and, especially, that it is more difficult to maintain without accidentally forgetting to change the repeated code everywhere it occurs. The extent to which we can reuse parts of the View will vary depending on the app, and we’ll examine some ways of organizing the code base as our app grows more complex over the course of this project.
 
 ### Push and pull processing
 
-Transforming a document from TEI XML to HTML isn’t like retrieving information for reading, as we did in our *read.xql* module. The retrieval uses *pull* processing, where we look for specific information where we can expect to find it; in this case we seek out the story we want and, once we’ve found it, we extract the content we want from it. We will implement our transformation from TEI XML to HTML, though, using *push* processing, where we will push the document through a set of rules, each of which knows how to do one thing, such as how to transform a particular type of element. For example, one rule might convert a TEI `<p>` (paragraph) to an HTML `<p>` (these are not the same element because they are in different namespaces), another might convert a TEI `<item>` (list item) to an HTML `<li>`, etc. Every transformation rule has access to every node of the input as the document is pushed through the set of rules, and each rule selects and operates on the nodes it knows how to handle as the stream of nodes passes by. 
+Transforming a document from TEI XML to HTML isn’t like retrieving information for reading, as we did in our *read.xql* module. The retrieval used *pull* processing, where we looked for specific information where we expected to find it; in this case we sought out the story we wanted and, once we had found it, we extracted the content we wanted from it. We will implement our transformation from TEI XML to HTML, though, using *push* processing, where we will push the document through a set of rules, each of which knows how to do one thing, such as how to transform a particular type of element. If pull processing is like ordering from a menu in a restaurant, push processing like [conveyer belt sushi](https://en.wikipedia.org/wiki/Conveyor_belt_sushi), where all dishes are always available and diners select what they want when they want it, as it passes by. With push processing, for example, one rule might convert a TEI `<p>` (paragraph) to an HTML `<p>` (these are not the same element because they are in different namespaces), another might convert a TEI `<item>` (list item) to an HTML `<li>`, etc. Every transformation rule has access to every node of the input as the document is pushed through the set of rules, and each rule selects and operates on the nodes it knows how to handle as the stream of nodes passes by. 
 
-We can think of push processing as separating an instruction to process a particular node from the code that specifies how to perform that the processing. For example, we might say “process the child nodes of this element, whatever they might be” in one place, whhile the code that knows how to process each type of node (most common text and different types of elements) would be located elsewhere. 
+We can think of push processing as separating a statement that a particular node should be processed from the code that specifies how to perform that the processing. For example, we might say “process the child nodes of this element, whatever they might be” in one place, whhile the code that knows how to process each type of node would be located elsewhere. 
 
 ### Declarative programming, recursion, and walking the tree
 
-XML documents in humanities research often contain great structural variety and deep hierarchical nesting, and they may make liberal use of *mixed content*, that is, elements that contain unpredictable combinations of plain text and other elements (which, in turn, may contain mixed content). Since we cannot realistically predict all of the type of content we’ll encounter at different locations in a document we are transforming, we process the entire document with a *declarative* model that uses *recursion*, as follows:
+XML documents in humanities research often contain great structural variety and deep hierarchical nesting, and they may make liberal use of *mixed content*, that is, elements that contain unpredictable combinations of plain text and other elements (which, in turn, may also contain mixed content). Since we cannot realistically predict all of the type of content we’ll encounter at different locations in a document we are transforming, we process the entire document with a *declarative* model that uses *recursion*, as follows:
 
-1. We perform a complete, recursive, depth-first traversal of the document tree from the root element. *Recursion* in this context means is that at each location in the tree after we handle the immediate content (e.g., process whatever node we have stopped at) we then look at its children, and then their children, and when we run out of children we look at following siblings in order. Unless we say otherwise, this guarantees that we will visit every node in the tree. While a complete depth-first traversal is the most common way of walking a tree, we can also access any part of the tree from any other part, and we can omit parts we don’t care about. What matters is that we can visit and deal with every node in the tree that we do care about no matter how complex, varied, or unpredictable each document tree might be.
-2. Instead of trying to anticipate what we might find at a particular location in the tree, which isn’t realistic given the aforementioned complexity, variability, and unpredictability of a lot of humanities XML, we also define a set of proceedures for handling *every* type of node we might encounter *anywhere*. Specifically, at every node during our traversal a *dispatcher* function sends that node to a rule that knows how to deal with it. This ensures that every node will be processed correctly without our having to predict where nodes of different types may or may not occur.
+1. We perform a complete, recursive, *depth-first* traversal of the document tree from the root element. *Recursion* in this context means is that at each location in the tree, after we handle the immediate location (e.g., process whatever node we have stopped at), we then look at its children, and then their children, and when we run out of children we look at following siblings in order (looking at children before siblings is what makes the traversal depth-first). Unless we say otherwise, this guarantees that we will visit every node in the tree. While a complete depth-first traversal is the most common way of walking a tree, we can also access any part of the tree from any other part, and we can omit parts we don’t care about. What matters is that we can visit and deal with every node in the tree that we do care about no matter how complex, varied, or unpredictable each document tree might be.
+2. Instead of trying to anticipate what we might find at a particular location in the tree, which isn’t realistic given the aforementioned complexity, variability, and unpredictability of a lot of humanities XML, we define a set of proceedures for handling *every* type of node we might encounter *anywhere*, each of which is always available, and therefore available when our depth-first traversal runs into the data it knows how to handle. The way we implement this is that a *dispatcher* function is the first to see every node in the document, and it sends that node to a node-type-specific helper function that knows how to deal with it. This ensures that every node will be processed correctly without our having to predict where nodes of different types may or may not occur.
 
 ### Declaring your own XQuery function
 
-Before we use XQuery `typeswitch` to manage our View we need to take a detour into user-defined XQuery functions. This will prepare us to write our own functions, which, under the management of `typeswitch`, will perform the transformation from XML to HTML.
+Before we use XQuery `typeswitch` to manage our View we need to take a detour into user-defined XQuery functions. This will prepare us to write our own dispatcher and helper functions.
 
 #### Function namespaces
 
@@ -70,7 +70,7 @@ declare function local:titleCase($input) {
 };
 ```
 
-This declaration will make a function called `local:titleCase()` available for your use. The keywords `declare function` initiate the declaration. The next part is the name that you’ll use to call the function, including its namespace prefix. The name must be followed by parentheses, inside which you specify parameter names (parameters are a type of variable, so their names must begin with a `$`) that you will use to refer to the input to the function when you operate on it. The parentheses are required even if the function does not accept any input. You can have as many input parameters as you want, called whatever you want, and they must be separated by commas. These parameters are available (the technical term is *in scope*) only inside the function. This means that if you have a different variable called `$input` elsewhere in your program, XQuery won’t confuse them, and it also means that `$input` exists only inside your function, you can’t refer to it by name outside the function body. After the function name and its parentheses there is a set of curly braces, which contains the body of the function, that is, the code that the function executes. A function declaration, like any other declaration in XQuery, must end with a semicolon. The newlines and indentation are for human legibility, and XQuery will understand your code no matter how you lay it out.
+This declaration will make a function called `local:titleCase()` available for your use. The keywords `declare function` initiate the declaration. The next part is the name that you’ll use to call the function, including its namespace prefix. The name must be followed by parentheses, inside which you specify parameter names (parameters are a type of variable, so their names must begin with a `$`) that you will use to refer to the input to the function when you operate on it. The parentheses are required even if the function does not accept any input. You can have as many input parameters as you want, called whatever you want, and they must be separated by commas. These parameters are available (the technical term is *in scope*) only inside the function. This means that if you have a different variable called `$input` elsewhere in your program, XQuery won’t confuse them, and it also means that this `$input` exists only inside your function, you can’t refer to it by name outside the function body. After the function name and its parentheses there is a set of curly braces, which contains the body of the function, that is, the code that the function executes. A function declaration, like any other declaration in XQuery, must end, after the closing curly brace, with a semicolon. The newlines and indentation are for human legibility, and XQuery will understand your code no matter how you lay it out.
 
 The preceding function skeleton, then, declares a function called `local:titleCase()`, which takes one parameter and uses the standard library functions `concat()`, `upper-case()`, and `lower-case()` to process it and return a result. We describe what the processing does below.
 
@@ -82,7 +82,7 @@ declare function local:titleCase($input as xs:string) as xs:string {
 };
 ```
 
-Here we specify that the sole input parameter must be a string, that it is required, that it is not repeatable (that is, “exactly one”), and that the function will return a string. Don’t omit the datatype declarations just because they are not strictly required; including them will help you find errors in your code that might pass unnoticed otherwise.
+Here we specify that the sole input parameter must be a string, that it is required, and that it is not repeatable (that is, “exactly one”), and that the function will return a string. Don’t omit the datatype declarations just because they are not strictly required; including them will help you find errors in your code that might pass unnoticed otherwise, and your code may also run more quickly because the processor can use the datatype information for optimization.
 
 It’s easiest to read the nested functions inside the body from the inside out:
 
@@ -122,16 +122,16 @@ declare function local:dispatch($node as node()) as item()* {
 
 Once we create our helper functions (see below), the dispatcher will ensure that all `text()` nodes and `<bill>`, `<btitle>`, `<section-id>`, `<bill-text>`, and `<strike>` elements in our input document are transformed to appropriate counterparts on output. The final `default` statement strips all other input markup without transforming it into anything else.
 
-We create a function called `local:dispatch()` that accepts one argument, which must be a node (of any time), and returns zero or more items (that is, anything at all). What `typeswitch` does inside this function is test the type of a node, just returns it as is if it’s plain text, and otherwise sends it to a specialized helper function that knows how to handle it. The `case` statements mean “in case it’s plain text” (a `text()` node), “in case it’s a `<bill>` element”, etc. Although functions don’t require a `return` statement, the `case` statements in `typeswitch` use the keyword `return` to say “pass the node to the correct helper function, get the result, and then return (that is, output) that.”
+The `local:dispatch()` function accepts one argument, which must be a node (of any type), and returns zero or more items (that is, anything at all). What `typeswitch` does inside this function is test the type of a node, just returns it as is if it’s plain text, and otherwise sends it to a specialized helper function that knows how to handle it. The `case` statements mean “in case it’s plain text” (a `text()` node), “in case it’s a `<bill>` element”, etc. Although XQuery *functions* don’t require a `return` statement, the `case` statements in `typeswitch` use the keyword `return` to say “pass the node to the correct helper function, get the result, and then return (that is, output) that.”
 
 #### Helper functions
 
-Each of the helper functions that is specific to an element type will process the node and (most commonly) then pass its children into the dispatcher, which is how it implements the depth-first traversal of the entire tree. The dispatcher ends with a default rule that handles nodes for which we have not declared a specific rule, and in this example that function just processes the children of the node. As we’ll see below, if the node is an element, this has the effect of throwing away the markup; if it is a comment or processing instruction it throws it away entirely, since those types of nodes don’t have children. 
+Each of the helper functions that is specific to an element type will process the node and (most commonly) then pass its children into the dispatcher, which is how the system implements the depth-first traversal of the entire tree. The dispatcher ends with a default rule that handles nodes for which we have not declared a specific rule, and in this example that function just processes the children of the node. As we’ll see below, if the node is an element, this has the effect of throwing away the markup; if it is a comment or processing instruction it throws it away entirely, since those types of nodes don’t have children. 
 
-The `local:bill()` helper function above might look as follows:
+The `local:bill()` helper function, to which the dispatcher passes `<bill>` input elements for handling, might look as follows:
 
 ```xquery
-declare function local:bill($node as element(bill)) as element() {
+declare function local:bill($node as element(bill)) as element(Bill) {
     <Bill>{local:passthru($node)}</Bill>
 };
 ```
@@ -146,32 +146,32 @@ declare function local:passthru($node as node()) as item()* {
 };
 ```
 
-This receives a single node at a time and loops over its children, sending each of them to the dispatcher to ensure that they get routed to the rule that knows how to handle them. In this example all of the helper functions send their children there, and the `default` statement essentially throws away the original markup and just sends the children to the passthru rule for processing.  
+This receives a single node at a time and loops over its children, sending each of them to the dispatcher to ensure that they get routed to the rule that knows how to handle them. In this example all of the helper functions send their children there as part of creating a new output element, and the `default` statement essentially throws away the original markup and just sends the children to the passthru rule for processing, without creating a new output element.  
 
-`typeswitch` expressions are namespace aware, so `case element(p)` will normally match a `<p>` element in no namespace. The exception is that if you have declared a default element namespace, `typeswitch` will match only `<p>` element in that namespace. If you are not using a default namespace, you need to use a namespace prefix that you have declared previously.
+`typeswitch` expressions are namespace aware, so `case element(p)` will normally match a `<p>` element in no namespace. The exception is that if you have declared a default element namespace, `typeswitch` will match only `<p>` element in that namespace. If you are not using a default namespace, you need to use a namespace prefix that you have declared previously, e.g., `case element(tei:p)` if you have declared the `tei:` namespace prefix.
 
 #### Running the transformation
 
-We can start the transformation by passing the XML document to the dispatcher. When the dispatcher hits the root node, that begins the depth-first traversal, and the script will run recursively until it has visited every node in the input tree.
+We can start the transformation by passing the XML document (that is the document node that is the parent of the root element) to the dispatcher. This begins the depth-first traversal, and the script will run recursively until it has visited every node in the input tree.
 
 ### Outlining our XML
 
-The transformation script needs to create both a `case` statement inside the dispatcher and a matching helper function for each node type that requires non-default processing. This means that we need an inventory of the element types in our corpus. The most robust way to compile this list is to let XQuery do it for us, and the script can also write the dispatcher and create abbreviated placeholder helper functions. We do that with the *get_gis.xql* XQuery script in the *scratch* subcollection in the repo for this lesson  (*GI* stands for *generic identifier*, which is the technical term for the the name of element types). 
+For every node type in the input that requires non-default processing the transformation script needs both a `case` statement inside the dispatcher and a matching helper function. This means that we might want to start developing the transformation script by compiling an inventory of the element types in the corpus. The most robust way to compile this list is to let XQuery do it for us, and XQuery can also write the dispatcher and create abbreviated placeholder helper functions. We do that with the *get_gis.xql* XQuery script in the *scratch* subcollection in the app for this lesson  (*GI* stands for *generic identifier*, which is the technical term for the name of an element type). 
 
-This script is customized for our project; it reads the `<text>` elements of all of the basic XML data, creates a sorted, deduplicated list of all element types, and uses that to create the dispatcher and skeletal helper rules (the technical term for functioning placeholder code during development is *stub*). Our *read.xql* module fetches the main document title from the `<teiHeader>`, but since there are also `<title>` elements inside `<text>`, the `case` statement and stub will be created for that element type, and we just have to remember to write our helper function to treat the main title differently from `<title>` elements inside `<text>`. Since we will be creating HTML output, we make the HTML namespace the default; we bind the TEI namespace to the traditional `tei:` prefix, and our scripts uses it where necessary. We save the output of *get_gis.xql* in the same *scratch* subcollection, with the resource name *view_skeleton.xql*.
+This script is customized for our project; it reads the `<text>` elements of or stories, creates a sorted, deduplicated list of all element types, and uses that to create the dispatcher and skeletal helper functions (the technical term for functioning placeholder code during development is *stub*). (In addition to `<text>`, *read.xql* fetches the main document title from the `<teiHeader>`, but since there are also `<title>` elements inside `<text>`, the `case` statement and stub will be created for that element type, and we just have to remember to write our helper function to treat the main title differently from `<title>` elements inside `<text>`.) Since we will be creating HTML output, we let our script make the HTML namespace the default and we bind the TEI namespace to the traditional `tei:` prefix. The workflow is that we run *get_gis.xql* to create a skeletal XQuery script for transforming the output of *read.xql* to HTML, save it in the same *scratch* subcollection with the resource name *view_skeleton.xql*, and then edit it manually to edit the placeholder information.
 
 ### Writing the helper functions
 
 #### Introduction
 
-The outlining script generated a default helper function for each element type that reads, as in this example for the TEI `<ab>` element:
+The outlining script generates a default helper function for each element type that reads, as in this example for the TEI `<ab>` element:
 
 ```xquery
 declare function local:ab($node as element(tei:ab)) as element() {
     <GI>{local:passthru($node)}</GI>};
 ```
 
-We have named the function after the element type, specified that the input to it is a single instance of that element type, and specified that it will output a single element. We’ve made this the default because it is what we’ll want to do in most cases, but if you want to output something other than a single element, you can change the datatype of the result. We’ve used a placeholder output element name of `<GI>`, which we’ll change to the name of the actual desired output element (since we’re creating HTML, it will be an element in the TEI namespace). We need a namespace for the input, but not the output, because we’ve declared the HTML namespace as the default.
+We have named the function after the element type, specified that the input to it is a single instance of that element type, and specified that it will output a single element. We’ve made this the default because it is what we’ll want to do in most cases, but if you want to output something other than a single element, you can change the datatype of the result. We’ve used a placeholder output element name of `<GI>`, which we’ll change to the name of the actual desired output element. We need a namespace for the input, but not the output, because we’ve declared the HTML namespace as the default. For better control we recommend specifying the name of the output element, e.g., `element(p)` intead of just `element()` when you are creating an HTML `<p>` element.
 
 #### Processing the children
 
@@ -182,11 +182,11 @@ declare function local:passthru($node as node()) as item()* {
     for $child in $node/node() return local:dispatch($child)
 ```
 
-which means that it iterates over the children of its input (that is, the children of the node we pass to it) and sends each of those nodes, one at a time, to the dispatcher for processing. Processing the children of every node in this way ensures a complete traversal of the input document, but if you want to exclude certain parts, or access them in a different order, you can specify that in the helper function.
+which means that it iterates over the children of its input (that is, the children of the node we pass to it) and sends each of those nodes, one at a time, to the dispatcher for processing. Processing the children of every node in this way ensures a complete traversal of the input document, but if you want to exclude certain parts, or create their output in a particular order, you can specify that in the helper function.
 
 #### Subcategorization
 
-The `case` statements in `typeswitch` can test only for node type, and not for other properties, such as whether the node has a particular attribute, or an attribute with a particular value, or a particular parent, or whether it’s the first in a sequence of similar elements, or has a specific number of ancestors of a particular type, etc. One way to handle such conditions differently is to test for them in the `case` statement within `typeswitch`. The following `case` statement from within a `typeswitch` calls a function that will create bold HTML output if an input `<emph>` has a `@rend` value of “bold”, and otherwise defaults to calling a function to create italic output. 
+The `case` statements in `typeswitch` can test only for node type, and not for other properties, such as whether the node has a particular attribute, or an attribute with a particular value, or a particular parent, or whether it’s the first in a sequence of similar elements, or has a specific number of ancestors of a particular type, etc. One way to handle such conditions is to test for them in the `case` statement within `typeswitch`. The following `case` statement, an extract from within a `typeswitch`, passes control to different helper functions depending on the value of a `@rend` attribute on the input `<emph>` element. 
 
 ```xquery
 case element(tei:emph) return 
@@ -206,7 +206,7 @@ case element(tei:emph) return
 	   default return ()
 ```   
 
-One limitation is that `switch` can test only for atomic values, and adding even this much extra code inside the dispatcher can make it difficult to read and maintain. For that reason, we recommend doing any such testing inside the helper functions, rather than the dispatcher, especially if the tests are more complicated. For example, `typeswitch` might send all `<emph>` elements to `local:emph()`, which could use `switch` or `if–then–else` tests for triage. For example, we can use `typeswitch` to send all `<div>` elements to a function like the following, which uses `if–then–else` to tailor the output to the depth of nesting:
+One limitation is that `switch` can test only for atomic values, and adding even this much extra code inside the dispatcher can make it difficult to read and maintain. For that reason, we recommend doing any such testing inside the helper functions, rather than the dispatcher, especially if the tests are more complicated. For example, `typeswitch` might send all `<div>` elements to `local:div()`, which could use `switch` or `if–then–else` tests for triage. In the example below, we use `if–then–else` to tailor the output to the depth of nesting:
 
 ```xquery
 declare function local:div($node as element(tei:div)) as element(section) {
@@ -220,13 +220,34 @@ declare function local:div($node as element(tei:div)) as element(section) {
 };
 ```
 
-There are other (and perhaps better) ways to manage sections differently depending on the depth of nesting, such as `switch` or omitting the `@class` attribute entirely and using CSS selectors to adapt the styling to the depth of nesting, but `if–then–else` remains an option, as well.
+There are other (and perhaps better) ways to manage sections differently depending on the depth of nesting, such as `switch` or omitting the `@class` attribute entirely and using CSS selectors to adapt the styling to the depth of nesting, but `if–then–else` remains an option in situations where the developer finds it clear and legible.
 
 ### Putting it all together … almost
 
-When we add real HTML output to our helper functions we create an HTML fragment, but it isn’t wrapped in the higher-level HTML boilerplate: there are no `<html>`, `<head>`, or `<body>` elements. We explain below why we write that information separately; what’s important now is that the output is not yet valid HTML.
+When we add real HTML output to our helper functions we create an HTML fragment, but it isn’t wrapped in the higher-level HTML boilerplate: there are no `<html>`, `<head>`, or `<body>` elements. We explain below why we write that information separately; what’s important now is that the output is not yet valid HTML. In the next section we’ll integrate a call to our transformation script into *controller.xql* so that we can see the results, but because those results won’t be valid HTML, the browser may raise and error and refuse to display the file. In that case, we can execute a View source inside the browser and see the raw HTML, even if the browser cannot render it like a normal HTML document.
 
 ###Telling *controller.xql* about the new View
+
+#### About pipelining
+
+We are creating our output as a pipeline, that is, a sequence of steps, each of which 1) does one thing, and 2) passes its output along as the input into the next step. Pipeline development is makes it possible to develop the steps separately from one another, and test each one as it is added, so that when the code breaks, the developer knows which change caused the problem to surface. Pipeline development also makes it possible to change an intermediate step with minimal collateral damage. For example, if we want to change the rendering of an element, we can make the change in the script that performs the transformation (View), without touching the one that retrieves the information (Model). This separation is not entirely complete, though; for example, if we change the Model to extract additional elements from the source, we’ll need to ensure that the View knows how to transform that new content. But despite the inevitability of some degree of interdependence, the pipeline is easier to maintain that a single monolithic script.
+
+#### Pipelining in our app
+
+We modify *controller.xql* to pipe the Model, after it is created, into the script that creates the View as follows:
+
+```xquery
+<dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+    <forward url="{concat($exist:controller, '/modules', $exist:path, ".xql")}"/>
+    <view>
+        <forward url="{concat($exist:controller, '/views/reading_view.xql')}"/>
+    </view>
+</dispatch
+```
+
+Our earlier *controller.xql* had just the first `<forward>` statement inside the `<dispatch>` element. If we follow that with a `<view>` element that contains another `<forward>`, this will automatically forward the Model into the transformation script. If we want to perform an additional transformation of the output of the first one, we can add a second `<forward>` statement inside the `<View>`, and we’ll do that in the next section, when we add a boilerplate wrapper to make our output valid HTML.
+
+
 
 ### Wrapping the output in boilerplate
 
