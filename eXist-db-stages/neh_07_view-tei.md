@@ -15,8 +15,9 @@ Transforming XML to HTML using XQuery requires some background information, and 
 	* Introducing XQuery `typeswitch`
 	* Outlining our XML
 	* Writing the worker functions
-	* Putting it all together
+	* Putting it all together … almost
 	* Telling *controller.xql* about the new View
+	* Wrapping the output in boilerplate
 
 This lesson is longer than many of the others because of the new concepts that it introduces in the Preparatory sections. Much of that is background information that you can read once without trying to memorize it, just to familiarize yourself with the concepts. You’ll want, though, to pay especially careful attention to the Preparatory section about declaring your own functions, since we’ll be doing that extensively in the Implementation section.
 
@@ -161,11 +162,73 @@ This script is customized for our project; it reads the `<text>` elements of all
 
 ### Writing the helper functions
 
+#### Introduction
 
+The outlining script generated a default helper function for each element type that reads, as in this example for the TEI `<ab>` element:
 
-### Putting it all together
+```xquery
+declare function local:ab($node as element(tei:ab)) as element() {
+    <GI>{local:passthru($node)}</GI>};
+```
+
+We have named the function after the element type, specified that the input to it is a single instance of that element type, and specified that it will output a single element. We’ve made this the default because it is what we’ll want to do in most cases, but if you want to output something other than a single element, you can change the datatype of the result. We’ve used a placeholder output element name of `<GI>`, which we’ll change to the name of the actual desired output element (since we’re creating HTML, it will be an element in the TEI namespace). We need a namespace for the input, but not the output, because we’ve declared the HTML namespace as the default.
+
+#### Processing the children
+
+The helper function creates an output element and, inside it, processes its children by passing the element itself (not its children) to the passthru function. The passthru function reads:
+
+```xquery
+declare function local:passthru($node as node()) as item()* {
+    for $child in $node/node() return local:dispatch($child)
+```
+
+which means that it iterates over the children of its input (that is, the children of the node we pass to it) and sends each of those nodes, one at a time, to the dispatcher for processing. Processing the children of every node in this way ensures a complete traversal of the input document, but if you want to exclude certain parts, or access them in a different order, you can specify that in the helper function.
+
+#### Subcategorization
+
+The `case` statements in `typeswitch` can test only for node type, and not for other properties, such as whether the node has a particular attribute, or an attribute with a particular value, or a particular parent, or whether it’s the first in a sequence of similar elements, or has a specific number of ancestors of a particular type, etc. One way to handle such conditions differently is to test for them in the `case` statement within `typeswitch`. The following `case` statement from within a `typeswitch` calls a function that will create bold HTML output if an input `<emph>` has a `@rend` value of “bold”, and otherwise defaults to calling a function to create italic output. 
+
+```xquery
+case element(tei:emph) return 
+	if ($node/@rend eq 'bold') 
+	then local:embold($node)
+	else local:italicize($node)
+```
+
+Alternatively, the XQuery `switch` statement (not ot be confused with `typeswitch`) provides a legible way of writing tests with more options:
+
+```xquery
+case element(tei:emph) return 
+	switch($node/@rend)
+		case 'bold' return local:embold($node)
+	   case 'italic' return local:italicize($node)
+	   case 'sc' return local:smallcap($node)
+	   default return ()
+```   
+
+One limitation is that `switch` can test only for atomic values, and adding even this much extra code inside the dispatcher can make it difficult to read and maintain. For that reason, we recommend doing any such testing inside the helper functions, rather than the dispatcher, especially if the tests are more complicated. For example, `typeswitch` might send all `<emph>` elements to `local:emph()`, which could use `switch` or `if–then–else` tests for triage. For example, we can use `typeswitch` to send all `<div>` elements to a function like the following, which uses `if–then–else` to tailor the output to the depth of nesting:
+
+```xquery
+declare function local:div($node as element(tei:div)) as element(section) {
+	if (count($node/ancestor::tei:div) eq 0) 
+	then <section class="section">{local:passthru($node)}</section>
+		else if (count($node/ancestor::tei:div) eq 1) 
+		then <section class="subsection">{local:passthru($node)}</section>
+			else if (count($node/ancestor::tei:div) eq 2)
+			then <section class="subsubsection">{local:passthru($node)}</section>
+				else <section>{local:passthru($node)}</section>
+};
+```
+
+There are other (and perhaps better) ways to manage sections differently depending on the depth of nesting, such as `switch` or omitting the `@class` attribute entirely and using CSS selectors to adapt the styling to the depth of nesting, but `if–then–else` remains an option, as well.
+
+### Putting it all together … almost
+
+When we add real HTML output to our helper functions we create an HTML fragment, but it isn’t wrapped in the higher-level HTML boilerplate: there are no `<html>`, `<head>`, or `<body>` elements. We explain below why we write that information separately; what’s important now is that the output is not yet valid HTML.
 
 ###Telling *controller.xql* about the new View
+
+### Wrapping the output in boilerplate
 
 ## Optional (advanced)
 
