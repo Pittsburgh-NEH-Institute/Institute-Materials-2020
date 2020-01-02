@@ -21,6 +21,15 @@ Digital humanists already have access to workshops and tutorials to help them le
             necessarily represent those of the National Endowment for the Humanities.</td>
     </tr>
     <tr style="border: none;">
+    	<td style="border: none;">
+			<a href="http://www.as.pitt.edu" 
+				title="Dietrich School of Arts and Sciences">
+				<img align="left" width="156px" src="images/aslogobsm.png" alt="Dietrich School of Arts and Sciences" class="rpad">
+			</a>
+		</td>
+		<td style="vertical-align: middle; border: none;">Additional support and assistance has been provided by the University of Pittsburgh Kenneth P. Dietrich School of Arts and Sciences.</td>
+    </tr>
+    <tr style="border: none;">
         <td style="border: none;">
             <a href="http://www.exist-db.org">
                 <img align="left" src="images/oxygen190x62.png" alt="eXist-db" class="rpad" width="156px"
