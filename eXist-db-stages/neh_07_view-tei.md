@@ -190,33 +190,33 @@ The `case` statements in `typeswitch` can test only for node type, and not for o
 
 ```xquery
 case element(tei:emph) return 
-	if ($node/@rend eq 'bold') 
-	then local:embold($node)
-	else local:italicize($node)
+    if ($node/@rend eq 'bold') 
+    then local:embold($node)
+    else local:italicize($node)
 ```
 
 Alternatively, the XQuery `switch` statement (not ot be confused with `typeswitch`) provides a legible way of writing tests with more options:
 
 ```xquery
 case element(tei:emph) return 
-	switch($node/@rend)
-		case 'bold' return local:embold($node)
-		case 'italic' return local:italicize($node)
-		case 'sc' return local:smallcap($node)
-		default return ()
+    switch($node/@rend)
+        case 'bold' return local:embold($node)
+        case 'italic' return local:italicize($node)
+        case 'sc' return local:smallcap($node)
+        default return ()
 ```   
 
 One limitation is that `switch` can test only for atomic values, and adding even this much extra code inside the dispatcher can make it difficult to read and maintain. For that reason, we recommend doing any such testing inside the helper functions, rather than the dispatcher, especially if the tests are more complicated. For example, `typeswitch` might send all `<div>` elements to `local:div()`, which could use `switch` or `if–then–else` tests for triage. In the example below, we use `if–then–else` to tailor the output to the depth of nesting:
 
 ```xquery
 declare function local:div($node as element(tei:div)) as element(section) {
-	if (count($node/ancestor::tei:div) eq 0) 
-	then <section class="section">{local:passthru($node)}</section>
-		else if (count($node/ancestor::tei:div) eq 1) 
-		then <section class="subsection">{local:passthru($node)}</section>
-			else if (count($node/ancestor::tei:div) eq 2)
-			then <section class="subsubsection">{local:passthru($node)}</section>
-				else <section>{local:passthru($node)}</section>
+    if (count($node/ancestor::tei:div) eq 0) 
+    then <section class="section">{local:passthru($node)}</section>
+        else if (count($node/ancestor::tei:div) eq 1) 
+        then <section class="subsection">{local:passthru($node)}</section>
+            else if (count($node/ancestor::tei:div) eq 2)
+            then <section class="subsubsection">{local:passthru($node)}</section>
+                else <section>{local:passthru($node)}</section>
 };
 ```
 
