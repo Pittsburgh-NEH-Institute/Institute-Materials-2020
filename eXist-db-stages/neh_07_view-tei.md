@@ -247,9 +247,56 @@ We modify *controller.xql* to pipe the Model, after it is created, into the scri
 
 Our earlier *controller.xql* had just the first `<forward>` statement inside the `<dispatch>` element. If we follow that with a `<view>` element that contains another `<forward>`, this will automatically forward the Model into the transformation script. If we want to perform an additional transformation of the output of the first one, we can add a second `<forward>` statement inside the `<View>`, and we’ll do that in the next section, when we add a boilerplate wrapper to make our output valid HTML.
 
+When we forward the Model to *reading_view.xql*, though, we also need to tell *reading_view.xql* what to do with it. We do that by including, after all of the declarations in *reading_view.xql*, a single statement that launches the whole transformation:
 
+```xquery
+local:dispatch(request:get-data())
+```
+
+The `request:get-data()` function retrieves the Model, and by passing it (that is, its document node) into the dispatcher, we initiate the depth-first traversal that will transform the Model into the View.
+
+Because the input into *reading_view.xql* is two elements (`<title>` from `<teiHeader>` and `<text>`), the output is an `<h1>` and a `<section>`, with no parent. Since this is not well-formed XML, let alone valid HTML, a web browser will raise an error, but we can see the output as raw HTML by using the View source feature of the browser. In the next—and final—section, we’ll wrap these two output elements in boilerplate and turn it into valid HTML.
 
 ### Wrapping the output in boilerplate
+
+Our app will have a common format for all pages, including perhaps some sort of banner heading, menu navigation, or other boilerplate features. Since that information will be common to all pages, even though both the Model and the View may vary depending on the type of information requested by the user, we pipe the output of *reading_view.xql* into a second XQuery script to wrap it in this information. The wrapper will add the `<html>`, `<head>`, and `<body>` tags required in valid HTML. We’ll enhance this later by linking to CSS for styling, customizing the `<title>` inside the HTML `<head>`, and in other ways, but for now our goal is to produce somewhat simplified valid HTML.
+
+eXist-db can pass information in a pipeline by using *session attributes* (not the same thing as XML attributes). Specifically, we will set an attribute in *reading_view.xql* that holds the output of the transformation, and we will access that inside our new *wrapper.xql* to use it.
+
+The controller declares the full pipeline as follows:
+
+```xml
+<dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+    <forward url="{concat($exist:controller, '/modules', $exist:path, '.xql')}"/>
+    <view>
+        <forward url="{concat($exist:controller, '/views/reading_view.xql')}"/>
+        <forward url="{concat($exist:controller, '/views/wrapper.xql')}"/>
+    </view>
+
+    <cache-control cache="no"/>
+</dispatch>
+```
+
+The first `<forward>` statement takes the original URL and rewrites it, so that *read.xql* (in the *modules* subcollection) retrieves TEI XML from the requested story. What it retrieves is not a valid TEI document, or even a well-formed one; it is a sequence of one `<title>` element (from the `<teiHeader>`) and the `<text>`. (The technical term for XML that would be valid except that it lacks a surrounding root element is that it is *well balanced*.) The well-balanced TEI XML output of that retrieval is automatically passed into the View, where the first of the two `<forward>` statements there uses `typeswitch` to transform the TEI XML to HTML. We change the last line of that file to store the result of the transformation of a session attribute, which we create with the name `html`:
+
+```xquery
+request:set-attribute('html', local:dispatch(request:get-data()))
+```
+
+This step does not produce any regular output (or, more technically, it does not write to *stdout*); it just creates an attribute to hold the result.
+
+The next step in the pipeline, *wrapper.xql*, reads as follows (in its entirety):
+
+```xquery
+xquery version "3.1";
+declare default element namespace "http://www.w3.org/1999/xhtml";
+<html>
+    <head><title>Hi, Mom!</title></head>
+    <body>{request:get-attribute('html')}</body>
+</html>
+```
+
+We are creating just temporary, placeholder wrapper information, and we can retrieve the value of the `html` attribute that we created by using the eXist-db `request:get-attribute()` function. The output of our pipeline is now valid HTML. The wrapper has no real content and the page looks like a [generic supermarket cereal box](https://i.pinimg.com/originals/f3/90/d6/f390d6acf0ed11aa7ea51d26e730ad4c.jpg), but we’ll start to fix that in the next lesson.
 
 ## Optional (advanced)
 
