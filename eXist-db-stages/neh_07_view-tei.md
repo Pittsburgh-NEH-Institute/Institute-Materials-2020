@@ -93,7 +93,7 @@ It’s easiest to read the nested functions inside the body from the inside out:
 
 XQuery automatically returns the result of evaluating the code inside the curly braces, which is to say that, unlike in some other programming languages, XQuery functions do not include an explicit `return` statement.
 
-You can read about how `concat()`, `upper-case()`, and `lower-case()` work in the references listed on our [XQuery references page](/ref/xquery_resources.md). In practice, although you’ll have to look up the standard library functions at first, while you are learning their names and their *signatures* (input parameters and return type), you will quickly memorize the ones you use frequently.
+You can read about how `concat()`, `upper-case()`, and `lower-case()` work in the references listed on our [XQuery references page](/ref/xquery_resources.html). In practice, although you’ll have to look up the standard library functions at first, while you are learning their names and their *signatures* (input parameters and return type), you will quickly memorize the ones you use frequently.
 
 #### Testing your function
 
@@ -226,7 +226,7 @@ There are other (and perhaps better) ways to manage sections differently dependi
 
 When we add real HTML output to our helper functions we create an HTML fragment, but it isn’t wrapped in the higher-level HTML boilerplate: there are no `<html>`, `<head>`, or `<body>` elements. We explain below why we write that information separately; what’s important now is that the output is not yet valid HTML. In the next section we’ll integrate a call to our transformation script into *controller.xql* so that we can see the results, but because those results won’t be valid HTML, the browser may raise and error and refuse to display the file. In that case, we can execute a View source inside the browser and see the raw HTML, even if the browser cannot render it like a normal HTML document.
 
-###Telling *controller.xql* about the new View
+### Telling *controller.xql* about the new View
 
 #### About pipelining
 
