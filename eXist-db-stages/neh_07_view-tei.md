@@ -93,7 +93,7 @@ It’s easiest to read the nested functions inside the body from the inside out:
 
 XQuery automatically returns the result of evaluating the code inside the curly braces, which is to say that, unlike in some other programming languages, XQuery functions do not include an explicit `return` statement.
 
-You can read about how `concat()`, `upper-case()`, and `lower-case()` work in the references listed on our [XQuery references page](/ref/xquery_resources.html). In practice, although you’ll have to look up the standard library functions at first, while you are learning their names and their *signatures* (input parameters and return type), you will quickly memorize the ones you use frequently.
+You can read about how `concat()`, `upper-case()`, and `lower-case()` work in the references listed on our [XQuery references page](/ref/xquery_references.md). In practice, although you’ll have to look up the standard library functions at first, while you are learning their names and their *signatures* (input parameters and return type), you will quickly memorize the ones you use frequently.
 
 #### Testing your function
 
