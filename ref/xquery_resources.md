@@ -21,6 +21,7 @@
 * Official eXist-db [documentation](https://exist-db.org/exist/apps/doc/) and [function library](https://exist-db.org/exist/apps/fundocs/index.html)
 * Priscilla Walmsley’s [ FunctX XQuery function library](http://www.xqueryfunctions.com/)
 * [XQuery WikiBook](https://en.wikibooks.org/wiki/XQuery)
+* Joe Wicentowski’s [Learn XQuery: A list of great articles, blog posts, and books for learning XQuery](https://github.com/joewiz/learn-xquery)
 
 ## Books
 
