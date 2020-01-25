@@ -8,6 +8,7 @@
 * &lt;oXygen/&gt;: XML editor and IDE (integrated development environment)
 * Git: version control
 * Atom: programming editor with eXist-db and Git integration
+* Anaconda Python: environment for Jupyter Lab, in which we’ll practice XPath and XQuery
 
 ## Backup and restore eXist-db
 
@@ -23,6 +24,7 @@ Before all else: account for possibility people have installed some of these via
 4. use homebrew to install &lt;oXygen/&gt; 
 5. use homebrew to install git
 5. Atom (and eXist-db integration)
+6. Anaconda Python
 
 ## Windows (see TEI Publisher 5.0.2 quick start documentation—add link)
 
@@ -31,6 +33,7 @@ Before all else: account for possibility people have installed some of these via
 3. &lt;oXygen/&gt;
 4. Git and Git Bash (no GUI client)
 4. Atom (and eXist-db integration)
+5. Anaconda Python
 
 ## Linux installation
 
@@ -39,6 +42,7 @@ Before all else: account for possibility people have installed some of these via
 3. &lt;oXygen/&gt;
 4. Git
 4. Atom (and eXist-db integration)
+5. Anaconda Python
 
 ## Further reading
 
