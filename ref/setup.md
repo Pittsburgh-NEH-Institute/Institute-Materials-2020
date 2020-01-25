@@ -2,13 +2,14 @@
 
 ## Overview: what we’re installing and what it all does
 
-* Homebrew: package manager for MacOS
-* Java: needed to run eXist-db
-* eXist-db: XML database and application server (requires Java)
-* &lt;oXygen/&gt;: XML editor and IDE (integrated development environment)
-* Git: version control
-* Atom: programming editor with eXist-db and Git integration
-* Anaconda Python: environment for Jupyter Lab, in which we’ll practice XPath and XQuery
+* [Homebrew](https://brew.sh/): package manager for MacOS
+* [Java](https://www.oracle.com/technetwork/java/javase/downloads/index.html): needed to run eXist-db (Java Development Kit [JDK], not Java Runtime Edition [JRE])
+* [eXist-db](https://exist-db.org): XML database and application server (requires Java)
+* [&lt;oXygen/&gt;](https://www.oxygenxml.com/): XML editor and IDE (integrated development environment)
+* [Git](https://github.com/): version control
+* [Atom](https://atom.io/packages/existdb): programming editor with eXist-db and Git integration
+* [Anaconda Python](https://www.anaconda.com/): environment for Jupyter Lab, in which we’ll practice XPath and XQuery
+* [CLI eXist-db app generator](https://github.com/eXist-db/generator-exist)
 
 ## Backup and restore eXist-db
 
