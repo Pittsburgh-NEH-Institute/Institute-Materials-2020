@@ -1,4 +1,9 @@
-# This cell defines a Python function that can be used in subsequent cells to send requests to eXist-db
+# jupyter_function.py
+# Call eXist-db from Jupyter notebook cell
+#
+# To use (from same directory):
+#   from jupyter_function import run_xquery as xq
+#   xq(...)
 
 import requests
 from pygments import highlight
