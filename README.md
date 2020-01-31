@@ -33,7 +33,7 @@ Digital humanists already have access to workshops and tutorials to help them le
     	<td style="border: none;">
 			<a href="http://www.as.pitt.edu" 
 				title="University Library System">
-				<img align="left" width="156px" src="images/uls_mark.png" alt="University Library System" class="rpad">
+				<img align="left" width="156px" src="images/uls_mark_flat.png" alt="University Library System" class="rpad">
 			</a>
 		</td>
 		<td style="vertical-align: middle; border: none;">Additional support and assistance has been provided by the University of Pittsburgh University Library System.</td>
