@@ -39,7 +39,16 @@ Digital humanists already have access to workshops and tutorials to help them le
 		</td>
 		<td style="vertical-align: middle; border: none;">Additional support and assistance has been provided by the University of Pittsburgh University Library System.</td>
     </tr>
-        <tr style="border: none;">
+    <tr style="border: none;">
+        <td style="border: none;">
+            <a href="https://codhr.dh.tamu.edu/">
+                <img align="left" src="images/CoDHR-Logo-1.png" alt="Center of Digital Humanities Research" class="rpad" width="156px"
+                />
+            </a>
+        </td>
+        <td style="vertical-align: middle; border: none;">We are grateful to the <a href="https://codhr.dh.tamu.edu/">Center of Digital Humanities Research</a>, Texas A&amp;M University, for generously contributing complimentary copies of *XQuery for humanists* (part of the <a href="http://coding.forhumanists.org/">Coding for humanists</a> series, Texas A&amp;M Press) for the use of Institute participants.</td>
+    </tr>
+    <tr style="border: none;">
         <td style="border: none;">
             <a href="https://www.oxygenxml.com/">
                 <img align="left" src="images/oxygen190x62.png" alt="&lt;oXygen;&gt;" class="rpad"
