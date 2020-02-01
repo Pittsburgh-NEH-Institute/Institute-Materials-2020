@@ -45,7 +45,7 @@ Digital humanists already have access to workshops and tutorials to help them le
                 />
             </a>
         </td>
-        <td style="vertical-align: middle; border: none;">We are grateful to the <a href="https://codhr.dh.tamu.edu/">Center of Digital Humanities Research</a>, Texas A&amp;M University, for generously contributing complimentary copies of *XQuery for humanists* (part of the <a href="http://coding.forhumanists.org/">Coding for humanists</a> series, Texas A&amp;M Press) for the use of Institute participants.</td>
+        <td style="vertical-align: middle; border: none;">We are grateful to the <a href="https://codhr.dh.tamu.edu/">Center of Digital Humanities Research</a>, Texas A&amp;M University, for generously contributing complimentary copies of <cite>XQuery for humanists</cite> (part of the <a href="http://coding.forhumanists.org/">Coding for humanists</a> series, Texas A&amp;M Press) for the use of Institute participants.</td>
     </tr>
     <tr style="border: none;">
         <td style="border: none;">
