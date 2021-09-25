@@ -41,7 +41,7 @@ Digital humanists already have access to workshops and tutorials to help them le
     </tr>
     <tr style="border: none;">
         <td style="border: none;">
-            <a href="https://codhr.dh.tamu.edu/">
+            <a href="https://codhr.dh.tamu.edu">
                 <img align="left" src="images/CoDHR-Logo-1.png" alt="Center of Digital Humanities Research" class="rpad" width="156px"
                 />
             </a>
