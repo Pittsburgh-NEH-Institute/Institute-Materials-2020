@@ -2,21 +2,19 @@
 permalink: /call/
 ---
 
-# Call for Applications (updated 2022-01-15)
+# Call for Applications
 ## Advanced digital editing: modeling the text and making the edition
 
-### A summer 2022 NEH Institute for Advanced Topics in the Digital Humanities 
+### A summer 2020 NEH Institute for Advanced Topics in the Digital Humanities 
 
 #### Application deadline 
-Applications are due **Friday, February 25, 2022**. Applicants will be notified of acceptance by **Monday, March 18, 2022**.
+Applications are due **Friday, February 28, 2020**. Applicants will be notified of acceptance by **Monday, March 23, 2020**.
 
-Institute dates: **Monday, July 11 through Friday, July 22, 2022**.  
-Arrival: Sunday, July 10, 2022  
-Departure: Saturday, July 23, 2022
+Institute dates: **Monday, July 6 through Friday, July 17, 2020**.
  
 #### Synopsis 
 
-The University of Pittsburgh is pleased to invite applications to an NEH Institute for Advanced Topics in the Digital Humanities for summer 2022 entitled Advanced digital editing: modeling the text and making the edition. The target audience for this two-week workshop is textual scholars who are already comfortable editing their digital texts in TEI XML or comparable alternatives; the goal of the Institute is to assist them in moving beyond textual editing to imagining, creating, and publishing research-driven, theoretically and methodologically innovative digital editions. 
+The University of Pittsburgh is pleased to invite applications to an NEH Institute for Advanced Topics in the Digital Humanities for summer 2020 entitled Advanced digital editing: modeling the text and making the edition. The target audience for this two-week workshop is textual scholars who are already comfortable editing their digital texts in TEI XML or comparable alternatives; the goal of the Institute is to assist them in moving beyond textual editing to imagining, creating, and publishing research-driven, theoretically and methodologically innovative digital editions. 
 
 #### Rationale 
 
@@ -24,11 +22,10 @@ Digital humanists already have access to workshops and tutorials to help them le
 
 #### Program 
 
-The Institute will introduce textual and manuscript scholars to a powerful and broad-reaching set of digital methods and technologies, grounded in a context that prioritizes a research-driven theory of edition. Participants will engage with the entire editorial process, from document analysis to editing to publication, leading to the production and publication of a collaborative edition. Throughout the Institute, participants will discuss how the theoretical and practical skills they are acquiring will be applied in their own work, culminating in the final day’s presentations and review of the collaborative process. The Institute will meet at the main (Oakland) campus of the University of Pittsburgh from **Monday, July 11, 2022** through **Friday, July 22, 2022** and will draw on an international faculty of distinguished scholars, practitioners, and teachers of digital philology from several collaborating institutions. 
+The Institute will introduce textual and manuscript scholars to a powerful and broad-reaching set of digital methods and technologies, grounded in a context that prioritizes a research-driven theory of edition. Participants will engage with the entire editorial process, from document analysis to editing to publication, leading to the production and publication of a collaborative edition. Throughout the Institute, participants will discuss how the theoretical and practical skills they are acquiring will be applied in their own work, culminating in the final day’s presentations and review of the collaborative process. The Institute will meet at the main (Oakland) campus of the University of Pittsburgh from **Monday, July 6, 2020** through **Friday, July 17, 2020** and will draw on an international faculty of distinguished scholars, practitioners, and teachers of digital philology from several collaborating institutions. 
 
 #### Instructors 
 
-* Anderson, Clifford (Vanderbilt University)
 * Birnbaum, David J. (University of Pittsburgh; Institute Director) 
 * Bleeker, Elli (Royal Netherlands Academy of Arts and Sciences) 
 * Cayless, Hugh (Duke University) 
@@ -36,7 +33,7 @@ The Institute will introduce textual and manuscript scholars to a powerful and b
 * Keane, Gabi (University of Pittsburgh) 
 * Kulsdom, Astrid (Royal Netherlands Academy of Arts and Sciences) 
 * Olsson, Leif-Jöran (University of Gothenburg) 
-
+* Wicentowski, Joseph (US Department of State) 
 
 #### Guest instructors 
 
@@ -49,19 +46,20 @@ The Institute will introduce textual and manuscript scholars to a powerful and b
 The instructors will be assisted by
 
 * Schwarz, Emma (Senior Institute Assistant, University of Pittsburgh)
+* Watkins, Samantha (Sam) (Institute Assistant, University of Pittsburgh)
 
 #### Details 
 
 Applicants should already be familiar with digital textual editing in TEI XML or similar technologies and should be seeking guidance and training in how to move their texts into innovative digital editions that will enable them to explore project-specific research questions. Evidence of meaningful prior hands-on digital textual editing experience is required, but prior experience in programming for textual exploration and publication is not. For budgetary reasons, preference will be given to applications from within North America. 
 Participants accepted to the Institute will receive a travel allowance, complimentary accommodation in single-occupancy dormitory rooms with private bath, and a complimentary meal plan in the University Dining Services in lieu of per diem. 
-Participants must bring their own laptops, which must run one of the following operating systems: Mac OS X (11 [Big Sur] or later), Windows 10 (version 1909 or later), or GNU/Linux (any distribution). Mobile and cloud-based operating systems, such as iOS and Chrome OS, are not supported. We welcome scholars at all career levels from graduate students through senior faculty. Applications to the Institute should include the following:
+Participants must bring their own laptops, which must run one of the following operating systems: Mac OS X (10.11 [El Capitan] or later), Windows 10 (version 1909 or later), or GNU/Linux (any distribution); mobile and cloud-based operating systems, such as iOS and Chrome OS, are not supported. We welcome scholars at all career levels from graduate students through senior faculty. Applications to the Institute should include the following:
  
 * A one- to two-page statement about how participation in the Institute will enhance the scholarly and professional goals of the applicant. This statement should describe the digital edition project that the applicant plans to pursue or undertake, with special attention to the research questions motivating the creation of that edition. Preference will be shown to applications that articulate a clear understanding of the textual research potential of digital scholarly editions. 
 * A one-page description of the applicant’s experience with textual editing. Prior experience in programming for text processing is neither required nor expected, but those who have such experience should describe it here. If participants have prior experience with X-technologies for transformation and publication (XSLT, XQuery) they should list it here as well.
 * Brief CV (maximum of two pages), concentrating on textual editing and Digital Humanities experience. 
-* Participants are required to participate full-time in the Institute for the two weeks that they are in residence and must confirm that they will not undertake other significant commitments during the Institute period. Participants should plan to arrive on Sunday, July 10, 2022 and depart on Saturday, July 23, 2022.
+* Participants are required to participate full-time in the Institute for the two weeks that they are in residence and must confirm that they will not undertake other significant commitments during the Institute period. Participants should plan to arrive on Sunday, July 5, 2020 and depart on Saturday, July 18, 2020.
 
-All application materials should be submitted by email as a single PDF file to [djbpitt+neh@pitt.edu](mailto:djbpitt+neh@pitt.edu). The deadline for applications is Friday, February 25, 2022, and applicants will be notified about acceptance by Monday, March 18, 2022. Questions may be directed to djbpitt+neh@pitt.edu.
+All application materials should be submitted by email as a single PDF file to [djbpitt+neh@pitt.edu](mailto:djbpitt+neh@pitt.edu). The deadline for applications is Friday, February 28, 2020, and applicants will be notified about acceptance by Monday, March 23, 2020. Questions may be directed to djbpitt+neh@pitt.edu.
 
 David J. Birnbaum, Institute Director  
 Professor, Slavic Languages and Literatures  
