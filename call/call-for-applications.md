@@ -16,7 +16,11 @@ Departure: Saturday, July 23, 2022
  
 #### Synopsis 
 
-The University of Pittsburgh is pleased to invite applications to an NEH Institute for Advanced Topics in the Digital Humanities for summer 2022 entitled Advanced digital editing: modeling the text and making the edition. The target audience for this two-week workshop is textual scholars who are already comfortable editing their digital texts in TEI XML or comparable alternatives; the goal of the Institute is to assist them in moving beyond textual editing to imagining, creating, and publishing research-driven, theoretically and methodologically innovative digital editions. 
+The University of Pittsburgh is pleased to invite applications to an NEH Institute for Advanced Topics in the Digital Humanities for summer 2022 entitled Advanced digital editing: modeling the text and making the edition. The target audience for this two-week, in-person workshop is textual scholars who are already comfortable editing their digital texts in TEI XML or comparable alternatives; the goal of the Institute is to assist them in moving beyond textual editing to imagining, creating, and publishing research-driven, theoretically and methodologically innovative digital editions.
+
+The University of Pittsburgh is not yet able to commit to hosting on-campus events in Summer 2022. While we cannot predict what the public health situation will permit, we will notify participants of any planning instructions we receive from the University.
+
+This Institute was originally scheduled for Summer 2020 and was postponed due to COVID-19.
 
 #### Rationale 
 
@@ -24,7 +28,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 
 #### Program 
 
-The Institute will introduce textual and manuscript scholars to a powerful and broad-reaching set of digital methods and technologies, grounded in a context that prioritizes a research-driven theory of edition. Participants will engage with the entire editorial process, from document analysis to editing to publication, leading to the production and publication of a collaborative edition. Throughout the Institute, participants will discuss how the theoretical and practical skills they are acquiring will be applied in their own work, culminating in the final day’s presentations and review of the collaborative process. The Institute will meet at the main (Oakland) campus of the University of Pittsburgh from **Monday, July 11, 2022** through **Friday, July 22, 2022** and will draw on an international faculty of distinguished scholars, practitioners, and teachers of digital philology from several collaborating institutions. 
+The Institute will introduce textual and manuscript scholars to a powerful and broad-reaching set of digital methods and technologies, grounded in a context that prioritizes a research-driven theory of edition. Participants will engage with the entire editorial process, from document analysis to editing to publication, leading to the production and publication of a collaborative edition. Throughout the Institute, participants will discuss how the theoretical and practical skills they are acquiring will be applied in their own work, culminating in the final day’s presentations and review of the collaborative process. The Institute will meet in person at the main (Oakland) campus of the University of Pittsburgh from **Monday, July 11, 2022** through **Friday, July 22, 2022** and will draw on an international faculty of distinguished scholars, practitioners, and teachers of digital philology from several collaborating institutions. 
 
 #### Instructors 
 
