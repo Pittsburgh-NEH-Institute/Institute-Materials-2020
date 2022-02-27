@@ -1,5 +1,5 @@
 # Advanced digital editing: modeling the text and making the edition
-## NEH Institute for Advanced topics in the Digital Humanities 2020
+## NEH Institute for Advanced topics in the Digital Humanities 2022
 
 ### Rationale
 Digital humanists already have access to workshops and tutorials to help them learn to transcribe, edit, and tag a text in preparation for publishing a digital edition. Nonetheless, sophisticated markup expertise alone is not enough to make an edition, and learning nothing more than tagging may leave scholars staring at their angle brackets and wondering what to do next. Digital humanists cannot build editions that break methodological ground solely on the basis of solutions prepared largely by others, and the focus of this Institute is on the creation of digital editions motivated by project-specific research questions and implemented from a perspective driven first by theory of edition, second by editorial methodology, and necessarily but less importantly by specific toolkits. In this respect, this Institute recognizes thinking digitally in ways driven by project-specific research goals as the most important feature of sustainable Digital Humanities training and education.
