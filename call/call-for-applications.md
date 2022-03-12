@@ -8,7 +8,7 @@ permalink: /call/
 ### A summer 2022 NEH Institute for Advanced Topics in the Digital Humanities 
 
 #### Application deadline 
-Applications are due **Friday, February 25, 2022**. Applicants will be notified of acceptance by **Monday, March 18, 2022**.
+Applications are due **Friday, February 25, 2022**. Applicants will be notified of acceptance by **Friday, March 18, 2022**.
 
 Institute dates: **Monday, July 11 through Friday, July 22, 2022**.  
 Arrival: Sunday, July 10, 2022  
