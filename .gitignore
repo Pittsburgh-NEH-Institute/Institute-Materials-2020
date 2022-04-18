@@ -92,6 +92,8 @@ ENV/
 Tasks.md
 .DS_Store
 __MACOSX/
+*.code-workspace
+.vscode/
 
 # PyCharm user information
 # User-specific stuff:
