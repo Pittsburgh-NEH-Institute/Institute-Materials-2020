@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="master_schedule.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="master_schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<schedule>
+    <week num="1">
+        <title>Week 1</title>
+        <day d="Monday">
+            <date>July 11, 2022</date>
+            <syn>>The Institute opens with a high-level view of the types of engagement required by
+                a textual editor, beginning (always!) from the research questions and leading to the
+                production of an actual edition. In session two we introduce the computational
+                pipeline as a way of modeling the development of a digital edition. The afternoon
+                sessions ground the morning’s theoretical work with a presentation of the research
+                goals and materials to be used in the laboratory edition. We discuss document
+                analysis and OCR as first steps in the editorial workflow. The special topic session
+                of this first day is reserved for participants to install the software packages
+                required to work on the laboratory edition, all of which will be provided by the
+                Institute.</syn>
+            <slot time="09:00:00">
+                <title>Getting started</title>
+                <desc>Introductions, research questions, schedules, outcome goals.</desc>
+                <act time="15" type="Presentation">
+                    <desc>Introductions.</desc>
+                    <outcome>
+                        <goal>Introduce everyone to one another.</goal>
+                    </outcome>
+                </act>
+                <act time="25" type="Presentation">
+                    <desc>Research questions and choosing our technologies.</desc>
+                    <outcome>
+                        <goal>Make informed methodological and technical decisions based on our
+                            research questions.</goal>
+                    </outcome>
+                </act>
+                <act time="20" type="Presentation">
+                    <desc>Discuss two-week schedule and day plans.</desc>
+                    <outcome>
+                        <goal>Set expectations for institute.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Talk_lab">
+                    <desc>Review laboratory outcome goals and explore participant goals for their
+                        own editions.</desc>
+                    <outcome>
+                        <goal>Set goals. Practice describing goals.</goal>
+                    </outcome>
+                </act>
+            </slot>
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="11:00:00">
+                <title>The edition as a computational pipeline</title>
+                <act time="30" type="Presentation">
+                    <desc>We introduce the computational pipeline as a way of modeling the
+                        development of a digital edition.</desc>
+                    <outcome/>
+                </act>
+                <act time="30" type="Presentation">
+                    <desc>Initial stages: TEI XML (base view), exploring with XPath, and exploratory
+                        data analysis (EDA).</desc>
+                    <outcome>
+                        <goal>Understand base view processing and EDA.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Presentation">
+                    <desc>Transformation: how do I transform, what do I transform to? We also
+                        introduce the model-view-controller (MVC) architecture we’ll use in app
+                        development later on.</desc>
+                </act>
+            </slot>
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot>
+            <slot time="14:00:00">
+                <title>Selecting your tools and software installation best practices</title>
+                <act time="90" type="Code_lab">
+                    <desc><list xml:space="preserve">
+* cmd line - git bash shell for Windows users, iTerm2 for Mac users
+* package managers - Homebrew (Mac) and Chocolatey (Windows) and npm (both)
+* version control - git
+* project mgmt - GitHub Projects
+* publishing platform - eXist-db
+* app gen assist - yeoman
+* IDE - VSCode
+* IDE customization - VSCode plugins (eXist-db)
+* hosting - ???
+</list></desc>
+<!-- Instead of including a markdown list here, we ought to write an XML list 
+      and transform it to Markdown using the XSLT file. 
+       This is a code project for another day. -->
+                </act>
+            </slot>
+            <slot time="15:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="16:00:00">
+                <title>Software installation (continued)</title>
+                <act time="90" type="Code_lab">
+                    <desc>Software installation.</desc>
+                    <outcome><goal>Every participant understands our software choice rationale and has installed all required software.</goal></outcome>
+                </act>
+            </slot>
+        </day>
+    </week>
+
+</schedule>
