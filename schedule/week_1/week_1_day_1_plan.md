@@ -18,6 +18,9 @@
 * Set expectations for institute.
 * Set goals. Practice describing goals.
 * Understand base view processing and EDA.
+* Every participant understands our software choice rationale and has installed all required software.
+* Introduce XQuery.
+
 ## Legend
 
 * **Presentation:** by instructors
@@ -53,8 +56,15 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | * cmd line - git bash shell for Windows users, iTerm2 for Mac users * package managers - Homebrew (Mac) and Chocolatey (Windows) and npm (both) * version control - git * project mgmt - GitHub Projects * publishing platform - eXist-db * app gen assist - yeoman * IDE - VSCode * IDE customization - VSCode plugins (eXist-db) * hosting - ??? | Code lab
+90 min | [Software installation instructions](installs.md). | Code lab
 
 ## 3:30–4:00: Coffee break
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Please complete [Week 1, Day 1 feedback](week_1_day_1_feedback.md) (just copy and paste it into a plain-text document) and email your response to Kaylen at [kaylensanders@pitt.edu](mailto:kaylensanders@pitt.edu) with the subject heading “Week 1, Day 1 feedback”.
+## 4:00–5:30: Software installation (continued)
+
+Time | Topic | Type
+---- | ---- | ---- 
+60 min | Software installation. | Code lab
+30 min | Exploratory data analysis in eXide. | Code lab
+
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

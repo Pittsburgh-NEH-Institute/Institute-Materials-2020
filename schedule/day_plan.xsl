@@ -106,7 +106,7 @@
             <xsl:text>## Outcome goals&#x0a;</xsl:text>
             <xsl:apply-templates select="./slot//goal" mode="daily"/>
             <!-- legend -->
-            <xsl:text>## Legend
+            <xsl:text>&#x0a;## Legend
 
 * **Presentation:** by instructors
 * **Discussion:** instructors and participants
