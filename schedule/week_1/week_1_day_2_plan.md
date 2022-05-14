@@ -30,7 +30,7 @@ Introductions, research questions, schedules, outcome goals.
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Astrid Kulsdom presents on this topic. | Presentation
+90 min | Project management. | Presentation
 
 ## 10:30–11:00: Coffee break
 

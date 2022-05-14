@@ -19,7 +19,7 @@
 * Set goals. Practice describing goals.
 * Understand base view processing and EDA.
 * Every participant understands our software choice rationale and has installed all required software.
-* Introduce XQuery.
+* Introduce XQuery with Shakespeare TEI in eXide.
 
 ## Legend
 

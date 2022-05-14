@@ -101,7 +101,9 @@
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Exploratory data analysis in eXide.</desc>
-                    <outcome><goal>Introduce XQuery.</goal></outcome>
+                    <outcome>
+                        <goal>Introduce XQuery with Shakespeare TEI in eXide.</goal>
+                    </outcome>
                 </act>
             </slot>
         </day>
@@ -119,7 +121,7 @@
                 <title>Project management</title>
                 <desc>Introductions, research questions, schedules, outcome goals.</desc>
                 <act time="90" type="Presentation">
-                    <desc>Astrid Kulsdom presents on this topic.</desc>
+                    <desc>Project management.</desc>
                     <outcome>
                         <goal>Learn project management basics.</goal>
                     </outcome>
@@ -157,7 +159,9 @@
                 <title>File management</title>
                 <act time="60" type="Code_lab">
                     <desc>File management and command line basics.</desc>
-                    <outcome><goal>Know your machine better.</goal></outcome>
+                    <outcome>
+                        <goal>Know your machine better.</goal>
+                    </outcome>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>XQuery: practice FLWOR.</desc>
@@ -193,7 +197,8 @@
                 and evaluation into the perspectives exposed within an edition.</syn>
             <slot time="09:00:00">
                 <title>Command line</title>
-                <desc>Practice navigating your file system and using tools at the command line, including Git.</desc>
+                <desc>Practice navigating your file system and using tools at the command line,
+                    including Git.</desc>
                 <act time="90" type="Presentation">
                     <desc>Do command line stuff.</desc>
                     <outcome>
@@ -201,7 +206,7 @@
                         <goal>Practice Git at the command line.</goal>
                     </outcome>
                 </act>
-                
+
             </slot>
             <slot time="10:30:00">
                 <title>Coffee break</title>
@@ -213,19 +218,25 @@
                 <title>Modeling the data for the edition</title>
                 <act time="30" type="Presentation">
                     <desc>How do data models and the computational pipeline work together?</desc>
-                    <outcome><goal>Introduce computational pipelines.</goal></outcome>
+                    <outcome>
+                        <goal>Introduce computational pipelines.</goal>
+                    </outcome>
                 </act>
                 <act time="30" type="Presentation">
                     <desc>TEI XML in context: rationales and alternatives.</desc>
                     <outcome>
-                        <goal>Make explicit our assumptions about TEI, our data, markup decisions, and edition goals.</goal>
+                        <goal>Make explicit our assumptions about TEI, our data, markup decisions,
+                            and edition goals.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Encoding data in TEI XML together in small groups.</desc>
-                    <outcome><goal>Explore how the laboratory edition data might look different with different research questions and markup.</goal></outcome>
+                    <outcome>
+                        <goal>Explore how the laboratory edition data might look different with
+                            different research questions and markup.</goal>
+                    </outcome>
                 </act>
-               
+
             </slot>
             <slot time="12:30:00">
                 <title>Lunch</title>
@@ -237,9 +248,11 @@
                 <title>XQuery</title>
                 <act time="90" type="Presentation">
                     <desc>Creating a pipeline with XQuery: you are the controller.</desc>
-                    <outcome><goal>Create our first computational pipeline together.</goal></outcome>
+                    <outcome>
+                        <goal>Create our first computational pipeline together.</goal>
+                    </outcome>
                 </act>
-               
+
             </slot>
             <slot time="15:30:00">
                 <title>Coffee break</title>
@@ -251,27 +264,105 @@
                 <title>Stylometry</title>
                 <act time="90" type="Presentation">
                     <desc>Stylometry.</desc>
-                    <outcome></outcome>
+                    <outcome/>
                 </act>
             </slot>
         </day>
-    <!--     <day d="Thursday">
+        <day d="Thursday">
             <date>July 14, 2022</date>
             <syn>XQuery. Day four reimagines the edition in a research-driven way within a digital
                 environment. In session one we guide participants through installing an application
-                into eXist-db. In this lesson, participants will first learn to query a corpus. Next
-                participants fork the day’s sample material from the GitHub repository, install it
-                in eXist-db, and navigate the document tree with XPath and XQuery using the eXide
-                interface. In the afternoon, participants use these new skills by developing their
-                own XQuery to be implemented later in an eXist-db application framework. The final
-                session of the day will focus on collation.</syn>
-            <slot time="">
-                <title/>
-                <act time="">
-                    <desc/>
+                into eXist-db. In the afternoon, participants use these new skills by developing
+                their own XQuery to be implemented later in an eXist-db application framework. The
+                final session of the day will focus on collation.</syn>
+            <slot time="09:00:00">
+                <title>XML databases and indexes</title>
+                <act time="30" type="Presentation">
+                    <desc>Databases have, at minimum, data and an index. Some apps also have queries
+                        and superstructure, which enables content management (CMS).</desc>
+                    <outcome>
+                        <goal>Understand the benefits and limitations of XML databases.</goal>
+                        <goal>Become familiar with the many different types of indexes one can use
+                            in an XML database.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Indexing and profiling. Examine indexes and profiles in Monex.</desc>
+                    <outcome>
+                        <goal>Understand indexes by running queries with and without indexed
+                            data.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Using Lucene indexes. What are facets and fields?</desc>
+                </act>
+
+            </slot>
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="11:00:00">
+                <title>Developing a feature</title>
+                <act time="30" type="Code_lab">
+                    <desc>Add your facets and fields to the index and begin querying.</desc>
+                    <outcome>
+                        <goal>Become familiar with eXist-db index syntax.</goal>
+                        <goal>Understand facets and fields.</goal>
+                    </outcome>
+                </act>
+                <act time="60" type="Code_lab">
+                    <desc>Participants work together on preliminary code that they would like to
+                        develop into a feature.</desc>
+                    <outcome>
+                        <goal>Gain experience writing code aligned with research goals.</goal>
+                        <goal>Use MVC framework to output "model" data.</goal>
+                    </outcome>
+                </act>
+            </slot>
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot>
+            <slot time="14:00:00">
+                <title>The controller</title>
+                <act time="30" type="Discussion">
+                    <desc>What is a controller? Why do we need it? What factors determine controller
+                        design?</desc>
+                </act>
+                <act time="15" type="Discussion">
+                    <desc>Explore how the out-of-the-box controller works, along with what it can
+                        and cannot do.</desc>
+                    <outcome>
+                        <goal>Prepare to write your own controller.</goal>
+                    </outcome>
+                </act>
+                <act time="45" type="Code_lab">
+                    <desc>Write your controller features.</desc>
+                    <outcome>
+                        <goal>Understand controller writing syntax.</goal>
+                    </outcome>
+                </act>
+            </slot>
+            <slot time="15:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="16:00:00">
+                <title>Collation</title>
+                <act time="90" type="Presentation">
+                    <desc>Collation.</desc>
                 </act>
             </slot>
         </day>
+
+
         <day d="Friday">
             <date/>
             <syn>Collaborating on the edition. In session one we introduce the TEI ODD (One Document
@@ -285,16 +376,82 @@
                 Scholastic Commentaries and Texts Archive, closes the day with a special topic
                 session on the International Image Interoperability Framework (IIIF), a
                 community-focused Linked Open Data (LOD) standard for image sharing.</syn>
-            <slot time="">
-                <title/>
-                <act time="">
-                    <desc/>
+            <slot time="09:00:00">
+                <title>ODDs and collaborative encoding</title>
+                <act time="90" type="Discussion">
+                    <desc>Writing the ODD and other mechanisms for document control and
+                        documentation.</desc>
+                    <outcome>
+                        <goal>Enable better collaborative encoding for projects.</goal>
+                    </outcome>
+                </act>
+
+            </slot>
+
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
                 </act>
             </slot>
-        </day> -->
+            <slot time="10:30:00">
+                <title>Using GitHub for project management</title>
+                <act time="30" type="Presentation">
+                    <desc>Create Kanban boards in GitHub Projects and explore some other software
+                        tools available.</desc>
+                    <outcome>
+                        <goal>Introduce Kanban and other software for task and issue
+                            management.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Discussion">
+                    <desc>Issues and pull requests</desc>
+                    <outcome>
+                        <goal>Create pull requests on the institute repositories.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Presentation">
+                    <desc>Create merge conflicts on purpose to gain familiarity with resolving them
+                        (without being thrown into a VIM blackhole).</desc>
+                    <outcome>
+                        <goal>Become comfortable with merge conflicts and using Git.</goal>
+                    </outcome>
+                </act>
+            </slot>
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot>
+            <slot time="14:00:00">
+                <title>Search functionality</title>
+                <act time="90" type="Presentation">
+                    <desc>Together as a group, we deconstruct and rewrite the app's search
+                        functionality.</desc>
+                    <outcome>
+                        <goal>Understand the development algorithm for creating advanced
+                            features.</goal>
+                        <goal>Use several advanced features in eXist-db to support research
+                            outcomes.</goal>
+                    </outcome>
+                </act>
+            </slot>
+            <slot time="15:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="16:00:00">
+                <title>International Image Interoperability Framework (IIIF) and Linked Open Data (LOD)</title>
+                <act time="90">
+                    <desc>Jeffrey Witt presents on IIIF.</desc>
+                </act>
+            </slot>
+        </day>
     </week>
-
- <!--   <week num="2">
+  <week num="2">
         <title>Week 2</title>
         <day d="Monday">
             <date>July 18, 2022</date>
@@ -314,6 +471,7 @@
                 </act>
             </slot>
         </day>
+      <!--  
         <day d="Tuesday">
             <date>July 19, 2022</date>
             <syn>Implementing publication strategies.** The morning is devoted to HTML and CSS,
@@ -383,7 +541,7 @@
                     <desc/>
                 </act>
             </slot>
-        </day>
-    </week>  --> 
+        </day>-->
+    </week>
 
 </schedule>
