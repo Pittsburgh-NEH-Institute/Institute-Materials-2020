@@ -38,8 +38,8 @@ The Institute will introduce textual and manuscript scholars to a powerful and b
 * Cayless, Hugh (Duke University) 
 * Haentjens Dekker, Ronald (Royal Netherlands Academy of Arts and Sciences) 
 * Keane, Gabi (University of Pittsburgh) 
-* Kulsdom, Astrid (Royal Netherlands Academy of Arts and Sciences) 
 * Olsson, Leif-Jöran (University of Gothenburg) 
+* Rowell, Chelcie (Tufts University)
 
 
 #### Guest instructors 
