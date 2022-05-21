@@ -9,6 +9,12 @@
             <assert test="$actual_time eq 30 or $actual_time eq 90" role="warn"> The sum of the
                 activity durations must be equal either 30 or 90 minutes. Actual time is <value-of
                     select="$actual_time"/>.</assert>
+            <!-- slot times must be later than preceding slot times -->
+            
+                <report test="@time &lt;= preceding-sibling::slot/@time">
+                    Activity time slots must be later than preceding time slots.
+                </report>
+            
         </rule>
         <rule context="act[not(preceding-sibling::title = ('Coffee break', 'Lunch'))]">
             <assert test="@type">Activities must have a @type attribute.</assert>
@@ -16,5 +22,8 @@
         <rule context="desc[not(list) and not(. = ('Lunch', 'Coffee break'))] | goal">
             <assert test="matches(., '[.?!]$')"><value-of select="name(.)"/> must end in final punctuation.</assert>
         </rule>
+        
+      
     </pattern>
+    
 </sch:schema>
