@@ -378,24 +378,13 @@
                 community-focused Linked Open Data (LOD) standard for image sharing.</syn>
             <slot time="09:00:00">
                 <title>ODDs and collaborative encoding</title>
-                <act time="90" type="Discussion">
+                <act time="60" type="Discussion">
                     <desc>Writing the ODD and other mechanisms for document control and
                         documentation.</desc>
                     <outcome>
                         <goal>Enable better collaborative encoding for projects.</goal>
                     </outcome>
                 </act>
-
-            </slot>
-
-            <slot time="10:30:00">
-                <title>Coffee break</title>
-                <act time="30">
-                    <desc>Coffee break</desc>
-                </act>
-            </slot>
-            <slot time="10:30:00">
-                <title>Using GitHub for project management</title>
                 <act time="30" type="Presentation">
                     <desc>Create Kanban boards in GitHub Projects and explore some other software
                         tools available.</desc>
@@ -404,13 +393,29 @@
                             management.</goal>
                     </outcome>
                 </act>
-                <act time="30" type="Discussion">
-                    <desc>Issues and pull requests</desc>
+            </slot>
+
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="11:00:00">
+                <title>Git and GitHub in Real Life</title>
+                <act time="20" type="Discussion">
+                    <desc>Issues and pull requests.</desc>
                     <outcome>
                         <goal>Create pull requests on the institute repositories.</goal>
                     </outcome>
                 </act>
-                <act time="30" type="Presentation">
+                <act time="40" type="Presentation">
+                    <desc>Branches and you.</desc>
+                    <outcome>
+                        <goal>Understand tracking branches, development branches, pull requests as branches.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Code_lab">
                     <desc>Create merge conflicts on purpose to gain familiarity with resolving them
                         (without being thrown into a VIM blackhole).</desc>
                     <outcome>
@@ -440,12 +445,12 @@
             <slot time="15:30:00">
                 <title>Coffee break</title>
                 <act time="30">
-                    <desc>Coffee break</desc>
+                    <desc>Coffee break.</desc>
                 </act>
             </slot>
             <slot time="16:00:00">
                 <title>International Image Interoperability Framework (IIIF) and Linked Open Data (LOD)</title>
-                <act time="90">
+                <act time="90" type="Presentation">
                     <desc>Jeffrey Witt presents on IIIF.</desc>
                 </act>
             </slot>

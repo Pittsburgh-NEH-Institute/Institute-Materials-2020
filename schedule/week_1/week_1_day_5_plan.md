@@ -15,8 +15,9 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 
 ## Outcome goals
 * Enable better collaborative encoding for projects.
-* Introduce Kanban and other software for task and issue management
+* Introduce Kanban and other software for task and issue management.
 * Create pull requests on the institute repositories.
+* Understand tracking branches, development branches, pull requests as branches.
 * Become comfortable with merge conflicts and using Git.
 * Understand the development algorithm for creating advanced features.
 * Use several advanced features in eXist-db to support research outcomes.
@@ -33,17 +34,18 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Writing the ODD and other mechanisms for document control and documentation. | 
+60 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion
+30 min | Create Kanban boards in GitHub Projects and explore some other software tools available. | Presentation
 
-## 3:30–4:00: Coffee break
+## 10:30–11:00: Coffee break
 
-## 10:30–12:00: Using GitHub for project management
+## 11:00–12:30: Git and GitHub in Real Life
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Create Kanban boards in GitHub Projects and explore some other software tools available. | Presentation
-30 min | Issues and pull requests | Discussion
-30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a VIM blackhole). | Presentation
+20 min | Issues and pull requests. | Discussion
+40 min | Branches and you. | Presentation
+30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a VIM blackhole). | Code lab
 
 ## 12:30–2:00: Lunch
 
@@ -59,6 +61,6 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Jeffrey Witt presents on IIIF. | 
+90 min | Jeffrey Witt presents on IIIF. | Presentation
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
