@@ -53,6 +53,7 @@ The Institute will introduce textual and manuscript scholars to a powerful and b
 The instructors will be assisted by
 
 * Schwarz, Emma (Senior Institute Assistant, University of Pittsburgh)
+* Gobat, Mason (Institute Assistant, University of Pittsburgh)
 
 #### Details 
 
