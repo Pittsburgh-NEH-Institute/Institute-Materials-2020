@@ -469,14 +469,74 @@
                 participants practice transformations with XML technologies, focusing on control
                 over design and functionality. The day’s special topic session will be a
                 presentation on user experience and design by guest lecturer Shea Higgins.</syn>
-            <slot time="">
-                <title/>
-                <act time="">
-                    <desc/>
+            <slot time="09:00:00">
+                <title>Retrospective and plans</title>
+                <act time="20" type="Discussion">
+                    <desc>Looking back on week 1's work.</desc>
+                    <outcome>
+                        <goal>Highlight progress.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Talk_lab">
+                    <desc>Assess the project's current state and critique user experience.</desc>
+                    <outcome>
+                        <goal>Revisit scope and prevent scope creep.</goal>
+                        <goal>Establish good collaborative critique practices.</goal>
+                    </outcome>
+                </act>
+                <act time="40" type="Discussion">
+                    <desc>Identify tasks to-be-done, establish timelines, and consider possible roadblocks.</desc>
+                    <outcome>
+                        <goal>Figure out your "get smart" tasks.</goal>
+                        <goal>Plan next steps.</goal>
+                    </outcome>
+                </act>
+                
+            </slot>
+            
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
                 </act>
             </slot>
+            
+            <slot time="11:00:00">
+                <title>Digital edition frameworks (cake from a mix)</title>
+                <act time="90" type="Presentation">
+                    <desc>CETEIcean, TEI Publisher, EVT, GitHub Pages.</desc>
+                </act>
+            </slot>
+            
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot>
+            <!-- Typeswitch depends on HTML. We'll get back to XQuery tomorrow. -->
+            <slot time="14:00:00">
+                <title>HTML and CSS</title>
+                <act time="90" type="Code_lab">
+                    <desc>HTML and CSS basics.</desc>
+                </act>
+            </slot>
+            <slot time="15:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break.</desc>
+                </act>
+            </slot>
+            <slot time="16:00:00">
+                <title>User-oriented design principles</title>
+                <act time="90" type="Presentation">
+                    <desc>Shea Higgins presents on UX design.</desc>
+                </act>
+            </slot>
+           
+            
         </day>
-      <!--  
+        
         <day d="Tuesday">
             <date>July 19, 2022</date>
             <syn>Implementing publication strategies.** The morning is devoted to HTML and CSS,
@@ -486,13 +546,54 @@
                 edition within eXist-db with a session that implements the model, view, and
                 controller together. To wrap up the day, we'll discuss unit testing and writing
                 functions.</syn>
-            <slot time="">
-                <title/>
-                <act time="">
-                    <desc/>
+                
+            <slot time="09:00:00">
+                <title>Creating views and using typeswitch</title>
+                <act time="90" type="Code_lab">
+                    <desc>Using typeswitch and local functions to create rich text reading views.</desc>
+                </act>
+            </slot>
+            
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            
+            <slot time="11:00:00">
+                <title>Putting MVC together</title>
+                <act time="90" type="Code_lab">
+                    <desc>Participants see the Model, View, and Controller in action.</desc>
+                </act>
+            </slot> 
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot> 
+            <slot time="14:00:00">
+                <title>XQuery functions and unit testing</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot>
+            <slot time="15:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="16:00:00">
+                <title>Mapping and integrating external APIs</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
                 </act>
             </slot>
         </day>
+      
+      
         <day d="Wednesday">
             <date>July 20, 2022</date>
             <syn>Visualization and interactivity. On day three participants learn to communicate
@@ -507,13 +608,52 @@
                 Humanities at Penn State Erie, The Behrend College and Director of Digital Mitford,
                 will teach the first part of a special topic session on network analysis with
                 text.</syn>
-            <slot time="">
-                <title/>
-                <act time="">
-                    <desc/>
+            <slot time="09:00:00">
+                <title>SVG basics</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot>
+            
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            
+            <slot time="11:00:00">
+                <title>Creating SVG visualizations for the edition</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot> 
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot> 
+            <slot time="14:00:00">
+                <title>Elisa special topic</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot>
+            <slot time="15:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="16:00:00">
+                <title>Elisa special topic</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
                 </act>
             </slot>
         </day>
+      
         <day d="Thursday">
             <date>July 21, 2022</date>
             <syn>Data access and APIs.** The morning sessions focus on accommodating both the
@@ -523,13 +663,52 @@
                 participants to develop a collaborative starter API for the laboratory edition,
                 which we will be able to publish and use that day. The final session is reserved for
                 review and catch-up.</syn>
-            <slot time="">
-                <title/>
-                <act time="">
-                    <desc/>
+            <slot time="09:00:00">
+                <title>Project management</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot>
+            
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            
+            <slot time="11:00:00">
+                <title>API + API docs</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot> 
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot> 
+            <slot time="14:00:00">
+                <title>Wrting API docs together</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot>
+            <slot time="15:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="16:00:00">
+                <title>Catchup session</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
                 </act>
             </slot>
         </day>
+     
         <day d="Friday">
             <date/>
             <syn>Finishing up. In the first session, participants will discuss and reflect upon the
@@ -540,13 +719,51 @@
                 their own edition work. Finally, we survey resources for further education, and also
                 allocate one-on-one time with instructors for participants to discuss application of
                 what they have learned and developed in the Institute into their own editions.</syn>
-            <slot time="">
-                <title/>
-                <act time="">
-                    <desc/>
+            <slot time="09:00:00">
+                <title>Modeling choices</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
                 </act>
             </slot>
-        </day>-->
+            
+            <slot time="10:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            
+            <slot time="11:00:00">
+                <title>Implementation choices</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot> 
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot> 
+            <slot time="14:00:00">
+                <title>Your edition</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot>
+            <slot time="15:30:00">
+                <title>Coffee break</title>
+                <act time="30">
+                    <desc>Coffee break</desc>
+                </act>
+            </slot>
+            <slot time="16:00:00">
+                <title>Your edition</title>
+                <act time="90" type="Code_lab">
+                    <desc>placeholder.</desc>
+                </act>
+            </slot>
+        </day>
     </week>
 
 </schedule>
