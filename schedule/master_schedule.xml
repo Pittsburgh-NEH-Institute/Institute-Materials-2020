@@ -91,15 +91,14 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Software installation (continued)</title>
-                <act time="60" type="Code_lab">
-                    <desc>Software installation.</desc>
+                <title>XQuery and digital editions</title>
+                <act time="45" type="Discussion">
+                    <desc>Exemplary digital editions.</desc>
                     <outcome>
-                        <goal>Every participant understands our software choice rationale and has
-                            installed all required software.</goal>
+                        <goal>Participants explore the many decisions involved in conceptualizing a digital edition.</goal>
                     </outcome>
                 </act>
-                <act time="30" type="Code_lab">
+                <act time="45" type="Code_lab">
                     <desc>Exploratory data analysis in eXide.</desc>
                     <outcome>
                         <goal>Introduce XQuery with Shakespeare TEI in eXide.</goal>
@@ -145,7 +144,7 @@
                         <goal>Gain familiarity with the project GitHub space.</goal>
                     </outcome>
                 </act>
-                <act time="30" type="Code_lab">
+                <act time="30" type="Presentation">
                     <desc>XQuery: introduce FLWOR.</desc>
                 </act>
             </slot>
@@ -174,9 +173,9 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Special topic: Sustainability with Alison Langmead</title>
-                <act time="90" type="Code_lab">
-                    <desc>Software installation.</desc>
+                <title>Special topic: Sustainability with Chelsea Gunn</title>
+                <act time="90" type="Presentation">
+                    <desc>Planning for a sustainable digital edition.</desc>
                     <outcome>
                         <goal>Participants learn to create sustainability plans.</goal>
                     </outcome>
@@ -217,14 +216,15 @@
             <slot time="11:00:00">
                 <title>Modeling the data for the edition</title>
                 <act time="30" type="Presentation">
-                    <desc>How do data models and the computational pipeline work together?</desc>
+                    <desc>Integrating model and workflow.</desc>
                     <outcome>
-                        <goal>Introduce computational pipelines.</goal>
+                        <goal>Explore how data models and the computational pipeline work together.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>TEI XML in context: rationales and alternatives.</desc>
+                    <desc>TEI XML in context: rationales, alternatives, and the ODD.</desc>
                     <outcome>
+                        <goal>Navigate enabling and enforcing schema paradigms.</goal>
                         <goal>Make explicit our assumptions about TEI, our data, markup decisions,
                             and edition goals.</goal>
                     </outcome>
@@ -232,8 +232,9 @@
                 <act time="30" type="Code_lab">
                     <desc>Encoding data in TEI XML together in small groups.</desc>
                     <outcome>
-                        <goal>Explore how the laboratory edition data might look different with
-                            different research questions and markup.</goal>
+                        <goal>Explore the relationship between research questions and markup decisions.</goal>
+                        <goal>Consider how the laboratory edition data might look different with
+                            different research questions and markup.</goal>  
                     </outcome>
                 </act>
 
