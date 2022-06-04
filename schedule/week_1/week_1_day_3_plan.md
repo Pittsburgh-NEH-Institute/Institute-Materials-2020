@@ -15,9 +15,11 @@ Moving from model to implementation. The third day is devoted to developing the
 ## Outcome goals
 * Practice file management at the command line.
 * Practice Git at the command line.
-* Introduce computational pipelines.
+* Explore how data models and the computational pipeline work together.
+* Navigate enabling and enforcing schema paradigms.
 * Make explicit our assumptions about TEI, our data, markup decisions, and edition goals.
-* Explore how the laboratory edition data might look different with different research questions and markup.
+* Explore the relationship between research questions and markup decisions.
+* Consider how the laboratory edition data might look different with different research questions and markup.
 * Create our first computational pipeline together.
 
 ## Legend
@@ -43,8 +45,8 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | How do data models and the computational pipeline work together? | Presentation
-30 min | TEI XML in context: rationales and alternatives. | Presentation
+30 min | Integrating model and workflow. | Presentation
+30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation
 30 min | Encoding data in TEI XML together in small groups. | Code lab
 
 ## 12:30–2:00: Lunch

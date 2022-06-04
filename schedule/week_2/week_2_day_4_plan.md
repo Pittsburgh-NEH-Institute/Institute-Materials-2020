@@ -10,6 +10,8 @@ Data access and APIs.** The morning sessions focus on accommodating both the
                 review and catch-up.
 
 ## Outcome goals
+* Use branches effectively.
+* Learn about version numbering.
 
 ## Legend
 
@@ -19,11 +21,13 @@ Data access and APIs.** The morning sessions focus on accommodating both the
 * **Code lab:** participants code alone or in small groups
 
 * * *
-## 9:00–10:30: Project management
+## 9:00–10:30: Review and practice: version control and project management with git and GitHub.
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | placeholder. | Code lab
+30 min | Development and feature branches, tracking branches, and branch strategies. | Code lab
+30 min | Releases and semantic versioning. | Presentation
+30 min | Project management in practice. | Discussion
 
 ## 10:30–11:00: Coffee break
 

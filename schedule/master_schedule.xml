@@ -473,9 +473,9 @@
             <slot time="09:00:00">
                 <title>Retrospective and plans</title>
                 <act time="20" type="Discussion">
-                    <desc>Looking back on week 1's work.</desc>
+                    <desc>Looking back on week 1.</desc>
                     <outcome>
-                        <goal>Highlight progress.</goal>
+                        <goal>Take stock and plan the next steps.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Talk_lab">
@@ -506,6 +506,9 @@
                 <title>Digital edition frameworks (cake from a mix)</title>
                 <act time="90" type="Presentation">
                     <desc>CETEIcean, TEI Publisher, EVT, GitHub Pages.</desc>
+                    <outcome>
+                        <goal>Assess benefits and limitations of frameworks vs bespoke editions.</goal>
+                    </outcome>
                 </act>
             </slot>
             
@@ -520,6 +523,11 @@
                 <title>HTML and CSS</title>
                 <act time="90" type="Code_lab">
                     <desc>HTML and CSS basics.</desc>
+                    <outcome>
+                        <goal>Learn about important HTML elements and attributes.</goal>
+                        <goal>Learn about CSS selectors, properties, and values.</goal>
+                        <goal>Learn how to associate CSS with HTML files.</goal>
+                    </outcome>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -531,7 +539,7 @@
             <slot time="16:00:00">
                 <title>User-oriented design principles</title>
                 <act time="90" type="Presentation">
-                    <desc>Shea Higgins presents on UX design.</desc>
+                    <desc>Shea Higgins presents on designing for user experience (UX).</desc>
                 </act>
             </slot>
            
@@ -552,6 +560,11 @@
                 <title>Creating views and using typeswitch</title>
                 <act time="90" type="Code_lab">
                     <desc>Using typeswitch and local functions to create rich text reading views.</desc>
+                    <outcome>
+                        <goal>Focus on the "view" in MVC in an eXist-db context.</goal>
+                        <goal>Introduce user-defined functions.</goal>
+                        <goal>Learn how to use `typeswitch` for dispatch.</goal>
+                    </outcome>
                 </act>
             </slot>
             
@@ -566,6 +579,9 @@
                 <title>Putting MVC together</title>
                 <act time="90" type="Code_lab">
                     <desc>Participants see the Model, View, and Controller in action.</desc>
+                    <outcome>
+                        <goal>Connect the data model and view by writing a controller.</goal>
+                    </outcome>
                 </act>
             </slot> 
             <slot time="12:30:00">
@@ -576,8 +592,20 @@
             </slot> 
             <slot time="14:00:00">
                 <title>XQuery functions and unit testing</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <act time="75" type="Code_lab">
+                    <desc>Writing and testing user-defined functions.</desc>
+                    <outcome>
+                        <goal>Create good test writing habits.</goal>
+                        <goal>Modularize your code with user-defined functions.</goal>
+                        <goal>Write and run your first tests.</goal>
+                        <goal>Create the gazetteer model for use later.</goal>
+                    </outcome>
+                </act>
+                <act time="15" type="Code_lab">
+                    <desc>Continuous integration (CI).</desc>
+                    <outcome>
+                        <goal>Learn how CI can alert you about regressions.</goal>
+                    </outcome>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -587,9 +615,23 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Mapping and integrating external APIs</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <title>Visualizing our geodata and integrating external APIs</title>
+                <act time="30" type="Talk_lab">
+                    <desc>Revisit the model for our geodata and explore our ideas on how visual information can be displayed.</desc>
+                </act>
+                <act time="15" type="Talk_lab">
+                    <desc>Choose the right mapping tools for your project.</desc>
+                    <outcome>
+                        <goal>Explore alternatives and methods.</goal>
+                        <goal>Evaluate whether the best visualization for your data is a map.</goal>
+                    </outcome>
+                </act>
+                <act time="45" type="Code_lab">
+                    <desc>Together, we integrate basic map functionality into the app using a mapping JS library.</desc>
+                    <outcome>
+                        <goal>Use external documentation and tutorials to create and adapt code for your project.</goal>
+                        <goal>Introduce external APIs.</goal>
+                    </outcome>
                 </act>
             </slot>
         </day>
@@ -611,9 +653,39 @@
                 text.</syn>
             <slot time="09:00:00">
                 <title>SVG basics</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <act time="15" type="Code_lab">
+                    <desc>What is SVG and how does it work?</desc>
+                    <outcome>
+                        <goal>Understand that SVG is an XML vocabulary.</goal>
+                        <goal>Know the difference between vector graphics and raster graphics.</goal>
+                        <goal>Understand how SVG works with web technologies.</goal>
+                    </outcome>
                 </act>
+                <act time="15" type="Code_lab">
+                    <desc>The SVG coordinate space.</desc>
+                    <outcome>
+                        <goal>Differentiate SVG axes from Cartesian X and Y axes.</goal>
+                        <goal>Think about the axes as infinite space, and the viewport as a window onto that space.</goal>
+                        <goal>Learn how to move and resize the viewport.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>SVG basic shapes.</desc>
+                    <outcome>
+                        <goal>Draw and style shapes, lines, and text with SVG.</goal>
+                        <goal>Understand the Z axis.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Talk_lab">
+                    <desc>Planning a bar chart.</desc>
+                    <outcome>
+                        <goal>Discuss charting patterns and anti-patterns.</goal>
+                        <goal>Inventory bar chart components.</goal>
+                        <goal>Draw the bar chart superstructure: axes and labels.</goal>
+                        <goal>Draw, position, and label the rectangles (use variables!).</goal>
+                    </outcome>
+                </act>
+               
             </slot>
             
             <slot time="10:30:00">
@@ -626,7 +698,7 @@
             <slot time="11:00:00">
                 <title>Creating SVG visualizations for the edition</title>
                 <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                    <desc>Implement the planned visualization using the model.</desc>
                 </act>
             </slot> 
             <slot time="12:30:00">
@@ -636,9 +708,20 @@
                 </act>
             </slot> 
             <slot time="14:00:00">
-                <title>Elisa special topic</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <title>Introducing network analysis</title>
+                <act time="25" type="Presentation">
+                    <desc>What is network analysis? How is it used?</desc>
+                    <outcome>
+                        <goal>Learn about graphs, nodes, and edges.</goal>
+                        <goal>Learn about types of centrality.</goal>
+                    </outcome>
+                </act>
+                <act time="65" type="Presentation">
+                    <desc>Creating the model as tab-separated values (TSV) using XQuery.</desc>
+                    <outcome>
+                        <goal>Model nodes and edges from the data.</goal>
+                        <goal>Extract model data in TSV format.</goal>
+                    </outcome>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -648,9 +731,15 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Elisa special topic</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <title>Using Cytoscape to visualize data</title>
+                <act time="10" type="Code_lab">
+                    <desc>Install Cytoscape.</desc>
+                </act>
+                <act time="50" type="Code_lab">
+                    <desc>Upload TSV and explore data.</desc>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Export SVG from Cytoscape and upload to the edition.</desc>
                 </act>
             </slot>
         </day>
@@ -665,10 +754,23 @@
                 which we will be able to publish and use that day. The final session is reserved for
                 review and catch-up.</syn>
             <slot time="09:00:00">
-                <title>Project management</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <title>Review and practice: version control and project management with git and GitHub.</title>
+                <act time="30" type="Code_lab">
+                    <desc>Development and feature branches, tracking branches, and branch strategies.</desc>
+                    <outcome>
+                        <goal>Use branches effectively.</goal>
+                    </outcome>
                 </act>
+                <act time="30" type="Presentation">
+                    <desc>Releases and semantic versioning.</desc>
+                    <outcome>
+                        <goal>Learn about version numbering.</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Discussion">
+                    <desc>Project management in practice.</desc>
+                </act>
+                
             </slot>
             
             <slot time="10:30:00">
