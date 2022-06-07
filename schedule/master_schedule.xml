@@ -631,6 +631,7 @@
                     <outcome>
                         <goal>Use external documentation and tutorials to create and adapt code for your project.</goal>
                         <goal>Introduce external APIs.</goal>
+                        <goal>Learn to use external API keys securely.</goal>
                     </outcome>
                 </act>
             </slot>
@@ -768,7 +769,7 @@
                     </outcome>
                 </act>
                 <act time="30" type="Discussion">
-                    <desc>Project management in practice.</desc>
+                    <desc>Project management reflections and planning our own projects.</desc>
                 </act>
                 
             </slot>
@@ -782,8 +783,19 @@
             
             <slot time="11:00:00">
                 <title>API + API docs</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <act time="30" type="Presentation">
+                    <desc>What is an Application Programming Interface (API)?</desc>
+                    <outcome>
+                        <goal>Understand CRUD, nouns, and verbs.</goal>
+                        <goal>Understand REST, HTTP, and URIs.</goal>
+                        <goal>Make an API call to [eXist-db](https://exist-db.org/exist/apps/doc/devguide_rest).</goal>
+                    </outcome>
+                </act>
+                <act time="30" type="Presentation">
+                    <desc>Our verb and noun choices, how we made them, what we might have done differently.</desc>
+                </act>
+                <act time="30" type="Talk_lab">
+                    <desc>Collaborative documentation writing.</desc>
                 </act>
             </slot> 
             <slot time="12:30:00">
@@ -793,9 +805,18 @@
                 </act>
             </slot> 
             <slot time="14:00:00">
-                <title>Wrting API docs together</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <title>Improving indexes using Monex</title>
+                <act time="30" type="Presentation">
+                    <desc>Understanding eXist-db indexing.</desc>
+                </act>
+                <act time="20" type="Code_lab">
+                    <desc>Monex utility.</desc>
+                </act>
+                <act time="20" type="Code_lab">
+                    <desc>Profiling queries.</desc>
+                </act>
+                <act time="20" type="Code_lab">
+                    <desc>Optimizing queries.</desc>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -807,7 +828,7 @@
             <slot time="16:00:00">
                 <title>Catchup session</title>
                 <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                    <desc>Participants' choice.</desc>
                 </act>
             </slot>
         </day>
@@ -824,8 +845,17 @@
                 what they have learned and developed in the Institute into their own editions.</syn>
             <slot time="09:00:00">
                 <title>Modeling choices</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <act time="20" type="Discussion">
+                    <desc>Why we did what we did, and how we decided to do it.</desc>
+                </act>
+                <act time="20" type="Discussion">
+                    <desc>What we'd do differently.</desc>
+                </act>
+                <act time="20" type="Discussion">
+                    <desc>What we'd do next.</desc>
+                </act>
+                <act time="30" type="Talk_lab">
+                    <desc>Examining modeling choices from exemplary editions using what we know now.</desc>
                 </act>
             </slot>
             
@@ -838,8 +868,23 @@
             
             <slot time="11:00:00">
                 <title>Implementation choices</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <act time="20" type="Discussion">
+                    <desc>Why use eXist-db?</desc>
+                </act>
+                <act time="20" type="Discussion">
+                    <desc>Why use MVC?</desc>
+                </act>
+                <act time="20" type="Discussion">
+                    <desc>Why not XSLT? Can I use XSLT?</desc>
+                </act>
+                <act time="10" type="Discussion">
+                    <desc>Why is it organized by verb?</desc>
+                </act>
+                <act time="10" type="Discussion">
+                    <desc>Why use Git and GitHub? What are some management alternatives?</desc>
+                </act>
+                <act time="10" type="Discussion">
+                    <desc>Why use VSCode? What could we have used instead?</desc>
                 </act>
             </slot> 
             <slot time="12:30:00">
@@ -850,8 +895,8 @@
             </slot> 
             <slot time="14:00:00">
                 <title>Your edition</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <act time="90" type="Talk_lab">
+                    <desc>Workshop participant editions.</desc>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -862,8 +907,8 @@
             </slot>
             <slot time="16:00:00">
                 <title>Your edition</title>
-                <act time="90" type="Code_lab">
-                    <desc>placeholder.</desc>
+                <act time="90" type="Talk_lab">
+                    <desc>Participants present their editions.</desc>
                 </act>
             </slot>
         </day>

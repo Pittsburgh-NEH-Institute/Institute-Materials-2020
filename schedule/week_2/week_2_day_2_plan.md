@@ -23,6 +23,7 @@ Implementing publication strategies.** The morning is devoted to HTML and CSS,
 * Evaluate whether the best visualization for your data is a map.
 * Use external documentation and tutorials to create and adapt code for your project.
 * Introduce external APIs.
+* Learn to use external API keys securely.
 
 ## Legend
 

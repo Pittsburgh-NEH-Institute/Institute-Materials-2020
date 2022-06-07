@@ -24,7 +24,10 @@ Finishing up. In the first session, participants will discuss and reflect upon t
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | placeholder. | Code lab
+20 min | Why we did what we did, and how we decided to do it. | Discussion
+20 min | What we'd do differently. | Discussion
+20 min | What we'd do next. | Discussion
+30 min | Examining modeling choices from exemplary editions using what we know now. | Talk lab
 
 ## 10:30–11:00: Coffee break
 
@@ -32,7 +35,12 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | placeholder. | Code lab
+20 min | Why use eXist-db? | Discussion
+20 min | Why use MVC? | Discussion
+20 min | Why not XSLT? Can I use XSLT? | Discussion
+10 min | Why is it organized by verb? | Discussion
+10 min | Why use Git and GitHub? What are some management alternatives? | Discussion
+10 min | Why use VSCode? What could we have used instead? | Discussion
 
 ## 12:30–2:00: Lunch
 
@@ -40,7 +48,7 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | placeholder. | Code lab
+90 min | Workshop participant editions. | Talk lab
 
 ## 3:30–4:00: Coffee break
 
@@ -48,6 +56,6 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | placeholder. | Code lab
+90 min | Participants present their editions. | Talk lab
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

@@ -6,6 +6,6 @@ Time | [Monday](week_2_day_1_plan.md) |[Tuesday](week_2_day_2_plan.md) |[Wednesd
 10:30–11:00 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break 
 11:00–12:30 |  Digital edition frameworks (cake from a mix) | Putting MVC together | Creating SVG visualizations for the edition | API + API docs | Implementation choices 
 12:30–2:00 |  Lunch | Lunch | Lunch | Lunch | Lunch 
-2:00–3:30 |  HTML and CSS | XQuery functions and unit testing | Introducing network analysis | Wrting API docs together | Your edition 
+2:00–3:30 |  HTML and CSS | XQuery functions and unit testing | Introducing network analysis | Improving indexes using Monex | Your edition 
 3:30–4:00 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break 
 4:00–5:30 |  User-oriented design principles | Visualizing our geodata and integrating external APIs | Using Cytoscape to visualize data | Catchup session | Your edition 
