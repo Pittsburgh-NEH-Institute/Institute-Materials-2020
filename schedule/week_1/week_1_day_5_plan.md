@@ -56,8 +56,7 @@ Time | Topic | Type
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: International Image Interoperability Framework (IIIF) and Linked Open Data
-                    (LOD)
+## 4:00–5:30: International Image Interoperability Framework (IIIF) and Linked Open Data (LOD)
 
 Time | Topic | Type
 ---- | ---- | ---- 

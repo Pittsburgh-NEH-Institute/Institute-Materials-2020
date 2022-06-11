@@ -382,18 +382,15 @@
             <slot time="09:00:00">
                 <title>ODDs and collaborative encoding</title>
                 <act time="60" type="Discussion">
-                    <desc>Writing the ODD and other mechanisms for document control and
-                        documentation.</desc>
+                    <desc>Writing the ODD and other mechanisms for document control and documentation.</desc>
                     <outcome>
                         <goal>Enable better collaborative encoding for projects.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>Create Kanban boards in GitHub Projects and explore some other software
-                        tools available.</desc>
+                    <desc>Create Kanban boards in GitHub Projects and explore some other software tools available.</desc>
                     <outcome>
-                        <goal>Introduce Kanban and other software for task and issue
-                            management.</goal>
+                        <goal>Introduce Kanban and other software for task and issue management.</goal>
                     </outcome>
                 </act>
             </slot>
@@ -453,8 +450,7 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>International Image Interoperability Framework (IIIF) and Linked Open Data
-                    (LOD)</title>
+                <title>International Image Interoperability Framework (IIIF) and Linked Open Data (LOD)</title>
                 <act time="90" type="Presentation">
                     <desc>Jeffrey Witt presents on IIIF.</desc>
                 </act>
@@ -758,8 +754,7 @@
             <slot time="09:00:00">
                 <title>Review and practice: version control and project management with git and GitHub.</title>
                 <act time="40" type="Code_lab">
-                    <desc>Development and feature branches, tracking branches, and branch
-                        strategies.</desc>
+                    <desc>Development and feature branches, tracking branches, and branch strategies.</desc>
                     <outcome>
                         <goal>Use branches effectively.</goal>
                     </outcome>
@@ -790,13 +785,11 @@
                     <outcome>
                         <goal>Understand CRUD, nouns, and verbs.</goal>
                         <goal>Understand REST, HTTP, and URIs.</goal>
-                        <goal>Make an API call to
-                            [eXist-db](https://exist-db.org/exist/apps/doc/devguide_rest).</goal>
+                        <goal>Make an API call to [eXist-db](https://exist-db.org/exist/apps/doc/devguide_rest).</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>Our verb and noun choices, how we made them, what we might have done
-                        differently.</desc>
+                    <desc>Our verb and noun choices, how we made them, what we might have done differently.</desc>
                 </act>
                 <act time="30" type="Talk_lab">
                     <desc>Collaborative documentation writing.</desc>
