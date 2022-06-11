@@ -24,8 +24,7 @@ Data access and APIs. The morning sessions focus on accommodating both the
 * **Code lab:** participants code alone or in small groups
 
 * * *
-## 9:00–10:30: Review and practice: version control and project management with git and
-                    GitHub.
+## 9:00–10:30: Review and practice: version control and project management with git and GitHub.
 
 Time | Topic | Type
 ---- | ---- | ---- 

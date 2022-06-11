@@ -551,7 +551,6 @@
 
 
         </day>
-
         <day d="Tuesday">
             <date>July 19, 2022</date>
             <syn>Implementing publication strategies. The morning is devoted to typeswitch, an
@@ -643,8 +642,6 @@
                 </act>
             </slot>
         </day>
-
-
         <day d="Wednesday">
             <date>July 20, 2022</date>
             <syn>Visualization and interactivity. On day three participants learn to communicate
@@ -750,7 +747,6 @@
                 </act>
             </slot>
         </day>
-
         <day d="Thursday">
             <date>July 21, 2022</date>
             <syn>Data access and APIs. The morning sessions focus on accommodating both the
@@ -760,8 +756,7 @@
                 participants to profile and optimize their queries using Monex. The final session is
                 reserved for review and catch-up.</syn>
             <slot time="09:00:00">
-                <title>Review and practice: version control and project management with git and
-                    GitHub.</title>
+                <title>Review and practice: version control and project management with git and GitHub.</title>
                 <act time="40" type="Code_lab">
                     <desc>Development and feature branches, tracking branches, and branch
                         strategies.</desc>
@@ -844,7 +839,6 @@
                 </act>
             </slot>
         </day>
-
         <day d="Friday">
             <date>July 22, 2022</date>
             <syn>Finishing up (dessert and coffee?). In the first session, participants will discuss
@@ -867,21 +861,18 @@
                     <desc>What we’d do next.</desc>
                 </act>
                 <act time="30" type="Talk_lab">
-                    <desc>Examining modeling choices from exemplary editions using what we know
-                        now.</desc>
+                    <desc>Examining modeling choices from exemplary editions using what we know now.</desc>
                 </act>
                 <outcome>
                     <goal>Revisit conceptual decisions and alternatives.</goal>
                 </outcome>
             </slot>
-
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-
             <slot time="11:00:00">
                 <title>Implementation choices</title>
                 <act time="20" type="Discussion">
