@@ -22,6 +22,9 @@
         <rule context="desc[not(list) and not(. = ('Lunch', 'Coffee break'))] | goal">
             <assert test="matches(., '[.?!]$')"><value-of select="name(.)"/> must end in final punctuation.</assert>
         </rule>
+        <rule context="date">
+            <report test="empty(.)">Eek! There’s no date!</report>
+        </rule>
         
       
     </pattern>
