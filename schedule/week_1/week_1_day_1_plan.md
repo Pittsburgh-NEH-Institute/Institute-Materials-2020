@@ -1,7 +1,7 @@
 # Week 1, Day 1: Monday, July 11, 2022
 ## Synopsis
 
->Fundamentals. The Institute opens with a high-level view of the types of
+Fundamentals. The Institute opens with a high-level view of the types of
                 engagement required by a textual editor, beginning (always!) from the research
                 questions and leading to the production of an actual edition. In session two we
                 introduce the computational pipeline as a way of modeling project development. We
