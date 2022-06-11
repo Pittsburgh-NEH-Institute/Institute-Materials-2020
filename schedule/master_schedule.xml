@@ -3,11 +3,10 @@
 <?xml-model href="master_schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
     <week num="1">
-        <title>*Mise en place*: Planning your recipe, preparing your workstation, gathering
-            tools</title>
+        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering tools</title>
         <day d="Monday">
             <date>July 11, 2022</date>
-            <syn>>Fundamentals. The Institute opens with a high-level view of the types of
+            <syn>Fundamentals. The Institute opens with a high-level view of the types of
                 engagement required by a textual editor, beginning (always!) from the research
                 questions and leading to the production of an actual edition. In session two we
                 introduce the computational pipeline as a way of modeling project development. We
