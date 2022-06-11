@@ -2,15 +2,13 @@
 ## Synopsis
 
 Moving from model to implementation. The third day is devoted to developing the
-                digital editing workflow as a computational pipeline. Session one gives a high-level
-                overview of data models for documents, such as TEI XML, LMNL, and TAG. In session
-                two we discuss applications of the TEI to digital editions. In the afternoon the
-                focus remains on TEI, but extends to implementation, as participants perform
-                hands-on group markup activities based on the previous day’s document analysis. The
-                special topic session, led by guest lecturer Patrick Juola, professor of computer
-                science Duquesne University and developer of the open-source JGAAP stylometry
-                toolkit, introduces stylometry as an example of integrating statistical description
-                and evaluation into the perspectives exposed within an edition.
+                digital editing workflow as a computational pipeline. Session one extends the
+                command line skills introduced Tuesday. In session two we discuss applications of
+                modeling to our laboratory edition, explore alternatives to TEI, and encode a sample
+                document together. In the afternoon, we return to XQuery to create our first
+                computational step in the pipeline. In a special topic session, Patrick Juola
+                introduces stylometry as an example of integrating statistical description and
+                evaluation into the perspectives exposed within an edition.
 
 ## Outcome goals
 * Practice file management at the command line.

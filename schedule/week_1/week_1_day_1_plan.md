@@ -1,16 +1,13 @@
 # Week 1, Day 1: Monday, July 11, 2022
 ## Synopsis
 
->The Institute opens with a high-level view of the types of engagement required by
-                a textual editor, beginning (always!) from the research questions and leading to the
-                production of an actual edition. In session two we introduce the computational
-                pipeline as a way of modeling the development of a digital edition. The afternoon
-                sessions ground the morning’s theoretical work with a presentation of the research
-                goals and materials to be used in the laboratory edition. We discuss document
-                analysis and OCR as first steps in the editorial workflow. The special topic session
-                of this first day is reserved for participants to install the software packages
-                required to work on the laboratory edition, all of which will be provided by the
-                Institute.
+>Fundamentals. The Institute opens with a high-level view of the types of
+                engagement required by a textual editor, beginning (always!) from the research
+                questions and leading to the production of an actual edition. In session two we
+                introduce the computational pipeline as a way of modeling project development. We
+                begin the afternoon by installing the software packages required for our Institute.
+                Finally, we discuss some exemplary digital editions and start using XQuery to
+                explore XML.
 
 ## Outcome goals
 * Introduce everyone to one another.
@@ -18,7 +15,7 @@
 * Set expectations for institute.
 * Set goals. Practice describing goals.
 * Understand base view processing and EDA.
-* Participants explore the many decisions involved in conceptualizing a digital edition.
+* Explore decisions involved in conceptualizing a digital edition.
 * Introduce XQuery with Shakespeare TEI in eXide.
 
 ## Legend

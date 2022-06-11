@@ -1,13 +1,12 @@
 # Week 2, Day 4: Thursday, July 21, 2022
 ## Synopsis
 
-Data access and APIs.** The morning sessions focus on accommodating both the
+Data access and APIs. The morning sessions focus on accommodating both the
                 developer-user and the eventual end-user. First, participants learn to collaborate
-                over GitHub through issues and pull requests. In the second session we introduce
+                using branches and implement semantic versioning. In the second session we introduce
                 Application Programming Interfaces (APIs). The afternoon’s session allows
-                participants to develop a collaborative starter API for the laboratory edition,
-                which we will be able to publish and use that day. The final session is reserved for
-                review and catch-up.
+                participants to profile and optimize their queries using Monex. The final session is
+                reserved for review and catch-up.
 
 ## Outcome goals
 * Use branches effectively.
@@ -15,6 +14,7 @@ Data access and APIs.** The morning sessions focus on accommodating both the
 * Understand CRUD, nouns, and verbs.
 * Understand REST, HTTP, and URIs.
 * Make an API call to [eXist-db](https://exist-db.org/exist/apps/doc/devguide_rest).
+* Learn to optimize queries.
 
 ## Legend
 
@@ -24,12 +24,13 @@ Data access and APIs.** The morning sessions focus on accommodating both the
 * **Code lab:** participants code alone or in small groups
 
 * * *
-## 9:00–10:30: Review and practice: version control and project management with git and GitHub.
+## 9:00–10:30: Review and practice: version control and project management with git and
+                    GitHub.
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Development and feature branches, tracking branches, and branch strategies. | Code lab
-30 min | Releases and semantic versioning. | Presentation
+40 min | Development and feature branches, tracking branches, and branch strategies. | Code lab
+20 min | Releases and semantic versioning. | Presentation
 30 min | Project management reflections and planning our own projects. | Discussion
 
 ## 10:30–11:00: Coffee break
@@ -59,6 +60,6 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Participants' choice. | Code lab
+90 min | Participants’ choice. | Code lab
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

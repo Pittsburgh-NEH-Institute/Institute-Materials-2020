@@ -4,27 +4,18 @@
 Visualization and interactivity. On day three participants learn to communicate
                 information about data through interactive graphs and charts. In session one we
                 introduce Scalable Vector Graphics (SVG), an XML technology that allows users to
-                create data-driven charts and graphs with XQuery. In session two we introduce
-                JavaScript, which enables the user to modify the view within the browser. The
-                afternoon’s small-group hands-on session, with all instructors providing guidance,
-                inte- grates these techniques into the edition for publication, as participants
-                develop responsive, user-oriented visualizations exported and transformed from the
-                laboratory edition data. Guest lecturer Elisa Beshero-Bondar, Professor of Digital
-                Humanities at Penn State Erie, The Behrend College and Director of Digital Mitford,
-                will teach the first part of a special topic session on network analysis with
-                text.
+                create data-driven charts and graphs with XQuery. The afternoon’s small-group
+                hands-on session, with all instructors providing guidance, integrates these
+                techniques into the edition for publication, as participants develop responsive,
+                user-oriented visualizations exported and transformed from the laboratory edition
+                data. Guest lecturer Elisa Beshero-Bondar teaches an extended special topic session
+                on network analysis with text.
 
 ## Outcome goals
 * Understand that SVG is an XML vocabulary.
-* Know the difference between vector graphics and raster graphics.
 * Understand how SVG works with web technologies.
-* Differentiate SVG axes from Cartesian X and Y axes.
 * Think about the axes as infinite space, and the viewport as a window onto that space.
-* Learn how to move and resize the viewport.
 * Draw and style shapes, lines, and text with SVG.
-* Understand the Z axis.
-* Discuss charting patterns and anti-patterns.
-* Inventory bar chart components.
 * Draw the bar chart superstructure: axes and labels.
 * Draw, position, and label the rectangles (use variables!).
 * Learn about graphs, nodes, and edges.

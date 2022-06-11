@@ -1,29 +1,26 @@
 # Week 2, Day 2: Tuesday, July 19, 2022
 ## Synopsis
 
-Implementing publication strategies.** The morning is devoted to HTML and CSS,
-                which constitute the “view” aspect of the laboratory edition’s MVC architecture. In
-                session two, participants return to the application in eXist-db and gain experience
-                with application requirements. In the afternoon, participants deploy the first-draft
-                edition within eXist-db with a session that implements the model, view, and
-                controller together. To wrap up the day, we'll discuss unit testing and writing
-                functions.
+Implementing publication strategies. The morning is devoted to typeswitch, an
+                operator that helps us mimic XSLT template processing in XQuery. With typeswitch, we
+                begin to develop the *view* compenents of the laboratory edition’s MVC architecture.
+                In session two, participants return to the application in eXist-db and gain
+                experience with application requirements. In the afternoon, we introduce writing and
+                testing user-defined functions. To close out the day, we discuss mapping features
+                and use an external JavaScript library and API to create embed a map in our
+                application.
 
 ## Outcome goals
-* Focus on the "view" in MVC in an eXist-db context.
-* Introduce user-defined functions.
+* Focus on the *view* in MVC in an eXist-db context.
 * Learn how to use `typeswitch` for dispatch.
-* Connect the data model and view by writing a controller.
-* Create good test writing habits.
+* Connect the data model and view by enhancing the controller.
 * Modularize your code with user-defined functions.
 * Write and run your first tests.
 * Create the gazetteer model for use later.
 * Learn how CI can alert you about regressions.
-* Explore alternatives and methods.
 * Evaluate whether the best visualization for your data is a map.
 * Use external documentation and tutorials to create and adapt code for your project.
 * Introduce external APIs.
-* Learn to use external API keys securely.
 
 ## Legend
 

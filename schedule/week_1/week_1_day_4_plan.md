@@ -1,20 +1,22 @@
 # Week 1, Day 4: Thursday, July 14, 2022
 ## Synopsis
 
-XQuery. Day four reimagines the edition in a research-driven way within a digital
-                environment. In session one we guide participants through installing an application
-                into eXist-db. In the afternoon, participants use these new skills by developing
-                their own XQuery to be implemented later in an eXist-db application framework. The
-                final session of the day will focus on collation.
+XQuery in XML databases. Day four reimagines the edition in a research-driven way
+                within a digital environment. In the morning, we guide participants through
+                installing an application into eXist-db and exploring its indexes. In the afternoon,
+                participants practice these new skills by developing their own XQuery to be
+                implemented later in an eXist-db application framework. Next, we begin writing the
+                controller, which stitches together the data, the models, and eventually, the views.
+                The final session of the day will focus on collation.
 
 ## Outcome goals
 * Understand the benefits and limitations of XML databases.
-* Become familiar with the many different types of indexes one can use in an XML database.
+* Become familiar with the different types of indexes one can use in an XML database.
 * Understand indexes by running queries with and without indexed data.
 * Become familiar with eXist-db index syntax.
-* Understand facets and fields.
+* Implement fields.
 * Gain experience writing code aligned with research goals.
-* Use MVC framework to output "model" data.
+* Use MVC framework to output *model* data.
 * Prepare to write your own controller.
 * Understand controller writing syntax.
 
@@ -30,17 +32,17 @@ XQuery. Day four reimagines the edition in a research-driven way within a digita
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Databases have, at minimum, data and an index. Some apps also have queries and superstructure, which enables content management (CMS). | Presentation
+30 min | Databases have at minimum data and a method of querying that data. Indexes enable direct and fast retrieval for querying the data. | Presentation
 30 min | Indexing and profiling. Examine indexes and profiles in Monex. | Code lab
 30 min | Using Lucene indexes. What are facets and fields? | Code lab
 
 ## 10:30–11:00: Coffee break
 
-## 11:00–12:30: Developing a feature
+## 11:00–12:30: Developing the model to support a feature
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Add your facets and fields to the index and begin querying. | Code lab
+30 min | Add your fields to the index and begin querying. | Code lab
 60 min | Participants work together on preliminary code that they would like to develop into a feature. | Code lab
 
 ## 12:30–2:00: Lunch

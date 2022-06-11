@@ -1,4 +1,4 @@
-# Week 1, Day 5: Friday, 
+# Week 1, Day 5: Friday, July 15, 2022
 ## Synopsis
 
 Collaborating on the edition. In session one we introduce the TEI ODD (One Document
@@ -6,12 +6,11 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
                 project-specific purposes. Then, instructors lead small groups in applying ODD
                 modeling to the laboratory edition. In session two we introduce GitHub Projects, a
                 Kanban-style collaboration tool, and guide participants through debugging and
-                resolving merge conflicts in Git. In session three we introduce the use of eXist-db
-                as a Content Management System so as to prepare participants for active publication
-                development in week two. Guest lecturer Jeffrey Witt, General Editor of the
-                Scholastic Commentaries and Texts Archive, closes the day with a special topic
-                session on the International Image Interoperability Framework (IIIF), a
-                community-focused Linked Open Data (LOD) standard for image sharing.
+                resolving merge conflicts in Git. After exploring facets and fields on Thursday, we
+                present the Advanced search feature in its final form and discuss the development
+                journey for advanced features like this. A special topic session by Jeffrey Witt on
+                the International Image Interoperability Framework (IIIF), a community-focused
+                Linked Open Data (LOD) standard for image sharing, closes the day.
 
 ## Outcome goals
 * Enable better collaborative encoding for projects.
@@ -53,11 +52,12 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Together as a group, we deconstruct and rewrite the app's search functionality. | Presentation
+90 min | Together as a group, we deconstruct and rewrite the app’s search functionality. | Presentation
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: International Image Interoperability Framework (IIIF) and Linked Open Data (LOD)
+## 4:00–5:30: International Image Interoperability Framework (IIIF) and Linked Open Data
+                    (LOD)
 
 Time | Topic | Type
 ---- | ---- | ---- 

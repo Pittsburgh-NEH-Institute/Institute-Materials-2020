@@ -1,16 +1,20 @@
-# Week 2, Day 5: Friday, 
+# Week 2, Day 5: Friday, July 22, 2022
 ## Synopsis
 
-Finishing up. In the first session, participants will discuss and reflect upon the
-                modeling choices made in development of the laboratory edition. These choices
-                influence every part of the edition workflow, which participants will explore as
-                they present on the interfaces, visualizations, and features they developed as part
-                of their hands-on sessions, as well as their plans to apply their new skills to
-                their own edition work. Finally, we survey resources for further education, and also
-                allocate one-on-one time with instructors for participants to discuss application of
-                what they have learned and developed in the Institute into their own editions.
+Finishing up (dessert and coffee?). In the first session, participants will discuss
+                and reflect upon the modeling choices made in development of the laboratory edition.
+                These choices influence every part of the edition workflow, which participants will
+                explore as they present on the interfaces, visualizations, and features they
+                developed as part of their hands-on sessions, as well as their plans to apply their
+                new skills to their own edition work. Finally, we survey resources for further
+                education, and participants have the opportunity to present to the whole group about
+                their application of Institute concepts in their own editions.
 
 ## Outcome goals
+* Revisit conceptual decisions and alternatives.
+* Revisit technical decisions and alternatives.
+* Collaborate on your edition ideas with other participants.
+* Present your own edition.
 
 ## Legend
 
@@ -25,8 +29,8 @@ Finishing up. In the first session, participants will discuss and reflect upon t
 Time | Topic | Type
 ---- | ---- | ---- 
 20 min | Why we did what we did, and how we decided to do it. | Discussion
-20 min | What we'd do differently. | Discussion
-20 min | What we'd do next. | Discussion
+20 min | What we’d do differently. | Discussion
+20 min | What we’d do next. | Discussion
 30 min | Examining modeling choices from exemplary editions using what we know now. | Talk lab
 
 ## 10:30–11:00: Coffee break

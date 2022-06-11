@@ -6,15 +6,18 @@ Project management and planning the edition. After the first day’s emphasis on
                 to translate edition goals into an implementation plan. We begin the day with Agile
                 project management, after which the version control system Git, its online
                 collaboration environment GitHub, and project file management best practice are
-                introduced. In the afternoon the participants apply these best practices while
-                setting up the file system in eXist-db. In the special topic session participants
-                explore the command line environment they will use to manage files.
+                introduced. We continue to develop our XQuery skills, introducing and practicing
+                FLWOR, in anticipation of applying them to edition development. In the afternoon the
+                participants apply these best practices while initializing an eXist-db app using
+                Yeoman. In a special topic session, Chelsea Gunn presents on project
+                sustainability.
 
 ## Outcome goals
 * Learn project management basics.
-* Gain familiarity with the project GitHub space.
+* Practice using GitHub and IDEs to manage your workflow.
 * Know your machine better.
-* Participants learn to create sustainability plans.
+* Initiate an eXist-db app using Yeoman and push it to GitHub.
+* Learn to create sustainability plans.
 
 ## Legend
 

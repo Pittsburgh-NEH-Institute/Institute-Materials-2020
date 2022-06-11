@@ -3,19 +3,17 @@
 <?xml-model href="master_schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
     <week num="1">
-        <title>Week 1</title>
+        <title>*Mise en place*: Planning your recipe, preparing your workstation, gathering
+            tools</title>
         <day d="Monday">
             <date>July 11, 2022</date>
-            <syn>>The Institute opens with a high-level view of the types of engagement required by
-                a textual editor, beginning (always!) from the research questions and leading to the
-                production of an actual edition. In session two we introduce the computational
-                pipeline as a way of modeling the development of a digital edition. The afternoon
-                sessions ground the morning’s theoretical work with a presentation of the research
-                goals and materials to be used in the laboratory edition. We discuss document
-                analysis and OCR as first steps in the editorial workflow. The special topic session
-                of this first day is reserved for participants to install the software packages
-                required to work on the laboratory edition, all of which will be provided by the
-                Institute.</syn>
+            <syn>>Fundamentals. The Institute opens with a high-level view of the types of
+                engagement required by a textual editor, beginning (always!) from the research
+                questions and leading to the production of an actual edition. In session two we
+                introduce the computational pipeline as a way of modeling project development. We
+                begin the afternoon by installing the software packages required for our Institute.
+                Finally, we discuss some exemplary digital editions and start using XQuery to
+                explore XML.</syn>
             <slot time="09:00:00">
                 <title>Getting started</title>
                 <desc>Introductions, research questions, schedules, outcome goals.</desc>
@@ -95,7 +93,8 @@
                 <act time="45" type="Discussion">
                     <desc>Exemplary digital editions.</desc>
                     <outcome>
-                        <goal>Participants explore the many decisions involved in conceptualizing a digital edition.</goal>
+                        <goal>Explore decisions involved in conceptualizing a digital
+                            edition.</goal>
                     </outcome>
                 </act>
                 <act time="45" type="Code_lab">
@@ -113,9 +112,11 @@
                 to translate edition goals into an implementation plan. We begin the day with Agile
                 project management, after which the version control system Git, its online
                 collaboration environment GitHub, and project file management best practice are
-                introduced. In the afternoon the participants apply these best practices while
-                setting up the file system in eXist-db. In the special topic session participants
-                explore the command line environment they will use to manage files.</syn>
+                introduced. We continue to develop our XQuery skills, introducing and practicing
+                FLWOR, in anticipation of applying them to edition development. In the afternoon the
+                participants apply these best practices while initializing an eXist-db app using
+                Yeoman. In a special topic session, Chelsea Gunn presents on project
+                sustainability.</syn>
             <slot time="09:00:00">
                 <title>Project management</title>
                 <desc>Introductions, research questions, schedules, outcome goals.</desc>
@@ -141,7 +142,7 @@
                 <act time="30" type="Presentation">
                     <desc>GitHub: code management, issues, projects, and Markdown.</desc>
                     <outcome>
-                        <goal>Gain familiarity with the project GitHub space.</goal>
+                        <goal>Practice using GitHub and IDEs to manage your workflow.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Presentation">
@@ -160,6 +161,7 @@
                     <desc>File management and command line basics.</desc>
                     <outcome>
                         <goal>Know your machine better.</goal>
+                        <goal>Initiate an eXist-db app using Yeoman and push it to GitHub.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Code_lab">
@@ -177,7 +179,7 @@
                 <act time="90" type="Presentation">
                     <desc>Planning for a sustainable digital edition.</desc>
                     <outcome>
-                        <goal>Participants learn to create sustainability plans.</goal>
+                        <goal>Learn to create sustainability plans.</goal>
                     </outcome>
                 </act>
             </slot>
@@ -185,15 +187,13 @@
         <day d="Wednesday">
             <date>July 13, 2022</date>
             <syn>Moving from model to implementation. The third day is devoted to developing the
-                digital editing workflow as a computational pipeline. Session one gives a high-level
-                overview of data models for documents, such as TEI XML, LMNL, and TAG. In session
-                two we discuss applications of the TEI to digital editions. In the afternoon the
-                focus remains on TEI, but extends to implementation, as participants perform
-                hands-on group markup activities based on the previous day’s document analysis. The
-                special topic session, led by guest lecturer Patrick Juola, professor of computer
-                science Duquesne University and developer of the open-source JGAAP stylometry
-                toolkit, introduces stylometry as an example of integrating statistical description
-                and evaluation into the perspectives exposed within an edition.</syn>
+                digital editing workflow as a computational pipeline. Session one extends the
+                command line skills introduced Tuesday. In session two we discuss applications of
+                modeling to our laboratory edition, explore alternatives to TEI, and encode a sample
+                document together. In the afternoon, we return to XQuery to create our first
+                computational step in the pipeline. In a special topic session, Patrick Juola
+                introduces stylometry as an example of integrating statistical description and
+                evaluation into the perspectives exposed within an edition.</syn>
             <slot time="09:00:00">
                 <title>Command line</title>
                 <desc>Practice navigating your file system and using tools at the command line,
@@ -218,7 +218,8 @@
                 <act time="30" type="Presentation">
                     <desc>Integrating model and workflow.</desc>
                     <outcome>
-                        <goal>Explore how data models and the computational pipeline work together.</goal>
+                        <goal>Explore how data models and the computational pipeline work
+                            together.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Presentation">
@@ -232,9 +233,10 @@
                 <act time="30" type="Code_lab">
                     <desc>Encoding data in TEI XML together in small groups.</desc>
                     <outcome>
-                        <goal>Explore the relationship between research questions and markup decisions.</goal>
+                        <goal>Explore the relationship between research questions and markup
+                            decisions.</goal>
                         <goal>Consider how the laboratory edition data might look different with
-                            different research questions and markup.</goal>  
+                            different research questions and markup.</goal>
                     </outcome>
                 </act>
 
@@ -271,20 +273,22 @@
         </day>
         <day d="Thursday">
             <date>July 14, 2022</date>
-            <syn>XQuery. Day four reimagines the edition in a research-driven way within a digital
-                environment. In session one we guide participants through installing an application
-                into eXist-db. In the afternoon, participants use these new skills by developing
-                their own XQuery to be implemented later in an eXist-db application framework. The
-                final session of the day will focus on collation.</syn>
+            <syn>XQuery in XML databases. Day four reimagines the edition in a research-driven way
+                within a digital environment. In the morning, we guide participants through
+                installing an application into eXist-db and exploring its indexes. In the afternoon,
+                participants practice these new skills by developing their own XQuery to be
+                implemented later in an eXist-db application framework. Next, we begin writing the
+                controller, which stitches together the data, the models, and eventually, the views.
+                The final session of the day will focus on collation.</syn>
             <slot time="09:00:00">
                 <title>XML databases and indexes</title>
                 <act time="30" type="Presentation">
-                    <desc>Databases have, at minimum, data and an index. Some apps also have queries
-                        and superstructure, which enables content management (CMS).</desc>
+                    <desc>Databases have at minimum data and a method of querying that data. Indexes
+                        enable direct and fast retrieval for querying the data.</desc>
                     <outcome>
                         <goal>Understand the benefits and limitations of XML databases.</goal>
-                        <goal>Become familiar with the many different types of indexes one can use
-                            in an XML database.</goal>
+                        <goal>Become familiar with the different types of indexes one can use in an
+                            XML database.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Code_lab">
@@ -306,12 +310,12 @@
                 </act>
             </slot>
             <slot time="11:00:00">
-                <title>Developing a feature</title>
+                <title>Developing the model to support a feature</title>
                 <act time="30" type="Code_lab">
-                    <desc>Add your facets and fields to the index and begin querying.</desc>
+                    <desc>Add your fields to the index and begin querying.</desc>
                     <outcome>
                         <goal>Become familiar with eXist-db index syntax.</goal>
-                        <goal>Understand facets and fields.</goal>
+                        <goal>Implement fields.</goal>
                     </outcome>
                 </act>
                 <act time="60" type="Code_lab">
@@ -319,7 +323,7 @@
                         develop into a feature.</desc>
                     <outcome>
                         <goal>Gain experience writing code aligned with research goals.</goal>
-                        <goal>Use MVC framework to output "model" data.</goal>
+                        <goal>Use MVC framework to output *model* data.</goal>
                     </outcome>
                 </act>
             </slot>
@@ -365,18 +369,17 @@
 
 
         <day d="Friday">
-            <date/>
+            <date>July 15, 2022</date>
             <syn>Collaborating on the edition. In session one we introduce the TEI ODD (One Document
                 Does it all), a mechanism for documenting customizations to the TEI for
                 project-specific purposes. Then, instructors lead small groups in applying ODD
                 modeling to the laboratory edition. In session two we introduce GitHub Projects, a
                 Kanban-style collaboration tool, and guide participants through debugging and
-                resolving merge conflicts in Git. In session three we introduce the use of eXist-db
-                as a Content Management System so as to prepare participants for active publication
-                development in week two. Guest lecturer Jeffrey Witt, General Editor of the
-                Scholastic Commentaries and Texts Archive, closes the day with a special topic
-                session on the International Image Interoperability Framework (IIIF), a
-                community-focused Linked Open Data (LOD) standard for image sharing.</syn>
+                resolving merge conflicts in Git. After exploring facets and fields on Thursday, we
+                present the Advanced search feature in its final form and discuss the development
+                journey for advanced features like this. A special topic session by Jeffrey Witt on
+                the International Image Interoperability Framework (IIIF), a community-focused
+                Linked Open Data (LOD) standard for image sharing, closes the day.</syn>
             <slot time="09:00:00">
                 <title>ODDs and collaborative encoding</title>
                 <act time="60" type="Discussion">
@@ -413,7 +416,8 @@
                 <act time="40" type="Presentation">
                     <desc>Branches and you.</desc>
                     <outcome>
-                        <goal>Understand tracking branches, development branches, pull requests as branches.</goal>
+                        <goal>Understand tracking branches, development branches, pull requests as
+                            branches.</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Code_lab">
@@ -433,7 +437,7 @@
             <slot time="14:00:00">
                 <title>Search functionality</title>
                 <act time="90" type="Presentation">
-                    <desc>Together as a group, we deconstruct and rewrite the app's search
+                    <desc>Together as a group, we deconstruct and rewrite the app’s search
                         functionality.</desc>
                     <outcome>
                         <goal>Understand the development algorithm for creating advanced
@@ -450,26 +454,27 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>International Image Interoperability Framework (IIIF) and Linked Open Data (LOD)</title>
+                <title>International Image Interoperability Framework (IIIF) and Linked Open Data
+                    (LOD)</title>
                 <act time="90" type="Presentation">
                     <desc>Jeffrey Witt presents on IIIF.</desc>
                 </act>
             </slot>
         </day>
     </week>
-  <week num="2">
-        <title>Week 2</title>
+    <week num="2">
+        <title>*Bon appétit!*: Plating, styling, and serving</title>
         <day d="Monday">
             <date>July 18, 2022</date>
-            <syn>Preparing for deployment. In week two, participants prepare the laboratory edition
+            <syn>Planning for deployment. In week two, participants prepare the laboratory edition
                 for publication, exposing the functionalities of querying, filtering, analyzing, and
                 transforming textual data. In session one, we take stock of the progress of our
                 collaborative edition and the work plan for completion. In session two we survey
                 publication options like TEI Publisher and CETEIcean with comparative reference to
                 GitHub Pages and the laboratory edition eXist-db implementation. In the afternoon,
-                participants practice transformations with XML technologies, focusing on control
-                over design and functionality. The day’s special topic session will be a
-                presentation on user experience and design by guest lecturer Shea Higgins.</syn>
+                we learn HTML and CSS fundamentals to support *view* development in the following
+                days. The special topic session will be a presentation on user experience and design
+                by guest lecturer Shea Higgins.</syn>
             <slot time="09:00:00">
                 <title>Retrospective and plans</title>
                 <act time="20" type="Discussion">
@@ -479,46 +484,48 @@
                     </outcome>
                 </act>
                 <act time="30" type="Talk_lab">
-                    <desc>Assess the project's current state and critique user experience.</desc>
+                    <desc>Assess the project’s current state and critique user experience.</desc>
                     <outcome>
                         <goal>Revisit scope and prevent scope creep.</goal>
                         <goal>Establish good collaborative critique practices.</goal>
                     </outcome>
                 </act>
                 <act time="40" type="Discussion">
-                    <desc>Identify tasks to-be-done, establish timelines, and consider possible roadblocks.</desc>
+                    <desc>Identify tasks to-be-done, establish timelines, and consider possible
+                        roadblocks.</desc>
                     <outcome>
                         <goal>Figure out your "get smart" tasks.</goal>
                         <goal>Plan next steps.</goal>
                     </outcome>
                 </act>
-                
+
             </slot>
-            
+
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-            
+
             <slot time="11:00:00">
                 <title>Digital edition frameworks (cake from a mix)</title>
                 <act time="90" type="Presentation">
-                    <desc>CETEIcean, TEI Publisher, EVT, GitHub Pages.</desc>
+                    <desc>CETEIcean, TEI Publisher, EVT, GitHub Pages, and their ilk.</desc>
                     <outcome>
-                        <goal>Assess benefits and limitations of frameworks vs bespoke editions.</goal>
+                        <goal>Assess benefits and limitations of frameworks vs bespoke
+                            editions.</goal>
                     </outcome>
                 </act>
             </slot>
-            
+
             <slot time="12:30:00">
                 <title>Lunch</title>
                 <act time="90">
                     <desc>Lunch</desc>
                 </act>
             </slot>
-            <!-- Typeswitch depends on HTML. We'll get back to XQuery tomorrow. -->
+            <!-- Typeswitch depends on HTML. We’ll get back to XQuery tomorrow. -->
             <slot time="14:00:00">
                 <title>HTML and CSS</title>
                 <act time="90" type="Code_lab">
@@ -542,60 +549,60 @@
                     <desc>Shea Higgins presents on designing for user experience (UX).</desc>
                 </act>
             </slot>
-           
-            
+
+
         </day>
-        
+
         <day d="Tuesday">
             <date>July 19, 2022</date>
-            <syn>Implementing publication strategies.** The morning is devoted to HTML and CSS,
-                which constitute the “view” aspect of the laboratory edition’s MVC architecture. In
-                session two, participants return to the application in eXist-db and gain experience
-                with application requirements. In the afternoon, participants deploy the first-draft
-                edition within eXist-db with a session that implements the model, view, and
-                controller together. To wrap up the day, we'll discuss unit testing and writing
-                functions.</syn>
-                
+            <syn>Implementing publication strategies. The morning is devoted to typeswitch, an
+                operator that helps us mimic XSLT template processing in XQuery. With typeswitch, we
+                begin to develop the *view* compenents of the laboratory edition’s MVC architecture.
+                In session two, participants return to the application in eXist-db and gain
+                experience with application requirements. In the afternoon, we introduce writing and
+                testing user-defined functions. To close out the day, we discuss mapping features
+                and use an external JavaScript library and API to create embed a map in our
+                application.</syn>
+
             <slot time="09:00:00">
                 <title>Creating views and using typeswitch</title>
                 <act time="90" type="Code_lab">
-                    <desc>Using typeswitch and local functions to create rich text reading views.</desc>
+                    <desc>Using typeswitch and local functions to create rich text reading
+                        views.</desc>
                     <outcome>
-                        <goal>Focus on the "view" in MVC in an eXist-db context.</goal>
-                        <goal>Introduce user-defined functions.</goal>
+                        <goal>Focus on the *view* in MVC in an eXist-db context.</goal>
                         <goal>Learn how to use `typeswitch` for dispatch.</goal>
                     </outcome>
                 </act>
             </slot>
-            
+
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-            
+
             <slot time="11:00:00">
                 <title>Putting MVC together</title>
                 <act time="90" type="Code_lab">
                     <desc>Participants see the Model, View, and Controller in action.</desc>
                     <outcome>
-                        <goal>Connect the data model and view by writing a controller.</goal>
+                        <goal>Connect the data model and view by enhancing the controller.</goal>
                     </outcome>
                 </act>
-            </slot> 
+            </slot>
             <slot time="12:30:00">
                 <title>Lunch</title>
                 <act time="90">
                     <desc>Lunch</desc>
                 </act>
-            </slot> 
+            </slot>
             <slot time="14:00:00">
                 <title>XQuery functions and unit testing</title>
                 <act time="75" type="Code_lab">
                     <desc>Writing and testing user-defined functions.</desc>
                     <outcome>
-                        <goal>Create good test writing habits.</goal>
                         <goal>Modularize your code with user-defined functions.</goal>
                         <goal>Write and run your first tests.</goal>
                         <goal>Create the gazetteer model for use later.</goal>
@@ -617,97 +624,97 @@
             <slot time="16:00:00">
                 <title>Visualizing our geodata and integrating external APIs</title>
                 <act time="30" type="Talk_lab">
-                    <desc>Revisit the model for our geodata and explore our ideas on how visual information can be displayed.</desc>
+                    <desc>Revisit the model for our geodata and explore our ideas on how visual
+                        information can be displayed.</desc>
                 </act>
                 <act time="15" type="Talk_lab">
                     <desc>Choose the right mapping tools for your project.</desc>
                     <outcome>
-                        <goal>Explore alternatives and methods.</goal>
                         <goal>Evaluate whether the best visualization for your data is a map.</goal>
                     </outcome>
                 </act>
                 <act time="45" type="Code_lab">
-                    <desc>Together, we integrate basic map functionality into the app using a mapping JS library.</desc>
+                    <desc>Together, we integrate basic map functionality into the app using a
+                        mapping JS library.</desc>
                     <outcome>
-                        <goal>Use external documentation and tutorials to create and adapt code for your project.</goal>
+                        <goal>Use external documentation and tutorials to create and adapt code for
+                            your project.</goal>
                         <goal>Introduce external APIs.</goal>
-                        <goal>Learn to use external API keys securely.</goal>
                     </outcome>
                 </act>
             </slot>
         </day>
-      
-      
+
+
         <day d="Wednesday">
             <date>July 20, 2022</date>
             <syn>Visualization and interactivity. On day three participants learn to communicate
                 information about data through interactive graphs and charts. In session one we
                 introduce Scalable Vector Graphics (SVG), an XML technology that allows users to
-                create data-driven charts and graphs with XQuery. In session two we introduce
-                JavaScript, which enables the user to modify the view within the browser. The
-                afternoon’s small-group hands-on session, with all instructors providing guidance,
-                inte- grates these techniques into the edition for publication, as participants
-                develop responsive, user-oriented visualizations exported and transformed from the
-                laboratory edition data. Guest lecturer Elisa Beshero-Bondar, Professor of Digital
-                Humanities at Penn State Erie, The Behrend College and Director of Digital Mitford,
-                will teach the first part of a special topic session on network analysis with
-                text.</syn>
+                create data-driven charts and graphs with XQuery. The afternoon’s small-group
+                hands-on session, with all instructors providing guidance, integrates these
+                techniques into the edition for publication, as participants develop responsive,
+                user-oriented visualizations exported and transformed from the laboratory edition
+                data. Guest lecturer Elisa Beshero-Bondar teaches an extended special topic session
+                on network analysis with text.</syn>
             <slot time="09:00:00">
                 <title>SVG basics</title>
                 <act time="15" type="Code_lab">
                     <desc>What is SVG and how does it work?</desc>
                     <outcome>
                         <goal>Understand that SVG is an XML vocabulary.</goal>
-                        <goal>Know the difference between vector graphics and raster graphics.</goal>
+                        <!--<goal>Know the difference between vector graphics and raster
+                            graphics.</goal>-->
                         <goal>Understand how SVG works with web technologies.</goal>
                     </outcome>
                 </act>
                 <act time="15" type="Code_lab">
                     <desc>The SVG coordinate space.</desc>
                     <outcome>
-                        <goal>Differentiate SVG axes from Cartesian X and Y axes.</goal>
-                        <goal>Think about the axes as infinite space, and the viewport as a window onto that space.</goal>
-                        <goal>Learn how to move and resize the viewport.</goal>
+                        <!-- <goal>Differentiate SVG axes from Cartesian X and Y axes.</goal>-->
+                        <goal>Think about the axes as infinite space, and the viewport as a window
+                            onto that space.</goal>
+                        <!-- <goal>Learn how to move and resize the viewport.</goal>-->
                     </outcome>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>SVG basic shapes.</desc>
                     <outcome>
                         <goal>Draw and style shapes, lines, and text with SVG.</goal>
-                        <goal>Understand the Z axis.</goal>
+                        <!--<goal>Understand the Z axis.</goal>-->
                     </outcome>
                 </act>
                 <act time="30" type="Talk_lab">
                     <desc>Planning a bar chart.</desc>
                     <outcome>
-                        <goal>Discuss charting patterns and anti-patterns.</goal>
-                        <goal>Inventory bar chart components.</goal>
+                        <!--<goal>Discuss charting patterns and anti-patterns.</goal>
+                        <goal>Inventory bar chart components.</goal>-->
                         <goal>Draw the bar chart superstructure: axes and labels.</goal>
                         <goal>Draw, position, and label the rectangles (use variables!).</goal>
                     </outcome>
                 </act>
-               
+
             </slot>
-            
+
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-            
+
             <slot time="11:00:00">
                 <title>Creating SVG visualizations for the edition</title>
                 <act time="90" type="Code_lab">
                     <desc>Implement the planned visualization using the model.</desc>
                 </act>
-            </slot> 
+            </slot>
             <slot time="12:30:00">
                 <title>Lunch</title>
                 <act time="90">
                     <desc>Lunch</desc>
                 </act>
-            </slot> 
+            </slot>
             <slot time="14:00:00">
                 <title>Introducing network analysis</title>
                 <act time="25" type="Presentation">
@@ -744,25 +751,26 @@
                 </act>
             </slot>
         </day>
-      
+
         <day d="Thursday">
             <date>July 21, 2022</date>
-            <syn>Data access and APIs.** The morning sessions focus on accommodating both the
+            <syn>Data access and APIs. The morning sessions focus on accommodating both the
                 developer-user and the eventual end-user. First, participants learn to collaborate
-                over GitHub through issues and pull requests. In the second session we introduce
+                using branches and implement semantic versioning. In the second session we introduce
                 Application Programming Interfaces (APIs). The afternoon’s session allows
-                participants to develop a collaborative starter API for the laboratory edition,
-                which we will be able to publish and use that day. The final session is reserved for
-                review and catch-up.</syn>
+                participants to profile and optimize their queries using Monex. The final session is
+                reserved for review and catch-up.</syn>
             <slot time="09:00:00">
-                <title>Review and practice: version control and project management with git and GitHub.</title>
-                <act time="30" type="Code_lab">
-                    <desc>Development and feature branches, tracking branches, and branch strategies.</desc>
+                <title>Review and practice: version control and project management with git and
+                    GitHub.</title>
+                <act time="40" type="Code_lab">
+                    <desc>Development and feature branches, tracking branches, and branch
+                        strategies.</desc>
                     <outcome>
                         <goal>Use branches effectively.</goal>
                     </outcome>
                 </act>
-                <act time="30" type="Presentation">
+                <act time="20" type="Presentation">
                     <desc>Releases and semantic versioning.</desc>
                     <outcome>
                         <goal>Learn about version numbering.</goal>
@@ -771,16 +779,16 @@
                 <act time="30" type="Discussion">
                     <desc>Project management reflections and planning our own projects.</desc>
                 </act>
-                
+
             </slot>
-            
+
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-            
+
             <slot time="11:00:00">
                 <title>API + API docs</title>
                 <act time="30" type="Presentation">
@@ -788,22 +796,24 @@
                     <outcome>
                         <goal>Understand CRUD, nouns, and verbs.</goal>
                         <goal>Understand REST, HTTP, and URIs.</goal>
-                        <goal>Make an API call to [eXist-db](https://exist-db.org/exist/apps/doc/devguide_rest).</goal>
+                        <goal>Make an API call to
+                            [eXist-db](https://exist-db.org/exist/apps/doc/devguide_rest).</goal>
                     </outcome>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>Our verb and noun choices, how we made them, what we might have done differently.</desc>
+                    <desc>Our verb and noun choices, how we made them, what we might have done
+                        differently.</desc>
                 </act>
                 <act time="30" type="Talk_lab">
                     <desc>Collaborative documentation writing.</desc>
                 </act>
-            </slot> 
+            </slot>
             <slot time="12:30:00">
                 <title>Lunch</title>
                 <act time="90">
                     <desc>Lunch</desc>
                 </act>
-            </slot> 
+            </slot>
             <slot time="14:00:00">
                 <title>Improving indexes using Monex</title>
                 <act time="30" type="Presentation">
@@ -818,6 +828,9 @@
                 <act time="20" type="Code_lab">
                     <desc>Optimizing queries.</desc>
                 </act>
+                <outcome>
+                    <goal>Learn to optimize queries.</goal>
+                </outcome>
             </slot>
             <slot time="15:30:00">
                 <title>Coffee break</title>
@@ -828,44 +841,48 @@
             <slot time="16:00:00">
                 <title>Catchup session</title>
                 <act time="90" type="Code_lab">
-                    <desc>Participants' choice.</desc>
+                    <desc>Participants’ choice.</desc>
                 </act>
             </slot>
         </day>
-     
+
         <day d="Friday">
-            <date/>
-            <syn>Finishing up. In the first session, participants will discuss and reflect upon the
-                modeling choices made in development of the laboratory edition. These choices
-                influence every part of the edition workflow, which participants will explore as
-                they present on the interfaces, visualizations, and features they developed as part
-                of their hands-on sessions, as well as their plans to apply their new skills to
-                their own edition work. Finally, we survey resources for further education, and also
-                allocate one-on-one time with instructors for participants to discuss application of
-                what they have learned and developed in the Institute into their own editions.</syn>
+            <date>July 22, 2022</date>
+            <syn>Finishing up (dessert and coffee?). In the first session, participants will discuss
+                and reflect upon the modeling choices made in development of the laboratory edition.
+                These choices influence every part of the edition workflow, which participants will
+                explore as they present on the interfaces, visualizations, and features they
+                developed as part of their hands-on sessions, as well as their plans to apply their
+                new skills to their own edition work. Finally, we survey resources for further
+                education, and participants have the opportunity to present to the whole group about
+                their application of Institute concepts in their own editions.</syn>
             <slot time="09:00:00">
                 <title>Modeling choices</title>
                 <act time="20" type="Discussion">
                     <desc>Why we did what we did, and how we decided to do it.</desc>
                 </act>
                 <act time="20" type="Discussion">
-                    <desc>What we'd do differently.</desc>
+                    <desc>What we’d do differently.</desc>
                 </act>
                 <act time="20" type="Discussion">
-                    <desc>What we'd do next.</desc>
+                    <desc>What we’d do next.</desc>
                 </act>
                 <act time="30" type="Talk_lab">
-                    <desc>Examining modeling choices from exemplary editions using what we know now.</desc>
+                    <desc>Examining modeling choices from exemplary editions using what we know
+                        now.</desc>
                 </act>
+                <outcome>
+                    <goal>Revisit conceptual decisions and alternatives.</goal>
+                </outcome>
             </slot>
-            
+
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-            
+
             <slot time="11:00:00">
                 <title>Implementation choices</title>
                 <act time="20" type="Discussion">
@@ -886,18 +903,24 @@
                 <act time="10" type="Discussion">
                     <desc>Why use VSCode? What could we have used instead?</desc>
                 </act>
-            </slot> 
+                <outcome>
+                    <goal>Revisit technical decisions and alternatives.</goal>
+                </outcome>
+            </slot>
             <slot time="12:30:00">
                 <title>Lunch</title>
                 <act time="90">
                     <desc>Lunch</desc>
                 </act>
-            </slot> 
+            </slot>
             <slot time="14:00:00">
                 <title>Your edition</title>
                 <act time="90" type="Talk_lab">
                     <desc>Workshop participant editions.</desc>
                 </act>
+                <outcome>
+                    <goal>Collaborate on your edition ideas with other participants.</goal>
+                </outcome>
             </slot>
             <slot time="15:30:00">
                 <title>Coffee break</title>
@@ -910,6 +933,9 @@
                 <act time="90" type="Talk_lab">
                     <desc>Participants present their editions.</desc>
                 </act>
+                <outcome>
+                    <goal>Present your own edition.</goal>
+                </outcome>
             </slot>
         </day>
     </week>
