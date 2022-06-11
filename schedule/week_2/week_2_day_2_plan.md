@@ -10,6 +10,20 @@ Implementing publication strategies.** The morning is devoted to HTML and CSS,
                 functions.
 
 ## Outcome goals
+* Focus on the "view" in MVC in an eXist-db context.
+* Introduce user-defined functions.
+* Learn how to use `typeswitch` for dispatch.
+* Connect the data model and view by writing a controller.
+* Create good test writing habits.
+* Modularize your code with user-defined functions.
+* Write and run your first tests.
+* Create the gazetteer model for use later.
+* Learn how CI can alert you about regressions.
+* Explore alternatives and methods.
+* Evaluate whether the best visualization for your data is a map.
+* Use external documentation and tutorials to create and adapt code for your project.
+* Introduce external APIs.
+* Learn to use external API keys securely.
 
 ## Legend
 
@@ -39,14 +53,17 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | placeholder. | Code lab
+75 min | Writing and testing user-defined functions. | Code lab
+15 min | Continuous integration (CI). | Code lab
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Mapping and integrating external APIs
+## 4:00–5:30: Visualizing our geodata and integrating external APIs
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | placeholder. | Code lab
+30 min | Revisit the model for our geodata and explore our ideas on how visual information can be displayed. | Talk lab
+15 min | Choose the right mapping tools for your project. | Talk lab
+45 min | Together, we integrate basic map functionality into the app using a mapping JS library. | Code lab
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

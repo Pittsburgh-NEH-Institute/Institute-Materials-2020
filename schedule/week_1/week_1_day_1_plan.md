@@ -18,7 +18,7 @@
 * Set expectations for institute.
 * Set goals. Practice describing goals.
 * Understand base view processing and EDA.
-* Every participant understands our software choice rationale and has installed all required software.
+* Participants explore the many decisions involved in conceptualizing a digital edition.
 * Introduce XQuery with Shakespeare TEI in eXide.
 
 ## Legend
@@ -60,11 +60,11 @@ Time | Topic | Type
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Software installation (continued)
+## 4:00–5:30: XQuery and digital editions
 
 Time | Topic | Type
 ---- | ---- | ---- 
-60 min | Software installation. | Code lab
-30 min | Exploratory data analysis in eXide. | Code lab
+45 min | Exemplary digital editions. | Discussion
+45 min | Exploratory data analysis in eXide. | Code lab
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

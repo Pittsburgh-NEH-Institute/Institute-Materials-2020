@@ -40,7 +40,7 @@ Time | Topic | Type
 ---- | ---- | ---- 
 30 min | Git: introduce and begin to use version control software. | Presentation
 30 min | GitHub: code management, issues, projects, and Markdown. | Presentation
-30 min | XQuery: introduce FLWOR. | Code lab
+30 min | XQuery: introduce FLWOR. | Presentation
 
 ## 12:30–2:00: Lunch
 
@@ -53,10 +53,10 @@ Time | Topic | Type
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Special topic: Sustainability with Alison Langmead
+## 4:00–5:30: Special topic: Sustainability with Chelsea Gunn
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Software installation. | Code lab
+90 min | Planning for a sustainable digital edition. | Presentation
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

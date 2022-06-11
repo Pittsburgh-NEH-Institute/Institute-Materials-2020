@@ -12,11 +12,15 @@ Preparing for deployment. In week two, participants prepare the laboratory editi
                 presentation on user experience and design by guest lecturer Shea Higgins.
 
 ## Outcome goals
-* Highlight progress.
+* Take stock and plan the next steps.
 * Revisit scope and prevent scope creep.
 * Establish good collaborative critique practices.
 * Figure out your "get smart" tasks.
 * Plan next steps.
+* Assess benefits and limitations of frameworks vs bespoke editions.
+* Learn about important HTML elements and attributes.
+* Learn about CSS selectors, properties, and values.
+* Learn how to associate CSS with HTML files.
 
 ## Legend
 
@@ -30,7 +34,7 @@ Preparing for deployment. In week two, participants prepare the laboratory editi
 
 Time | Topic | Type
 ---- | ---- | ---- 
-20 min | Looking back on week 1's work. | Discussion
+20 min | Looking back on week 1. | Discussion
 30 min | Assess the project's current state and critique user experience. | Talk lab
 40 min | Identify tasks to-be-done, establish timelines, and consider possible roadblocks. | Discussion
 
@@ -56,6 +60,6 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Shea Higgins presents on UX design. | Presentation
+90 min | Shea Higgins presents on designing for user experience (UX). | Presentation
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
