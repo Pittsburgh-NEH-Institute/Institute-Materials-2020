@@ -44,7 +44,7 @@ Time | Topic | Type
 
 ## 12:30–2:00: Lunch
 
-## 2:00–3:30: Improving indexes using Monex
+## 2:00–3:30: Database indexes, queries, and profiling
 
 Time | Topic | Type
 ---- | ---- | ---- 

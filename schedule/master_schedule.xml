@@ -493,16 +493,13 @@
                         <goal>Plan next steps.</goal>
                     </outcome>
                 </act>
-
             </slot>
-
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-
             <slot time="11:00:00">
                 <title>Digital edition frameworks (cake from a mix)</title>
                 <act time="90" type="Presentation">
@@ -513,7 +510,6 @@
                     </outcome>
                 </act>
             </slot>
-
             <slot time="12:30:00">
                 <title>Lunch</title>
                 <act time="90">
@@ -544,8 +540,6 @@
                     <desc>Shea Higgins presents on designing for user experience (UX).</desc>
                 </act>
             </slot>
-
-
         </day>
         <day d="Tuesday">
             <date>July 19, 2022</date>
@@ -685,16 +679,13 @@
                         <goal>Draw, position, and label the rectangles (use variables!).</goal>
                     </outcome>
                 </act>
-
             </slot>
-
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-
             <slot time="11:00:00">
                 <title>Creating SVG visualizations for the edition</title>
                 <act time="90" type="Code_lab">
@@ -768,9 +759,7 @@
                 <act time="30" type="Discussion">
                     <desc>Project management reflections and planning our own projects.</desc>
                 </act>
-
             </slot>
-
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
@@ -802,7 +791,7 @@
                 </act>
             </slot>
             <slot time="14:00:00">
-                <title>Improving indexes using Monex</title>
+                <title>Database indexes, queries, and profiling</title>
                 <act time="30" type="Presentation">
                     <desc>Understanding eXist-db indexing.</desc>
                 </act>
