@@ -50,15 +50,6 @@ Digital humanists already have access to workshops and tutorials to help them le
     <tr style="border: none;">
         <td style="border: none;">
             <a href="http://www.exist-db.org">
-                <img align="left" src="images/oxygen190x62.png" alt="eXist-db" class="rpad" width="156px"
-                />
-            </a>
-        </td>
-        <td style="vertical-align: middle; border: none;">We are grateful to <a href="http://www.sync.ro/">SyncroSoft</a> for generously contributing complimentary extended trial licenses for their <a href="https://www.oxygenxml.com/">&lt;oXygen/&gt; XML editor</a> for the use of Institute participants.</td>
-    </tr>
-    <tr style="border: none;">
-        <td style="border: none;">
-            <a href="http://www.exist-db.org">
                 <img align="left" src="images/existdb.gif" alt="eXist-db" class="rpad" width="156px"
                 />
             </a>
