@@ -1,8 +1,4 @@
----
-permalink: /call/
----
-
-# Call for Applications (updated 2022-01-15)
+# Call for Applications (updated 2022-06-12)
 ## Advanced digital editing: modeling the text and making the edition
 
 ### A summer 2022 NEH Institute for Advanced Topics in the Digital Humanities 
@@ -46,7 +42,7 @@ The Institute will introduce textual and manuscript scholars to a powerful and b
 
 * Beshero-Bondar, Elisa (University of Pittsburgh, social network analysis) 
 * Juola, Patrick (Duquesne University; stylometry and authorship attribution) 
-* Langmead, Alison (University of Pittsburgh, sustainability) 
+* Gunn, Chelsea (University of Pittsburgh, sustainability) 
 * Higgins, Shea (University of Pittsburgh, architecture, UX, UI, and visualization) 
 * Witt, Jeffrey (Loyola University Maryland; IIIF) 
 
