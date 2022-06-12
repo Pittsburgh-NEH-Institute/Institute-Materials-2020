@@ -4,6 +4,27 @@
 ### Rationale
 Digital humanists already have access to workshops and tutorials to help them learn to transcribe, edit, and tag a text in preparation for publishing a digital edition. Nonetheless, sophisticated markup expertise alone is not enough to make an edition, and learning nothing more than tagging may leave scholars staring at their angle brackets and wondering what to do next. Digital humanists cannot build editions that break methodological ground solely on the basis of solutions prepared largely by others, and the focus of this Institute is on the creation of digital editions motivated by project-specific research questions and implemented from a perspective driven first by theory of edition, second by editorial methodology, and necessarily but less importantly by specific toolkits. In this respect, this Institute recognizes thinking digitally in ways driven by project-specific research goals as the most important feature of sustainable Digital Humanities training and education.
 
+
+### Instructors
+
+<table>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Anderson picture]"/></td><td style="vertical-align: middle">Clifford Anderson<br/>Vanderbilt University</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Birnbaum picture]"/></td><td style="vertical-align: middle">David J. Birnbaum<hr/>Institute Director<br/>University of Pittsburgh</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Bleeker picture]"/></td><td style="vertical-align: middle">Elli Bleeker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Cayless picture]"/></td><td style="vertical-align: middle">Hugh Cayless<br/>Duke University</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Gabrielle (Gabi) Keane<br/>TBA</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Ronald Haentjens Dekker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Olsson picture]"/></td><td style="vertical-align: middle">Leif-Jöran Olsson<br/>University of Gothenburg</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Rowell picture]"/></td><td style="vertical-align: middle">Chelsea Rowell<br/>Tufts University</td></tr>
+</table>
+
+The instructors will be assisted by:
+
+<table>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Gobat picture]"/></td><td style="vertical-align: middle">Mason Gobat<br/>Institute Assistant<br/>University of Pittsburgh</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Schwarz image]"/></td><td style="vertical-align: middle">Emma Schwarz<br/>Senior Institute Assistant<br/>TBA</td></tr>
+</table>
+
 ### Acknowledgements
 <table style="border: none;">
     <tr style="border: none;">
