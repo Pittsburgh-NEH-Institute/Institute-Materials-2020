@@ -18,11 +18,21 @@ Digital humanists already have access to workshops and tutorials to help them le
 <tr><td><img src="images/ghost.png" width="200px" alt="[Rowell picture]"/></td><td style="vertical-align: middle">Chelcie Rowell<br/>Tufts University</td></tr>
 </table>
 
-The instructors will be assisted by:
+### Assistants
 
 <table>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Gobat picture]"/></td><td style="vertical-align: middle">Mason Gobat<br/>Institute Assistant<br/>University of Pittsburgh</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Schwarz image]"/></td><td style="vertical-align: middle">Emma Schwarz<br/>Senior Institute Assistant<br/>University of Pittsburgh</td></tr>
+</table>
+
+### Guest lecturers
+
+<table>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Beshero-Bondar picture]"/></td><td style="vertical-align: middle">Elisa Beshero-Bondar<br/>Penn State Erie, the Behrend College</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Gunn picture]"/></td><td style="vertical-align: middle">Chelsea Gunn<br/>University of Pittsburgh</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Higgins picture]"/></td><td style="vertical-align: middle">Shea Higgins<br/>TBA</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Juola image]"/></td><td style="vertical-align: middle">Patrick Juola<br/>Duquesne University</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Witt picture]"/></td><td style="vertical-align: middle">Jeffrey Witt<br/>Loyola University</td></tr>
 </table>
 
 ### Acknowledgements
