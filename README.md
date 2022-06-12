@@ -22,7 +22,7 @@ The instructors will be assisted by:
 
 <table>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Gobat picture]"/></td><td style="vertical-align: middle">Mason Gobat<br/>Institute Assistant<br/>University of Pittsburgh</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Schwarz image]"/></td><td style="vertical-align: middle">Emma Schwarz<br/>Senior Institute Assistant<br/>TBA</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Schwarz image]"/></td><td style="vertical-align: middle">Emma Schwarz<br/>Senior Institute Assistant<br/>University of Pittsburgh</td></tr>
 </table>
 
 ### Acknowledgements
