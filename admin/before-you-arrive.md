@@ -13,7 +13,7 @@ official [GSA rate](https://www.gsa.gov/travel/plan-book/transportation-airfare-
  
 ## Software installation
 
-Before you arrive please [install the software](installs.md) we will use during the Institute. We have allocated time during the first day to
+Before you arrive please [install the software](../ref/installs.md) we will use during the Institute. We have allocated time during the first day to
 ensure that participants are able to install all software successfully, so don’t worry if you get stuck, but anything that you can install 
 ahead of time will help us move on to using the software more quickly. 
 
