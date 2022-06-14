@@ -30,7 +30,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 <table>
 <tr><td><img src="images/beshero-bondar.jpg" width="200px" alt="[Beshero-Bondar picture]"/></td><td style="vertical-align: middle">Elisa Beshero-Bondar<br/>Penn State Erie, The Behrend College</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Gunn picture]"/></td><td style="vertical-align: middle">Chelsea Gunn<br/>University of Pittsburgh</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Higgins picture]"/></td><td style="vertical-align: middle">Shea Higgins<br/>TBA</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Higgins picture]"/></td><td style="vertical-align: middle">Shea Higgins<br/>The International Parkinson and Movement Disorder Society</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Juola image]"/></td><td style="vertical-align: middle">Patrick Juola<br/>Duquesne University</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Witt picture]"/></td><td style="vertical-align: middle">Jeffrey Witt<br/>Loyola University</td></tr>
 </table>
