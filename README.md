@@ -15,7 +15,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 <tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Ronald Haentjens Dekker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Gabrielle (Gabi) Keane<br/>TBA</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Olsson picture]"/></td><td style="vertical-align: middle">Leif-Jöran Olsson<br/>University of Gothenburg</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Rowell picture]"/></td><td style="vertical-align: middle">Chelcie Rowell<br/>Tufts University</td></tr>
+<tr><td><img src="images/rowell.jpg" width="200px" alt="[Rowell picture]"/></td><td style="vertical-align: middle">Chelcie Rowell<br/>Tufts University</td></tr>
 </table>
 
 ### Assistants
