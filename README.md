@@ -10,12 +10,12 @@ Digital humanists already have access to workshops and tutorials to help them le
 <table>
 <tr><td><img src="images/anderson.jpg" width="200px" alt="[Anderson picture]"/></td><td style="vertical-align: middle">Clifford Anderson<br/>Vanderbilt University</td></tr>
 <tr><td><img src="images/birnbaum.jpg" width="200px" alt="[Birnbaum picture]"/></td><td style="vertical-align: middle">David J. Birnbaum<br/>Institute Director<br/>University of Pittsburgh</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Bleeker picture]"/></td><td style="vertical-align: middle">Elli Bleeker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
+<tr><td><img src="images/bleeker.png" width="200px" alt="[Bleeker picture]"/></td><td style="vertical-align: middle">Elli Bleeker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Cayless picture]"/></td><td style="vertical-align: middle">Hugh Cayless<br/>Duke University</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Ronald Haentjens Dekker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Gabrielle (Gabi) Keane<br/>TBA</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Olsson picture]"/></td><td style="vertical-align: middle">Leif-Jöran Olsson<br/>University of Gothenburg</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Rowell picture]"/></td><td style="vertical-align: middle">Chelcie Rowell<br/>Tufts University</td></tr>
+<tr><td><img src="images/rowell.jpg" width="200px" alt="[Rowell picture]"/></td><td style="vertical-align: middle">Chelcie Rowell<br/>Tufts University</td></tr>
 </table>
 
 ### Assistants
@@ -32,7 +32,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 <tr><td><img src="images/ghost.png" width="200px" alt="[Gunn picture]"/></td><td style="vertical-align: middle">Chelsea Gunn<br/>University of Pittsburgh</td></tr>
 <tr><td><img src="images/higgins.jpg" width="200px" alt="[Higgins picture]"/></td><td style="vertical-align: middle">Shea Higgins<br/>The International Parkinson and Movement Disorder Society</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Juola image]"/></td><td style="vertical-align: middle">Patrick Juola<br/>Duquesne University</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Witt picture]"/></td><td style="vertical-align: middle">Jeffrey Witt<br/>Loyola University</td></tr>
+<tr><td><img src="images/witt.jpg" width="200px" alt="[Witt picture]"/></td><td style="vertical-align: middle">Jeffrey Witt<br/>Loyola University</td></tr>
 </table>
 
 ### Acknowledgements
@@ -80,13 +80,21 @@ Digital humanists already have access to workshops and tutorials to help them le
     </tr>
     <tr style="border: none;">
         <td style="border: none;">
+            <a href="https://codhr.dh.tamu.edu">
+                <img align="left" src="images/exist-book-cover.png" alt="eXist-db book cover" class="rpad" width="156px"
+                />
+            </a>
+        </td>
+        <td style="vertical-align: middle; border: none;">We are grateful to Erik Siegel (of <a href="http://xatapult.nl/">Xatapult</a>) and Adam Retter (of <a href="https://www.evolvedbinary.com/">Evolved Binary</a>), for generously contributing complimentary copies of the eXist book for the use of Institute participants.</td>
+    </tr>
+    <tr style="border: none;">
+        <td style="border: none;">
             <a href="http://www.exist-db.org">
                 <img align="left" src="images/existdb.gif" alt="eXist-db" class="rpad" width="156px"
                 />
             </a>
         </td>
         <td style="vertical-align: middle; border: none;">eXist-db is an open source native XML database
-        		and application platform. <a href="http://teipublisher.com/">TEI Publisher</a> is an open 
-        		source product of <a href="http://www.existsolutions.com/">eXist Solutions</a>.</td>
+        		and application platform.</td>
     </tr>
 </table>

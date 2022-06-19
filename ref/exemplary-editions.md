@@ -13,6 +13,7 @@ The following editions were chosen not only because of their quality, but also b
 
 
 ## Textual criticism
+
 * The Institute for New Testament Textual Research (INTF) documents and studies the textual tradition of the New Greek Testament (<http://egora.uni-muenster.de/intf/projekte/projekte_en.shtml>). The New Greek Testament poses special challenges to automated collation because of the unusually large number of witnesses involved in textual criticism of the New Testament. 
 * **Shebanq project** (<https://shebanq.ancient-data.org/>). This edition of the Hebrew Bible, which won a prize from CLARIN-NL, uses a custom made text database (using a graph-like structure) and text query language (MQL). Documentation: <https://shebanq.ancientdata.org/shebanq/static/docs/featuredoc/texts/welcome.html>
 * **St. Patrick’s Confession** (<http://www.confessio.ie/about/hyperstack>). The the St Patrick’s _Confessio_ Hypertext Stack Project goes a long way toward providing an integrated perspective on scholarly editing and digital technology/methodology. Multiple versions of the _Confessio_ are transcribed in TEI XML and brought together with as a multilayered edition in a HyperStack architecture. The ["About"-section](https://www.confessio.ie/about/hyperstack#) of the edition is particularly informative about the technichal approach.
@@ -21,11 +22,14 @@ The following editions were chosen not only because of their quality, but also b
 
 
 ## Large corpora
+
 * **The Old Bailey Online** (<https://www.oldbaileyonline.org/index.jsp>) is a digitized collection of nearly 2000,000 transcribed trial records of the men and women convicted in London (UK) between 1676 and 1772. The overall project has a pedagogical orientation as it offers multiple tutorials, research guides, and teaching material. There's an impressive [range](https://www.oldbaileyonline.org/static/Projects.jsp) of digital projects that have made succesfull use of the Old Bailey data (available as TEI-XML or API), e.g., a linguistic corpus of spoken English from 1720 to 1913. 
 * **Thomas Gray Archive** (<http://www.thomasgray.org/cgi-bin/display.cgi?text=elcc#panel_ana>). The metrical and other structures underlying poetic texts constitute an annotation layer that may be difficult to integrate into a textual publication. This edition of the complete works of Thomas Grey (prose, poetry, correspondence, *and* the author's reading material) is enriched with a computationally facilitated analysis of the text, with richer commentary exposed in the notes and queries.
+* **Peter Plaoul, Commentarius in libros Sententiarum, de Fide** (<https://scta.lombardpress.org/text?resourceid=http://scta.info/resource/lectio1>) presents information from TEI XML transcriptions of Peter Plaoul’s *Commentary on the Sentences of Peter Lombard*. This edition integrates data and document views from multiple witnesses in both transcription and facsimile, and the best way to learn about it is to click on different moments in the text and experiment with the different interface widgets..
 
 
 ## Correspondence
+
 * **Van Gogh Letters** (<http://vangoghletters.org/vg/>) offer a subtle but powerful navigational platform for exploring Van Gogh’s correspondence, and can serve as an example of how developer perspectives and user affordances can be combined to support user-directed exploration.
 * **Welscher Gast digital project** (<http://digi.ub.uni-heidelberg.de/wgd/>) is impressive for its linking of text to iconography in illustrations.
 * **The Darwin Project** (<https://www.darwinproject.ac.uk/>) presents a comprehensive digital edition of the thousands of letters from and to Charles Darwin. The website offers an intuitive search functionality to explore the corpus of letters as well as useful historical background in the form of explanatory notes and extensive contextual essays.
