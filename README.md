@@ -11,7 +11,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 <tr><td><img src="images/anderson.jpg" width="200px" alt="[Anderson picture]"/></td><td style="vertical-align: middle">Clifford Anderson<br/>Vanderbilt University</td></tr>
 <tr><td><img src="images/birnbaum.jpg" width="200px" alt="[Birnbaum picture]"/></td><td style="vertical-align: middle">David J. Birnbaum<br/>Institute Director<br/>University of Pittsburgh</td></tr>
 <tr><td><img src="images/bleeker.png" width="200px" alt="[Bleeker picture]"/></td><td style="vertical-align: middle">Elli Bleeker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Cayless picture]"/></td><td style="vertical-align: middle">Hugh Cayless<br/>Duke University</td></tr>
+<tr><td><img src="images/cayless.jpg" width="200px" alt="[Cayless picture]"/></td><td style="vertical-align: middle">Hugh Cayless<br/>Duke University</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Ronald Haentjens Dekker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Gabrielle (Gabi) Keane<br/>TBA</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Olsson picture]"/></td><td style="vertical-align: middle">Leif-Jöran Olsson<br/>University of Gothenburg</td></tr>
