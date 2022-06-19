@@ -80,6 +80,15 @@ Digital humanists already have access to workshops and tutorials to help them le
     </tr>
     <tr style="border: none;">
         <td style="border: none;">
+            <a href="https://codhr.dh.tamu.edu">
+                <img align="left" src="images/exist-book-cover.png" alt="eXist-db book cover" class="rpad" width="156px"
+                />
+            </a>
+        </td>
+        <td style="vertical-align: middle; border: none;">We are grateful to Erik Siegel (of <a href="http://xatapult.nl/">Xatapult</a>) and Adam Retter (of <a href="https://www.evolvedbinary.com/">Evolved Binary</a>), for generously contributing complimentary copies of the eXist book for the use of Institute participants.</td>
+    </tr>
+    <tr style="border: none;">
+        <td style="border: none;">
             <a href="http://www.exist-db.org">
                 <img align="left" src="images/existdb.gif" alt="eXist-db" class="rpad" width="156px"
                 />
