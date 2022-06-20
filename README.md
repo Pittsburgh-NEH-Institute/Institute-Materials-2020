@@ -12,7 +12,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 <tr><td><img src="images/birnbaum.jpg" width="200px" alt="[Birnbaum picture]"/></td><td style="vertical-align: middle">David J. Birnbaum<br/>Institute Director<br/>University of Pittsburgh</td></tr>
 <tr><td><img src="images/bleeker.png" width="200px" alt="[Bleeker picture]"/></td><td style="vertical-align: middle">Elli Bleeker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
 <tr><td><img src="images/cayless.jpg" width="200px" alt="[Cayless picture]"/></td><td style="vertical-align: middle">Hugh Cayless<br/>Duke University</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Ronald Haentjens Dekker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
+<tr><td><img src="images/dekker.png" width="200px" alt="[Dekker picture]"/></td><td style="vertical-align: middle">Ronald Haentjens Dekker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Gabrielle (Gabi) Keane<br/>TBA</td></tr>
 <tr><td><img src="images/ghost.png" width="200px" alt="[Olsson picture]"/></td><td style="vertical-align: middle">Leif-Jöran Olsson<br/>University of Gothenburg</td></tr>
 <tr><td><img src="images/rowell.jpg" width="200px" alt="[Rowell picture]"/></td><td style="vertical-align: middle">Chelcie Rowell<br/>Tufts University</td></tr>
@@ -21,8 +21,8 @@ Digital humanists already have access to workshops and tutorials to help them le
 ### Assistants
 
 <table>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Gobat picture]"/></td><td style="vertical-align: middle">Mason Gobat<br/>Institute Assistant<br/>University of Pittsburgh</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Schwarz image]"/></td><td style="vertical-align: middle">Emma Schwarz<br/>Senior Institute Assistant<br/>University of Pittsburgh</td></tr>
+<tr><td><img src="images/gobat.png" width="200px" alt="[Gobat picture]"/></td><td style="vertical-align: middle">Mason Gobat<br/>Institute Assistant<br/>University of Pittsburgh</td></tr>
+<tr><td><img src="images/ghost.png" width="200px" alt="[Schwarz picture]"/></td><td style="vertical-align: middle">Emma Schwarz<br/>Senior Institute Assistant<br/>University of Pittsburgh</td></tr>
 </table>
 
 ### Guest lecturers
