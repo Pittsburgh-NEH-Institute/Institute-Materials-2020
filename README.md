@@ -85,7 +85,7 @@ Digital humanists already have access to workshops and tutorials to help them le
                 />
             </a>
         </td>
-        <td style="vertical-align: middle; border: none;">We are grateful to Erik Siegel (of <a href="http://xatapult.nl/">Xatapult</a>) and Adam Retter (of <a href="https://www.evolvedbinary.com/">Evolved Binary</a>), for generously contributing complimentary copies of the eXist book for the use of Institute participants.</td>
+        <td style="vertical-align: middle; border: none;">We are grateful to Erik Siegel (of <a href="http://xatapult.nl/">Xatapult</a>) and Adam Retter (of <a href="https://www.evolvedbinary.com/">Evolved Binary</a>) for generously contributing complimentary copies of the eXist book for the use of Institute participants.</td>
     </tr>
     <tr style="border: none;">
         <td style="border: none;">
