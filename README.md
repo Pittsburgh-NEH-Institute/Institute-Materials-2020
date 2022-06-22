@@ -13,7 +13,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 <tr><td><img src="images/bleeker.png" width="200px" alt="[Bleeker picture]"/></td><td style="vertical-align: middle">Elli Bleeker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
 <tr><td><img src="images/cayless.jpg" width="200px" alt="[Cayless picture]"/></td><td style="vertical-align: middle">Hugh Cayless<br/>Duke University</td></tr>
 <tr><td><img src="images/dekker.png" width="200px" alt="[Dekker picture]"/></td><td style="vertical-align: middle">Ronald Haentjens Dekker<br/>Royal Netherlands Academy of Arts and Sciences</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Gabrielle (Gabi) Keane<br/>TBA</td></tr>
+<tr><td><img src="images/keane.png" width="200px" alt="[Keane picture]"/></td><td style="vertical-align: middle">Gabrielle (Gabi) Keane<br/>TBA</td></tr>
 <tr><td><img src="images/olsson.png" width="200px" alt="[Olsson picture]"/></td><td style="vertical-align: middle">Leif-Jöran Olsson<br/>University of Gothenburg</td></tr>
 <tr><td><img src="images/rowell.jpg" width="200px" alt="[Rowell picture]"/></td><td style="vertical-align: middle">Chelcie Rowell<br/>Tufts University</td></tr>
 </table>
