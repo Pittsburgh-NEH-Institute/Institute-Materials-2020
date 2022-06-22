@@ -136,6 +136,7 @@ The repo and portal for the Huygens Institute TAG model introduced in the Instit
 ## Software projects, tools, toolkits, guidelines and methods
 
 * Agile Manifesto. <http://www.agilemanifesto.org>
+* Birnbaum, David and Gabi Keane. Command line fundamentals (course materials). <https://github.com/djbpitt/command-line-fundamentals/tree/2019>
 * Martin, Robert C. 2002. _Agile software development: principles, patterns, and practices._ Upper Saddle River: Prentice Hall.
 * CollateX. Software for collating textual sources. <http://collatex.net>
 * DiXiT. Digital Scholarly Editions Initial Training Network. Convention 1 (<http://dixit.huygens.knaw.nl/>) and Convention 2 (<http://dixit.uni-koeln.de/programme/convention-2/>)
