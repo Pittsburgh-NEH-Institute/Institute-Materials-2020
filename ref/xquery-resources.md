@@ -25,9 +25,9 @@
 
 ## Books
 
-* [*eXist. A NoSQL document database andapplication platform.*](http://shop.oreilly.com/product/0636920026525.do) Erik Siegel and Adam Retter, O’Reilly Media, 2014. ISBN-13: 978-1449337100,
+* [*eXist. A NoSQL document database and application platform.*](http://shop.oreilly.com/product/0636920026525.do) Erik Siegel and Adam Retter, O’Reilly Media, 2014. ISBN-13: 978-1449337100,
 ISBN-10: 1449337104.
-* [*XQuery.*](http://shop.oreilly.com/product/0636920035589.do) Priscilla Walmsley. O’Reilly Media, 2015. ISBN-13: 978-1491915103 ISBN-10: 9781491915103. 
+* [*XQuery.*](http://shop.oreilly.com/product/0636920035589.do) 2nd edition. Priscilla Walmsley. O’Reilly Media, 2016. ISBN-13: 978-1491915103 ISBN-10: 9781491915103. 
 * [*XQuery for Humanists.*](https://www.tamupress.com/book/9781623498290/xquery-for-humanists/) Clifford B. Anderson and Joseph C. Wicentowski. Texas A&amp;M University Press, 2020. ISBN: 978-1-62349-829-0. ISBN-13: 978-1623498290, ISBN-10: 1623498295.
 
 
