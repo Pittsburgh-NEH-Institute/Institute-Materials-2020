@@ -36,7 +36,7 @@
         <!-- Create weekly and then daily schedules for instructors       -->
         <!-- ============================================================ -->
         <xsl:apply-templates select="//week" mode="instructor"/>
-        <!--<xsl:apply-templates select="//week" mode="instructor_daily"/>-->
+        <xsl:apply-templates select="//week" mode="instructor_daily"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- Templates for weekly plans (for publication)                     -->
@@ -254,9 +254,9 @@
             <xsl:value-of select="desc, '&#x0a;&#x0a;'"/>
         </xsl:if>
         <xsl:if test="not(title = ('Coffee break', 'Lunch'))">
-            <xsl:text>Time | Topic | Type&#x0a;</xsl:text>
-            <xsl:text>---- | ---- | ---- &#x0a;</xsl:text>
-            <xsl:apply-templates select="act" mode="daily"/>
+            <xsl:text>Time | Topic | Type | Instructor&#x0a;</xsl:text>
+            <xsl:text>---- | ---- | ---- | ---- &#x0a;</xsl:text>
+            <xsl:apply-templates select="act" mode="instructor_daily"/>
             <xsl:text>&#x0a;</xsl:text>
         </xsl:if>
     </xsl:template>
@@ -265,7 +265,7 @@
     <!-- ================================================================ -->
     <xsl:template match="act" mode="instructor_daily">
         <xsl:value-of
-            select="@time || ' min | ' || normalize-space(desc) || ' | ' || translate(@type, '_', ' ') || '&#x0a;'"
+            select="@time || ' min | ' || normalize-space(desc) || ' | ' || translate(@type, '_', ' ') || '|' || string-join(descendant::instructor, ', ') || '&#x0a;'"
         />
     </xsl:template>
     <!-- ================================================================ -->
