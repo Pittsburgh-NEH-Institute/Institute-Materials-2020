@@ -3,16 +3,17 @@
 <?xml-model href="master_schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
     <week num="1">
-        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering tools</title>
+        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering
+            tools</title>
         <day d="Monday">
             <date>July 11, 2022</date>
-            <syn>Fundamentals. The Institute opens with a high-level view of the types of
-                engagement required by a textual editor, beginning (always!) from the research
-                questions and leading to the production of an actual edition. In session two we
-                introduce the computational pipeline as a way of modeling project development. We
-                begin the afternoon by installing the software packages required for our Institute.
-                Finally, we discuss some exemplary digital editions and start using XQuery to
-                explore XML.</syn>
+            <syn>Fundamentals. The Institute opens with a high-level view of the types of engagement
+                required by a textual editor, beginning (always!) from the research questions and
+                leading to the production of an actual edition. In session two we introduce the
+                computational pipeline as a way of modeling project development. We begin the
+                afternoon by installing the software packages required for our Institute. Finally,
+                we discuss some exemplary digital editions and start using XQuery to explore
+                XML.</syn>
             <slot time="09:00:00">
                 <title>Getting started</title>
                 <desc>Introductions, research questions, schedules, outcome goals.</desc>
@@ -373,6 +374,9 @@
                         <goal>Become familiar with the different types of indexes one can use in an
                             XML database.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Indexing and profiling. Examine indexes and profiles in Monex.</desc>
@@ -380,9 +384,15 @@
                         <goal>Understand indexes by running queries with and without indexed
                             data.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Using Lucene indexes. What are facets and fields?</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
 
             </slot>
@@ -400,6 +410,9 @@
                         <goal>Become familiar with eXist-db index syntax.</goal>
                         <goal>Implement fields.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
                 <act time="60" type="Code_lab">
                     <desc>Participants work together on preliminary code that they would like to
@@ -408,6 +421,9 @@
                         <goal>Gain experience writing code aligned with research goals.</goal>
                         <goal>Use MVC framework to output *model* data.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="12:30:00">
@@ -418,9 +434,18 @@
             </slot>
             <slot time="14:00:00">
                 <title>The controller</title>
-                <act time="30" type="Discussion">
+                <act time="20" type="Talk_lab">
+                    <desc>Where are we in the project? Planning for the next step?</desc>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
+                </act>
+                <act time="15" type="Discussion">
                     <desc>What is a controller? Why do we need it? What factors determine controller
                         design?</desc>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
                 </act>
                 <act time="15" type="Discussion">
                     <desc>Explore how the out-of-the-box controller works, along with what it can
@@ -428,12 +453,18 @@
                     <outcome>
                         <goal>Prepare to write your own controller.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
-                <act time="45" type="Code_lab">
+                <act time="40" type="Code_lab">
                     <desc>Write your controller features.</desc>
                     <outcome>
                         <goal>Understand controller writing syntax.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -446,6 +477,9 @@
                 <title>Collation</title>
                 <act time="90" type="Presentation">
                     <desc>Collation.</desc>
+                    <instructors>
+                        <instructor>Ronald</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -462,21 +496,31 @@
                 the International Image Interoperability Framework (IIIF), a community-focused
                 Linked Open Data (LOD) standard for image sharing, closes the day.</syn>
             <slot time="09:00:00">
+                <!-- Should we replace part of this session with XQuery, per 2022-06-22 conversation with David, Elli, Emma, Gabi ? -->
                 <title>ODDs and collaborative encoding</title>
                 <act time="60" type="Discussion">
-                    <desc>Writing the ODD and other mechanisms for document control and documentation.</desc>
+                    <desc>Writing the ODD and other mechanisms for document control and
+                        documentation.</desc>
                     <outcome>
                         <goal>Enable better collaborative encoding for projects.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>Create Kanban boards in GitHub Projects and explore some other software tools available.</desc>
+                    <desc>Create Kanban boards in GitHub Projects and explore some other software
+                        tools available.</desc>
                     <outcome>
-                        <goal>Introduce Kanban and other software for task and issue management.</goal>
+                        <goal>Introduce Kanban and other software for task and issue
+                            management.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
                 </act>
             </slot>
-
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
@@ -485,11 +529,14 @@
             </slot>
             <slot time="11:00:00">
                 <title>Git and GitHub in Real Life</title>
-                <act time="20" type="Discussion">
+                <act time="20" type="Code_lab">
                     <desc>Issues and pull requests.</desc>
                     <outcome>
                         <goal>Create pull requests on the institute repositories.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
                 </act>
                 <act time="40" type="Presentation">
                     <desc>Branches and you.</desc>
@@ -497,6 +544,9 @@
                         <goal>Understand tracking branches, development branches, pull requests as
                             branches.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Ronald</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Create merge conflicts on purpose to gain familiarity with resolving them
@@ -504,6 +554,9 @@
                     <outcome>
                         <goal>Become comfortable with merge conflicts and using Git.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="12:30:00">
@@ -514,15 +567,38 @@
             </slot>
             <slot time="14:00:00">
                 <title>Search functionality</title>
-                <act time="90" type="Presentation">
+                <act time="15" type="Presentation">
+                    <desc>Review of fields.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="15" type="Presentation">
+                    <desc>Facet theory.</desc>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                        <instructor>David</instructor>
+                    </instructors>
+                </act>
+                <act time="20" type="Presentation">
+                    <desc>Facets in eXist-db searching.</desc>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                        <instructor>David</instructor>
+                    </instructors>
+                </act>
+                <act time="40" type="Code_lab">
                     <desc>Together as a group, we deconstruct and rewrite the app’s search
                         functionality.</desc>
                     <outcome>
-                        <goal>Understand the development algorithm for creating advanced
+                        <goal>Understand the development process for creating advanced
                             features.</goal>
                         <goal>Use several advanced features in eXist-db to support research
                             outcomes.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -532,9 +608,13 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>International Image Interoperability Framework (IIIF) and Linked Open Data (LOD)</title>
+                <title>International Image Interoperability Framework (IIIF) and Linked Open Data
+                    (LOD)</title>
                 <act time="90" type="Presentation">
-                    <desc>Jeffrey Witt presents on IIIF.</desc>
+                    <desc>International Image Interoperability Framework (IIIF).</desc>
+                    <instructors>
+                        <instructor>Jeffrey</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -557,8 +637,11 @@
                 <act time="20" type="Discussion">
                     <desc>Looking back on week 1.</desc>
                     <outcome>
-                        <goal>Take stock and plan the next steps.</goal>
+                        <goal>Take stock.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Talk_lab">
                     <desc>Assess the project’s current state and critique user experience.</desc>
@@ -566,14 +649,20 @@
                         <goal>Revisit scope and prevent scope creep.</goal>
                         <goal>Establish good collaborative critique practices.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="40" type="Discussion">
                     <desc>Identify tasks to-be-done, establish timelines, and consider possible
                         roadblocks.</desc>
                     <outcome>
-                        <goal>Figure out your "get smart" tasks.</goal>
+                        <goal>Figure out “get smart” tasks.</goal>
                         <goal>Plan next steps.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="10:30:00">
@@ -585,11 +674,15 @@
             <slot time="11:00:00">
                 <title>Digital edition frameworks (cake from a mix)</title>
                 <act time="90" type="Presentation">
+                    <!-- Break into subtopics? -->
                     <desc>CETEIcean, TEI Publisher, EVT, GitHub Pages, and their ilk.</desc>
                     <outcome>
                         <goal>Assess benefits and limitations of frameworks vs bespoke
                             editions.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="12:30:00">
@@ -601,13 +694,30 @@
             <!-- Typeswitch depends on HTML. We’ll get back to XQuery tomorrow. -->
             <slot time="14:00:00">
                 <title>HTML and CSS</title>
-                <act time="90" type="Code_lab">
-                    <desc>HTML and CSS basics.</desc>
+                <act time="30" type="Code_lab">
+                    <desc>HTML basics.</desc>
                     <outcome>
                         <goal>Learn about important HTML elements and attributes.</goal>
+                    </outcome>
+                    <instructors>
+                        <instructor>Emma</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>CSS basics.</desc>
+                    <outcome>
                         <goal>Learn about CSS selectors, properties, and values.</goal>
                         <goal>Learn how to associate CSS with HTML files.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Mason</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Flexbox.</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -619,7 +729,10 @@
             <slot time="16:00:00">
                 <title>User-oriented design principles</title>
                 <act time="90" type="Presentation">
-                    <desc>Shea Higgins presents on designing for user experience (UX).</desc>
+                    <desc>User experience (UX) and user interface (UI).</desc>
+                    <instructors>
+                        <instructor>Shea</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -633,33 +746,56 @@
                 testing user-defined functions. To close out the day, we discuss mapping features
                 and use an external JavaScript library and API to create embed a map in our
                 application.</syn>
-
             <slot time="09:00:00">
                 <title>Creating views and using typeswitch</title>
-                <act time="90" type="Code_lab">
+                <act time="30" type="Code_lab">
+                    <desc>Using typeswitch and local functions.</desc>
+                    <outcome>
+                        <goal>Learn how to use `typeswitch` for dispatch.</goal>
+                    </outcome>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
+                </act>
+                <act time="60" type="Code_lab">
                     <desc>Using typeswitch and local functions to create rich text reading
                         views.</desc>
                     <outcome>
                         <goal>Focus on the *view* in MVC in an eXist-db context.</goal>
-                        <goal>Learn how to use `typeswitch` for dispatch.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                    </instructors>
                 </act>
+                <outcome>
+                    <goal>Connect the data model and view by enhancing the controller.</goal>
+                </outcome>
             </slot>
-
             <slot time="10:30:00">
                 <title>Coffee break</title>
                 <act time="30">
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-
             <slot time="11:00:00">
                 <title>Putting MVC together</title>
-                <act time="90" type="Code_lab">
-                    <desc>Participants see the Model, View, and Controller in action.</desc>
-                    <outcome>
-                        <goal>Connect the data model and view by enhancing the controller.</goal>
-                    </outcome>
+                <act time="30" type="Code_lab">
+                    <desc>The Model in action.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>The View in action.</desc>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>The Model, View, and Controller in action.</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="12:30:00">
@@ -670,20 +806,29 @@
             </slot>
             <slot time="14:00:00">
                 <title>XQuery functions and unit testing</title>
-                <act time="75" type="Code_lab">
-                    <desc>Writing and testing user-defined functions.</desc>
-                    <outcome>
-                        <goal>Modularize your code with user-defined functions.</goal>
-                        <goal>Write and run your first tests.</goal>
-                        <goal>Create the gazetteer model for use later.</goal>
-                    </outcome>
+                <act time="35" type="Code_lab">
+                    <desc>Writing user-defined functions.</desc>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
                 </act>
-                <act time="15" type="Code_lab">
-                    <desc>Continuous integration (CI).</desc>
-                    <outcome>
-                        <goal>Learn how CI can alert you about regressions.</goal>
-                    </outcome>
+                <act time="40" type="Code_lab">
+                    <desc>Testing user-defined functions with XQSuite.</desc>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                    </instructors>
                 </act>
+                <act time="15" type="Presentation">
+                    <desc>Testing and continuous integration (CI).</desc>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
+                </act>
+                <outcome>
+                    <goal>Modularize your code with user-defined functions.</goal>
+                    <goal>Write and run your first tests.</goal>
+                    <goal>Create the gazetteer model for use later.</goal>
+                </outcome>
             </slot>
             <slot time="15:30:00">
                 <title>Coffee break</title>
@@ -693,17 +838,23 @@
             </slot>
             <slot time="16:00:00">
                 <title>Visualizing our geodata and integrating external APIs</title>
-                <act time="30" type="Talk_lab">
+                <act time="20" type="Talk_lab">
                     <desc>Revisit the model for our geodata and explore our ideas on how visual
                         information can be displayed.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="15" type="Talk_lab">
                     <desc>Choose the right mapping tools for your project.</desc>
                     <outcome>
                         <goal>Evaluate whether the best visualization for your data is a map.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
-                <act time="45" type="Code_lab">
+                <act time="55" type="Code_lab">
                     <desc>Together, we integrate basic map functionality into the app using a
                         mapping JS library.</desc>
                     <outcome>
@@ -711,6 +862,9 @@
                             your project.</goal>
                         <goal>Introduce external APIs.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -727,39 +881,54 @@
                 on network analysis with text.</syn>
             <slot time="09:00:00">
                 <title>SVG basics</title>
-                <act time="15" type="Code_lab">
+                <act time="15" type="Presentation">
                     <desc>What is SVG and how does it work?</desc>
                     <outcome>
                         <goal>Understand that SVG is an XML vocabulary.</goal>
                         <!--<goal>Know the difference between vector graphics and raster
                             graphics.</goal>-->
-                        <goal>Understand how SVG works with web technologies.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
                 </act>
-                <act time="15" type="Code_lab">
+                <act time="10" type="Code_lab">
                     <desc>The SVG coordinate space.</desc>
                     <outcome>
                         <!-- <goal>Differentiate SVG axes from Cartesian X and Y axes.</goal>-->
-                        <goal>Think about the axes as infinite space, and the viewport as a window
-                            onto that space.</goal>
+                        <goal>Think about the axes as infinite space, the viewport as a window
+                            onto that space, and the viewbox as a way to control the viewport.</goal>
                         <!-- <goal>Learn how to move and resize the viewport.</goal>-->
                     </outcome>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
-                <act time="30" type="Code_lab">
+                <act time="15" type="Code_lab">
+                    <desc>SVG housekeeping.</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
+                </act>                
+                <act time="25" type="Code_lab">
                     <desc>SVG basic shapes.</desc>
                     <outcome>
-                        <goal>Draw and style shapes, lines, and text with SVG.</goal>
+                        <goal>Draw and style circles, lines, and text with SVG.</goal>
                         <!--<goal>Understand the Z axis.</goal>-->
                     </outcome>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
-                <act time="30" type="Talk_lab">
-                    <desc>Planning a bar chart.</desc>
+                <act time="25" type="Talk_lab">
+                    <desc>Planning a sample visualization.</desc>
                     <outcome>
-                        <!--<goal>Discuss charting patterns and anti-patterns.</goal>
-                        <goal>Inventory bar chart components.</goal>-->
-                        <goal>Draw the bar chart superstructure: axes and labels.</goal>
-                        <goal>Draw, position, and label the rectangles (use variables!).</goal>
+                        <goal>Discuss charting patterns and anti-patterns.</goal>
+                        <goal>Plan the model and inventory chart components.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="10:30:00">
@@ -770,8 +939,23 @@
             </slot>
             <slot time="11:00:00">
                 <title>Creating SVG visualizations for the edition</title>
-                <act time="90" type="Code_lab">
+                <act time="15" type="Code_lab">
+                    <desc>Stylesheet, template, and function variables.</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Create the model.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="45" type="Code_lab">
                     <desc>Implement the planned visualization using the model.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="12:30:00">
@@ -788,6 +972,9 @@
                         <goal>Learn about graphs, nodes, and edges.</goal>
                         <goal>Learn about types of centrality.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Elisa</instructor>
+                    </instructors>
                 </act>
                 <act time="65" type="Presentation">
                     <desc>Creating the model as tab-separated values (TSV) using XQuery.</desc>
@@ -795,6 +982,9 @@
                         <goal>Model nodes and edges from the data.</goal>
                         <goal>Extract model data in TSV format.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Elisa</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -807,12 +997,21 @@
                 <title>Using Cytoscape to visualize data</title>
                 <act time="10" type="Code_lab">
                     <desc>Install Cytoscape.</desc>
+                    <instructors>
+                        <instructor>Elisa</instructor>
+                    </instructors>
                 </act>
                 <act time="50" type="Code_lab">
                     <desc>Upload TSV and explore data.</desc>
+                    <instructors>
+                        <instructor>Elisa</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Export SVG from Cytoscape and upload to the edition.</desc>
+                    <instructors>
+                        <instructor>Elisa</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -825,21 +1024,32 @@
                 participants to profile and optimize their queries using Monex. The final session is
                 reserved for review and catch-up.</syn>
             <slot time="09:00:00">
-                <title>Review and practice: version control and project management with git and GitHub.</title>
-                <act time="40" type="Code_lab">
-                    <desc>Development and feature branches, tracking branches, and branch strategies.</desc>
+                <title>Review and practice: version control and project management with git and
+                    GitHub.</title>
+                <act time="30" type="Code_lab">
+                    <desc>Development and feature branches, tracking branches, and branch
+                        strategies.</desc>
                     <outcome>
                         <goal>Use branches effectively.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Presentation">
                     <desc>Releases and semantic versioning.</desc>
                     <outcome>
                         <goal>Learn about version numbering.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
                 </act>
-                <act time="30" type="Discussion">
+                <act time="40" type="Discussion">
                     <desc>Project management reflections and planning our own projects.</desc>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="10:30:00">
@@ -848,22 +1058,33 @@
                     <desc>Coffee break</desc>
                 </act>
             </slot>
-
             <slot time="11:00:00">
-                <title>API + API docs</title>
+                <title>Application programming interfaces (API)</title>
                 <act time="30" type="Presentation">
                     <desc>What is an Application Programming Interface (API)?</desc>
                     <outcome>
                         <goal>Understand CRUD, nouns, and verbs.</goal>
                         <goal>Understand REST, HTTP, and URIs.</goal>
-                        <goal>Make an API call to [eXist-db](https://exist-db.org/exist/apps/doc/devguide_rest).</goal>
+                        <goal>Make an API call to
+                            [eXist-db](https://exist-db.org/exist/apps/doc/devguide_rest).</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>Our verb and noun choices, how we made them, what we might have done differently.</desc>
+                    <desc>Our verb and noun choices, how we made them, what we might have done
+                        differently.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Talk_lab">
-                    <desc>Collaborative documentation writing.</desc>
+                    <desc>Documenting our decisions.</desc>
+                    <!-- Target audience: Other developers? End-users? Others? -->
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="12:30:00">
@@ -876,15 +1097,27 @@
                 <title>Database indexes, queries, and profiling</title>
                 <act time="30" type="Presentation">
                     <desc>Understanding eXist-db indexing.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Code_lab">
-                    <desc>Monex utility.</desc>
+                    <desc>Examining indexes in Monex.</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Code_lab">
                     <desc>Profiling queries.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Code_lab">
                     <desc>Optimizing queries.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
                 <outcome>
                     <goal>Learn to optimize queries.</goal>
@@ -900,6 +1133,9 @@
                 <title>Catchup session</title>
                 <act time="90" type="Code_lab">
                     <desc>Participants’ choice.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -917,15 +1153,28 @@
                 <title>Modeling choices</title>
                 <act time="20" type="Discussion">
                     <desc>Why we did what we did, and how we decided to do it.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Discussion">
                     <desc>What we’d do differently.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Discussion">
                     <desc>What we’d do next.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Talk_lab">
-                    <desc>Examining modeling choices from exemplary editions using what we know now.</desc>
+                    <desc>Examining modeling choices from exemplary editions using what we know
+                        now.</desc>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
                 </act>
                 <outcome>
                     <goal>Revisit conceptual decisions and alternatives.</goal>
@@ -941,21 +1190,39 @@
                 <title>Implementation choices</title>
                 <act time="20" type="Discussion">
                     <desc>Why use eXist-db?</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Discussion">
                     <desc>Why use MVC?</desc>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Discussion">
                     <desc>Why not XSLT? Can I use XSLT?</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
                 <act time="10" type="Discussion">
                     <desc>Why is it organized by verb?</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="10" type="Discussion">
                     <desc>Why use Git and GitHub? What are some management alternatives?</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
                 <act time="10" type="Discussion">
                     <desc>Why use VSCode? What could we have used instead?</desc>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                    </instructors>
                 </act>
                 <outcome>
                     <goal>Revisit technical decisions and alternatives.</goal>
@@ -971,6 +1238,9 @@
                 <title>Your edition</title>
                 <act time="90" type="Talk_lab">
                     <desc>Workshop participant editions.</desc>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
                 </act>
                 <outcome>
                     <goal>Collaborate on your edition ideas with other participants.</goal>
@@ -986,6 +1256,9 @@
                 <title>Your edition</title>
                 <act time="90" type="Talk_lab">
                     <desc>Participants present their editions.</desc>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
                 </act>
                 <outcome>
                     <goal>Present your own edition.</goal>
