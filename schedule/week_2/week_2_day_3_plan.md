@@ -13,11 +13,10 @@ Visualization and interactivity. On day three participants learn to communicate
 
 ## Outcome goals
 * Understand that SVG is an XML vocabulary.
-* Understand how SVG works with web technologies.
-* Think about the axes as infinite space, and the viewport as a window onto that space.
-* Draw and style shapes, lines, and text with SVG.
-* Draw the bar chart superstructure: axes and labels.
-* Draw, position, and label the rectangles (use variables!).
+* Think about the axes as infinite space, the viewport as a window onto that space, and the viewbox as a way to control the viewport.
+* Draw and style circles, lines, and text with SVG.
+* Discuss charting patterns and anti-patterns.
+* Plan the model and inventory chart components.
 * Learn about graphs, nodes, and edges.
 * Learn about types of centrality.
 * Model nodes and edges from the data.
@@ -35,10 +34,11 @@ Visualization and interactivity. On day three participants learn to communicate
 
 Time | Topic | Type
 ---- | ---- | ---- 
-15 min | What is SVG and how does it work? | Code lab
-15 min | The SVG coordinate space. | Code lab
-30 min | SVG basic shapes. | Code lab
-30 min | Planning a bar chart. | Talk lab
+15 min | What is SVG and how does it work? | Presentation
+10 min | The SVG coordinate space. | Code lab
+15 min | SVG housekeeping. | Code lab
+25 min | SVG basic shapes. | Code lab
+25 min | Planning a sample visualization. | Talk lab
 
 ## 10:30–11:00: Coffee break
 
@@ -46,11 +46,13 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Implement the planned visualization using the model. | Code lab
+15 min | Stylesheet, template, and function variables. | Code lab
+30 min | Create the model. | Code lab
+45 min | Implement the planned visualization using the model. | Code lab
 
 ## 12:30–2:00: Lunch
 
-## 2:00–3:30: Introducing network analysis
+## 2:00–3:30: Special topic: Introducing network analysis with Elisa Beshero-Bondar
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -59,7 +61,7 @@ Time | Topic | Type
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Using Cytoscape to visualize data
+## 4:00–5:30: Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar
 
 Time | Topic | Type
 ---- | ---- | ---- 

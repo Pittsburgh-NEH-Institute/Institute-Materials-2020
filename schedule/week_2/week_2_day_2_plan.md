@@ -11,13 +11,12 @@ Implementing publication strategies. The morning is devoted to typeswitch, an
                 application.
 
 ## Outcome goals
-* Focus on the *view* in MVC in an eXist-db context.
 * Learn how to use `typeswitch` for dispatch.
+* Focus on the *view* in MVC in an eXist-db context.
 * Connect the data model and view by enhancing the controller.
 * Modularize your code with user-defined functions.
 * Write and run your first tests.
 * Create the gazetteer model for use later.
-* Learn how CI can alert you about regressions.
 * Evaluate whether the best visualization for your data is a map.
 * Use external documentation and tutorials to create and adapt code for your project.
 * Introduce external APIs.
@@ -34,7 +33,8 @@ Implementing publication strategies. The morning is devoted to typeswitch, an
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Using typeswitch and local functions to create rich text reading views. | Code lab
+30 min | Using typeswitch and local functions. | Code lab
+60 min | Using typeswitch and local functions to create rich text reading views. | Code lab
 
 ## 10:30–11:00: Coffee break
 
@@ -42,7 +42,9 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Participants see the Model, View, and Controller in action. | Code lab
+30 min | The Model in action. | Code lab
+30 min | The View in action. | Code lab
+30 min | The Model, View, and Controller in action. | Code lab
 
 ## 12:30–2:00: Lunch
 
@@ -50,8 +52,9 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-75 min | Writing and testing user-defined functions. | Code lab
-15 min | Continuous integration (CI). | Code lab
+35 min | Writing user-defined functions. | Code lab
+40 min | Testing user-defined functions with XQSuite. | Code lab
+15 min | Testing and continuous integration (CI). | Presentation
 
 ## 3:30–4:00: Coffee break
 
@@ -59,8 +62,8 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Revisit the model for our geodata and explore our ideas on how visual information can be displayed. | Talk lab
+20 min | Revisit the model for our geodata and explore our ideas on how visual information can be displayed. | Talk lab
 15 min | Choose the right mapping tools for your project. | Talk lab
-45 min | Together, we integrate basic map functionality into the app using a mapping JS library. | Code lab
+55 min | Together, we integrate basic map functionality into the app using a mapping JS library. | Code lab
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

@@ -12,10 +12,10 @@ Planning for deployment. In week two, participants prepare the laboratory editio
                 by guest lecturer Shea Higgins.
 
 ## Outcome goals
-* Take stock and plan the next steps.
+* Take stock.
 * Revisit scope and prevent scope creep.
 * Establish good collaborative critique practices.
-* Figure out your "get smart" tasks.
+* Figure out “get smart” tasks.
 * Plan next steps.
 * Assess benefits and limitations of frameworks vs bespoke editions.
 * Learn about important HTML elements and attributes.
@@ -52,14 +52,16 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | HTML and CSS basics. | Code lab
+30 min | HTML basics. | Code lab
+30 min | CSS basics. | Code lab
+30 min | Flexbox. | Code lab
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: User-oriented design principles
+## 4:00–5:30: User-oriented design principles with Shea Higgins
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Shea Higgins presents on designing for user experience (UX). | Presentation
+90 min | User experience (UX) and user interface (UI). | Presentation
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

@@ -346,9 +346,9 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Stylometry</title>
+                <title>Special topic: Stylometry with Patrick Juola</title>
                 <act time="90" type="Presentation">
-                    <desc>Stylometry.</desc>
+                    <desc>Stylometric authorship attribution.</desc>
                     <instructors>
                         <instructor>Patrick</instructor>
                     </instructors>
@@ -608,10 +608,10 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>International Image Interoperability Framework (IIIF) and Linked Open Data
-                    (LOD)</title>
+                <title>IIIF with Jeffrey Witt</title>
                 <act time="90" type="Presentation">
-                    <desc>International Image Interoperability Framework (IIIF).</desc>
+                    <desc>International Image Interoperability Framework (IIIF) and Linked Open Data
+                        (LOD).</desc>
                     <instructors>
                         <instructor>Jeffrey</instructor>
                     </instructors>
@@ -727,7 +727,7 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>User-oriented design principles</title>
+                <title>User-oriented design principles with Shea Higgins</title>
                 <act time="90" type="Presentation">
                     <desc>User experience (UX) and user interface (UI).</desc>
                     <instructors>
@@ -965,7 +965,7 @@
                 </act>
             </slot>
             <slot time="14:00:00">
-                <title>Introducing network analysis</title>
+                <title>Special topic: Introducing network analysis with Elisa Beshero-Bondar</title>
                 <act time="25" type="Presentation">
                     <desc>What is network analysis? How is it used?</desc>
                     <outcome>
@@ -994,7 +994,7 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Using Cytoscape to visualize data</title>
+                <title>Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar</title>
                 <act time="10" type="Code_lab">
                     <desc>Install Cytoscape.</desc>
                     <instructors>

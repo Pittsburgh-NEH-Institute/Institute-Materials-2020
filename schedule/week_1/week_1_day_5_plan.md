@@ -18,7 +18,7 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 * Create pull requests on the institute repositories.
 * Understand tracking branches, development branches, pull requests as branches.
 * Become comfortable with merge conflicts and using Git.
-* Understand the development algorithm for creating advanced features.
+* Understand the development process for creating advanced features.
 * Use several advanced features in eXist-db to support research outcomes.
 
 ## Legend
@@ -42,7 +42,7 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-20 min | Issues and pull requests. | Discussion
+20 min | Issues and pull requests. | Code lab
 40 min | Branches and you. | Presentation
 30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a VIM blackhole). | Code lab
 
@@ -52,14 +52,17 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Together as a group, we deconstruct and rewrite the app’s search functionality. | Presentation
+15 min | Review of fields. | Presentation
+15 min | Facet theory. | Presentation
+20 min | Facets in eXist-db searching. | Presentation
+40 min | Together as a group, we deconstruct and rewrite the app’s search functionality. | Code lab
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: International Image Interoperability Framework (IIIF) and Linked Open Data (LOD)
+## 4:00–5:30: IIIF with Jeffrey Witt
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Jeffrey Witt presents on IIIF. | Presentation
+90 min | International Image Interoperability Framework (IIIF) and Linked Open Data (LOD). | Presentation
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

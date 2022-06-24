@@ -1,13 +1,13 @@
 # Week 1, Day 1: Monday, July 11, 2022
 ## Synopsis
 
-Fundamentals. The Institute opens with a high-level view of the types of
-                engagement required by a textual editor, beginning (always!) from the research
-                questions and leading to the production of an actual edition. In session two we
-                introduce the computational pipeline as a way of modeling project development. We
-                begin the afternoon by installing the software packages required for our Institute.
-                Finally, we discuss some exemplary digital editions and start using XQuery to
-                explore XML.
+Fundamentals. The Institute opens with a high-level view of the types of engagement
+                required by a textual editor, beginning (always!) from the research questions and
+                leading to the production of an actual edition. In session two we introduce the
+                computational pipeline as a way of modeling project development. We begin the
+                afternoon by installing the software packages required for our Institute. Finally,
+                we discuss some exemplary digital editions and start using XQuery to explore
+                XML.
 
 ## Outcome goals
 * Introduce everyone to one another.

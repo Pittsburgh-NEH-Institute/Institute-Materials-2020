@@ -35,7 +35,9 @@ Practice navigating your file system and using tools at the command line,
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Do command line stuff. | Presentation
+30 min | Working on the command line. | Code lab
+30 min | Practice Git on the command line. | Code lab
+30 min | Command line tips and tricks. | Code lab
 
 ## 10:30–11:00: Coffee break
 
@@ -57,10 +59,10 @@ Time | Topic | Type
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Stylometry
+## 4:00–5:30: Special topic: Stylometry with Patrick Juola
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Stylometry. | Presentation
+90 min | Stylometric authorship attribution. | Presentation
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

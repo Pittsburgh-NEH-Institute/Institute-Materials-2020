@@ -24,23 +24,24 @@ Data access and APIs. The morning sessions focus on accommodating both the
 * **Code lab:** participants code alone or in small groups
 
 * * *
-## 9:00–10:30: Review and practice: version control and project management with git and GitHub.
+## 9:00–10:30: Review and practice: version control and project management with git and
+                    GitHub.
 
 Time | Topic | Type
 ---- | ---- | ---- 
-40 min | Development and feature branches, tracking branches, and branch strategies. | Code lab
+30 min | Development and feature branches, tracking branches, and branch strategies. | Code lab
 20 min | Releases and semantic versioning. | Presentation
-30 min | Project management reflections and planning our own projects. | Discussion
+40 min | Project management reflections and planning our own projects. | Discussion
 
 ## 10:30–11:00: Coffee break
 
-## 11:00–12:30: API + API docs
+## 11:00–12:30: Application programming interfaces (API)
 
 Time | Topic | Type
 ---- | ---- | ---- 
 30 min | What is an Application Programming Interface (API)? | Presentation
 30 min | Our verb and noun choices, how we made them, what we might have done differently. | Presentation
-30 min | Collaborative documentation writing. | Talk lab
+30 min | Documenting our decisions. | Talk lab
 
 ## 12:30–2:00: Lunch
 
@@ -49,7 +50,7 @@ Time | Topic | Type
 Time | Topic | Type
 ---- | ---- | ---- 
 30 min | Understanding eXist-db indexing. | Presentation
-20 min | Monex utility. | Code lab
+20 min | Examining indexes in Monex. | Code lab
 20 min | Profiling queries. | Code lab
 20 min | Optimizing queries. | Code lab
 
