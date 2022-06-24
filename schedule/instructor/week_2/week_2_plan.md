@@ -1,6 +1,6 @@
 # Week 2 plan: *Bon appétit!* : Plating, styling, and serving
 
-Time | [Monday](week_2_day_1_plan.md) |[Tuesday](week_2_day_2_plan.md) |[Wednesday](week_2_day_3_plan.md) |[Thursday](week_2_day_4_plan.md) |[Friday](week_2_day_5_plan.md) |
+Time | [Monday](instructor/week_2_day_1_plan.md) |[Tuesday](instructor/week_2_day_2_plan.md) |[Wednesday](instructor/week_2_day_3_plan.md) |[Thursday](instructor/week_2_day_4_plan.md) |[Friday](instructor/week_2_day_5_plan.md) |
 ---- | ---- | ---- | ---- | ---- | ----
 9:00–10:30 |  Retrospective and plans | Creating views and using typeswitch | SVG basics | Review and practice: version control and project management with git and GitHub. | Modeling choices 
 10:30–11:00 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break 

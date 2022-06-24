@@ -1,6 +1,6 @@
 # Week 1 plan: *Mise en place* : Planning your recipe, preparing your workstation, gathering tools
 
-Time | [Monday](week_1_day_1_plan.md) |[Tuesday](week_1_day_2_plan.md) |[Wednesday](week_1_day_3_plan.md) |[Thursday](week_1_day_4_plan.md) |[Friday](week_1_day_5_plan.md) |
+Time | [Monday](instructor/week_1_day_1_plan.md) |[Tuesday](instructor/week_1_day_2_plan.md) |[Wednesday](instructor/week_1_day_3_plan.md) |[Thursday](instructor/week_1_day_4_plan.md) |[Friday](instructor/week_1_day_5_plan.md) |
 ---- | ---- | ---- | ---- | ---- | ----
 9:00–10:30 |  Getting started | Project management | Command line | XML databases and indexes | ODDs and collaborative encoding 
 10:30–11:00 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break 
