@@ -21,6 +21,9 @@
                     <outcome>
                         <goal>Introduce everyone to one another.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
                 <act time="25" type="Presentation">
                     <desc>Research questions and choosing our technologies.</desc>
@@ -28,12 +31,18 @@
                         <goal>Make informed methodological and technical decisions based on our
                             research questions.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="20" type="Presentation">
                     <desc>Discuss two-week schedule and day plans.</desc>
                     <outcome>
                         <goal>Set expectations for institute.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Talk_lab">
                     <desc>Review laboratory outcome goals and explore participant goals for their
@@ -41,6 +50,9 @@
                     <outcome>
                         <goal>Set goals. Practice describing goals.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="10:30:00">
@@ -55,6 +67,9 @@
                     <desc>We introduce the computational pipeline as a way of modeling the
                         development of a digital edition.</desc>
                     <outcome/>
+                    <instructors>
+                        <instructor>Ronald</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Presentation">
                     <desc>Initial stages: TEI XML (base view), exploring with XPath, and exploratory
@@ -62,11 +77,17 @@
                     <outcome>
                         <goal>Understand base view processing and EDA.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Presentation">
                     <desc>Transformation: how do I transform, what do I transform to? We also
                         introduce the model-view-controller (MVC) architecture we’ll use in app
                         development later on.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="12:30:00">
@@ -79,6 +100,9 @@
                 <title>Selecting your tools and software installation best practices</title>
                 <act time="90" type="Code_lab">
                     <desc>[Software installation instructions](installs.md).</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -95,12 +119,18 @@
                         <goal>Explore decisions involved in conceptualizing a digital
                             edition.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
                 </act>
                 <act time="45" type="Code_lab">
                     <desc>Exploratory data analysis in eXide.</desc>
                     <outcome>
                         <goal>Introduce XQuery with Shakespeare TEI in eXide.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -124,6 +154,9 @@
                     <outcome>
                         <goal>Learn project management basics.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="10:30:00">
@@ -136,16 +169,25 @@
                 <title>Git, GitHub, and Markdown</title>
                 <act time="30" type="Presentation">
                     <desc>Git: introduce and begin to use version control software.</desc>
-                    <outcome/>
+                    <instructors>
+                        <instructor>Ronald</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Presentation">
                     <desc>GitHub: code management, issues, projects, and Markdown.</desc>
                     <outcome>
                         <goal>Practice using GitHub and IDEs to manage your workflow.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>David</instructor>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Presentation">
                     <desc>XQuery: introduce FLWOR.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="12:30:00">
@@ -162,9 +204,15 @@
                         <goal>Know your machine better.</goal>
                         <goal>Initiate an eXist-db app using Yeoman and push it to GitHub.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>XQuery: practice FLWOR.</desc>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                    </instructors>
                 </act>
             </slot>
             <slot time="15:30:00">
@@ -180,6 +228,9 @@
                     <outcome>
                         <goal>Learn to create sustainability plans.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Chelsea</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -197,14 +248,30 @@
                 <title>Command line</title>
                 <desc>Practice navigating your file system and using tools at the command line,
                     including Git.</desc>
-                <act time="90" type="Presentation">
-                    <desc>Do command line stuff.</desc>
+                <act time="30" type="Code_lab">
+                    <desc>Working on the command line.</desc>
                     <outcome>
                         <goal>Practice file management at the command line.</goal>
+                    </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Practice Git on the command line.</desc>
+                    <outcome>
                         <goal>Practice Git at the command line.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
-
+                <act time="30" type="Code_lab">
+                    <desc>Command line tips and tricks.</desc>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
+                </act>
             </slot>
             <slot time="10:30:00">
                 <title>Coffee break</title>
@@ -220,6 +287,10 @@
                         <goal>Explore how data models and the computational pipeline work
                             together.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                        <instructor>David</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Presentation">
                     <desc>TEI XML in context: rationales, alternatives, and the ODD.</desc>
@@ -228,6 +299,9 @@
                         <goal>Make explicit our assumptions about TEI, our data, markup decisions,
                             and edition goals.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Encoding data in TEI XML together in small groups.</desc>
@@ -237,6 +311,9 @@
                         <goal>Consider how the laboratory edition data might look different with
                             different research questions and markup.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
                 </act>
 
             </slot>
@@ -253,6 +330,11 @@
                     <outcome>
                         <goal>Create our first computational pipeline together.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                        <instructor>David</instructor>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
                 </act>
 
             </slot>
@@ -266,7 +348,9 @@
                 <title>Stylometry</title>
                 <act time="90" type="Presentation">
                     <desc>Stylometry.</desc>
-                    <outcome/>
+                    <instructors>
+                        <instructor>Patrick</instructor>
+                    </instructors>
                 </act>
             </slot>
         </day>
@@ -365,8 +449,6 @@
                 </act>
             </slot>
         </day>
-
-
         <day d="Friday">
             <date>July 15, 2022</date>
             <syn>Collaborating on the edition. In session one we introduce the TEI ODD (One Document
@@ -458,7 +540,7 @@
         </day>
     </week>
     <week num="2">
-        <title>*Bon appétit!*: Plating, styling, and serving</title>
+        <title>*Bon appétit!* : Plating, styling, and serving</title>
         <day d="Monday">
             <date>July 18, 2022</date>
             <syn>Planning for deployment. In week two, participants prepare the laboratory edition

@@ -10,23 +10,27 @@
                 activity durations must be equal either 30 or 90 minutes. Actual time is <value-of
                     select="$actual_time"/>.</assert>
             <!-- slot times must be later than preceding slot times -->
-            
-                <report test="@time &lt;= preceding-sibling::slot/@time">
-                    Activity time slots must be later than preceding time slots.
-                </report>
-            
+            <report test="@time &lt;= preceding-sibling::slot/@time"> Activity time slots must be
+                later than preceding time slots. </report>
         </rule>
-        <rule context="act[not(preceding-sibling::title = ('Coffee break', 'Lunch'))]">
+        <rule
+            context="act[not(preceding-sibling::title = ('Coffee break', 'Lunch'))]">
             <assert test="@type">Activities must have a @type attribute.</assert>
+            <assert test="instructors">Activities must specify instructors</assert>
         </rule>
         <rule context="desc[not(list) and not(. = ('Lunch', 'Coffee break'))] | goal">
-            <assert test="matches(., '[.?!]$')"><value-of select="name(.)"/> must end in final punctuation.</assert>
+            <assert test="matches(., '[.?!]$')"><value-of select="name(.)"/> must end in final
+                punctuation.</assert>
         </rule>
         <rule context="date">
             <report test="empty(.)">Eek! There’s no date!</report>
         </rule>
-        
-      
+        <rule context="instructors">
+            <assert test="count(instructor) eq count(distinct-values(instructor))">Instructor is
+                listed more than once: <value-of select="."/></assert>
+        </rule>
+
+
     </pattern>
-    
+
 </sch:schema>
