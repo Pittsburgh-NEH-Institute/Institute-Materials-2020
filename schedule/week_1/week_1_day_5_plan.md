@@ -59,7 +59,7 @@ Time | Topic | Type
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: IIIF with Jeffrey Witt
+## 4:00–5:30: Special topic: IIIF with Jeffrey Witt
 
 Time | Topic | Type
 ---- | ---- | ---- 

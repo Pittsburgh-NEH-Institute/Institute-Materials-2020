@@ -58,7 +58,7 @@ Time | Topic | Type
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: User-oriented design principles with Shea Higgins
+## 4:00–5:30: Special topic: User-oriented design principles with Shea Higgins
 
 Time | Topic | Type
 ---- | ---- | ---- 

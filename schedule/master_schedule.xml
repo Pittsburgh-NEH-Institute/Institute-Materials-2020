@@ -608,7 +608,7 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>IIIF with Jeffrey Witt</title>
+                <title>Special topic: IIIF with Jeffrey Witt</title>
                 <act time="90" type="Presentation">
                     <desc>International Image Interoperability Framework (IIIF) and Linked Open Data
                         (LOD).</desc>
@@ -727,7 +727,7 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>User-oriented design principles with Shea Higgins</title>
+                <title>Special topic: User-oriented design principles with Shea Higgins</title>
                 <act time="90" type="Presentation">
                     <desc>User experience (UX) and user interface (UI).</desc>
                     <instructors>
