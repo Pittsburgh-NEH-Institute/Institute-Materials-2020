@@ -1,6 +1,6 @@
 # Daily schedule with instructor names
 
-## Week 1 (Mon, July 11 – Fri, July 15
+## Week 1 (Mon, July 11 – Fri, July 15)
 
 * [Monday, July 11](./week_1/week_1_day_1_plan.md)
 * [Tuesday, July 12](./week_1/week_1_day_2_plan.md)
