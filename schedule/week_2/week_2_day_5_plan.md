@@ -28,10 +28,10 @@ Finishing up (dessert and coffee?). In the first session, participants will disc
 
 Time | Topic | Type
 ---- | ---- | ---- 
-20 min | Why we did what we did, and how we decided to do it. | Discussion
-20 min | What we’d do differently. | Discussion
-20 min | What we’d do next. | Discussion
-30 min | Examining modeling choices from exemplary editions using what we know now. | Talk lab
+15 min | Why we did what we did, and how we decided to do it. | Discussion
+15 min | What we’d do differently. | Discussion
+15 min | What we’d do next. | Discussion
+45 min | Examining modeling choices from exemplary editions using what we know now. | Talk lab
 
 ## 10:30–11:00: Coffee break
 

@@ -62,8 +62,8 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-20 min | Revisit the model for our geodata and explore our ideas on how visual information can be displayed. | Talk lab
+15 min | Write the model for our geodata and explore our ideas on how visual information can be displayed. | Talk lab
 15 min | Choose the right mapping tools for your project. | Talk lab
-55 min | Together, we integrate basic map functionality into the app using a mapping JS library. | Code lab
+60 min | Together, we integrate basic map functionality into the app using a mapping JS library. | Code lab
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]

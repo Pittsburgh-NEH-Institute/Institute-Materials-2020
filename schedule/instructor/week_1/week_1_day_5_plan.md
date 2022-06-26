@@ -33,8 +33,9 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-60 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion|Elli, Gabi
-30 min | Create Kanban boards in GitHub Projects and explore some other software tools available. | Presentation|Chelcie
+30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion|Elli, Gabi
+30 min | Create Kanban boards in GitHub Projects and discuss other project management tools. | Presentation|Chelcie, Gabi
+30 min | XQuery: taking stock. | Code lab|Cliff
 
 ## 10:30–11:00: Coffee break
 
@@ -44,7 +45,7 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Issues and pull requests. | Code lab|Elli
 40 min | Branches and you. | Presentation|Ronald
-30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a VIM blackhole). | Code lab|Leif-Jöran
+30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a VIM black hole). | Code lab|Leif-Jöran
 
 ## 12:30–2:00: Lunch
 
@@ -55,7 +56,7 @@ Time | Topic | Type | Instructor
 15 min | Review of fields. | Presentation|Gabi
 15 min | Facet theory. | Presentation|Chelcie, David
 20 min | Facets in eXist-db searching. | Presentation|Cliff, David
-40 min | Together as a group, we deconstruct and rewrite the app’s search functionality. | Code lab|David
+40 min | Facets and you: thinking about your search interface. | Discussion|David
 
 ## 3:30–4:00: Coffee break
 

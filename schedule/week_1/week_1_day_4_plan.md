@@ -53,8 +53,10 @@ Time | Topic | Type
 ---- | ---- | ---- 
 20 min | Where are we in the project? Planning for the next step? | Talk lab
 15 min | What is a controller? Why do we need it? What factors determine controller design? | Discussion
-15 min | Explore how the out-of-the-box controller works, along with what it can and cannot do. | Discussion
-40 min | Write your controller features. | Code lab
+15 min | Explore how the out-of-the-box controller works, along with what it can and cannot do. | Presentation
+10 min | URL rewriting: configure the controller to return the combined model plus view. | Code lab
+10 min | Configure controller to return just the model. | Code lab
+20 min | The full controller pipeline: returning the view. | Code lab
 
 ## 3:30–4:00: Coffee break
 

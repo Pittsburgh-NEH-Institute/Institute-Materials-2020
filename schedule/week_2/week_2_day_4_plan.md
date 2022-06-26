@@ -24,13 +24,15 @@ Data access and APIs. The morning sessions focus on accommodating both the
 * **Code lab:** participants code alone or in small groups
 
 * * *
-## 9:00–10:30: Review and practice: version control and project management with git and GitHub.
+## 9:00–10:30: Review and practice: version control and project management with git and
+                    GitHub.
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Development and feature branches, tracking branches, and branch strategies. | Code lab
+20 min | Development and feature branches, tracking branches, and branch strategies. | Code lab
 20 min | Releases and semantic versioning. | Presentation
-40 min | Project management reflections and planning our own projects. | Discussion
+15 min | Project management reflections. | Discussion
+35 min | planning our own projects. | Talk lab
 
 ## 10:30–11:00: Coffee break
 

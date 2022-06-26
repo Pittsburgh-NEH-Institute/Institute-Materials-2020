@@ -3,7 +3,8 @@
 <?xml-model href="master_schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
     <week num="1">
-        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering tools</title>
+        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering
+            tools</title>
         <day d="Monday">
             <date>July 11, 2022</date>
             <syn>Fundamentals. The Institute opens with a high-level view of the types of engagement
@@ -254,7 +255,7 @@
                         <goal>Practice file management at the command line.</goal>
                     </outcome>
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>Emma</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
@@ -263,7 +264,7 @@
                         <goal>Practice Git at the command line.</goal>
                     </outcome>
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>Emma</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
@@ -324,18 +325,42 @@
                 </act>
             </slot>
             <slot time="14:00:00">
-                <title>XQuery</title>
-                <act time="90" type="Presentation">
-                    <desc>Creating a pipeline with XQuery: you are the controller.</desc>
-                    <outcome>
-                        <goal>Create our first computational pipeline together.</goal>
-                    </outcome>
+                <title>Creating a pipeline with XQuery: you are the controller.</title>
+                <!-- Build list of titles -->
+                <act time="10" type="Discussion">
+                    <desc>Plan goals and pipeline organization.</desc>
                     <instructors>
-                        <instructor>Cliff</instructor>
-                        <instructor>David</instructor>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="10" type="Code_lab">
+                    <desc>Create the model, part 1: find the information you need.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Create the model, part 2: construct model in model namespace.</desc>
+                    <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
+                <act time="10" type="Code_lab">
+                    <desc>Prepare to connect the model and the view: save the model to a
+                        variable.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Create the view: transform the model to HTML.</desc>
+                    <instructors>
+                        <instructor>Cliff</instructor>
+                    </instructors>
+                </act>
+                <outcome>
+                    <goal>Create our first computational pipeline together.</goal>
+                </outcome>
 
             </slot>
             <slot time="15:30:00">
@@ -414,6 +439,7 @@
                     </instructors>
                 </act>
                 <act time="60" type="Code_lab">
+                    <!-- Split into two 30-minute sessions in schedule, even though same instructor -->
                     <desc>Participants work together on preliminary code that they would like to
                         develop into a feature.</desc>
                     <outcome>
@@ -442,11 +468,12 @@
                 <act time="15" type="Discussion">
                     <desc>What is a controller? Why do we need it? What factors determine controller
                         design?</desc>
+                    <!-- Query rewriting, pipeline -->
                     <instructors>
                         <instructor>Hugh</instructor>
                     </instructors>
                 </act>
-                <act time="15" type="Discussion">
+                <act time="15" type="Presentation">
                     <desc>Explore how the out-of-the-box controller works, along with what it can
                         and cannot do.</desc>
                     <outcome>
@@ -456,15 +483,28 @@
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
-                <act time="40" type="Code_lab">
-                    <desc>Write your controller features.</desc>
-                    <outcome>
-                        <goal>Understand controller writing syntax.</goal>
-                    </outcome>
+                <act time="10" type="Code_lab">
+                    <!-- Separate yesterday’s unified XQuery into separate model and view -->
+                    <desc>URL rewriting: configure the controller to return the combined model plus view.</desc>
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
+                <act time="10" type="Code_lab">
+                    <desc>Configure controller to return just the model.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
+                </act>
+                <act time="20" type="Code_lab">
+                    <desc>The full controller pipeline: returning the view.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
+                    </instructors>
+                </act>
+                <outcome>
+                    <goal>Understand controller writing syntax.</goal>
+                </outcome>
             </slot>
             <slot time="15:30:00">
                 <title>Coffee break</title>
@@ -497,7 +537,7 @@
             <slot time="09:00:00">
                 <!-- Should we replace part of this session with XQuery, per 2022-06-22 conversation with David, Elli, Emma, Gabi ? -->
                 <title>ODDs and collaborative encoding</title>
-                <act time="60" type="Discussion">
+                <act time="30" type="Discussion">
                     <desc>Writing the ODD and other mechanisms for document control and
                         documentation.</desc>
                     <outcome>
@@ -509,14 +549,21 @@
                     </instructors>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>Create Kanban boards in GitHub Projects and explore some other software
-                        tools available.</desc>
+                    <desc>Create Kanban boards in GitHub Projects and discuss other project management tools.</desc>
                     <outcome>
                         <goal>Introduce Kanban and other software for task and issue
                             management.</goal>
                     </outcome>
                     <instructors>
                         <instructor>Chelcie</instructor>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>XQuery: taking stock.</desc>
+                    <!-- More specific title? -->
+                    <instructors>
+                        <instructor>Cliff</instructor>
                     </instructors>
                 </act>
             </slot>
@@ -549,7 +596,7 @@
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Create merge conflicts on purpose to gain familiarity with resolving them
-                        (without being thrown into a VIM blackhole).</desc>
+                        (without being thrown into a VIM black hole).</desc>
                     <outcome>
                         <goal>Become comfortable with merge conflicts and using Git.</goal>
                     </outcome>
@@ -586,9 +633,9 @@
                         <instructor>David</instructor>
                     </instructors>
                 </act>
-                <act time="40" type="Code_lab">
-                    <desc>Together as a group, we deconstruct and rewrite the app’s search
-                        functionality.</desc>
+                <act time="40" type="Discussion">
+                    <desc>Facets and you: thinking about your search interface.</desc>
+                    <!-- djb: ask Shea whether she can be there? -->
                     <outcome>
                         <goal>Understand the development process for creating advanced
                             features.</goal>
@@ -747,6 +794,7 @@
                 application.</syn>
             <slot time="09:00:00">
                 <title>Creating views and using typeswitch</title>
+                <!-- Titles list -->
                 <act time="30" type="Code_lab">
                     <desc>Using typeswitch and local functions.</desc>
                     <outcome>
@@ -777,6 +825,7 @@
                 </act>
             </slot>
             <slot time="11:00:00">
+                <!-- Same as above, but for simplified reading view -->
                 <title>Putting MVC together</title>
                 <act time="30" type="Code_lab">
                     <desc>The Model in action.</desc>
@@ -805,6 +854,7 @@
             </slot>
             <slot time="14:00:00">
                 <title>XQuery functions and unit testing</title>
+                <!-- Code to create field values was originally inline; now create function library-->
                 <act time="35" type="Code_lab">
                     <desc>Writing user-defined functions.</desc>
                     <instructors>
@@ -837,8 +887,8 @@
             </slot>
             <slot time="16:00:00">
                 <title>Visualizing our geodata and integrating external APIs</title>
-                <act time="20" type="Talk_lab">
-                    <desc>Revisit the model for our geodata and explore our ideas on how visual
+                <act time="15" type="Talk_lab">
+                    <desc>Write the model for our geodata and explore our ideas on how visual
                         information can be displayed.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
@@ -853,7 +903,7 @@
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
-                <act time="55" type="Code_lab">
+                <act time="60" type="Code_lab">
                     <desc>Together, we integrate basic map functionality into the app using a
                         mapping JS library.</desc>
                     <outcome>
@@ -993,7 +1043,8 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar</title>
+                <title>Special topic: Using Cytoscape to visualize network relationships with Elisa
+                    Beshero-Bondar</title>
                 <act time="10" type="Code_lab">
                     <desc>Install Cytoscape.</desc>
                     <instructors>
@@ -1023,8 +1074,9 @@
                 participants to profile and optimize their queries using Monex. The final session is
                 reserved for review and catch-up.</syn>
             <slot time="09:00:00">
-                <title>Review and practice: version control and project management with git and GitHub.</title>
-                <act time="30" type="Code_lab">
+                <title>Review and practice: version control and project management with git and
+                    GitHub.</title>
+                <act time="20" type="Code_lab">
                     <desc>Development and feature branches, tracking branches, and branch
                         strategies.</desc>
                     <outcome>
@@ -1043,8 +1095,15 @@
                         <instructor>Hugh</instructor>
                     </instructors>
                 </act>
-                <act time="40" type="Discussion">
-                    <desc>Project management reflections and planning our own projects.</desc>
+                <act time="15" type="Discussion">
+                    <desc>Project management reflections.</desc>
+                    <!-- Part of the look-back that is otherwise on Friday, session 2 -->
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
+                </act>
+                <act time="35" type="Talk_lab">
+                    <desc>planning our own projects.</desc>
                     <instructors>
                         <instructor>Chelcie</instructor>
                     </instructors>
@@ -1080,8 +1139,12 @@
                 <act time="30" type="Talk_lab">
                     <desc>Documenting our decisions.</desc>
                     <!-- Target audience: Other developers? End-users? Others? -->
+                    <!-- Participants identify decisions made and alternatives and figure out how to document them.
+                        Moving articles to end, passing query parameters during search instead of cookie,
+                        why <main> and <section> (and why not), mapping.js library choice. Naming (kebab, snake,
+                        camel)? Why separate wrapper in controller flow? What goes into function library? -->
                     <instructors>
-                        <instructor>Leif-Jöran</instructor>
+                        <instructor>David</instructor>
                     </instructors>
                 </act>
             </slot>
@@ -1149,25 +1212,25 @@
                 their application of Institute concepts in their own editions.</syn>
             <slot time="09:00:00">
                 <title>Modeling choices</title>
-                <act time="20" type="Discussion">
+                <act time="15" type="Discussion">
                     <desc>Why we did what we did, and how we decided to do it.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
-                <act time="20" type="Discussion">
+                <act time="15" type="Discussion">
                     <desc>What we’d do differently.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
-                <act time="20" type="Discussion">
+                <act time="15" type="Discussion">
                     <desc>What we’d do next.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
-                <act time="30" type="Talk_lab">
+                <act time="45" type="Talk_lab">
                     <desc>Examining modeling choices from exemplary editions using what we know
                         now.</desc>
                     <instructors>

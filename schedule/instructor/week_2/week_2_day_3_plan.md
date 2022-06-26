@@ -61,7 +61,8 @@ Time | Topic | Type | Instructor
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar
+## 4:00–5:30: Special topic: Using Cytoscape to visualize network relationships with Elisa
+                    Beshero-Bondar
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

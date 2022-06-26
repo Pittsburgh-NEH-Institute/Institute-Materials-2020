@@ -28,10 +28,10 @@ Finishing up (dessert and coffee?). In the first session, participants will disc
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-20 min | Why we did what we did, and how we decided to do it. | Discussion|Gabi
-20 min | What we’d do differently. | Discussion|Gabi
-20 min | What we’d do next. | Discussion|Gabi
-30 min | Examining modeling choices from exemplary editions using what we know now. | Talk lab|Elli
+15 min | Why we did what we did, and how we decided to do it. | Discussion|Gabi
+15 min | What we’d do differently. | Discussion|Gabi
+15 min | What we’d do next. | Discussion|Gabi
+45 min | Examining modeling choices from exemplary editions using what we know now. | Talk lab|Elli
 
 ## 10:30–11:00: Coffee break
 

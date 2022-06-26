@@ -51,11 +51,15 @@ Time | Topic | Type
 
 ## 12:30–2:00: Lunch
 
-## 2:00–3:30: XQuery
+## 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Creating a pipeline with XQuery: you are the controller. | Presentation
+10 min | Plan goals and pipeline organization. | Discussion
+10 min | Create the model, part 1: find the information you need. | Code lab
+30 min | Create the model, part 2: construct model in model namespace. | Code lab
+10 min | Prepare to connect the model and the view: save the model to a variable. | Code lab
+30 min | Create the view: transform the model to HTML. | Code lab
 
 ## 3:30–4:00: Coffee break
 

@@ -35,8 +35,8 @@ Practice navigating your file system and using tools at the command line,
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Working on the command line. | Code lab|Gabi
-30 min | Practice Git on the command line. | Code lab|Gabi
+30 min | Working on the command line. | Code lab|Emma
+30 min | Practice Git on the command line. | Code lab|Emma
 30 min | Command line tips and tricks. | Code lab|Elli
 
 ## 10:30–11:00: Coffee break
@@ -51,11 +51,15 @@ Time | Topic | Type | Instructor
 
 ## 12:30–2:00: Lunch
 
-## 2:00–3:30: XQuery
+## 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-90 min | Creating a pipeline with XQuery: you are the controller. | Presentation|Cliff, David, Leif-Jöran
+10 min | Plan goals and pipeline organization. | Discussion|Gabi
+10 min | Create the model, part 1: find the information you need. | Code lab|Gabi
+30 min | Create the model, part 2: construct model in model namespace. | Code lab|Leif-Jöran
+10 min | Prepare to connect the model and the view: save the model to a variable. | Code lab|Leif-Jöran
+30 min | Create the view: transform the model to HTML. | Code lab|Cliff
 
 ## 3:30–4:00: Coffee break
 
