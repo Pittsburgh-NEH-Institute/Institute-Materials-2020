@@ -1,6 +1,8 @@
 # Session plan: Hugh
 
-[Link to instructor-view navigation page](daily_instructor_view.md)## Week 1
+[Link to instructor-view navigation page](daily_instructor_view.md)
+
+## Week 1
 
 ### Wednesday, July 13, 2022
 

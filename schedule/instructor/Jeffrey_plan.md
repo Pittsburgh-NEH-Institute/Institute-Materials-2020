@@ -1,6 +1,8 @@
 # Session plan: Jeffrey
 
-[Link to instructor-view navigation page](daily_instructor_view.md)## Week 1
+[Link to instructor-view navigation page](daily_instructor_view.md)
+
+## Week 1
 
 ### Friday, July 15, 2022
 

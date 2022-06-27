@@ -1,5 +1,7 @@
 # Week 2, Day 3: Wednesday, July 20, 2022
-[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)
+
+## Synopsis
 
 Visualization and interactivity. On day three participants learn to communicate
                 information about data through interactive graphs and charts. In session one we

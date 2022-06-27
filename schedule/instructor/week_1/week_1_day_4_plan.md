@@ -1,5 +1,7 @@
 # Week 1, Day 4: Thursday, July 14, 2022
-[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)
+
+## Synopsis
 
 XQuery in XML databases. Day four reimagines the edition in a research-driven way
                 within a digital environment. In the morning, we guide participants through

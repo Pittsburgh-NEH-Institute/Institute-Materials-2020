@@ -1,5 +1,7 @@
 # Week 1, Day 3: Wednesday, July 13, 2022
-[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)
+
+## Synopsis
 
 Moving from model to implementation. The third day is devoted to developing the
                 digital editing workflow as a computational pipeline. Session one extends the

@@ -1,5 +1,7 @@
 # Week 2, Day 4: Thursday, July 21, 2022
-[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)
+
+## Synopsis
 
 Data access and APIs. The morning sessions focus on accommodating both the
                 developer-user and the eventual end-user. First, participants learn to collaborate

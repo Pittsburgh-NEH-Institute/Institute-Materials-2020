@@ -1,6 +1,8 @@
 # Session plan: Shea
 
-[Link to instructor-view navigation page](daily_instructor_view.md)## Week 2
+[Link to instructor-view navigation page](daily_instructor_view.md)
+
+## Week 2
 
 ### Monday, July 18, 2022
 

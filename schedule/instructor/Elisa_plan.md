@@ -1,6 +1,8 @@
 # Session plan: Elisa
 
-[Link to instructor-view navigation page](daily_instructor_view.md)## Week 2
+[Link to instructor-view navigation page](daily_instructor_view.md)
+
+## Week 2
 
 ### Wednesday, July 20, 2022
 

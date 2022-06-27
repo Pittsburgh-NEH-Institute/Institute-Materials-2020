@@ -236,7 +236,7 @@
         <xsl:result-document method="text" omit-xml-declaration="yes" href="{$filename}">
             <xsl:value-of
                 select="'# Week ' || ../@num || ', Day ' || position() || ': ' || @d || ', ' || date || '&#x0a;'"/>
-            <xsl:text>[Link to instructor-view navigation page](../daily_instructor_view.md)</xsl:text>            
+            <xsl:text>[Link to instructor-view navigation page](../daily_instructor_view.md)&#x0a;&#x0a;</xsl:text>            
             <!-- synopsis -->
             <xsl:text>## Synopsis&#x0a;</xsl:text>
             <xsl:apply-templates select="syn" mode="daily"/>
@@ -308,7 +308,7 @@
             select="'instructor/' || $instructor || '_plan.md'"/>
         <xsl:result-document method="text" omit-xml-declaration="yes" href="{$filename}">
             <xsl:value-of select="concat('# Session plan: ', $instructor, '&#x0a;&#x0a;')"/>
-            <xsl:text>[Link to instructor-view navigation page](daily_instructor_view.md)</xsl:text>
+            <xsl:text>[Link to instructor-view navigation page](daily_instructor_view.md)&#x0a;&#x0a;</xsl:text>
             <xsl:apply-templates mode="instructor_individual"
                 select="descendant::week[descendant::instructor = $instructor]"/>
         </xsl:result-document>

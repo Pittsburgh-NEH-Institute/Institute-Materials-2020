@@ -1,5 +1,7 @@
 # Week 2, Day 2: Tuesday, July 19, 2022
-[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)
+
+## Synopsis
 
 Implementing publication strategies. The morning is devoted to typeswitch, an
                 operator that helps us mimic XSLT template processing in XQuery. With typeswitch, we

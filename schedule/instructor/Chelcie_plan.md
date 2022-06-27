@@ -1,6 +1,8 @@
 # Session plan: Chelcie
 
-[Link to instructor-view navigation page](daily_instructor_view.md)## Week 1
+[Link to instructor-view navigation page](daily_instructor_view.md)
+
+## Week 1
 
 ### Monday, July 11, 2022
 

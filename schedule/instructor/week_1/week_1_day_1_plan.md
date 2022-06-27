@@ -1,5 +1,7 @@
 # Week 1, Day 1: Monday, July 11, 2022
-[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)
+
+## Synopsis
 
 Fundamentals. The Institute opens with a high-level view of the types of engagement
                 required by a textual editor, beginning (always!) from the research questions and
