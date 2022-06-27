@@ -1,5 +1,5 @@
 # Week 1, Day 2: Tuesday, July 12, 2022
-## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
 
 Project management and planning the edition. After the first day’s emphasis on
                 theory, model, and method, day two concentrates on baseline technical topics needed

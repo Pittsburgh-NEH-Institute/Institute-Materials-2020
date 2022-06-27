@@ -1,5 +1,5 @@
 # Week 1, Day 5: Friday, July 15, 2022
-## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
 
 Collaborating on the edition. In session one we introduce the TEI ODD (One Document
                 Does it all), a mechanism for documenting customizations to the TEI for

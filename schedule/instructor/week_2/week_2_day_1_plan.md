@@ -1,5 +1,5 @@
 # Week 2, Day 1: Monday, July 18, 2022
-## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
 
 Planning for deployment. In week two, participants prepare the laboratory edition
                 for publication, exposing the functionalities of querying, filtering, analyzing, and

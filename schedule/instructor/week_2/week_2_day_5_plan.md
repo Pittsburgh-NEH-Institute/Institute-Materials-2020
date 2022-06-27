@@ -1,5 +1,5 @@
 # Week 2, Day 5: Friday, July 22, 2022
-## Synopsis
+[Link to instructor-view navigation page](../daily_instructor_view.md)## Synopsis
 
 Finishing up (dessert and coffee?). In the first session, participants will discuss
                 and reflect upon the modeling choices made in development of the laboratory edition.

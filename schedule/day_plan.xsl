@@ -4,6 +4,10 @@
     version="3.0">
     <xsl:output method="text" omit-xml-declaration="yes"/>
     <!-- ================================================================ -->
+    <!-- Stylesheet variables                                             -->
+    <!-- ================================================================ -->
+    <xsl:variable name="root" as="document-node()" select="/"/>
+    <!-- ================================================================ -->
     <!-- User-defined functions                                           -->
     <!-- ================================================================ -->
     <xsl:function name="djb:timeRange" as="xs:string">
@@ -33,13 +37,21 @@
         <xsl:apply-templates select="//week"/>
         <xsl:apply-templates select="//week" mode="daily"/>
         <!-- ============================================================ -->
-        <!-- Create weekly and then daily schedules for instructors       -->
+        <!-- Create daily (no weekly) schedules with instructor names     -->
+        <!-- Create separate schedules for each instructor                -->
+        <!--   (musician’s view, mode instructor_individual)              -->
         <!-- ============================================================ -->
-        <xsl:apply-templates select="//week" mode="instructor"/>
         <xsl:apply-templates select="//week" mode="instructor_daily"/>
+        <xsl:for-each select="distinct-values(//instructor)">
+            <xsl:apply-templates select="$root" mode="instructor_individual">
+                <xsl:with-param name="instructor" tunnel="yes" select="."/>
+            </xsl:apply-templates>
+        </xsl:for-each>
     </xsl:template>
     <!-- ================================================================ -->
+    <!-- =                                                              = -->
     <!-- Templates for weekly plans (for publication)                     -->
+    <!-- =                                                              = -->
     <!-- ================================================================ -->
     <xsl:template match="week">
         <xsl:variable name="time_slots" select="distinct-values(descendant::slot/@time)"
@@ -86,7 +98,9 @@
         <xsl:value-of select="$daynames"/>
     </xsl:template>
     <!-- ================================================================ -->
-    <!-- Templates for daily plans (for publication)                      -->
+    <!-- =                                                              = -->
+    <!--  Templates for daily plans (for publication)                     -->
+    <!-- =                                                              = -->
     <!-- ================================================================ -->
     <xsl:template match="week" mode="daily">
         <xsl:apply-templates mode="daily" select="day"/>
@@ -158,7 +172,9 @@
         <xsl:text>&#x0a;</xsl:text>
     </xsl:template>
     <!-- ================================================================ -->
-    <!-- Templates for weekly plans (for instructors)                     -->
+    <!-- =                                                              = -->
+    <!-- Templates for weekly plans with instructor names (not used)      -->
+    <!-- =                                                              = -->
     <!-- ================================================================ -->
     <xsl:template match="week" mode="instructor">
         <xsl:variable name="time_slots" select="distinct-values(descendant::slot/@time)"
@@ -205,7 +221,9 @@
         <xsl:value-of select="$daynames"/>
     </xsl:template>
     <!-- ================================================================ -->
-    <!-- Templates for daily plans (for publication)                      -->
+    <!-- =                                                              = -->
+    <!-- Templates for daily plans with instructor names                  -->
+    <!-- =                                                              = -->
     <!-- ================================================================ -->
     <xsl:template match="week" mode="instructor_daily">
         <xsl:apply-templates mode="instructor_daily" select="day"/>
@@ -218,7 +236,7 @@
         <xsl:result-document method="text" omit-xml-declaration="yes" href="{$filename}">
             <xsl:value-of
                 select="'# Week ' || ../@num || ', Day ' || position() || ': ' || @d || ', ' || date || '&#x0a;'"/>
-
+            <xsl:text>[Link to instructor-view navigation page](../daily_instructor_view.md)</xsl:text>            
             <!-- synopsis -->
             <xsl:text>## Synopsis&#x0a;</xsl:text>
             <xsl:apply-templates select="syn" mode="daily"/>
@@ -275,5 +293,79 @@
         <xsl:text>* </xsl:text>
         <xsl:apply-templates select="normalize-space(.)"/>
         <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- =                                                              = -->
+    <!-- Templates for individual instructor (musician’s) view            -->
+    <!-- =                                                              = -->
+    <!-- ================================================================ -->
+    <xsl:template match="/" mode="instructor_individual">
+        <!-- ============================================================ -->
+        <!-- Create instructor-specific document                          -->
+        <!-- ============================================================ -->
+        <xsl:param name="instructor" tunnel="yes" as="xs:string" required="yes"/>
+        <xsl:variable name="filename" as="xs:string"
+            select="'instructor/' || $instructor || '_plan.md'"/>
+        <xsl:result-document method="text" omit-xml-declaration="yes" href="{$filename}">
+            <xsl:value-of select="concat('# Session plan: ', $instructor, '&#x0a;&#x0a;')"/>
+            <xsl:text>[Link to instructor-view navigation page](daily_instructor_view.md)</xsl:text>
+            <xsl:apply-templates mode="instructor_individual"
+                select="descendant::week[descendant::instructor = $instructor]"/>
+        </xsl:result-document>
+    </xsl:template>
+    <xsl:template mode="instructor_individual" match="week">
+        <!-- ============================================================ -->
+        <!-- Create instructor-specific week                              -->
+        <!-- ============================================================ -->
+        <xsl:param name="instructor" tunnel="yes" as="xs:string" required="yes"/>
+        <xsl:value-of select="concat('## Week ', @num, '&#x0a;&#x0a;')"/>
+        <xsl:apply-templates mode="instructor_individual"
+            select="day[descendant::instructor = $instructor]"/>
+    </xsl:template>
+    <xsl:template mode="instructor_individual" match="day">
+        <!-- ============================================================ -->
+        <!-- Create instructor-specific day                               -->
+        <!-- ============================================================ -->
+        <xsl:param name="instructor" tunnel="yes" as="xs:string" required="yes"/>
+        <xsl:value-of select="concat('### ', @d, ', ', date, '&#x0a;&#x0a;')"/>
+        <xsl:apply-templates mode="instructor_individual"
+            select="descendant::slot[descendant::instructor = $instructor]"/>
+    </xsl:template>
+    <xsl:template match="slot" mode="instructor_individual">
+        <!-- ============================================================ -->
+        <!-- Create and styles time headers                               -->
+        <!-- ============================================================ -->
+        <xsl:value-of
+            select="'#### ' || djb:timeRange(@time, sum(act/@time)) || ': ' || title || '&#x0a;&#x0a;'"/>
+        <xsl:if test="desc">
+            <xsl:value-of select="desc, '&#x0a;&#x0a;'"/>
+        </xsl:if>
+        <xsl:text>Time | Topic | Type | Instructor&#x0a;</xsl:text>
+        <xsl:text>---- | ---- | ---- | ---- &#x0a;</xsl:text>
+        <xsl:apply-templates select="act" mode="instructor_individual"/>
+        <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <xsl:template match="act" mode="instructor_individual">
+        <xsl:param name="instructor" tunnel="yes" required="yes"/>
+        <xsl:variable name="current-act" as="element(act)" select="."/>
+        <!-- ============================================================ -->
+        <!-- Create activity times in table                               -->
+        <!-- ============================================================ -->
+        <xsl:variable name="column-values" as="xs:string+"
+            select="concat(@time, ' min'), normalize-space(desc), translate(@type, '_', ' '), string-join(descendant::instructor, ', ')"/>
+        <xsl:for-each select="$column-values">
+            <xsl:choose>
+                <xsl:when test="$current-act/descendant::instructor = $instructor">
+                    <xsl:value-of select="concat('**', ., '**')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:if test="position() ne last()">
+                <xsl:value-of select="' | '"/>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:value-of select="'&#x0a;'"/>
     </xsl:template>
 </xsl:stylesheet>

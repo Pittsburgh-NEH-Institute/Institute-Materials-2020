@@ -1074,8 +1074,7 @@
                 participants to profile and optimize their queries using Monex. The final session is
                 reserved for review and catch-up.</syn>
             <slot time="09:00:00">
-                <title>Review and practice: version control and project management with git and
-                    GitHub.</title>
+                <title>Review and practice: version control and project management with git and GitHub.</title>
                 <act time="20" type="Code_lab">
                     <desc>Development and feature branches, tracking branches, and branch
                         strategies.</desc>
