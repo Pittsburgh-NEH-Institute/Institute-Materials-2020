@@ -22,7 +22,7 @@ Uber and Lyft are ride-sharing services available via phone app. Download either
 
 ### Driving directions
 
-You should plan to arrive at Panther Central, but we recommend inputting “204 Brackenridge Hall” into your GPS or Mapquest for parking purposes. You’ll park in the quad and walk up the steps to Litchfield Towers, where you’ll receive a parking pass to be used in the Posvar garage. If you are arriving on Sunday, parking in the quad is free. For Saturday arrivals, you will not be parked for more than 10 minutes, but we recommend having a spare quarter for the meter, just in case.
+You should plan to arrive at [Panther Central](https://www.pc.pitt.edu/about-us) (located in the [Litchfield Towers Lobby](https://www.tour.pitt.edu/tour/litchfield-towers)), but we recommend inputting “204 Brackenridge Hall” into your GPS or Mapquest for parking purposes. You’ll park temporarily in the quad (central courtyard area) and walk up the steps to Litchfield Towers, where you’ll receive a parking pass to be used in the [Posvar garage](https://www.pts.pitt.edu/mobility/parking/parking-opportunities/parkmobile). If you are arriving on Sunday, parking in the quad is free. For Saturday arrivals, you will not be parked for more than 10 minutes, but we recommend having a spare quarter for the meter, just in case.
 
 ## Arrival at Bouquet Gardens 
 
