@@ -3,8 +3,7 @@
 <?xml-model href="master_schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
     <week num="1">
-        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering
-            tools</title>
+        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering tools</title>
         <day d="Monday">
             <date>July 11, 2022</date>
             <syn>Fundamentals. The Institute opens with a high-level view of the types of engagement
@@ -485,7 +484,8 @@
                 </act>
                 <act time="10" type="Code_lab">
                     <!-- Separate yesterday’s unified XQuery into separate model and view -->
-                    <desc>URL rewriting: configure the controller to return the combined model plus view.</desc>
+                    <desc>URL rewriting: configure the controller to return the combined model plus
+                        view.</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
@@ -549,7 +549,8 @@
                     </instructors>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>Create Kanban boards in GitHub Projects and discuss other project management tools.</desc>
+                    <desc>Create Kanban boards in GitHub Projects and discuss other project
+                        management tools.</desc>
                     <outcome>
                         <goal>Introduce Kanban and other software for task and issue
                             management.</goal>
@@ -1043,8 +1044,7 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Special topic: Using Cytoscape to visualize network relationships with Elisa
-                    Beshero-Bondar</title>
+                <title>Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar</title>
                 <act time="10" type="Code_lab">
                     <desc>Install Cytoscape.</desc>
                     <instructors>

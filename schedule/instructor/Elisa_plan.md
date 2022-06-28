@@ -13,8 +13,7 @@ Time | Topic | Type | Instructor
 **25 min** | **What is network analysis? How is it used?** | **Presentation** | **Elisa**
 **65 min** | **Creating the model as tab-separated values (TSV) using XQuery.** | **Presentation** | **Elisa**
 
-#### 4:00–5:30: Special topic: Using Cytoscape to visualize network relationships with Elisa
-                    Beshero-Bondar
+#### 4:00–5:30: Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

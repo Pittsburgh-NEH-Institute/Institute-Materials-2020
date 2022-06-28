@@ -13,8 +13,7 @@
             <report test="@time &lt;= preceding-sibling::slot/@time"> Activity time slots must be
                 later than preceding time slots. </report>
         </rule>
-        <rule
-            context="act[not(preceding-sibling::title = ('Coffee break', 'Lunch'))]">
+        <rule context="act[not(preceding-sibling::title = ('Coffee break', 'Lunch'))]">
             <assert test="@type">Activities must have a @type attribute.</assert>
             <assert test="instructors">Activities must specify instructors</assert>
         </rule>
@@ -29,8 +28,9 @@
             <assert test="count(instructor) eq count(distinct-values(instructor))">Instructor is
                 listed more than once: <value-of select="."/></assert>
         </rule>
-
-
+        <rule context="title">
+            <report test="matches(., '\n')">Newlines not allowed inside &lt;<value-of
+                    select="name(.)"/>&gt; elements</report>
+        </rule>
     </pattern>
-
 </sch:schema>
