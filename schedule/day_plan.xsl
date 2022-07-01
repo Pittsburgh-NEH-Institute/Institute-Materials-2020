@@ -301,7 +301,7 @@
     <!-- Create links to repos for project stages                         -->
     <!-- ================================================================ -->
     <xsl:template match="repos" mode="instructor_daily">
-        <xsl:text>&#x0a;&#x0a;</xsl:text>
+        <xsl:text>&#x0a;&#x0a;### Edition repo stages for session&#x0a;&#x0a;</xsl:text>
         <xsl:apply-templates select="repo" mode="instructor_daily"/>
         <xsl:text>&#x0a;&#x0a;</xsl:text>
     </xsl:template>
