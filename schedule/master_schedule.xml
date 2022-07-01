@@ -69,6 +69,12 @@
             </slot>
             <slot time="11:00:00">
                 <title>The edition as a computational pipeline</title>
+                <repos>
+                    <repo>
+                        <repo-name>Final edition</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/pr-app</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Presentation">
                     <desc>We introduce the computational pipeline as a way of modeling the
                         development of a digital edition.</desc>
@@ -119,6 +125,12 @@
             </slot>
             <slot time="16:00:00">
                 <title>XQuery and digital editions</title>
+                <repos>
+                    <repo>
+                        <repo-name>Base view: TEI data</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="45" type="Discussion">
                     <desc>Exemplary digital editions.</desc>
                     <outcome>
@@ -204,6 +216,13 @@
             </slot>
             <slot time="14:00:00">
                 <title>File management</title>
+                <repos>
+                    <repo>
+                        <repo-name>Base view: TEI</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+
+                </repos>
                 <act time="60" type="Code_lab">
                     <desc>File management and command line basics.</desc>
                     <outcome>
@@ -254,6 +273,12 @@
                 <title>Command line</title>
                 <desc>Practice navigating your file system and using tools at the command line,
                     including Git.</desc>
+                <repos>
+                    <repo>
+                        <repo-name>Base view: TEI</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Code_lab">
                     <desc>Working on the command line.</desc>
                     <outcome>
@@ -287,6 +312,12 @@
             </slot>
             <slot time="11:00:00">
                 <title>Modeling the data for the edition</title>
+                <repos>
+                    <repo>
+                        <repo-name>Base view: TEI</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Presentation">
                     <desc>Integrating model and workflow.</desc>
                     <outcome>
@@ -331,6 +362,16 @@
             </slot>
             <slot time="14:00:00">
                 <title>Creating a pipeline with XQuery: you are the controller.</title>
+                <repos>
+                    <repo>
+                        <repo-name>Base view: TEI</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Creating title list: model and view in a module</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <!-- Build list of titles -->
                 <act time="10" type="Discussion">
                     <desc>Plan goals and pipeline organization.</desc>
@@ -359,6 +400,7 @@
                 </act>
                 <act time="30" type="Code_lab">
                     <desc>Create the view: transform the model to HTML.</desc>
+                    <!-- Instead of using typeswitch, we'll use FLWOR to address the list and transform to HTML. -->
                     <instructors>
                         <instructor>Cliff</instructor>
                     </instructors>
@@ -395,6 +437,16 @@
                 The final session of the day will focus on collation.</syn>
             <slot time="09:00:00">
                 <title>XML databases and indexes</title>
+                <repos>
+                    <repo>
+                        <repo-name>Creating title list: model only</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Creating index: collection.xconf</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Presentation">
                     <desc>Databases have at minimum data and a method of querying that data. Indexes
                         enable direct and fast retrieval for querying the data.</desc>
@@ -433,6 +485,16 @@
             </slot>
             <slot time="11:00:00">
                 <title>Developing the model to support a feature</title>
+                <repos>
+                    <repo>
+                        <repo-name>Creating index: collection.xconf</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Creating models: feature base models</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Code_lab">
                     <desc>Add your fields to the index and begin querying.</desc>
                     <outcome>
@@ -464,6 +526,16 @@
             </slot>
             <slot time="14:00:00">
                 <title>The controller</title>
+                <repos>
+                    <repo>
+                        <repo-name>Creating models: feature base models</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Creating a controller</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="20" type="Talk_lab">
                     <desc>Where are we in the project? Planning for the next step?</desc>
                     <instructors>
@@ -541,8 +613,13 @@
                 the International Image Interoperability Framework (IIIF), a community-focused
                 Linked Open Data (LOD) standard for image sharing, closes the day.</syn>
             <slot time="09:00:00">
-                <!-- Should we replace part of this session with XQuery, per 2022-06-22 conversation with David, Elli, Emma, Gabi ? -->
                 <title>ODDs and collaborative encoding</title>
+                <repos>
+                    <repo>
+                        <repo-name>Base view: TEI</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Discussion">
                     <desc>Writing the ODD and other mechanisms for document control and
                         documentation.</desc>
@@ -582,6 +659,12 @@
             </slot>
             <slot time="11:00:00">
                 <title>Git and GitHub in Real Life</title>
+                <repos>
+                    <repo>
+                        <repo-name>Your own repo</repo-name>
+                        <repo-link>https://example.com</repo-link>
+                    </repo>
+                </repos>
                 <act time="20" type="Code_lab">
                     <desc>Issues and pull requests.</desc>
                     <outcome>
@@ -620,6 +703,12 @@
             </slot>
             <slot time="14:00:00">
                 <title>Search functionality</title>
+                <repos>
+                    <repo>
+                        <repo-name>Final edition</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/pr-app</repo-link>
+                    </repo>
+                </repos>
                 <act time="15" type="Presentation">
                     <desc>Review of fields.</desc>
                     <instructors>
@@ -687,6 +776,16 @@
                 by guest lecturer Shea Higgins.</syn>
             <slot time="09:00:00">
                 <title>Retrospective and plans</title>
+                <repos>
+                    <repo>
+                        <repo-name>Creating a controller</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Final edition</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/pr-app</repo-link>
+                    </repo>
+                </repos>
                 <act time="20" type="Discussion">
                     <desc>Looking back on week 1.</desc>
                     <outcome>
@@ -801,7 +900,17 @@
                 application.</syn>
             <slot time="09:00:00">
                 <title>Creating views and using typeswitch</title>
-                <!-- Titles list -->
+                <repos>
+                    <repo>
+                        <repo-name>Creating index</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Creating title view: use `typeswitch`</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
+                <!-- Titles list using FLWOR => titles list using typeswitch -->
                 <act time="30" type="Code_lab">
                     <desc>Using typeswitch and local functions.</desc>
                     <outcome>
@@ -833,7 +942,17 @@
             </slot>
             <slot time="11:00:00">
                 <!-- Same as above, but for simplified reading view -->
-                <title>Putting MVC together</title>
+                <title>Putting MVC together: building the reading view</title>
+                <repos>
+                    <repo>
+                        <repo-name>Creating title view: use `typeswitch`</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Creating reading view</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Code_lab">
                     <desc>The Model in action.</desc>
                     <instructors>
@@ -861,6 +980,16 @@
             </slot>
             <slot time="14:00:00">
                 <title>XQuery functions and unit testing</title>
+                <repos>
+                    <repo>
+                        <repo-name>Creating reading view</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Creating index-functions.xqm</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <!-- Code to create field values was originally inline; now create function library-->
                 <act time="35" type="Code_lab">
                     <desc>Writing user-defined functions.</desc>
@@ -894,6 +1023,16 @@
             </slot>
             <slot time="16:00:00">
                 <title>Visualizing our geodata and integrating external APIs</title>
+                <repos>
+                    <repo>
+                        <repo-name>Creating functions.xqm</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Maps and `map`: implementing a map</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="15" type="Talk_lab">
                     <desc>Write the model for our geodata and explore our ideas on how visual
                         information can be displayed.</desc>
@@ -995,6 +1134,16 @@
             </slot>
             <slot time="11:00:00">
                 <title>Creating SVG visualizations for the edition</title>
+                <repos>
+                    <repo>
+                        <repo-name>Maps and `map`: implementing a map</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Implementing a visualization</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
                 <act time="15" type="Code_lab">
                     <desc>Stylesheet, template, and function variables.</desc>
                     <instructors>
@@ -1081,6 +1230,12 @@
                 reserved for review and catch-up.</syn>
             <slot time="09:00:00">
                 <title>Review and practice: version control and project management with git and GitHub.</title>
+                <repos>
+                    <repo>
+                        <repo-name>Your repo</repo-name>
+                        <repo-link>https://example.com</repo-link>
+                    </repo>
+                </repos>
                 <act time="20" type="Code_lab">
                     <desc>Development and feature branches, tracking branches, and branch
                         strategies.</desc>
@@ -1108,7 +1263,7 @@
                     </instructors>
                 </act>
                 <act time="35" type="Talk_lab">
-                    <desc>planning our own projects.</desc>
+                    <desc>Planning our own projects.</desc>
                     <instructors>
                         <instructor>Chelcie</instructor>
                     </instructors>
@@ -1122,6 +1277,12 @@
             </slot>
             <slot time="11:00:00">
                 <title>Application programming interfaces (API)</title>
+                <repos>
+                    <repo>
+                        <repo-name>Final edition</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/pr-app</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Presentation">
                     <desc>What is an Application Programming Interface (API)?</desc>
                     <outcome>
@@ -1161,6 +1322,12 @@
             </slot>
             <slot time="14:00:00">
                 <title>Database indexes, queries, and profiling</title>
+                <repos>
+                    <repo>
+                        <repo-name>Final edition</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/pr-app</repo-link>
+                    </repo>
+                </repos>
                 <act time="30" type="Presentation">
                     <desc>Understanding eXist-db indexing.</desc>
                     <instructors>
@@ -1217,6 +1384,12 @@
                 their application of Institute concepts in their own editions.</syn>
             <slot time="09:00:00">
                 <title>Modeling choices</title>
+                <repos>
+                    <repo>
+                        <repo-name>Final edition</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/pr-app</repo-link>
+                    </repo>
+                </repos>
                 <act time="15" type="Discussion">
                     <desc>Why we did what we did, and how we decided to do it.</desc>
                     <instructors>
@@ -1254,6 +1427,12 @@
             </slot>
             <slot time="11:00:00">
                 <title>Implementation choices</title>
+                <repos>
+                    <repo>
+                        <repo-name>Final edition</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/pr-app</repo-link>
+                    </repo>
+                </repos>
                 <act time="20" type="Discussion">
                     <desc>Why use eXist-db?</desc>
                     <instructors>
