@@ -32,6 +32,11 @@ Fundamentals. The Institute opens with a high-level view of the types of engagem
 
 Introductions, research questions, schedules, outcome goals. 
 
+
+
+[Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
+
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 15 min | Introductions. | Presentation|David

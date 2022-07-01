@@ -236,7 +236,7 @@
         <xsl:result-document method="text" omit-xml-declaration="yes" href="{$filename}">
             <xsl:value-of
                 select="'# Week ' || ../@num || ', Day ' || position() || ': ' || @d || ', ' || date || '&#x0a;'"/>
-            <xsl:text>[Link to instructor-view navigation page](../daily_instructor_view.md)&#x0a;&#x0a;</xsl:text>            
+            <xsl:text>[Link to instructor-view navigation page](../daily_instructor_view.md)&#x0a;&#x0a;</xsl:text>
             <!-- synopsis -->
             <xsl:text>## Synopsis&#x0a;</xsl:text>
             <xsl:apply-templates select="syn" mode="daily"/>
@@ -271,6 +271,9 @@
         <xsl:if test="desc">
             <xsl:value-of select="desc, '&#x0a;&#x0a;'"/>
         </xsl:if>
+        <xsl:if test="repos">
+            <xsl:apply-templates select="repos" mode="instructor_daily"/>
+        </xsl:if>
         <xsl:if test="not(title = ('Coffee break', 'Lunch'))">
             <xsl:text>Time | Topic | Type | Instructor&#x0a;</xsl:text>
             <xsl:text>---- | ---- | ---- | ---- &#x0a;</xsl:text>
@@ -293,6 +296,17 @@
         <xsl:text>* </xsl:text>
         <xsl:apply-templates select="normalize-space(.)"/>
         <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- Create links to repos for project stages                         -->
+    <!-- ================================================================ -->
+    <xsl:template match="repos" mode="instructor_daily">
+        <xsl:text>&#x0a;&#x0a;</xsl:text>
+        <xsl:apply-templates select="repo" mode="instructor_daily"/>
+        <xsl:text>&#x0a;&#x0a;</xsl:text>
+    </xsl:template>
+    <xsl:template match="repo" mode="instructor_daily">
+        <xsl:value-of select="concat('[', repo-name, ']', '(', repo-link, ')', '&#x0a;')"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- =                                                              = -->

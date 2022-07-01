@@ -16,6 +16,12 @@
             <slot time="09:00:00">
                 <title>Getting started</title>
                 <desc>Introductions, research questions, schedules, outcome goals.</desc>
+                <repos>
+                    <repo>
+                        <repo-name>Final edition</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/pr-app</repo-link>
+                    </repo>
+                </repos>
                 <act time="15" type="Presentation">
                     <desc>Introductions.</desc>
                     <outcome>
