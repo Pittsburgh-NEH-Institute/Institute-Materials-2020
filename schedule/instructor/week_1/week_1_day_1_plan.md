@@ -34,7 +34,7 @@ Introductions, research questions, schedules, outcome goals.
 
 ### Edition repo stages for session
 
-[Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
