@@ -304,7 +304,7 @@
         <xsl:text>&#x0a;</xsl:text>
     </xsl:template>
     <xsl:template match="repo" mode="instructor_daily">
-        <xsl:value-of select="concat('[', repo-name, ']', '(', repo-link, ')', '&#x0a;')"/>
+        <xsl:value-of select="concat('* [', repo-name, ']', '(', repo-link, ')', '&#x0a;')"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- =                                                              = -->
