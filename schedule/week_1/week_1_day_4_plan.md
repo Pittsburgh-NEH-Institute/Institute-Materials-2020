@@ -66,4 +66,4 @@ Time | Topic | Type
 ---- | ---- | ---- 
 90 min | Collation. | Presentation
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.
