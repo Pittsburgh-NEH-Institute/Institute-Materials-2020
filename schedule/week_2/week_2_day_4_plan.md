@@ -31,7 +31,7 @@ Time | Topic | Type
 20 min | Development and feature branches, tracking branches, and branch strategies. | Code lab
 20 min | Releases and semantic versioning. | Presentation
 15 min | Project management reflections. | Discussion
-35 min | planning our own projects. | Talk lab
+35 min | Planning our own projects. | Talk lab
 
 ## 10:30–11:00: Coffee break
 

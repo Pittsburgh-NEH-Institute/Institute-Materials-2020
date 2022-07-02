@@ -47,6 +47,10 @@ Time | Topic | Type | Instructor
 
 ## 11:00–12:30: The edition as a computational pipeline
 
+### Edition repo stages for session
+
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | We introduce the computational pipeline as a way of modeling the development of a digital edition. | Presentation|Ronald
@@ -64,6 +68,10 @@ Time | Topic | Type | Instructor
 ## 3:30–4:00: Coffee break
 
 ## 4:00–5:30: XQuery and digital editions
+
+### Edition repo stages for session
+
+* [Base view: TEI data](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

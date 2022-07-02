@@ -46,6 +46,11 @@ Time | Topic | Type | Instructor
 
 ## 11:00–12:30: Creating SVG visualizations for the edition
 
+### Edition repo stages for session
+
+* [Maps and `map`: implementing a map](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Implementing a visualization](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 15 min | Stylesheet, template, and function variables. | Code lab|David

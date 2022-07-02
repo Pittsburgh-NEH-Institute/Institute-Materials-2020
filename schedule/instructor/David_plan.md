@@ -100,7 +100,7 @@ Time | Topic | Type | Instructor
 **30 min** | **Using typeswitch and local functions.** | **Code lab** | **David**
 60 min | Using typeswitch and local functions to create rich text reading views. | Code lab | Cliff
 
-#### 11:00–12:30: Putting MVC together
+#### 11:00–12:30: Putting MVC together: building the reading view
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

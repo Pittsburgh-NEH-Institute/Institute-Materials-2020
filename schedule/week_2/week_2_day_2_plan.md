@@ -38,7 +38,7 @@ Time | Topic | Type
 
 ## 10:30–11:00: Coffee break
 
-## 11:00–12:30: Putting MVC together
+## 11:00–12:30: Putting MVC together: building the reading view
 
 Time | Topic | Type
 ---- | ---- | ---- 

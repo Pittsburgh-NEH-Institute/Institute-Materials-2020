@@ -68,7 +68,7 @@ Time | Topic | Type | Instructor
 20 min | Development and feature branches, tracking branches, and branch strategies. | Code lab | Leif-Jöran
 **20 min** | **Releases and semantic versioning.** | **Presentation** | **Hugh**
 15 min | Project management reflections. | Discussion | Chelcie
-35 min | planning our own projects. | Talk lab | Chelcie
+35 min | Planning our own projects. | Talk lab | Chelcie
 
 #### 11:00–12:30: Application programming interfaces (API)
 

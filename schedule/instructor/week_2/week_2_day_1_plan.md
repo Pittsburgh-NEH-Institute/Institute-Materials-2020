@@ -34,6 +34,11 @@ Planning for deployment. In week two, participants prepare the laboratory editio
 * * *
 ## 9:00–10:30: Retrospective and plans
 
+### Edition repo stages for session
+
+* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion|David

@@ -28,16 +28,24 @@ Data access and APIs. The morning sessions focus on accommodating both the
 * * *
 ## 9:00–10:30: Review and practice: version control and project management with git and GitHub.
 
+### Edition repo stages for session
+
+* [Your repo](https://example.com)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Development and feature branches, tracking branches, and branch strategies. | Code lab|Leif-Jöran
 20 min | Releases and semantic versioning. | Presentation|Hugh
 15 min | Project management reflections. | Discussion|Chelcie
-35 min | planning our own projects. | Talk lab|Chelcie
+35 min | Planning our own projects. | Talk lab|Chelcie
 
 ## 10:30–11:00: Coffee break
 
 ## 11:00–12:30: Application programming interfaces (API)
+
+### Edition repo stages for session
+
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -48,6 +56,10 @@ Time | Topic | Type | Instructor
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: Database indexes, queries, and profiling
+
+### Edition repo stages for session
+
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

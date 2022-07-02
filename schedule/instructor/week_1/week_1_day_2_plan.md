@@ -51,6 +51,10 @@ Time | Topic | Type | Instructor
 
 ## 2:00–3:30: File management
 
+### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 60 min | File management and command line basics. | Code lab|Elli

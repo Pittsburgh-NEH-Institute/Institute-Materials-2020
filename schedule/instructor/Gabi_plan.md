@@ -89,7 +89,7 @@ Time | Topic | Type | Instructor
 
 ### Tuesday, July 19, 2022
 
-#### 11:00–12:30: Putting MVC together
+#### 11:00–12:30: Putting MVC together: building the reading view
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
