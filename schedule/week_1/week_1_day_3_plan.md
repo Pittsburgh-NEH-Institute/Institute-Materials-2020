@@ -31,7 +31,9 @@ Moving from model to implementation. The third day is devoted to developing the
 ## 9:00–10:30: Command line
 
 Practice navigating your file system and using tools at the command line,
-                    including Git. 
+                    including Git.### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -43,6 +45,10 @@ Time | Topic | Type
 
 ## 11:00–12:30: Modeling the data for the edition
 
+### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type
 ---- | ---- | ---- 
 30 min | Integrating model and workflow. | Presentation
@@ -52,6 +58,11 @@ Time | Topic | Type
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
+
+### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating title list: model and view in a module](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type
 ---- | ---- | ---- 

@@ -28,7 +28,9 @@ Fundamentals. The Institute opens with a high-level view of the types of engagem
 * * *
 ## 9:00–10:30: Getting started
 
-Introductions, research questions, schedules, outcome goals. 
+Introductions, research questions, schedules, outcome goals.### Edition repo stages for session
+
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -40,6 +42,10 @@ Time | Topic | Type
 ## 10:30–11:00: Coffee break
 
 ## 11:00–12:30: The edition as a computational pipeline
+
+### Edition repo stages for session
+
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -58,6 +64,10 @@ Time | Topic | Type
 ## 3:30–4:00: Coffee break
 
 ## 4:00–5:30: XQuery and digital editions
+
+### Edition repo stages for session
+
+* [Base view: TEI data](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type
 ---- | ---- | ---- 

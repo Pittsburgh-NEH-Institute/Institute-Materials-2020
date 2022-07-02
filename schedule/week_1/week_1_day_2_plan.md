@@ -29,9 +29,7 @@ Project management and planning the edition. After the first day’s emphasis on
 * * *
 ## 9:00–10:30: Project management
 
-Introductions, research questions, schedules, outcome goals. 
-
-Time | Topic | Type
+Introductions, research questions, schedules, outcome goals.Time | Topic | Type
 ---- | ---- | ---- 
 90 min | Project management. | Presentation
 
@@ -48,6 +46,10 @@ Time | Topic | Type
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: File management
+
+### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type
 ---- | ---- | ---- 

@@ -145,15 +145,20 @@
     <xsl:template match="slot" mode="daily">
         <xsl:value-of
             select="'## ' || djb:timeRange(@time, sum(act/@time)) || ': ' || title || '&#x0a;&#x0a;'"/>
-        <xsl:if test="desc">
-            <xsl:value-of select="desc, '&#x0a;&#x0a;'"/>
-        </xsl:if>
+        <xsl:apply-templates select="desc" mode="daily"/>
+        <xsl:apply-templates select="repos" mode="daily"/>
         <xsl:if test="not(title = ('Coffee break', 'Lunch'))">
             <xsl:text>Time | Topic | Type&#x0a;</xsl:text>
             <xsl:text>---- | ---- | ---- &#x0a;</xsl:text>
             <xsl:apply-templates select="act" mode="daily"/>
             <xsl:text>&#x0a;</xsl:text>
         </xsl:if>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- Process (optional) description                                   -->
+    <!-- ================================================================ -->
+    <xsl:template match="desc" mode="aily">
+        <xsl:value-of select=". || '&#x0a;&#x0a;'"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- Create activity times in table                                   -->
@@ -170,6 +175,17 @@
         <xsl:text>* </xsl:text>
         <xsl:apply-templates select="normalize-space(.)"/>
         <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- Create links to repos for project stages                         -->
+    <!-- ================================================================ -->
+    <xsl:template match="repos" mode="daily">
+        <xsl:text>### Edition repo stages for session&#x0a;&#x0a;</xsl:text>
+        <xsl:apply-templates select="repo" mode="daily"/>
+        <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <xsl:template match="repo" mode="daily">
+        <xsl:value-of select="concat('* [', repo-name, ']', '(', repo-link, ')', '&#x0a;')"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- =                                                              = -->
