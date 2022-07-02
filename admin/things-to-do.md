@@ -8,11 +8,11 @@ While Pittsburgh’s LRT (light rail train) service may not serve most of the ci
 
 ## Oakland 
 
-Home to the University of Pittsburgh, Oakland has many great restaurants and attractions. (List some restaurants here. PantherFunds??). Oakland is also home to some great museums, including the [Carnegie Museums of Art and Natural History](http://www.carnegiemuseums.org/), [Carnegie Library of Pittsburgh](http://www.carnegielibrary.org/), and [Phipps Conservatory](https://www.phipps.conservatory.org/). North Craig Street is home to the labyrinthine Caliban’s Book Shop, where you can find vintage records, rare books, and other treasures.
+Home to the University of Pittsburgh, Oakland has many great restaurants and attractions. Popular restaurants in the area include Roots, (salads and bowls), Ali Baba (Middle Eastern food), Oishii Bento (Japanese & Korean), and The Porch (sit-down restaurant across the street from the Cathedral). Oakland is also home to some great museums, including the [Carnegie Museums of Art and Natural History](http://www.carnegiemuseums.org/), [Carnegie Library of Pittsburgh](http://www.carnegielibrary.org/), and [Phipps Conservatory](https://www.phipps.conservatory.org/). North Craig Street is home to the labyrinthine Caliban’s Book Shop, where you can find vintage records, rare books, and other treasures.
 
 ## Shadyside and Squirrel Hill 
 
-Home to many great restaurants and boutique shopping, Shadyside and Squirrel Hill are Oakland’s closest, coziest neighbors. If Oakland feels just a bit too big city for you, take a bus heading outbound to escape for an afternoon. There are many different buses that will take you, so we recommend using Google Maps to find the closest one. Shadyside is also just a mile and a half walk from campus.
+Home to many great restaurants and boutique shopping, Shadyside and Squirrel Hill are Oakland’s closest, coziest neighbors. Restaurants in Shadyside include Noodlehead (Thai, cash-only), Fujiya Ramen, and Muddy Waters (a cajun Oyster bar). You can also head to Walnut Street for shopping in Shadyside. In Squirrel Hill, you can find many restaurants around both Murray Ave. and Forbes Ave., including Taiwanese Bistro Cafe 33, African Eats Cuisine, and Dobra Tea (a tea shop with an expansive collection of teas). If Oakland feels just a bit too big city for you, take a bus heading outbound to escape for an afternoon. There are many different buses that will take you, so we recommend using Google Maps to find the closest one. Shadyside is also just a mile and a half walk from campus.
 
 ## Strip District and Lawrenceville
 

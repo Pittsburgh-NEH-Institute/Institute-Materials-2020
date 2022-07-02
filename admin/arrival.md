@@ -4,21 +4,21 @@
 
 ### 28X bus 
 
-The bus fare for all buses is $2.75 (this will be your cheapest transportation option). Exact change is required. Alternatively, you can purchase a [ConnectCard](http://www.connectcard.org/) from a kiosk in the baggage claim area. To catch the bus, exit the airport from door number 6 and wait at the bus stop (look for a blue and white sign). When boarding the bus, enter from the front door, then feed your money into the farebox. If you purchased a ConnectCard, tap the card onto the orange scanner located on the top of the farebox. Note that drivers will not assist with luggage and space may vary on the bus. 
+The bus fare for all buses is $2.75 (this will be your cheapest transportation option). Exact change is required. Alternatively, you can purchase a [ConnectCard](http://www.connectcard.org/) from a kiosk in the baggage claim area. To catch the bus, exit the airport from door number 2 and wait at the bus stop (look for a blue and white sign). When boarding the bus, enter from the front door, then feed your money into the farebox. If you purchased a ConnectCard, tap the card onto the orange scanner located on the top of the farebox. Note that drivers will not assist with luggage and space may vary on the bus. 
 
-The 28X runs about twice an hour and is in service from 4 a.m. to midnight. To track the bus and get an approximate arrival time, you can download the [Transit app](https://transitapp.com/) and set your destination to 235 Oakland Avenue. The trip from the airport to the University of Pittsburgh lasts about one hour. 
+The 28X runs about twice an hour and is in service from 4 a.m. to midnight. To track the bus and get an approximate arrival time, you can download the [Transit app](https://transitapp.com/) and set your destination to 260 South Bouquet Street (this is the address for Bouquet Gardens B, where you will be checking in on July 10th). The trip from the airport to the University of Pittsburgh lasts about one hour. 
 
 ### Super Shuttle 
 
-[Super Shuttle](https://www.supershuttle.com) is a shared-ride van service that you can book ahead [online](https://www.supershuttle.com/locations/pittsburghpit/), via phone (1 800-258-3826), or in person at the airport upon arrival. You can get an estimate for pricing on their [website](https://www.supershuttle.com/blog/find-advance-pricing-supershuttle/) for either one-way or round trips. List your arrival destination as “235 Oakland Avenue, Pittsburgh, PA 15213” (this is the address for Building G of Bouquet Gardens, where you will be staying). **NOTE: Ask Marchae about differences in addresses for different buildings of Bouquet Gardens/which address to pick. For now, the address is for the specific building Bouquet G, found on the [Bouquet Gardens page on Pitt's housing site](https://www.pc.pitt.edu/housing-services/university-owned-housing/bouquet-gardens).**
+[Super Shuttle](https://www.supershuttle.com) is a shared-ride van service that you can book ahead [online](https://www.supershuttle.com/locations/pittsburghpit/), via phone (1 800-258-3826), or in person at the airport upon arrival. You can get an estimate for pricing on their [website](https://www.supershuttle.com/blog/find-advance-pricing-supershuttle/) for either one-way or round trips. List your arrival destination as “260 South Bouquet Street, Pittsburgh, PA 15213” (Bouquet B, your check-in location). 
 
 ### Taxi 
 
-Taxi service is available at the airport (same side as the 28X bus) and does not need to be booked ahead. Fare is generally around $60 (not including gratuity). Tell the driver “Bouquet Gardens at the University of Pittsburgh”. Follow directions to Bouquet G at 235 Oakland Avenue. 
+Taxi service is available at the airport (same side as the 28X bus) and does not need to be booked ahead. Fare is generally around $60 (not including gratuity). Tell the driver “Bouquet Gardens at the University of Pittsburgh”. Follow directions to Bouquet B at 260 South Bouquet Street. 
 
 ### Uber and Lyft
 
-Uber and Lyft are ride-sharing services available via phone app. Download either the Uber or Lyft app from the app store, input your information, and list “235 Oakland Avenue” as your destination. Fares vary with demand, but typically cost between $30 and $70 (not including gratuity). When you arrive, head to the Bouquet G building, which will be just ahead when you arrive. 
+Uber and Lyft are ride-sharing services available via phone app. Download either the Uber or Lyft app from the app store, input your information, and list “260 South Bouquet Street” as your destination. Fares vary with demand, but typically cost between $30 and $70 (not including gratuity). When you arrive, head to the Bouquet B building, which will be just ahead when you arrive. 
 
 ### Driving directions
 
@@ -26,9 +26,9 @@ You should plan to arrive at [Panther Central](https://www.pc.pitt.edu/about-us)
 
 ## Arrival at Bouquet Gardens 
 
-### Placeholder
+### Check-in day
 
-Get more detailed instructions from welcome letter. Who to contact, etc. 
+When you arrive on July 10th, there will be a dedicated check-in area at Bouquet B of [Bouquet Gardens](https://www.pc.pitt.edu/housing-services/university-owned-housing/bouquet-gardens), where you will be staying in either the Bouquet G or Bouquet D building. Check-in will run from 9 a.m. to 5 p.m., but if you arrive outside of this time frame, you can still check-in to your room by heading to the guard station at Bouquet J (315 Oakland Avenue). If you require any assistance on your day of arrival, you can contact Emma Schwarz, the Institute's Senior Assistant, whose contact information will be sent to participants prior to the beginning of the Institute.  
 
 ## Preparing for your trip 
 

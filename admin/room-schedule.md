@@ -2,6 +2,10 @@
 
 All Institute sessions will be held in [David Lawrence Hall](https://www.tour.pitt.edu/tour/david-lawrence-hall) Room 120. 
 
+# Institute reception
+
+The Institute reception will take place on Thursday, July 14th, from 6 p.m. to 8 p.m. The location for the event will be announced to participants during our regular Institute class sessions. 
+
 # Map from Bouquet Gardens to David Lawrence Hall
 
 The Bouquet Gardens Residence Halls are located five minutes on foot from David Lawrence Hall:

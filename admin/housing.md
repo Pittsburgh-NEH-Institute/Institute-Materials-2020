@@ -2,7 +2,7 @@
 
 ## Arrival and check-in 
 
-Your check-in location for housing will be Bouquet G ([235 Oakland Avenue, Pittsburgh, PA 15213](https://www.google.com/maps/place/265+Oakland+Ave,+Pittsburgh,+PA+15213/@40.4403288,-79.9549791,17z/data=!3m1!4b1!4m5!3m4!1s0x8834f229d3ac2da5:0xee7d1a8697a9d6f4!8m2!3d40.4403904!4d-79.954962)). This regular check-in closes at 6 p.m., and should you arrive later than that, you can still check in by heading to the guard station at Bouquet J at [315 Oakland Avenue](https://www.google.com/maps/place/315+Oakland+Ave,+Pittsburgh,+PA+15213/@40.4398923,-79.9563888,17z/data=!3m1!4b1!4m5!3m4!1s0x8834f187f3440103:0x16758f80690088b6!8m2!3d40.4398882!4d-79.9542001). At check-in you will receive a PUC (Panther Utility Card) and you will need to sign that you received the card. This will give you access to your assigned residence hall and room in Bouquet Gardens and to our classroom ([120 David Lawrence Hall](https://www.tour.pitt.edu/tour/david-lawrence-hall)). 
+Your check-in location for housing will be Bouquet B ([260 South Bouquet Street, Pittsburgh, PA 15213](https://www.google.com/maps/place/260+S+Bouquet+St,+Pittsburgh,+PA+15213/@40.4407162,-79.9568502,17z/data=!3m1!4b1!4m5!3m4!1s0x8834f22824211307:0xaabc42957e8f2d45!8m2!3d40.4407121!4d-79.9546615)). This regular check-in closes at 5 p.m., and should you arrive later than that, you can still check in by heading to the guard station at Bouquet J at [315 Oakland Avenue](https://www.google.com/maps/place/315+Oakland+Ave,+Pittsburgh,+PA+15213/@40.4398923,-79.9563888,17z/data=!3m1!4b1!4m5!3m4!1s0x8834f187f3440103:0x16758f80690088b6!8m2!3d40.4398882!4d-79.9542001). At check-in you will receive a PUC (Panther Utility Card) and you will need to sign that you received the card. This will give you access to your assigned residence hall and room in Bouquet Gardens and to our classroom ([120 David Lawrence Hall](https://www.tour.pitt.edu/tour/david-lawrence-hall)). 
 
 Your PUC also serves as your meal card (see below) and you can use it to ride the [Pitt Shuttles](https://www.pts.pitt.edu/mobility/shuttle-services/pitt-shuttle-schedule). It will not give access to Port Authority buses, gyms or other spaces on campus.
 
@@ -10,7 +10,7 @@ Your PUC also serves as your meal card (see below) and you can use it to ride th
 
 ### Location
 
-You will be staying at Bouquet G in [Bouquet Gardens](https://www.pc.pitt.edu/housing-services/university-owned-housing/bouquet-gardens). If you are arriving from outside the U.S., you can list the address for Bouquet G as your address on any travel documents that require it.
+You will be staying at either Bouquet D or Bouquet G in [Bouquet Gardens](https://www.pc.pitt.edu/housing-services/university-owned-housing/bouquet-gardens). If you are arriving from outside the U.S., you can list the address for Bouquet G as your address on any travel documents that require it.
 
 ### Guest policy 
 
@@ -22,7 +22,7 @@ Access to facilities (e.g., gym, music rooms, rec rooms) in the Residence Hall i
 
 ### Roommates 
 
-Housing in Bouquet gardens is in suites with two persons per suite. Participants have been pre-assigned to suites; if you need to change your assignment, contact our Senior Institute Assistant Emma Schwarz (contact information will be provided on arrival) and she will follow up with the Conference Services Coordinator to make the necessary arrangements.
+Housing in Bouquet Gardens is in suites with two persons per suite. Participants have been pre-assigned to suites; if you need to change your assignment, contact our Senior Institute Assistant Emma Schwarz (contact information will be provided on arrival) and she will follow up with the Conference Services Coordinator to make the necessary arrangements.
 
 ### Assigned floors 
 
@@ -40,7 +40,7 @@ Institute participants have access to communal laundry rooms on each floor in th
 
 ### Linen exchanges 
 
-Linens include a fitted sheet, top sheet, thin cotton blanket, pillow, pillowcase, washcloth and towel. Linen Exchange will take place on Mondays from 4pm to 8pm. Linens (except pillow and blanket) should be brought down to the lobby and exchanged at the Conferences Services Assistant table.
+Linens include a fitted sheet, top sheet, thin cotton blanket, pillow, pillowcase, washcloth and towel. Linen Exchange will take place on Mondays from 4 p.m. to 8 p.m. Linens (except pillow and blanket) should be brought down to the lobby and exchanged at the Conferences Services Assistant table.
 
 ### Damages 
 
@@ -52,7 +52,7 @@ The University of Pittsburgh has a strict no-pet policy in on-campus housing. Fo
 
 ### Internet 
 
-All summer guests will have access to Wifi within their Residence Halls. Summer guests should connect to the **SummerGuest-WiFi** network. Upon connecting to the SummerGuest-WiFi network, users will be directed to enter a passcode key. The passcode will be shared with Institute participants on arrival. 
+All summer guests will have access to WiFi within their Residence Halls. Summer guests should connect to the **SummerGuest-WiFi** network. Upon connecting to the SummerGuest-WiFi network, users will be directed to enter a passcode key. The passcode will be shared with Institute participants on arrival. 
 
 ## Residence Hall amenities
 
@@ -68,7 +68,7 @@ For more information about amenities available in your residence hall see the Un
 
 ## Meals 
 
-Your PUC (Panther Utility Card) will come loaded with Panther Funds, which you can use to purchase food both on campus and at restaurants and stores in the surrounding area of Oakland. $45 per day in PantherFunds have been allotted to each Institute participant for purchasing meals. [Forbes Street Market](https://dineoncampus.com/pitt/forbes-street-market) accepts Panther Funds and offers groceries and quick meals. It is conveniently located right across the street from David Lawrence Hall, where Institute sessions are held. Panther Funds are accepted at [many University merchants](https://www.pc.pitt.edu/panther-card/merchants/university-merchants) and at independent [restaurants, fast food, coffe shops, grocery stores, and other vendors](https://acceptinglocations.com/pantherfunds/). Some stores may be located a bit further from campus but can be easily accessed by nearby buses. 
+Your PUC (Panther Utility Card) will come loaded with Panther Funds, which you can use to purchase food both on campus and at restaurants and stores in the surrounding area of Oakland. $45 per day in PantherFunds have been allotted to each Institute participant for purchasing meals. [Forbes Street Market](https://dineoncampus.com/pitt/forbes-street-market) accepts Panther Funds and offers groceries and quick meals. It is conveniently located right across the street from David Lawrence Hall, where Institute sessions are held. Panther Funds are accepted at [many University merchants](https://www.pc.pitt.edu/panther-card/merchants/university-merchants) and at independent [restaurants, fast food establishments, coffee shops, grocery stores, and other vendors](https://acceptinglocations.com/pantherfunds/). Some stores may be located a bit further from campus but can be easily accessed by nearby buses. 
 
 ## Parking and transportation 
 
