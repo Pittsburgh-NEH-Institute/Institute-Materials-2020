@@ -30,7 +30,7 @@ Fundamentals. The Institute opens with a high-level view of the types of engagem
 * * *
 ## 9:00–10:30: Getting started
 
-Introductions, research questions, schedules, outcome goals. 
+Introductions, research questions, schedules, outcome goals.
 
 ### Edition repo stages for session
 

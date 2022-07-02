@@ -33,7 +33,7 @@ Moving from model to implementation. The third day is devoted to developing the
 ## 9:00–10:30: Command line
 
 Practice navigating your file system and using tools at the command line,
-                    including Git. 
+                    including Git.
 
 ### Edition repo stages for session
 

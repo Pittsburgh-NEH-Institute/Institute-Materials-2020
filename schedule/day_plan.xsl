@@ -268,9 +268,7 @@
     <xsl:template match="slot" mode="instructor_daily">
         <xsl:value-of
             select="'## ' || djb:timeRange(@time, sum(act/@time)) || ': ' || title || '&#x0a;&#x0a;'"/>
-        <xsl:if test="desc">
-            <xsl:value-of select="desc, '&#x0a;&#x0a;'"/>
-        </xsl:if>
+        <xsl:apply-templates select="desc" mode="instructor_daily"/>
         <xsl:apply-templates select="repos" mode="instructor_daily"/>
         <xsl:if test="not(title = ('Coffee break', 'Lunch'))">
             <xsl:text>Time | Topic | Type | Instructor&#x0a;</xsl:text>
@@ -278,6 +276,12 @@
             <xsl:apply-templates select="act" mode="instructor_daily"/>
             <xsl:text>&#x0a;</xsl:text>
         </xsl:if>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- Process (optional) description                                   -->
+    <!-- ================================================================ -->
+    <xsl:template match="desc" mode="instructor_daily">
+        <xsl:value-of select=". || '&#x0a;&#x0a;'"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- Create activity times in table                                   -->

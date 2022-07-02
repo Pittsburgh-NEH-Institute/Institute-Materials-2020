@@ -31,7 +31,7 @@ Project management and planning the edition. After the first day’s emphasis on
 * * *
 ## 9:00–10:30: Project management
 
-Introductions, research questions, schedules, outcome goals. 
+Introductions, research questions, schedules, outcome goals.
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
