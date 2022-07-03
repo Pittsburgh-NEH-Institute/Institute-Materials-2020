@@ -28,7 +28,7 @@ You should plan to arrive at the [Posvar](https://www.tour.pitt.edu/tour/wesley-
 
 ### Check-in day
 
-When you arrive on July 10th, there will be a dedicated check-in area at Bouquet B of [Bouquet Gardens](https://www.pc.pitt.edu/housing-services/university-owned-housing/bouquet-gardens), where you will be staying in either the Bouquet G or Bouquet D building. Check-in will run from 9 a.m. to 5 p.m., but if you arrive outside of this time frame, you can still check-in to your room by heading to the guard station at Bouquet J (315 Oakland Avenue). If you require any assistance on your day of arrival, you can contact Emma Schwarz, the Institute's Senior Assistant, whose contact information will be sent to participants prior to the beginning of the Institute.  
+When you arrive on July 10th, there will be a dedicated check-in area at Bouquet B of [Bouquet Gardens](https://www.pc.pitt.edu/housing-services/university-owned-housing/bouquet-gardens), where you will be staying in one of the buildings. Check-in will run from 9 a.m. to 5 p.m., but if you arrive outside of this time frame, you can still check-in to your room by heading to the guard station at Bouquet J (315 Oakland Avenue). If you require any assistance on your day of arrival, you can contact Emma Schwarz, the Institute's Senior Assistant, whose contact information will be sent to participants prior to the beginning of the Institute.  
 
 ## Preparing for your trip 
 
