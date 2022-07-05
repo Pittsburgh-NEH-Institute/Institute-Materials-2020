@@ -31,7 +31,7 @@ Project management and planning the edition. After the first day’s emphasis on
 
 Introductions, research questions, schedules, outcome goals.Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Project management. | Presentation
+90 min | Project management. | Talk lab
 
 ## 10:30–11:00: Coffee break
 

@@ -35,7 +35,7 @@ Introductions, research questions, schedules, outcome goals.
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-90 min | Project management. | Presentation|Chelcie
+90 min | Project management. | Talk lab|Chelcie
 
 ## 10:30–11:00: Coffee break
 

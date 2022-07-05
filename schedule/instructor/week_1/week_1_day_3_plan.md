@@ -55,7 +55,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Integrating model and workflow. | Presentation|Chelcie, David
+30 min | Translating your research goals into your work plan. | Talk lab|Chelcie
 30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation|Hugh
 30 min | Encoding data in TEI XML together in small groups. | Code lab|Gabi
 

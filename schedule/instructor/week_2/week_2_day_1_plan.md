@@ -43,7 +43,7 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion|David
 30 min | Assess the project’s current state and critique user experience. | Talk lab|Gabi
-40 min | Identify tasks to-be-done, establish timelines, and consider possible roadblocks. | Discussion|Chelcie
+40 min | Making collaboration work. | Discussion|Chelcie
 
 ## 10:30–11:00: Coffee break
 

@@ -13,8 +13,8 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
                 Linked Open Data (LOD) standard for image sharing, closes the day.
 
 ## Outcome goals
-* Enable better collaborative encoding for projects.
 * Introduce Kanban and other software for task and issue management.
+* Enable better collaborative encoding for projects.
 * Create pull requests on the institute repositories.
 * Understand tracking branches, development branches, pull requests as branches.
 * Become comfortable with merge conflicts and using Git.
@@ -37,8 +37,8 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 
 Time | Topic | Type
 ---- | ---- | ---- 
+30 min | Create Kanban boards and discuss other project management tools. | Presentation
 30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion
-30 min | Create Kanban boards in GitHub Projects and discuss other project management tools. | Presentation
 30 min | XQuery: taking stock. | Code lab
 
 ## 10:30–11:00: Coffee break

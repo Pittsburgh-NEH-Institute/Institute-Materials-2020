@@ -51,7 +51,7 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Integrating model and workflow. | Presentation
+30 min | Translating your research goals into your work plan. | Talk lab
 30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation
 30 min | Encoding data in TEI XML together in small groups. | Code lab
 

@@ -33,16 +33,6 @@ Time | Topic | Type | Instructor
 **30 min** | **GitHub: code management, issues, projects, and Markdown.** | **Presentation** | **David, Gabi**
 30 min | XQuery: introduce FLWOR (Ghost Hoax data). | Presentation | Leif-Jöran
 
-### Wednesday, July 13, 2022
-
-#### 11:00–12:30: Modeling the data for the edition
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**30 min** | **Integrating model and workflow.** | **Presentation** | **Chelcie, David**
-30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation | Hugh
-30 min | Encoding data in TEI XML together in small groups. | Code lab | Gabi
-
 ### Thursday, July 14, 2022
 
 #### 9:00–10:30: XML databases and indexes
@@ -67,7 +57,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 15 min | Review of fields. | Presentation | Gabi
-**15 min** | **Facet theory.** | **Presentation** | **Chelcie, David**
+**15 min** | **Facet theory.** | **Presentation** | **David**
 **20 min** | **Facets in eXist-db searching.** | **Presentation** | **Cliff, David**
 **40 min** | **Facets and you: thinking about your search interface.** | **Discussion** | **David**
 
@@ -81,7 +71,7 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **20 min** | **Looking back on week 1.** | **Discussion** | **David**
 30 min | Assess the project’s current state and critique user experience. | Talk lab | Gabi
-40 min | Identify tasks to-be-done, establish timelines, and consider possible roadblocks. | Discussion | Chelcie
+40 min | Making collaboration work. | Discussion | Chelcie
 
 #### 2:00–3:30: HTML and CSS
 

@@ -41,7 +41,7 @@ Time | Topic | Type
 ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion
 30 min | Assess the project’s current state and critique user experience. | Talk lab
-40 min | Identify tasks to-be-done, establish timelines, and consider possible roadblocks. | Discussion
+40 min | Making collaboration work. | Discussion
 
 ## 10:30–11:00: Coffee break
 

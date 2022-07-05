@@ -50,8 +50,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
+30 min | Create Kanban boards and discuss other project management tools. | Presentation | Chelcie, Gabi
 30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion | Elli, Gabi
-30 min | Create Kanban boards in GitHub Projects and discuss other project management tools. | Presentation | Chelcie, Gabi
 **30 min** | **XQuery: taking stock.** | **Code lab** | **Cliff**
 
 #### 2:00–3:30: Search functionality
@@ -59,7 +59,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 15 min | Review of fields. | Presentation | Gabi
-15 min | Facet theory. | Presentation | Chelcie, David
+15 min | Facet theory. | Presentation | David
 **20 min** | **Facets in eXist-db searching.** | **Presentation** | **Cliff, David**
 40 min | Facets and you: thinking about your search interface. | Discussion | David
 

@@ -49,8 +49,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
+30 min | Create Kanban boards and discuss other project management tools. | Presentation | Chelcie, Gabi
 **30 min** | **Writing the ODD and other mechanisms for document control and documentation.** | **Discussion** | **Elli, Gabi**
-30 min | Create Kanban boards in GitHub Projects and discuss other project management tools. | Presentation | Chelcie, Gabi
 30 min | XQuery: taking stock. | Code lab | Cliff
 
 #### 11:00–12:30: Git and GitHub in Real Life
