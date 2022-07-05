@@ -11,7 +11,7 @@
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 45 min | Exemplary digital editions. | Discussion | Elli
-**45 min** | **Exploratory data analysis in eXide.** | **Code lab** | **Cliff**
+**45 min** | **Exploratory data analysis in eXide (Shakespeare data).** | **Code lab** | **Cliff**
 
 ### Tuesday, July 12, 2022
 
@@ -20,11 +20,11 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 60 min | File management and command line basics. | Code lab | Elli
-**30 min** | **XQuery: practice FLWOR.** | **Code lab** | **Cliff**
+**30 min** | **XQuery: practice FLWOR (Shakespeare data).** | **Code lab** | **Cliff**
 
 ### Wednesday, July 13, 2022
 
-#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
+#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

@@ -41,7 +41,7 @@ Time | Topic | Type
 ---- | ---- | ---- 
 30 min | Git: introduce and begin to use version control software. | Presentation
 30 min | GitHub: code management, issues, projects, and Markdown. | Presentation
-30 min | XQuery: introduce FLWOR. | Presentation
+30 min | XQuery: introduce FLWOR (Ghost Hoax data). | Presentation
 
 ## 12:30–2:00: Lunch
 
@@ -54,7 +54,7 @@ Time | Topic | Type
 Time | Topic | Type
 ---- | ---- | ---- 
 60 min | File management and command line basics. | Code lab
-30 min | XQuery: practice FLWOR. | Code lab
+30 min | XQuery: practice FLWOR (Shakespeare data). | Code lab
 
 ## 3:30–4:00: Coffee break
 

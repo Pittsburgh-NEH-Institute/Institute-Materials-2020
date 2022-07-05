@@ -22,7 +22,7 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **30 min** | **Git: introduce and begin to use version control software.** | **Presentation** | **Ronald**
 30 min | GitHub: code management, issues, projects, and Markdown. | Presentation | David, Gabi
-30 min | XQuery: introduce FLWOR. | Presentation | Leif-Jöran
+30 min | XQuery: introduce FLWOR (Ghost Hoax data). | Presentation | Leif-Jöran
 
 ### Thursday, July 14, 2022
 

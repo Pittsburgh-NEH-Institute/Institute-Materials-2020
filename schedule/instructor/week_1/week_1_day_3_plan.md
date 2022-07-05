@@ -61,7 +61,7 @@ Time | Topic | Type | Instructor
 
 ## 12:30–2:00: Lunch
 
-## 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
+## 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
 
 ### Edition repo stages for session
 

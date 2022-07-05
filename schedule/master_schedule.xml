@@ -142,7 +142,7 @@
                     </instructors>
                 </act>
                 <act time="45" type="Code_lab">
-                    <desc>Exploratory data analysis in eXide.</desc>
+                    <desc>Exploratory data analysis in eXide (Shakespeare data).</desc>
                     <outcome>
                         <goal>Introduce XQuery with Shakespeare TEI in eXide.</goal>
                     </outcome>
@@ -202,7 +202,7 @@
                     </instructors>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>XQuery: introduce FLWOR.</desc>
+                    <desc>XQuery: introduce FLWOR (Ghost Hoax data).</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
@@ -234,7 +234,7 @@
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
-                    <desc>XQuery: practice FLWOR.</desc>
+                    <desc>XQuery: practice FLWOR (Shakespeare data).</desc>
                     <instructors>
                         <instructor>Cliff</instructor>
                     </instructors>
@@ -361,7 +361,7 @@
                 </act>
             </slot>
             <slot time="14:00:00">
-                <title>Creating a pipeline with XQuery: you are the controller.</title>
+                <title>Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).</title>
                 <repos>
                     <repo>
                         <repo-name>Base view: TEI</repo-name>
