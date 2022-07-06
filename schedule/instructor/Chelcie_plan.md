@@ -60,15 +60,6 @@ Time | Topic | Type | Instructor
 30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion | Elli, Gabi
 30 min | XQuery: taking stock. | Code lab | Cliff
 
-#### 2:00–3:30: Search functionality
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-15 min | Review of fields. | Presentation | Gabi
-**15 min** | **Facet theory.** | **Presentation** | **Chelcie, David**
-20 min | Facets in eXist-db searching. | Presentation | Cliff, David
-40 min | Facets and you: thinking about your search interface. | Talk lab | David
-
 ## Week 2
 
 ### Monday, July 18, 2022
