@@ -31,7 +31,9 @@ Moving from model to implementation. The third day is devoted to developing the
 ## 9:00–10:30: Command line
 
 Practice navigating your file system and using tools at the command line,
-                    including Git. 
+                    including Git.### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -43,15 +45,24 @@ Time | Topic | Type
 
 ## 11:00–12:30: Modeling the data for the edition
 
+### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Integrating model and workflow. | Presentation
+30 min | Translating your research goals into your work plan. | Talk lab
 30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation
 30 min | Encoding data in TEI XML together in small groups. | Code lab
 
 ## 12:30–2:00: Lunch
 
-## 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
+## 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
+
+### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating title list: model and view in a module](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -69,4 +80,4 @@ Time | Topic | Type
 ---- | ---- | ---- 
 90 min | Stylometric authorship attribution. | Presentation
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.

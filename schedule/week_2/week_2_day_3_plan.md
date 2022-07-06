@@ -44,6 +44,11 @@ Time | Topic | Type
 
 ## 11:00–12:30: Creating SVG visualizations for the edition
 
+### Edition repo stages for session
+
+* [Maps and `map`: implementing a map](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Implementing a visualization](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type
 ---- | ---- | ---- 
 15 min | Stylesheet, template, and function variables. | Code lab
@@ -69,4 +74,4 @@ Time | Topic | Type
 50 min | Upload TSV and explore data. | Code lab
 30 min | Export SVG from Cytoscape and upload to the edition. | Code lab
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.

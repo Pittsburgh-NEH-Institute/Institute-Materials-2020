@@ -32,6 +32,11 @@ XQuery in XML databases. Day four reimagines the edition in a research-driven wa
 * * *
 ## 9:00–10:30: XML databases and indexes
 
+### Edition repo stages for session
+
+* [Creating title list: model only](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Databases have at minimum data and a method of querying that data. Indexes enable direct and fast retrieval for querying the data. | Presentation|Cliff
@@ -42,6 +47,11 @@ Time | Topic | Type | Instructor
 
 ## 11:00–12:30: Developing the model to support a feature
 
+### Edition repo stages for session
+
+* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Add your fields to the index and begin querying. | Code lab|David
@@ -50,6 +60,11 @@ Time | Topic | Type | Instructor
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: The controller
+
+### Edition repo stages for session
+
+* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -68,4 +83,4 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 90 min | Collation. | Presentation|Ronald
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.

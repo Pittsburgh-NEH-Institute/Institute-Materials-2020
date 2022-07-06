@@ -13,8 +13,8 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
                 Linked Open Data (LOD) standard for image sharing, closes the day.
 
 ## Outcome goals
-* Enable better collaborative encoding for projects.
 * Introduce Kanban and other software for task and issue management.
+* Enable better collaborative encoding for projects.
 * Create pull requests on the institute repositories.
 * Understand tracking branches, development branches, pull requests as branches.
 * Become comfortable with merge conflicts and using Git.
@@ -31,15 +31,23 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 * * *
 ## 9:00–10:30: ODDs and collaborative encoding
 
+### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type
 ---- | ---- | ---- 
+30 min | Create Kanban boards and discuss other project management tools. | Presentation
 30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion
-30 min | Create Kanban boards in GitHub Projects and discuss other project management tools. | Presentation
 30 min | XQuery: taking stock. | Code lab
 
 ## 10:30–11:00: Coffee break
 
 ## 11:00–12:30: Git and GitHub in Real Life
+
+### Edition repo stages for session
+
+* [Your own repo](https://example.com)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -50,6 +58,10 @@ Time | Topic | Type
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: Search functionality
+
+### Edition repo stages for session
+
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -66,4 +78,4 @@ Time | Topic | Type
 ---- | ---- | ---- 
 90 min | International Image Interoperability Framework (IIIF) and Linked Open Data (LOD). | Presentation
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.

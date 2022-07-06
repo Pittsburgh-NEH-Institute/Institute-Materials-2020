@@ -25,7 +25,7 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Git: introduce and begin to use version control software. | Presentation | Ronald
 **30 min** | **GitHub: code management, issues, projects, and Markdown.** | **Presentation** | **David, Gabi**
-30 min | XQuery: introduce FLWOR. | Presentation | Leif-Jöran
+30 min | XQuery: introduce FLWOR (Ghost Hoax data). | Presentation | Leif-Jöran
 
 ### Wednesday, July 13, 2022
 
@@ -33,11 +33,11 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Integrating model and workflow. | Presentation | Chelcie, David
+30 min | Translating your research goals into your work plan. | Talk lab | Chelcie
 30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation | Hugh
 **30 min** | **Encoding data in TEI XML together in small groups.** | **Code lab** | **Gabi**
 
-#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
+#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -62,8 +62,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
+**30 min** | **Create Kanban boards and discuss other project management tools.** | **Presentation** | **Chelcie, Gabi**
 **30 min** | **Writing the ODD and other mechanisms for document control and documentation.** | **Discussion** | **Elli, Gabi**
-**30 min** | **Create Kanban boards in GitHub Projects and discuss other project management tools.** | **Presentation** | **Chelcie, Gabi**
 30 min | XQuery: taking stock. | Code lab | Cliff
 
 #### 2:00–3:30: Search functionality
@@ -71,7 +71,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **15 min** | **Review of fields.** | **Presentation** | **Gabi**
-15 min | Facet theory. | Presentation | Chelcie, David
+15 min | Facet theory. | Presentation | David
 20 min | Facets in eXist-db searching. | Presentation | Cliff, David
 40 min | Facets and you: thinking about your search interface. | Talk lab | David
 
@@ -85,11 +85,11 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion | David
 **30 min** | **Assess the project’s current state and critique user experience.** | **Talk lab** | **Gabi**
-40 min | Identify tasks to-be-done, establish timelines, and consider possible roadblocks. | Discussion | Chelcie
+40 min | Making collaboration work. | Discussion | Chelcie
 
 ### Tuesday, July 19, 2022
 
-#### 11:00–12:30: Putting MVC together
+#### 11:00–12:30: Putting MVC together: building the reading view
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

@@ -33,6 +33,11 @@ Implementing publication strategies. The morning is devoted to typeswitch, an
 * * *
 ## 9:00–10:30: Creating views and using typeswitch
 
+### Edition repo stages for session
+
+* [Creating index](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating title view: use `typeswitch`](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Using typeswitch and local functions. | Code lab|Leif-Jöran
@@ -40,7 +45,12 @@ Time | Topic | Type | Instructor
 
 ## 10:30–11:00: Coffee break
 
-## 11:00–12:30: Putting MVC together
+## 11:00–12:30: Putting MVC together: building the reading view
+
+### Edition repo stages for session
+
+* [Creating title view: use `typeswitch`](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating reading view](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -52,6 +62,11 @@ Time | Topic | Type | Instructor
 
 ## 2:00–3:30: XQuery functions and unit testing
 
+### Edition repo stages for session
+
+* [Creating reading view](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating index-functions.xqm](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 35 min | Writing user-defined functions. | Code lab|Hugh
@@ -62,10 +77,15 @@ Time | Topic | Type | Instructor
 
 ## 4:00–5:30: Visualizing our geodata and integrating external APIs
 
+### Edition repo stages for session
+
+* [Creating functions.xqm](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Maps and `map`: implementing a map](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 15 min | Write the model for our geodata and explore our ideas on how visual information can be displayed. | Talk lab|Gabi
 15 min | Choose the right mapping tools for your project. | Talk lab|Gabi
 60 min | Together, we integrate basic map functionality into the app using a mapping JS library. | Code lab|Gabi
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.

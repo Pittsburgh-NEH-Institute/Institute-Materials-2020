@@ -22,11 +22,11 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Git: introduce and begin to use version control software. | Presentation | Ronald
 30 min | GitHub: code management, issues, projects, and Markdown. | Presentation | David, Gabi
-**30 min** | **XQuery: introduce FLWOR.** | **Presentation** | **Leif-Jöran**
+**30 min** | **XQuery: introduce FLWOR (Ghost Hoax data).** | **Presentation** | **Leif-Jöran**
 
 ### Wednesday, July 13, 2022
 
-#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
+#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -99,7 +99,7 @@ Time | Topic | Type | Instructor
 **20 min** | **Development and feature branches, tracking branches, and branch strategies.** | **Code lab** | **Leif-Jöran**
 20 min | Releases and semantic versioning. | Presentation | Hugh
 15 min | Project management reflections. | Discussion | Chelcie
-35 min | planning our own projects. | Talk lab | Chelcie
+35 min | Planning our own projects. | Talk lab | Chelcie
 
 #### 2:00–3:30: Database indexes, queries, and profiling
 

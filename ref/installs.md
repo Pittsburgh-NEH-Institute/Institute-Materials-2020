@@ -64,7 +64,7 @@ Type `git` at the command line. If it isn’t installed, accept the prompt to in
 
 *Chocolatey* is a *package manager* for Windows, that is, an application that helps you install other applications.
 
-1. Read Read [about Chocolatey](https://chocolatey.org/how-chocolatey-works) and [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2) to learn about these two packages.
+1. Read [about Chocolatey](https://chocolatey.org/how-chocolatey-works) and [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2) to learn about these two packages.
 2. Verify that you have Windows PowerShell installed by searching for it through the Windows Start menu. If not, [install Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2). 
 2. Search for PowerShell through the Windows Start menu, right click on it, and select *Run as administrator*. Click *Yes* when asked whether you want to allow PowerShell to make changes to your device. 
 3. Follow the [Chocolatey installation instructions](https://chocolatey.org/install#individual) for individual use.
@@ -103,3 +103,7 @@ If at any point you have issues using *npm* or *nvm*, check your Program Files d
 
 1. `npm i -g yo`
 2. `npm i -g @existdb/generator-exist`
+
+### Install *ant*
+
+1. `choco install ant`

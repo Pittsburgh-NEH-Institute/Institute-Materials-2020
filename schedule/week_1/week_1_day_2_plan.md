@@ -29,11 +29,9 @@ Project management and planning the edition. After the first day’s emphasis on
 * * *
 ## 9:00–10:30: Project management
 
-Introductions, research questions, schedules, outcome goals. 
-
-Time | Topic | Type
+Introductions, research questions, schedules, outcome goals.Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Project management. | Presentation
+90 min | Project management. | Talk lab
 
 ## 10:30–11:00: Coffee break
 
@@ -43,16 +41,20 @@ Time | Topic | Type
 ---- | ---- | ---- 
 30 min | Git: introduce and begin to use version control software. | Presentation
 30 min | GitHub: code management, issues, projects, and Markdown. | Presentation
-30 min | XQuery: introduce FLWOR. | Presentation
+30 min | XQuery: introduce FLWOR (Ghost Hoax data). | Presentation
 
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: File management
 
+### Edition repo stages for session
+
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type
 ---- | ---- | ---- 
 60 min | File management and command line basics. | Code lab
-30 min | XQuery: practice FLWOR. | Code lab
+30 min | XQuery: practice FLWOR (Shakespeare data). | Code lab
 
 ## 3:30–4:00: Coffee break
 
@@ -62,4 +64,4 @@ Time | Topic | Type
 ---- | ---- | ---- 
 90 min | Planning for a sustainable digital edition. | Presentation
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.

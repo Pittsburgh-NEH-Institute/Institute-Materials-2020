@@ -1,6 +1,10 @@
 # Classroom schedule 
 
-All Institute sessions will be held in [David Lawrence Hall](https://www.tour.pitt.edu/tour/david-lawrence-hall) Room 120. You will need to tap or swipe your PUC (Panther Utility Card), which is the card you will be given for access to your lodging in Bouquet Gardens. We will meet Institute participants not staying in campus housing outside the main (Forbes Ave) entrance to David Lawrence Hall on the first day of the Institute and give you a PUC card so that you will be able to enter the classroom building.
+All Institute sessions will be held in [David Lawrence Hall](https://www.tour.pitt.edu/tour/david-lawrence-hall) Room 120. 
+
+# Institute reception
+
+The Institute reception will take place on Thursday, July 14th, from 6 p.m. to 8 p.m. The location for the event will be announced to participants during our regular Institute class sessions. 
 
 # Map from Bouquet Gardens to David Lawrence Hall
 

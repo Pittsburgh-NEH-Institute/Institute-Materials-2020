@@ -6,13 +6,23 @@ d = attribute d { "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday" | "
 day = element day { d, date, synopsis, slot+ }
 date = element date { text }
 synopsis =
-  element syn {
-    mixed { mdlist? }
-  }
+    element syn {
+        mixed { mdlist? }
+    }
 space = attribute xml:space { "preserve" }
-slot = element slot { title, desc?, activity+, outcome?, clocktime }
+slot = element slot { title, desc?, repos?, activity+, outcome?, clocktime }
 title = element title { text }
 clocktime = attribute time { xsd:time }
+# <repos> holds (optional) links for the session (not activity), each in a <repo>
+# <repo> is markdown text plus link, e.g., [stuff](link-to-stuff)
+# pattern facet on <repo-name> ensures that it isn’t empty  
+repos = element repos { repo+ }
+repo = element repo { repo-name, repo-link }
+repo-name =
+    element repo-name {
+        xsd:string { pattern = ".+" }
+    }
+repo-link = element repo-link { xsd:anyURI }
 activity = element act { acttype?, desc, outcome?, durtime, instructors? }
 acttype = attribute type { "Presentation" | "Discussion" | "Talk_lab" | "Code_lab" }
 # Presentation: by instructors
@@ -24,26 +34,26 @@ link = element link { text }
 outcome = element outcome { goal* }
 goal = element goal { text }
 desc =
-  element desc {
-    mixed { mdlist? }
-  }
+    element desc {
+        mixed { mdlist? }
+    }
 mdlist = element list { space?, text }
 instructors = element instructors { instructor+ }
 instructor =
-  element instructor {
-    "Chelcie"
-    | "Chelsea"
-    | "Cliff"
-    | "David"
-    | "Elisa"
-    | "Elli"
-    | "Emma"
-    | "Gabi"
-    | "Hugh"
-    | "Jeffrey"
-    | "Leif-Jöran"
-    | "Mason"
-    | "Patrick"
-    | "Ronald"
-    | "Shea"
-  }
+    element instructor {
+        "Chelcie"
+        | "Chelsea"
+        | "Cliff"
+        | "David"
+        | "Elisa"
+        | "Elli"
+        | "Emma"
+        | "Gabi"
+        | "Hugh"
+        | "Jeffrey"
+        | "Leif-Jöran"
+        | "Mason"
+        | "Patrick"
+        | "Ronald"
+        | "Shea"
+    }

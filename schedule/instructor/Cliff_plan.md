@@ -11,7 +11,7 @@
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 45 min | Exemplary digital editions. | Discussion | Elli
-**45 min** | **Exploratory data analysis in eXide.** | **Code lab** | **Cliff**
+**45 min** | **Exploratory data analysis in eXide (Shakespeare data).** | **Code lab** | **Cliff**
 
 ### Tuesday, July 12, 2022
 
@@ -20,11 +20,11 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 60 min | File management and command line basics. | Code lab | Elli
-**30 min** | **XQuery: practice FLWOR.** | **Code lab** | **Cliff**
+**30 min** | **XQuery: practice FLWOR (Shakespeare data).** | **Code lab** | **Cliff**
 
 ### Wednesday, July 13, 2022
 
-#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller.
+#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -50,8 +50,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
+30 min | Create Kanban boards and discuss other project management tools. | Presentation | Chelcie, Gabi
 30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion | Elli, Gabi
-30 min | Create Kanban boards in GitHub Projects and discuss other project management tools. | Presentation | Chelcie, Gabi
 **30 min** | **XQuery: taking stock.** | **Code lab** | **Cliff**
 
 #### 2:00–3:30: Search functionality
@@ -59,7 +59,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 15 min | Review of fields. | Presentation | Gabi
-15 min | Facet theory. | Presentation | Chelcie, David
+15 min | Facet theory. | Presentation | David
 **20 min** | **Facets in eXist-db searching.** | **Presentation** | **Cliff, David**
 40 min | Facets and you: thinking about your search interface. | Talk lab | David
 
@@ -74,7 +74,7 @@ Time | Topic | Type | Instructor
 30 min | Using typeswitch and local functions. | Code lab | Leif-Jöran
 **60 min** | **Using typeswitch and local functions to create rich text reading views.** | **Code lab** | **Cliff**
 
-#### 11:00–12:30: Putting MVC together
+#### 11:00–12:30: Putting MVC together: building the reading view
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

@@ -131,7 +131,7 @@
             <!-- tables for slots -->
             <xsl:apply-templates select="slot" mode="daily"/>
             <!-- feedback -->
-            <xsl:text>We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]</xsl:text>
+            <xsl:text>We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.</xsl:text>
         </xsl:result-document>
     </xsl:template>
     <xsl:template match="syn" mode="daily">
@@ -145,15 +145,20 @@
     <xsl:template match="slot" mode="daily">
         <xsl:value-of
             select="'## ' || djb:timeRange(@time, sum(act/@time)) || ': ' || title || '&#x0a;&#x0a;'"/>
-        <xsl:if test="desc">
-            <xsl:value-of select="desc, '&#x0a;&#x0a;'"/>
-        </xsl:if>
+        <xsl:apply-templates select="desc" mode="daily"/>
+        <xsl:apply-templates select="repos" mode="daily"/>
         <xsl:if test="not(title = ('Coffee break', 'Lunch'))">
             <xsl:text>Time | Topic | Type&#x0a;</xsl:text>
             <xsl:text>---- | ---- | ---- &#x0a;</xsl:text>
             <xsl:apply-templates select="act" mode="daily"/>
             <xsl:text>&#x0a;</xsl:text>
         </xsl:if>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- Process (optional) description                                   -->
+    <!-- ================================================================ -->
+    <xsl:template match="desc" mode="aily">
+        <xsl:value-of select=". || '&#x0a;&#x0a;'"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- Create activity times in table                                   -->
@@ -170,6 +175,17 @@
         <xsl:text>* </xsl:text>
         <xsl:apply-templates select="normalize-space(.)"/>
         <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- Create links to repos for project stages                         -->
+    <!-- ================================================================ -->
+    <xsl:template match="repos" mode="daily">
+        <xsl:text>### Edition repo stages for session&#x0a;&#x0a;</xsl:text>
+        <xsl:apply-templates select="repo" mode="daily"/>
+        <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <xsl:template match="repo" mode="daily">
+        <xsl:value-of select="concat('* [', repo-name, ']', '(', repo-link, ')', '&#x0a;')"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- =                                                              = -->
@@ -236,7 +252,7 @@
         <xsl:result-document method="text" omit-xml-declaration="yes" href="{$filename}">
             <xsl:value-of
                 select="'# Week ' || ../@num || ', Day ' || position() || ': ' || @d || ', ' || date || '&#x0a;'"/>
-            <xsl:text>[Link to instructor-view navigation page](../daily_instructor_view.md)&#x0a;&#x0a;</xsl:text>            
+            <xsl:text>[Link to instructor-view navigation page](../daily_instructor_view.md)&#x0a;&#x0a;</xsl:text>
             <!-- synopsis -->
             <xsl:text>## Synopsis&#x0a;</xsl:text>
             <xsl:apply-templates select="syn" mode="daily"/>
@@ -254,7 +270,7 @@
             <!-- tables for slots -->
             <xsl:apply-templates select="slot" mode="instructor_daily"/>
             <!-- feedback -->
-            <xsl:text>We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]</xsl:text>
+            <xsl:text>We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.</xsl:text>
         </xsl:result-document>
     </xsl:template>
     <xsl:template match="syn" mode="instructor_daily">
@@ -268,15 +284,20 @@
     <xsl:template match="slot" mode="instructor_daily">
         <xsl:value-of
             select="'## ' || djb:timeRange(@time, sum(act/@time)) || ': ' || title || '&#x0a;&#x0a;'"/>
-        <xsl:if test="desc">
-            <xsl:value-of select="desc, '&#x0a;&#x0a;'"/>
-        </xsl:if>
+        <xsl:apply-templates select="desc" mode="instructor_daily"/>
+        <xsl:apply-templates select="repos" mode="instructor_daily"/>
         <xsl:if test="not(title = ('Coffee break', 'Lunch'))">
             <xsl:text>Time | Topic | Type | Instructor&#x0a;</xsl:text>
             <xsl:text>---- | ---- | ---- | ---- &#x0a;</xsl:text>
             <xsl:apply-templates select="act" mode="instructor_daily"/>
             <xsl:text>&#x0a;</xsl:text>
         </xsl:if>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- Process (optional) description                                   -->
+    <!-- ================================================================ -->
+    <xsl:template match="desc" mode="instructor_daily">
+        <xsl:value-of select=". || '&#x0a;&#x0a;'"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- Create activity times in table                                   -->
@@ -293,6 +314,17 @@
         <xsl:text>* </xsl:text>
         <xsl:apply-templates select="normalize-space(.)"/>
         <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <!-- ================================================================ -->
+    <!-- Create links to repos for project stages                         -->
+    <!-- ================================================================ -->
+    <xsl:template match="repos" mode="instructor_daily">
+        <xsl:text>### Edition repo stages for session&#x0a;&#x0a;</xsl:text>
+        <xsl:apply-templates select="repo" mode="instructor_daily"/>
+        <xsl:text>&#x0a;</xsl:text>
+    </xsl:template>
+    <xsl:template match="repo" mode="instructor_daily">
+        <xsl:value-of select="concat('* [', repo-name, ']', '(', repo-link, ')', '&#x0a;')"/>
     </xsl:template>
     <!-- ================================================================ -->
     <!-- =                                                              = -->

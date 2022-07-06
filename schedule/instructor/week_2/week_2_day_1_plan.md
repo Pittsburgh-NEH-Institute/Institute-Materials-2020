@@ -34,11 +34,16 @@ Planning for deployment. In week two, participants prepare the laboratory editio
 * * *
 ## 9:00–10:30: Retrospective and plans
 
+### Edition repo stages for session
+
+* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
+
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion|David
 30 min | Assess the project’s current state and critique user experience. | Talk lab|Gabi
-40 min | Identify tasks to-be-done, establish timelines, and consider possible roadblocks. | Discussion|Chelcie
+40 min | Making collaboration work. | Discussion|Chelcie
 
 ## 10:30–11:00: Coffee break
 
@@ -66,4 +71,4 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 90 min | User experience (UX) and user interface (UI). | Presentation|Shea
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.

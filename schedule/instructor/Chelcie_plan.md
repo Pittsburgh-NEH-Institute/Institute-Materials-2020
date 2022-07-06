@@ -25,7 +25,7 @@ Introductions, research questions, schedules, outcome goals.
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**90 min** | **Project management.** | **Presentation** | **Chelcie**
+**90 min** | **Project management.** | **Talk lab** | **Chelcie**
 
 ### Wednesday, July 13, 2022
 
@@ -33,7 +33,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**30 min** | **Integrating model and workflow.** | **Presentation** | **Chelcie, David**
+**30 min** | **Translating your research goals into your work plan.** | **Talk lab** | **Chelcie**
 30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation | Hugh
 30 min | Encoding data in TEI XML together in small groups. | Code lab | Gabi
 
@@ -56,8 +56,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
+**30 min** | **Create Kanban boards and discuss other project management tools.** | **Presentation** | **Chelcie, Gabi**
 30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion | Elli, Gabi
-**30 min** | **Create Kanban boards in GitHub Projects and discuss other project management tools.** | **Presentation** | **Chelcie, Gabi**
 30 min | XQuery: taking stock. | Code lab | Cliff
 
 #### 2:00–3:30: Search functionality
@@ -79,7 +79,7 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion | David
 30 min | Assess the project’s current state and critique user experience. | Talk lab | Gabi
-**40 min** | **Identify tasks to-be-done, establish timelines, and consider possible roadblocks.** | **Discussion** | **Chelcie**
+**40 min** | **Making collaboration work.** | **Discussion** | **Chelcie**
 
 ### Thursday, July 21, 2022
 
@@ -90,5 +90,5 @@ Time | Topic | Type | Instructor
 20 min | Development and feature branches, tracking branches, and branch strategies. | Code lab | Leif-Jöran
 20 min | Releases and semantic versioning. | Presentation | Hugh
 **15 min** | **Project management reflections.** | **Discussion** | **Chelcie**
-**35 min** | **planning our own projects.** | **Talk lab** | **Chelcie**
+**35 min** | **Planning our own projects.** | **Talk lab** | **Chelcie**
 

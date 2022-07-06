@@ -28,7 +28,9 @@ Fundamentals. The Institute opens with a high-level view of the types of engagem
 * * *
 ## 9:00–10:30: Getting started
 
-Introductions, research questions, schedules, outcome goals. 
+Introductions, research questions, schedules, outcome goals.### Edition repo stages for session
+
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -40,6 +42,10 @@ Time | Topic | Type
 ## 10:30–11:00: Coffee break
 
 ## 11:00–12:30: The edition as a computational pipeline
+
+### Edition repo stages for session
+
+* [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -59,9 +65,13 @@ Time | Topic | Type
 
 ## 4:00–5:30: XQuery and digital editions
 
+### Edition repo stages for session
+
+* [Base view: TEI data](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+
 Time | Topic | Type
 ---- | ---- | ---- 
 45 min | Exemplary digital editions. | Discussion
-45 min | Exploratory data analysis in eXide. | Code lab
+45 min | Exploratory data analysis in eXide (Shakespeare data). | Code lab
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. You can fill out a feedback form at [insert URL here]
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.

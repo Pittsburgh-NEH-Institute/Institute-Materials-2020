@@ -22,7 +22,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 
 <table>
 <tr><td><img src="images/gobat.png" width="200px" alt="[Gobat picture]"/></td><td style="vertical-align: middle">Mason Gobat<br/>Institute Assistant<br/>University of Pittsburgh</td></tr>
-<tr><td><img src="images/ghost.png" width="200px" alt="[Schwarz picture]"/></td><td style="vertical-align: middle">Emma Schwarz<br/>Senior Institute Assistant<br/>University of Pittsburgh</td></tr>
+<tr><td><img src="images/schwarz.png" width="200px" alt="[Schwarz picture]"/></td><td style="vertical-align: middle">Emma Schwarz<br/>Senior Institute Assistant<br/>University of Pittsburgh</td></tr>
 </table>
 
 ### Guest lecturers
