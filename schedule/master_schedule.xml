@@ -1177,12 +1177,18 @@
                         <instructor>Elisa</instructor>
                     </instructors>
                 </act>
-                <act time="65" type="Presentation">
+                <act time="50" type="Presentation">
                     <desc>Creating the model as tab-separated values (TSV) using XQuery.</desc>
                     <outcome>
                         <goal>Model nodes and edges from the data.</goal>
                         <goal>Extract model data in TSV format.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Elisa</instructor>
+                    </instructors>
+                </act>
+                <act time="15" type="Code_lab">
+                    <desc>Install Cytoscape.</desc>
                     <instructors>
                         <instructor>Elisa</instructor>
                     </instructors>
@@ -1196,13 +1202,7 @@
             </slot>
             <slot time="16:00:00">
                 <title>Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar</title>
-                <act time="10" type="Code_lab">
-                    <desc>Install Cytoscape.</desc>
-                    <instructors>
-                        <instructor>Elisa</instructor>
-                    </instructors>
-                </act>
-                <act time="50" type="Code_lab">
+                <act time="45" type="Code_lab">
                     <desc>Upload TSV and explore data.</desc>
                     <instructors>
                         <instructor>Elisa</instructor>
@@ -1212,6 +1212,12 @@
                     <desc>Export SVG from Cytoscape and upload to the edition.</desc>
                     <instructors>
                         <instructor>Elisa</instructor>
+                    </instructors>
+                </act>
+                <act time="15" type="Presentation">
+                    <desc>(TEI) graphing for eXist-db.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
             </slot>

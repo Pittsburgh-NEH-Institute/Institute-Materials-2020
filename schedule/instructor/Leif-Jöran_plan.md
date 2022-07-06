@@ -90,6 +90,14 @@ Time | Topic | Type | Instructor
 **25 min** | **SVG basic shapes.** | **Code lab** | **Leif-Jöran**
 25 min | Planning a sample visualization. | Talk lab | Gabi
 
+#### 4:00–5:30: Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+45 min | Upload TSV and explore data. | Code lab | Elisa
+30 min | Export SVG from Cytoscape and upload to the edition. | Code lab | Elisa
+**15 min** | **(TEI) graphing for eXist-db.** | **Presentation** | **Leif-Jöran**
+
 ### Thursday, July 21, 2022
 
 #### 9:00–10:30: Review and practice: version control and project management with git and GitHub.
