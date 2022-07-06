@@ -634,7 +634,7 @@
                         <instructor>David</instructor>
                     </instructors>
                 </act>
-                <act time="40" type="Discussion">
+                <act time="40" type="Talk_lab">
                     <desc>Facets and you: thinking about your search interface.</desc>
                     <!-- djb: ask Shea whether she can be there? -->
                     <outcome>
@@ -802,7 +802,7 @@
                         <goal>Learn how to use `typeswitch` for dispatch.</goal>
                     </outcome>
                     <instructors>
-                        <instructor>David</instructor>
+                        <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
                 <act time="60" type="Code_lab">

@@ -56,7 +56,7 @@ Time | Topic | Type
 15 min | Review of fields. | Presentation
 15 min | Facet theory. | Presentation
 20 min | Facets in eXist-db searching. | Presentation
-40 min | Facets and you: thinking about your search interface. | Discussion
+40 min | Facets and you: thinking about your search interface. | Talk lab
 
 ## 3:30–4:00: Coffee break
 

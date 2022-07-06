@@ -35,7 +35,7 @@ Implementing publication strategies. The morning is devoted to typeswitch, an
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Using typeswitch and local functions. | Code lab|David
+30 min | Using typeswitch and local functions. | Code lab|Leif-Jöran
 60 min | Using typeswitch and local functions to create rich text reading views. | Code lab|Cliff
 
 ## 10:30–11:00: Coffee break
