@@ -63,7 +63,7 @@ Time | Topic | Type
 ### Edition repo stages for session
 
 * [Creating reading view](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating index-functions.xqm](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating functions.xqm](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type
 ---- | ---- | ---- 
