@@ -14,6 +14,10 @@ The following editions were chosen not only because of their quality, but also b
 
 ## Textual criticism
 
+* **The Chronicle of Matthew of Edessa** (<https://editions.byzantini.st/ChronicleME/#/>) offers a critical edition of
+this twelfth-century Armenian work, together with innovative
+visualizations. To see a textual stemma codicum select Editions → Book 1 → View options (drop-down on
+left side) and turn on Graph.
 * The Institute for New Testament Textual Research (INTF) documents and studies the textual tradition of the New Greek Testament (<http://egora.uni-muenster.de/intf/projekte/projekte_en.shtml>). The New Greek Testament poses special challenges to automated collation because of the unusually large number of witnesses involved in textual criticism of the New Testament. 
 * **Shebanq project** (<https://shebanq.ancient-data.org/>). This edition of the Hebrew Bible, which won a prize from CLARIN-NL, uses a custom made text database (using a graph-like structure) and text query language (MQL). Documentation: <https://shebanq.ancientdata.org/shebanq/static/docs/featuredoc/texts/welcome.html>
 * **St. Patrick’s Confession** (<http://www.confessio.ie/about/hyperstack>). The the St Patrick’s _Confessio_ Hypertext Stack Project goes a long way toward providing an integrated perspective on scholarly editing and digital technology/methodology. Multiple versions of the _Confessio_ are transcribed in TEI XML and brought together with as a multilayered edition in a HyperStack architecture. The ["About"-section](https://www.confessio.ie/about/hyperstack#) of the edition is particularly informative about the technichal approach.
