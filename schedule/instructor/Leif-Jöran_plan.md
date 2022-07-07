@@ -109,6 +109,14 @@ Time | Topic | Type | Instructor
 15 min | Project management reflections. | Discussion | Chelcie
 35 min | Planning our own projects. | Talk lab | Chelcie
 
+#### 11:00–12:30: Application programming interfaces (API)
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+30 min | What is an Application Programming Interface (API)? | Presentation | Hugh
+30 min | Our verb and noun choices, how we made them, what we might have done differently. | Presentation | Gabi
+**30 min** | **Documenting our decisions.** | **Talk lab** | **Leif-Jöran**
+
 #### 2:00–3:30: Database indexes, queries, and profiling
 
 Time | Topic | Type | Instructor

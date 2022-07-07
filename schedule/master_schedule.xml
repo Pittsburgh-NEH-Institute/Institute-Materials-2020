@@ -1308,11 +1308,16 @@
                     <desc>Documenting our decisions.</desc>
                     <!-- Target audience: Other developers? End-users? Others? -->
                     <!-- Participants identify decisions made and alternatives and figure out how to document them.
-                        Moving articles to end, passing query parameters during search instead of cookie,
-                        why <main> and <section> (and why not), mapping.js library choice. Naming (kebab, snake,
-                        camel)? Why separate wrapper in controller flow? What goes into function library? -->
+                        a) Moving articles to end: "The Times" vs "Times, The"
+                        b) passing query parameters during search instead of cookie or session to maintain widget state
+                        c) why <main> and <section> (and why not)
+                        d) mapping.js library choice
+                        e) Naming (kebab, snake, camel)? Leif-Jöran: linter to validate
+                        f) Why separate wrapper in controller flow? 
+                        g) What goes into function library? 
+                    -->
                     <instructors>
-                        <instructor>David</instructor>
+                        <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
             </slot>
