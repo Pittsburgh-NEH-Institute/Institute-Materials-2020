@@ -24,7 +24,13 @@ everyone’s installations are up to date.
 
 ### Install *eXist-db*
 
-Install the current stable version from <http://exist-db.org/exist/apps/homepage/index.html>.
+Verify that you have Java installed by opening the Terminal (Finder → Applications → Utilities → Terminal, or use
+“Spotlight search” by typing Cmd+Space and then typing “terminal”) and typing `java -version`. If you get an error
+message to the effect that Java is not installed, open <https://java.com> and follow the prompts to download the
+recommended Java version.
+
+Once you’ve confirmed that Java is installed, install the current stable version of eXist-db from 
+<http://exist-db.org/exist/apps/homepage/index.html>. We recommend the *.dmg* version for MacOS users.
 
 ### Install *git*
 
@@ -71,13 +77,20 @@ Type `git` at the command line. If it isn’t installed, accept the prompt to in
 
 ### Install *eXist-db*
 
-1. Install the current stable version of eXist-db from <http://exist-db.org/exist/apps/homepage/index.html> To do that follow the [installation instructions](https://exist-db.org/exist/apps/doc/basic-installation) on the eXist-db website. (**Important:** Pay attention to the instructions about Java versions. eXist-db requires Java 8 or Java 11.) If you are given the option of installing eXist-db “as a service”, decline that option.
+1. Verify that you have Java installed by opening Windows PowerShell or Git bash and typing `java -version`. If you get an error
+message to the effect that Java is not installed, navigate to [OpenJDK](https://www.openlogic.com/openjdk-downloads) and
+from this general download site select Java version 8, Windows operating system, x86 64-bit architecture, and JDK Java package.
+1. Install the current stable version of eXist-db from <http://exist-db.org/exist/apps/homepage/index.html> We
+recommend downloading *exist-installer-6.0.1.jar*. Once you’ve downloaded it, run it by opening a shell (terminal) in your
+Downloads directory and running `java -jar exist-installer-6.0.1.jar`.
+If you are given the option of installing eXist-db “as a service”, 
+decline that option.
 2. You will know that the installation has been successful if, after following all prompts, the eXist-db launcher opens when you navigate to <http://localhost:8080/> in your browser. 
 3. If you are having trouble getting eXist-db to run:
    - Uninstall eXist-db.
    - Make sure that you have [OpenJDK](https://www.openlogic.com/openjdk-downloads) installed. From this general download site select Java version 8, Windows operating system, x86 64-bit architecture, and JDK Java package.
    - Reinstall eXist-db and verify that it launches successfully. 
-4. If eXist-db still will not run, follow their [troubleshooting instructions](https://exist-db.org/exist/apps/doc/troubleshooting) or [advanced installation guide](https://exist-db.org/exist/apps/doc/advanced-installation).
+4. If eXist-db still will not run, follow the [troubleshooting instructions](https://exist-db.org/exist/apps/doc/troubleshooting) or [advanced installation guide](https://exist-db.org/exist/apps/doc/advanced-installation).
 
 ### Install *git*
 
