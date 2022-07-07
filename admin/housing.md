@@ -58,7 +58,19 @@ For more information about amenities available in your residence hall see the Un
 
 ## Meals 
 
-Your PUC (Panther Utility Card) will come loaded with Panther Funds, which you can use to purchase food both on campus and at restaurants and stores in the surrounding area of Oakland. $45 per day in PantherFunds have been allotted to each Institute participant for purchasing meals. [Forbes Street Market](https://dineoncampus.com/pitt/forbes-street-market) accepts Panther Funds and offers groceries and quick meals. It is conveniently located right across the street from David Lawrence Hall, where Institute sessions are held. Panther Funds are accepted at [many University merchants](https://www.pc.pitt.edu/panther-card/merchants/university-merchants) and at independent [restaurants, fast food establishments, coffee shops, grocery stores, and other vendors](https://acceptinglocations.com/pantherfunds/). Some stores may be located a bit further from campus but can be easily accessed by nearby buses. 
+Your PUC (Panther Utility Card) will come loaded with Panther Funds, which you can use to purchase food both on campus and at restaurants and stores in the surrounding area of Oakland. $45 per day in PantherFunds have been allotted to each Institute participant for purchasing meals. It is conveniently located right across the street from David Lawrence Hall, where Institute sessions are held. Panther Funds are accepted at [many University merchants](https://www.pc.pitt.edu/panther-card/merchants/university-merchants) and at independent [restaurants, fast food establishments, coffee shops, grocery stores, and other vendors](https://acceptinglocations.com/pantherfunds/). Some stores may be located a bit further from campus but can be easily accessed by nearby buses. 
+
+### Dining (and other Panther funds) updates
+
+#### Places that accept Panther funds
+
+* **The Eatery** (one of the campus student dining halls), located in Litchfield Hall, is open M–F 11–2 and accepts Panther funds. They have a variety of food stations.  Enter through the lobby of Litchfield (the apparently more convenient door directly on Forbes is locked).
+* The **Forbes Street Market**, 3955 Forbes Ave, is open 7:00 a.m.–9:00 p.m. and accepts Panther funds. It sells grocery products and quick meals.
+
+#### Places that unexpectedly do not accept Panther funds
+
+* **Panera Bread**, 3800 Forbes Ave, although listed on <https://acceptinglocations.com/pantherfunds/> as accepting Panther funds, is not accepting Panther funds over the summer.
+* **RiteAid Pharmacy**, 3700 Forbes Ave, although listed on <https://acceptinglocations.com/pantherfunds/> as accepting Panther funds, does not accept Panther funds.
 
 ## Parking and transportation 
 
