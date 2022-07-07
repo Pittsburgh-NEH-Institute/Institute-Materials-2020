@@ -58,7 +58,11 @@ For more information about amenities available in your residence hall see the Un
 
 ## Meals 
 
-Your PUC (Panther Utility Card) will come loaded with Panther Funds, which you can use to purchase food both on campus and at restaurants and stores in the surrounding area of Oakland. $45 per day in PantherFunds have been allotted to each Institute participant for purchasing meals. It is conveniently located right across the street from David Lawrence Hall, where Institute sessions are held. Panther Funds are accepted at [many University merchants](https://www.pc.pitt.edu/panther-card/merchants/university-merchants) and at independent [restaurants, fast food establishments, coffee shops, grocery stores, and other vendors](https://acceptinglocations.com/pantherfunds/). Some stores may be located a bit further from campus but can be easily accessed by nearby buses. 
+Your PUC (Panther Utility Card) will come loaded with Panther Funds, which you can use to purchase food both on campus and at restaurants and stores in the surrounding area of Oakland. $45 per day in PantherFunds have been allotted to each Institute participant for purchasing meals. You can check your Panther funds balance at a machine in Panther Central, which is in the lobby of Litchfield Hall, conveniently located across the street from David Lawrence Hall, where Institute sessions are held:
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3036.4751389582493!2d-79.95782363430021!3d40.44261956198793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x8834f22906500183%3A0x8fe1715eaeccb8e6!2sUniversity%20of%20Pittsburgh%20-%20Panther%20Central%2C%20Fifth%20Avenue%2C%20Pittsburgh%2C%20PA!3m2!1d40.4427965!2d-79.9560812!4m5!1s0x8834f228541d5921%3A0xa9e42410df503e8f!2sLawrence%20Hall%2C%20Forbes%20Avenue%2C%20Pittsburgh%2C%20PA!3m2!1d40.4425725!2d-79.9551887!5e0!3m2!1sen!2sus!4v1657218604376!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+Panther Funds are accepted at [many University merchants](https://www.pc.pitt.edu/panther-card/merchants/university-merchants) and at independent [restaurants, fast food establishments, coffee shops, grocery stores, and other vendors](https://acceptinglocations.com/pantherfunds/). Some stores may be located a bit further from campus but can be easily accessed by nearby buses. 
 
 ### Dining (and other Panther funds) updates
 
