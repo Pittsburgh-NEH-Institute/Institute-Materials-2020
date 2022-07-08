@@ -95,6 +95,6 @@ Digital humanists already have access to workshops and tutorials to help them le
             </a>
         </td>
         <td style="vertical-align: middle; border: none;">eXist-db is an open source native XML database
-        		and application platform.</td>
+        		and application platform, supported by <a href="https://www.existsolutions.com/">eXist Solutions, GmbH</a>.</td>
     </tr>
 </table>
