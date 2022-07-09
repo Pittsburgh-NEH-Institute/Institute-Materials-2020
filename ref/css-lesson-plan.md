@@ -70,17 +70,21 @@ Margin is outside the box, padding is inside
 - [W3Schools](https://www.w3schools.com/css/default.asp)
 - [CSS Textbook](https://books.goalkicker.com/CSSBook/)
 - [Going further with CSS](http://dh.obdurodon.org/cssAnimationsIntro.xhtml)
+- [Emmet](https://emmet.io)
 
 ## Rough ending CSS (attached to Emma's XHTML)
 ~~~
 body {
     background: tan;
+    padding-left: 1em;
 }
 h1{
     text-align: center;
-    border: solid black 5px;
+    text-decoration: underline;
+    font-size: 3em;
     width: 50%;
     margin: auto;
+    margin-top: 3%;
 }
 li {
     margin: .5%;
@@ -93,6 +97,11 @@ a:hover {
 }
 a:visited {
     color: black;
+}
+table, tr, td, th {
+    border: solid black 2px;
+    border-collapse: collapse;
+    padding: 2%;
 }
 /* BELOW ARE CLASSES */
 .listTitle {
