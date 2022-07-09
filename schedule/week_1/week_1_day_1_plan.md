@@ -35,8 +35,8 @@ Introductions, research questions, schedules, outcome goals.### Edition repo sta
 Time | Topic | Type
 ---- | ---- | ---- 
 15 min | Introductions. | Presentation
-25 min | Research questions and choosing our technologies. | Presentation
-20 min | Discuss two-week schedule and day plans. | Presentation
+30 min | Research questions and choosing our technologies. | Presentation
+15 min | Discuss two-week schedule and day plans. | Presentation
 30 min | Review laboratory outcome goals and explore participant goals for their own editions. | Talk lab
 
 ## 10:30–11:00: Coffee break

@@ -13,8 +13,8 @@ Introductions, research questions, schedules, outcome goals.
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 15 min | Introductions. | Presentation | David
-25 min | Research questions and choosing our technologies. | Presentation | Gabi
-20 min | Discuss two-week schedule and day plans. | Presentation | David
+30 min | Research questions and choosing our technologies. | Presentation | Gabi
+15 min | Discuss two-week schedule and day plans. | Presentation | David
 **30 min** | **Review laboratory outcome goals and explore participant goals for their own editions.** | **Talk lab** | **Chelcie**
 
 ### Tuesday, July 12, 2022

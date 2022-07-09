@@ -31,7 +31,7 @@
                         <instructor>David</instructor>
                     </instructors>
                 </act>
-                <act time="25" type="Presentation">
+                <act time="30" type="Presentation">
                     <desc>Research questions and choosing our technologies.</desc>
                     <outcome>
                         <goal>Make informed methodological and technical decisions based on our
@@ -41,7 +41,7 @@
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
-                <act time="20" type="Presentation">
+                <act time="15" type="Presentation">
                     <desc>Discuss two-week schedule and day plans.</desc>
                     <outcome>
                         <goal>Set expectations for institute.</goal>
