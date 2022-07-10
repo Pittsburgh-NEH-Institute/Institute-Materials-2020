@@ -17,7 +17,7 @@ everyone’s installations are up to date.
 ### Install *homebrew*
 
 *Homebrew* is a package manager for MacOS, that is, an application that helps you install other applications. Read [About Homebrew](https://brew.sh/).
-Unless you have XCode installed previously this step will require sudo access, install homebrew with:
+Unless you have XCode installed previously this step will require sudo access and ask for your password. Install homebrew with:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
