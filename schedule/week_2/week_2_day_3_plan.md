@@ -44,6 +44,7 @@ Time | Topic | Type
 
 ## 11:00–12:30: Creating SVG visualizations for the edition
 
+
 ### Edition repo stages for session
 
 * [Maps and `map`: implementing a map](https://github.com/Pittsburgh-NEH-Institute/placeholder)

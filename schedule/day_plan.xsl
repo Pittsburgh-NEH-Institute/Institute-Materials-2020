@@ -180,7 +180,7 @@
     <!-- Create links to repos for project stages                         -->
     <!-- ================================================================ -->
     <xsl:template match="repos" mode="daily">
-        <xsl:text>### Edition repo stages for session&#x0a;&#x0a;</xsl:text>
+        <xsl:text>&#x0a;### Edition repo stages for session&#x0a;&#x0a;</xsl:text>
         <xsl:apply-templates select="repo" mode="daily"/>
         <xsl:text>&#x0a;</xsl:text>
     </xsl:template>

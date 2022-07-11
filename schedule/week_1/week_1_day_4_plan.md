@@ -30,6 +30,7 @@ XQuery in XML databases. Day four reimagines the edition in a research-driven wa
 * * *
 ## 9:00–10:30: XML databases and indexes
 
+
 ### Edition repo stages for session
 
 * [Creating title list: model only](https://github.com/Pittsburgh-NEH-Institute/placeholder)
@@ -45,6 +46,7 @@ Time | Topic | Type
 
 ## 11:00–12:30: Developing the model to support a feature
 
+
 ### Edition repo stages for session
 
 * [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/placeholder)
@@ -58,6 +60,7 @@ Time | Topic | Type
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: The controller
+
 
 ### Edition repo stages for session
 

@@ -47,6 +47,7 @@ Time | Topic | Type
 
 ## 2:00–3:30: File management
 
+
 ### Edition repo stages for session
 
 * [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)

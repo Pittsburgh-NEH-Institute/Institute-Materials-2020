@@ -31,7 +31,8 @@ Moving from model to implementation. The third day is devoted to developing the
 ## 9:00–10:30: Command line
 
 Practice navigating your file system and using tools at the command line,
-                    including Git.### Edition repo stages for session
+                    including Git.
+### Edition repo stages for session
 
 * [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
@@ -44,6 +45,7 @@ Time | Topic | Type
 ## 10:30–11:00: Coffee break
 
 ## 11:00–12:30: Modeling the data for the edition
+
 
 ### Edition repo stages for session
 
@@ -58,6 +60,7 @@ Time | Topic | Type
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
+
 
 ### Edition repo stages for session
 

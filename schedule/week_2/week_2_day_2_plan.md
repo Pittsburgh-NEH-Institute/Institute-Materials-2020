@@ -31,6 +31,7 @@ Implementing publication strategies. The morning is devoted to typeswitch, an
 * * *
 ## 9:00–10:30: Creating views and using typeswitch
 
+
 ### Edition repo stages for session
 
 * [Creating index](https://github.com/Pittsburgh-NEH-Institute/placeholder)
@@ -44,6 +45,7 @@ Time | Topic | Type
 ## 10:30–11:00: Coffee break
 
 ## 11:00–12:30: Putting MVC together: building the reading view
+
 
 ### Edition repo stages for session
 
@@ -60,6 +62,7 @@ Time | Topic | Type
 
 ## 2:00–3:30: XQuery functions and unit testing
 
+
 ### Edition repo stages for session
 
 * [Creating reading view](https://github.com/Pittsburgh-NEH-Institute/placeholder)
@@ -74,6 +77,7 @@ Time | Topic | Type
 ## 3:30–4:00: Coffee break
 
 ## 4:00–5:30: Visualizing our geodata and integrating external APIs
+
 
 ### Edition repo stages for session
 

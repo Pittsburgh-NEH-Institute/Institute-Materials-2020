@@ -26,6 +26,7 @@ Finishing up (dessert and coffee?). In the first session, participants will disc
 * * *
 ## 9:00–10:30: Modeling choices
 
+
 ### Edition repo stages for session
 
 * [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
@@ -40,6 +41,7 @@ Time | Topic | Type
 ## 10:30–11:00: Coffee break
 
 ## 11:00–12:30: Implementation choices
+
 
 ### Edition repo stages for session
 

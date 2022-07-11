@@ -31,6 +31,7 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 * * *
 ## 9:00–10:30: ODDs and collaborative encoding
 
+
 ### Edition repo stages for session
 
 * [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
@@ -45,6 +46,7 @@ Time | Topic | Type
 
 ## 11:00–12:30: Git and GitHub in Real Life
 
+
 ### Edition repo stages for session
 
 * [Your own repo](https://example.com)
@@ -58,6 +60,7 @@ Time | Topic | Type
 ## 12:30–2:00: Lunch
 
 ## 2:00–3:30: Search functionality
+
 
 ### Edition repo stages for session
 
