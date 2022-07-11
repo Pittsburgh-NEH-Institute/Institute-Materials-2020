@@ -121,6 +121,10 @@ If at any point you have issues using *npm* or *nvm*, check your Program Files d
 1. `npm i -g yo`
 2. `npm i -g @existdb/generator-exist`
 
+You then can run it with:
+1. `yo @existdb/exist`
+to scaffold an app.
+ 
 ### Install *ant*
 
 1. `choco install ant`
