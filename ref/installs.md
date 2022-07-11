@@ -96,6 +96,8 @@ decline that option.
    - Reinstall eXist-db and verify that it launches successfully. 
 4. If eXist-db still will not run, follow the [troubleshooting instructions](https://exist-db.org/exist/apps/doc/troubleshooting) or [advanced installation guide](https://exist-db.org/exist/apps/doc/advanced-installation).
 
+5. Before installing the "Shakespeare's Plays (TEI Publisher Edition)" (short name shakespeare-pm) also install the package "Open API Router library for eXist" (short name oas-router). Go to the package manager in eXist-db E.g. <http://localhost:8198/exist/apps/dashboard/admin>. Make sure to login to see the package manager. Click Available (NN) and put "rout" in filter upper right. 
+
 ### Install *git*
 
 Type `git` at the command line. If it isn't installed, type `choco install git`. This will also install Git Bash. From now on, instead of using PowerShell, you will use Git Bash as your command line interface. (**Important:** Remember to launch Git Bash as Administrator when installing anything. You can do that by navigating to Git Bash in the Windows Start menu, right clicking, and selecting *Run as administrator*.) 
