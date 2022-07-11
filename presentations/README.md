@@ -1,5 +1,7 @@
 # Presentations for the sessions
-Here we put a pdf-version of all presentations as they are delivered.
-Sources are optional, but if possible, put in sources sub-directory.
+Here we put a pdf or markdown version of all presentations as they are delivered.
+Sources are optional, but if possible, put in sources subdirectory.
 
-Suggested naming convention: dayN_sessionN-author-title_without_spaces.pdf
+Suggested naming convention: dayNN_sessionNN_author_title-without-spaces.pdf
+
+For example: day01_session01_rowell_edition-goals.md
