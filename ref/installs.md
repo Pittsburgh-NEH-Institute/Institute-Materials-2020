@@ -34,6 +34,8 @@ recommended Java version.
 Once you’ve confirmed that Java is installed, install the current stable version of eXist-db from 
 <http://exist-db.org/exist/apps/homepage/index.html>. We recommend the *.dmg* version for MacOS users.
 
+*NB!* eXist-db is running even if you close the browser window. Don't start it from the dock again to open eXide (or any other app), just open a new tab in brower with e.g. http://localhost:8080/exist/apps/eXide/.
+
 ### Install *git*
 
 Type `git` at the command line. If it isn’t installed, accept the prompt to install the Xcode command line tools (this installation may take a long time).
