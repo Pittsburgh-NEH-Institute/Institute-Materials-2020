@@ -148,3 +148,8 @@ to scaffold an app.
 ### Install *ant*
 
 1. `choco install ant`
+
+If ant is not found after successful installation, try:
+ 1. `choco install -y -f ant --package-parameters="/User"`
+ to relocate it.
+ 
