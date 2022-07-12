@@ -89,6 +89,9 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 
 ### Project management
 * NPR Training. 2018. "[A Blueprint for Planning Storytelling Projects](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects)."
+* Siemens, Lynn. 2012. "[Issues in Large-Project Planning and Management](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf)" [PDF], Digital Humanities Summer Institute, University of Victoria.
+* Siemens, Lynn. 2016. "Project Management and the Digital Humanist." _Doing Digital Humanities: Practice, Training, Research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
+
 * Visual Media Workshop at the University of Pittsburgh. 2019. "[The Socio-Technical Sustainability Roadmap](http://sustainingdh.net)."
 
 ### Text Encoding (TEI, XML, and Beyond)
@@ -99,7 +102,7 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 * Renear, Allen, David Dubin, and C. Michael Sperberg-McQueen. 2002. "Towards a semantics for XML markup." _Proceedings of the 2002 ACM symposium on Document engineering_, New York: ACM.
 * Sperberg-McQueen, Christopher Michael, Claus Huitfeldt, and Allen Renear. 2000. "Meaning and interpretation of markup." _Markup Languages 2.3_, pp. 215-234.
 * Stadler, Peter, Marcel Illetschko, and Sabine Seifert. 2016. "Towards a Model for Encoding Correspondence in the TEI: Developing and Implementing correspDesc." _Journal of the Text Encoding Initiative_, vol. 9.
-* Stella, Francesco. 2006. "Digital Philology, medieval texts, and the Corpus of Latin Rhythms, a Digital Edition of Music and Poems." _Digital Philology and Medieval Texts_, edited by Arianna Ciula and Fransesco Stella, pp. 223-249. Pisa: Pacini editore, .
+* Stella, Francesco. 2006. "Digital Philology, medieval texts, and the Corpus of Latin Rhythms, a Digital Edition of Music and Poems." _Digital Philology and Medieval Texts_, edited by Arianna Ciula and Fransesco Stella, pp. 223-249. Pisa: Pacini editore.
 * Tennison, Jeni, and Wendell Piez. "The Layered Markup and Annotation Language (LMNL)." _Extreme Markup Languages_.
 
 ### Textual variance and collation
