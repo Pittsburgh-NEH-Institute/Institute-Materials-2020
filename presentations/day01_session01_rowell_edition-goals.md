@@ -46,13 +46,13 @@ So perhaps lifelong readers of Georgette Hayer romances, or folks who watched *B
 Adapted from [Project Blueprint](https://training.npr.org/2018/05/07/a-blueprint-for-planning-storytelling-projects), National Public Radio (NPR) Training.
 
 **Speaker notes:**
-Regarding no. 1, try to be more specific than just “digital edition.”
+Regarding **number 1**, try to be more specific than just “digital edition.”
 Does it include digital surrogates of manuscripts, or just text?
 Is it a critical edition? Diplomatic edition? And so forth.
-Regarding no. 4, the alternatives you articulate might be competitors, such as other editions of the source texts, perhaps a print edition or a digital text-only edition that doesn’t include digital surrogates, whereas YOUR edition will include the digital surrogates.
+Regarding **number 4**, the alternatives you articulate might be competitors, such as other editions of the source texts, perhaps a print edition or a digital text-only edition that doesn’t include digital surrogates, whereas YOUR edition will include the digital surrogates.
 Or perhaps the alternatives you identify aren’t so much competitors to your edition, but rather other ways of accessing the information.
-For example, perhaps an alternative to a published digital edition, is to encode the text and perform queries using xpath locally on your machine, without making the edition publicly to viewers in order for them to perform their own interpretation.
-In this case the alternative is like a more minimal version of your project, which you pursued due to limited resources, which you’re now committed to expanding upon because you’ve got more money or time now. Woohoo!
+For example, perhaps an alternative to a published digital edition, is to encode the text and perform queries locally on your machine, without making the edition public to viewers in order for them to perform their own interpretation.
+In this case the alternative is like a more minimal version of your project, which you pursued due to limited resources, which you’re now committed to expanding upon because you’ve got more money or time. Woohoo!
 
 ## Mad lib for refining your edition goals
 
