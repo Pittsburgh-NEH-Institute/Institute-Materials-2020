@@ -320,16 +320,7 @@
                         <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
                     </repo>
                 </repos>
-                <act time="30" type="Talk_lab">
-                    <desc>Translating your research goals into your work plan.</desc>
-                    <outcome>
-                        <goal>Explore how data models and the computational pipeline work
-                            together.</goal>
-                    </outcome>
-                    <instructors>
-                        <instructor>Chelcie</instructor>
-                    </instructors>
-                </act>
+                
                 <act time="30" type="Presentation">
                     <desc>TEI XML in context: rationales, alternatives.</desc>
                     <outcome>
@@ -341,7 +332,7 @@
                         <instructor>Hugh</instructor>
                     </instructors>
                 </act>
-                <act time="30" type="Code_lab">
+                <act time="40" type="Code_lab">
                     <desc>Encoding data in TEI XML together in small groups.</desc>
                     <outcome>
                         <goal>Explore the relationship between research questions and markup
@@ -349,6 +340,12 @@
                         <goal>Consider how the laboratory edition data might look different with
                             different research questions and markup.</goal>
                     </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="20" type="Discussion">
+                    <desc>Building a title list with XQuery: Plan goals, pipeline, and find the data.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
@@ -374,19 +371,18 @@
                     </repo>
                 </repos>
                 <!-- Build list of titles -->
-                <act time="10" type="Discussion">
-                    <desc>Building a title list with XQuery: Plan goals and pipeline organization.</desc>
+                <act time="30" type="Talk_lab">
+                    <desc>Translating your research goals into your work plan.</desc>
+                    <outcome>
+                        <goal>Explore how data models and the computational pipeline work
+                            together.</goal>
+                    </outcome>
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>Chelcie</instructor>
                     </instructors>
                 </act>
-                <act time="10" type="Code_lab">
-                    <desc>Building a title list with XQuery: Create the model, part 1: find the information you need.</desc>
-                    <instructors>
-                        <instructor>Gabi</instructor>
-                    </instructors>
-                </act>
-                <act time="30" type="Code_lab">
+            
+                <act time="20" type="Code_lab">
                     <desc>Building a title list with XQuery: Create the model, part 2: construct model in model namespace.</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>

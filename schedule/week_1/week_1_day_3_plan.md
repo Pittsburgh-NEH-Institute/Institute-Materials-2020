@@ -14,11 +14,11 @@ Moving from model to implementation. The third day is devoted to developing the
 * Practice file management at the command line.
 * Push your personal repository to GitHub.
 * Practice Git at the command line.
-* Explore how data models and the computational pipeline work together.
 * Navigate enabling and enforcing schema paradigms.
 * Make explicit our assumptions about TEI, our data, markup decisions, and edition goals.
 * Explore the relationship between research questions and markup decisions.
 * Consider how the laboratory edition data might look different with different research questions and markup.
+* Explore how data models and the computational pipeline work together.
 * Create our first computational pipeline together.
 
 ## Legend
@@ -55,9 +55,9 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Translating your research goals into your work plan. | Talk lab
 30 min | TEI XML in context: rationales, alternatives. | Presentation
-30 min | Encoding data in TEI XML together in small groups. | Code lab
+40 min | Encoding data in TEI XML together in small groups. | Code lab
+20 min | Building a title list with XQuery: Plan goals, pipeline, and find the data. | Discussion
 
 ## 12:30–2:00: Lunch
 
@@ -71,9 +71,8 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-10 min | Building a title list with XQuery: Plan goals and pipeline organization. | Discussion
-10 min | Building a title list with XQuery: Create the model, part 1: find the information you need. | Code lab
-30 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab
+30 min | Translating your research goals into your work plan. | Talk lab
+20 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab
 10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab
 30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab
 
