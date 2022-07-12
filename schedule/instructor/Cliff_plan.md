@@ -28,11 +28,11 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-10 min | Plan goals and pipeline organization. | Discussion | Gabi
-10 min | Create the model, part 1: find the information you need. | Code lab | Gabi
-30 min | Create the model, part 2: construct model in model namespace. | Code lab | Leif-Jöran
-10 min | Prepare to connect the model and the view: save the model to a variable. | Code lab | Leif-Jöran
-**30 min** | **Create the view: transform the model to HTML.** | **Code lab** | **Cliff**
+10 min | Building a title list with XQuery: Plan goals and pipeline organization. | Discussion | Gabi
+10 min | Building a title list with XQuery: Create the model, part 1: find the information you need. | Code lab | Gabi
+30 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab | Leif-Jöran
+10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab | Leif-Jöran
+**30 min** | **Building a title list with XQuery: Create the view: transform the model to HTML.** | **Code lab** | **Cliff**
 
 ### Thursday, July 14, 2022
 
@@ -51,7 +51,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Create Kanban boards and discuss other project management tools. | Presentation | Chelcie, Gabi
-30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion | Elli, Gabi
+30 min | Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)). | Discussion | Elli, Gabi
 **30 min** | **XQuery: taking stock.** | **Code lab** | **Cliff**
 
 #### 2:00–3:30: Search functionality
@@ -71,16 +71,16 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Using typeswitch and local functions. | Code lab | Leif-Jöran
-**60 min** | **Using typeswitch and local functions to create rich text reading views.** | **Code lab** | **Cliff**
+30 min | Using typeswitch and local functions (title-list query). | Code lab | Leif-Jöran
+**60 min** | **Using typeswitch and local functions to create rich text views (title-list query).** | **Code lab** | **Cliff**
 
 #### 11:00–12:30: Putting MVC together: building the reading view
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | The Model in action. | Code lab | Gabi
-**30 min** | **The View in action.** | **Code lab** | **Cliff**
-30 min | The Model, View, and Controller in action. | Code lab | David
+30 min | The Model in action (article reading-view query). | Code lab | Gabi
+**30 min** | **The View in action (article reading-view query).** | **Code lab** | **Cliff**
+30 min | The Model, View, and Controller in action (article reading-view query). | Code lab | David
 
 #### 2:00–3:30: XQuery functions and unit testing
 

@@ -51,7 +51,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-90 min | CETEIcean, TEI Publisher, EVT, GitHub Pages, and their ilk. | Presentation|Hugh
+90 min | CETEIcean, TEI Publisher, EVT, GitHub Pages, GitHub Actions, and their ilk. | Presentation|Hugh
 
 ## 12:30–2:00: Lunch
 
@@ -61,7 +61,7 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | HTML basics. | Code lab|Emma
 30 min | CSS basics. | Code lab|Mason
-30 min | Flexbox. | Code lab|David
+30 min | Flexbox basics ([Complete guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)). | Code lab|David
 
 ## 3:30–4:00: Coffee break
 

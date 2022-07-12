@@ -52,7 +52,7 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-15 min | Stylesheet, template, and function variables. | Code lab
+15 min | Stylesheet variables and function variables. | Code lab
 30 min | Create the model. | Code lab
 45 min | Implement the planned visualization using the model. | Code lab
 

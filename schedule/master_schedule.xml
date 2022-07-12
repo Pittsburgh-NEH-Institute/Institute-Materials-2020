@@ -3,7 +3,7 @@
 <?xml-model href="master_schedule.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <schedule>
     <week num="1">
-        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering tools</title>
+        <title>*Mise en place* : Planning your recipe, preparing your workstation, gathering tools.</title>
         <day d="Monday">
             <date>July 11, 2022</date>
             <syn>Fundamentals. The Institute opens with a high-level view of the types of engagement
@@ -85,7 +85,7 @@
                 </act>
                 <act time="30" type="Presentation">
                     <desc>Initial stages: TEI XML (base view), exploring with XPath, and exploratory
-                        data analysis (EDA).</desc>
+                        data analysis (EDA) with Shakespeare.</desc>
                     <outcome>
                         <goal>Understand base view processing and EDA.</goal>
                     </outcome>
@@ -125,12 +125,6 @@
             </slot>
             <slot time="16:00:00">
                 <title>XQuery and digital editions</title>
-                <repos>
-                    <repo>
-                        <repo-name>Base view: TEI data</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
-                    </repo>
-                </repos>
                 <act time="45" type="Discussion">
                     <desc>Exemplary digital editions.</desc>
                     <outcome>
@@ -195,6 +189,8 @@
                     <desc>GitHub: code management, issues, projects, and Markdown.</desc>
                     <outcome>
                         <goal>Practice using GitHub and IDEs to manage your workflow.</goal>
+                        <goal>Clone an eXist-db app, build with ant, install in local eXist-db
+                            instance.</goal>
                     </outcome>
                     <instructors>
                         <instructor>David</instructor>
@@ -221,13 +217,12 @@
                         <repo-name>Base view: TEI</repo-name>
                         <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
                     </repo>
-
                 </repos>
                 <act time="60" type="Code_lab">
                     <desc>File management and command line basics.</desc>
                     <outcome>
                         <goal>Know your machine better.</goal>
-                        <goal>Initiate an eXist-db app using Yeoman and push it to GitHub.</goal>
+                        <goal>Learn how to look stuff up.</goal>
                     </outcome>
                     <instructors>
                         <instructor>Elli</instructor>
@@ -329,7 +324,7 @@
                     </instructors>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>TEI XML in context: rationales, alternatives, and the ODD.</desc>
+                    <desc>TEI XML in context: rationales, alternatives.</desc>
                     <outcome>
                         <goal>Navigate enabling and enforcing schema paradigms.</goal>
                         <goal>Make explicit our assumptions about TEI, our data, markup decisions,
@@ -373,32 +368,31 @@
                 </repos>
                 <!-- Build list of titles -->
                 <act time="10" type="Discussion">
-                    <desc>Plan goals and pipeline organization.</desc>
+                    <desc>Building a title list with XQuery: Plan goals and pipeline organization.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
                 <act time="10" type="Code_lab">
-                    <desc>Create the model, part 1: find the information you need.</desc>
+                    <desc>Building a title list with XQuery: Create the model, part 1: find the information you need.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
-                    <desc>Create the model, part 2: construct model in model namespace.</desc>
+                    <desc>Building a title list with XQuery: Create the model, part 2: construct model in model namespace.</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
                 <act time="10" type="Code_lab">
-                    <desc>Prepare to connect the model and the view: save the model to a
-                        variable.</desc>
+                    <desc>Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable.</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
-                    <desc>Create the view: transform the model to HTML.</desc>
+                    <desc>Building a title list with XQuery: Create the view: transform the model to HTML.</desc>
                     <!-- Instead of using typeswitch, we'll use FLWOR to address the list and transform to HTML. -->
                     <instructors>
                         <instructor>Cliff</instructor>
@@ -542,8 +536,7 @@
                     </instructors>
                 </act>
                 <act time="15" type="Discussion">
-                    <desc>What is a controller? Why do we need it? What factors determine controller
-                        design?</desc>
+                    <desc>What is a controller? Why do we need it? What factors determine controller design?</desc>
                     <!-- Query rewriting, pipeline -->
                     <instructors>
                         <instructor>Hugh</instructor>
@@ -561,20 +554,19 @@
                 </act>
                 <act time="10" type="Code_lab">
                     <!-- Separate yesterday’s unified XQuery into separate model and view -->
-                    <desc>URL rewriting: configure the controller to return the combined model plus
-                        view.</desc>
+                    <desc>URL rewriting: configure the controller to return the combined model plus view (title-list query).</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
                 <act time="10" type="Code_lab">
-                    <desc>Configure controller to return just the model.</desc>
+                    <desc>Configure controller to return just the model (title-list query).</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
                 <act time="20" type="Code_lab">
-                    <desc>The full controller pipeline: returning the view.</desc>
+                    <desc>The full controller pipeline: returning the view (title-list query).</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
@@ -591,10 +583,16 @@
             </slot>
             <slot time="16:00:00">
                 <title>Collation</title>
-                <act time="90" type="Presentation">
+                <act time="45" type="Presentation">
                     <desc>Collation.</desc>
                     <instructors>
                         <instructor>Ronald</instructor>
+                    </instructors>
+                </act>
+                <act time="45" type="Discussion">
+                    <desc>Participant project presentations.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
             </slot>
@@ -631,8 +629,7 @@
                     </instructors>
                 </act>
                 <act time="30" type="Discussion">
-                    <desc>Writing the ODD and other mechanisms for document control and
-                        documentation.</desc>
+                    <desc>Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)).</desc>
                     <outcome>
                         <goal>Enable better collaborative encoding for projects.</goal>
                     </outcome>
@@ -663,15 +660,6 @@
                         <repo-link>https://example.com</repo-link>
                     </repo>
                 </repos>
-                <act time="20" type="Code_lab">
-                    <desc>Issues and pull requests.</desc>
-                    <outcome>
-                        <goal>Create pull requests on the institute repositories.</goal>
-                    </outcome>
-                    <instructors>
-                        <instructor>Elli</instructor>
-                    </instructors>
-                </act>
                 <act time="40" type="Presentation">
                     <desc>Branches and you.</desc>
                     <outcome>
@@ -682,9 +670,18 @@
                         <instructor>Ronald</instructor>
                     </instructors>
                 </act>
+                <act time="20" type="Code_lab">
+                    <desc>Issues and pull requests.</desc>
+                    <outcome>
+                        <goal>Create pull requests on the institute repositories.</goal>
+                    </outcome>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
+                </act>
                 <act time="30" type="Code_lab">
                     <desc>Create merge conflicts on purpose to gain familiarity with resolving them
-                        (without being thrown into a VIM black hole).</desc>
+                        (without being thrown into a [vim black hole](https://dev.to/matthew_collison/comment/fi9p)).</desc>
                     <outcome>
                         <goal>Become comfortable with merge conflicts and using Git.</goal>
                     </outcome>
@@ -747,12 +744,11 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Special topic: IIIF with Jeffrey Witt</title>
-                <act time="90" type="Presentation">
-                    <desc>International Image Interoperability Framework (IIIF) and Linked Open Data
-                        (LOD).</desc>
+                <title>Catchup session</title>
+                <act time="90" type="Code_lab">
+                    <desc>Participants’ choice.</desc>
                     <instructors>
-                        <instructor>Jeffrey</instructor>
+                        <instructor>Gabi</instructor>
                     </instructors>
                 </act>
             </slot>
@@ -823,7 +819,7 @@
                 <title>Digital edition frameworks (cake from a mix)</title>
                 <act time="90" type="Presentation">
                     <!-- Break into subtopics? -->
-                    <desc>CETEIcean, TEI Publisher, EVT, GitHub Pages, and their ilk.</desc>
+                    <desc>CETEIcean, TEI Publisher, EVT, GitHub Pages, GitHub Actions, and their ilk.</desc>
                     <outcome>
                         <goal>Assess benefits and limitations of frameworks vs bespoke
                             editions.</goal>
@@ -862,7 +858,7 @@
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
-                    <desc>Flexbox.</desc>
+                    <desc>Flexbox basics ([Complete guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)).</desc>
                     <instructors>
                         <instructor>David</instructor>
                     </instructors>
@@ -908,7 +904,7 @@
                 </repos>
                 <!-- Titles list using FLWOR => titles list using typeswitch -->
                 <act time="30" type="Code_lab">
-                    <desc>Using typeswitch and local functions.</desc>
+                    <desc>Using typeswitch and local functions (title-list query).</desc>
                     <outcome>
                         <goal>Learn how to use `typeswitch` for dispatch.</goal>
                     </outcome>
@@ -917,8 +913,7 @@
                     </instructors>
                 </act>
                 <act time="60" type="Code_lab">
-                    <desc>Using typeswitch and local functions to create rich text reading
-                        views.</desc>
+                    <desc>Using typeswitch and local functions to create rich text views (title-list query).</desc>
                     <outcome>
                         <goal>Focus on the *view* in MVC in an eXist-db context.</goal>
                     </outcome>
@@ -950,19 +945,19 @@
                     </repo>
                 </repos>
                 <act time="30" type="Code_lab">
-                    <desc>The Model in action.</desc>
+                    <desc>The Model in action (article reading-view query).</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
-                    <desc>The View in action.</desc>
+                    <desc>The View in action (article reading-view query).</desc>
                     <instructors>
                         <instructor>Cliff</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
-                    <desc>The Model, View, and Controller in action.</desc>
+                    <desc>The Model, View, and Controller in action (article reading-view query).</desc>
                     <instructors>
                         <instructor>David</instructor>
                     </instructors>
@@ -1030,8 +1025,7 @@
                     </repo>
                 </repos>
                 <act time="15" type="Talk_lab">
-                    <desc>Write the model for our geodata and explore our ideas on how visual
-                        information can be displayed.</desc>
+                    <desc>Write the model for our geodata and explore our ideas on how visual information can be displayed.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
@@ -1046,8 +1040,7 @@
                     </instructors>
                 </act>
                 <act time="60" type="Code_lab">
-                    <desc>Together, we integrate basic map functionality into the app using a
-                        mapping JS library.</desc>
+                    <desc>Together, we integrate basic map functionality into the app using a mapping JS library.</desc>
                     <outcome>
                         <goal>Use external documentation and tutorials to create and adapt code for
                             your project.</goal>
@@ -1141,7 +1134,7 @@
                     </repo>
                 </repos>
                 <act time="15" type="Code_lab">
-                    <desc>Stylesheet, template, and function variables.</desc>
+                    <desc>Stylesheet variables and function variables.</desc>
                     <instructors>
                         <instructor>David</instructor>
                     </instructors>
@@ -1341,15 +1334,10 @@
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
-                <act time="20" type="Code_lab">
-                    <desc>Examining indexes in Monex.</desc>
+                <act time="40" type="Code_lab">
+                    <desc>Examining indexes and profiling queries in Monex.</desc>
                     <instructors>
                         <instructor>David</instructor>
-                    </instructors>
-                </act>
-                <act time="20" type="Code_lab">
-                    <desc>Profiling queries.</desc>
-                    <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
@@ -1370,11 +1358,11 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Catchup session</title>
-                <act time="90" type="Code_lab">
-                    <desc>Participants’ choice.</desc>
+                <title>Special topic: IIIF with Jeffrey Witt</title>
+                <act time="90" type="Presentation">
+                    <desc>International Image Interoperability Framework (IIIF) and Linked Open Data (LOD).</desc>
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>Jeffrey</instructor>
                     </instructors>
                 </act>
             </slot>

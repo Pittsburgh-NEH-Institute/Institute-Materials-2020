@@ -11,7 +11,7 @@
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **30 min** | **We introduce the computational pipeline as a way of modeling the development of a digital edition.** | **Presentation** | **Ronald**
-30 min | Initial stages: TEI XML (base view), exploring with XPath, and exploratory data analysis (EDA). | Presentation | Elli
+30 min | Initial stages: TEI XML (base view), exploring with XPath, and exploratory data analysis (EDA) with Shakespeare. | Presentation | Elli
 30 min | Transformation: how do I transform, what do I transform to? We also introduce the model-view-controller (MVC) architecture we’ll use in app development later on. | Presentation | Leif-Jöran
 
 ### Tuesday, July 12, 2022
@@ -30,7 +30,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**90 min** | **Collation.** | **Presentation** | **Ronald**
+**45 min** | **Collation.** | **Presentation** | **Ronald**
+45 min | Participant project presentations. | Discussion | Leif-Jöran
 
 ### Friday, July 15, 2022
 
@@ -38,7 +39,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-20 min | Issues and pull requests. | Code lab | Elli
 **40 min** | **Branches and you.** | **Presentation** | **Ronald**
-30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a VIM black hole). | Code lab | Leif-Jöran
+20 min | Issues and pull requests. | Code lab | Elli
+30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a [vim black hole](https://dev.to/matthew_collison/comment/fi9p)). | Code lab | Leif-Jöran
 

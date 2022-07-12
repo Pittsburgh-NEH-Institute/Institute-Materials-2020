@@ -72,9 +72,9 @@ Time | Topic | Type
 20 min | Where are we in the project? Planning for the next step? | Talk lab
 15 min | What is a controller? Why do we need it? What factors determine controller design? | Discussion
 15 min | Explore how the out-of-the-box controller works, along with what it can and cannot do. | Presentation
-10 min | URL rewriting: configure the controller to return the combined model plus view. | Code lab
-10 min | Configure controller to return just the model. | Code lab
-20 min | The full controller pipeline: returning the view. | Code lab
+10 min | URL rewriting: configure the controller to return the combined model plus view (title-list query). | Code lab
+10 min | Configure controller to return just the model (title-list query). | Code lab
+20 min | The full controller pipeline: returning the view (title-list query). | Code lab
 
 ## 3:30–4:00: Coffee break
 
@@ -82,6 +82,7 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Collation. | Presentation
+45 min | Collation. | Presentation
+45 min | Participant project presentations. | Discussion
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms are in our Slack workspace in the #daily-feedback channel (posting from Mason on Mon, July 11).

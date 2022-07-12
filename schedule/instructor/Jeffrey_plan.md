@@ -2,9 +2,9 @@
 
 [Link to instructor-view navigation page](daily_instructor_view.md)
 
-## Week 1
+## Week 2
 
-### Friday, July 15, 2022
+### Thursday, July 21, 2022
 
 #### 4:00–5:30: Special topic: IIIF with Jeffrey Witt
 

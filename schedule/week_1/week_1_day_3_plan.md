@@ -54,7 +54,7 @@ Time | Topic | Type
 Time | Topic | Type
 ---- | ---- | ---- 
 30 min | Translating your research goals into your work plan. | Talk lab
-30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation
+30 min | TEI XML in context: rationales, alternatives. | Presentation
 30 min | Encoding data in TEI XML together in small groups. | Code lab
 
 ## 12:30–2:00: Lunch
@@ -69,11 +69,11 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-10 min | Plan goals and pipeline organization. | Discussion
-10 min | Create the model, part 1: find the information you need. | Code lab
-30 min | Create the model, part 2: construct model in model namespace. | Code lab
-10 min | Prepare to connect the model and the view: save the model to a variable. | Code lab
-30 min | Create the view: transform the model to HTML. | Code lab
+10 min | Building a title list with XQuery: Plan goals and pipeline organization. | Discussion
+10 min | Building a title list with XQuery: Create the model, part 1: find the information you need. | Code lab
+30 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab
+10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab
+30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab
 
 ## 3:30–4:00: Coffee break
 

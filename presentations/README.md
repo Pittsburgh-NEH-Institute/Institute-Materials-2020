@@ -10,10 +10,15 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Chelcie, Edition goals](./day01_session01_rowell_edition-goals.md)
 * [Leif-Jöran, Transformation and model-view-controller](./day01_session02-ljo-transformation_and_mvc.pdf)
 * [Ronald, Computational pipelines](./day01_session02_dekker_computational-pipelines.pdf)
+* [Elli, Introduction to XPath](./day01_session02_bleeker_xpath.pdf)
+* [Cliff, Exploratory data analysis in eXide (HTML)](./day01_session04_anderson_exploratory_data_analysis_in_exide.md)
+* [Cliff, Exploratory data analysis in eXide (PDF)](./day01_session04_anderson_exploratory_data_analysis_in_exide.pdf)
+* [Elli, Exemplary editions](./day01_session04_bleeker_exemp-editions.pdf)
 
 ### Day 2
 
-* Watch this space!
+* [Elli, File management first steps](./day02_session03_bleeker_file-management.pdf)
+* [Cliff, Introduction to FLWOR](./day02_session04_anderson_xquery_practice_flwor.pdf)
 
 ----
 

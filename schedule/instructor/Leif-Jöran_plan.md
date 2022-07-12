@@ -11,7 +11,7 @@
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | We introduce the computational pipeline as a way of modeling the development of a digital edition. | Presentation | Ronald
-30 min | Initial stages: TEI XML (base view), exploring with XPath, and exploratory data analysis (EDA). | Presentation | Elli
+30 min | Initial stages: TEI XML (base view), exploring with XPath, and exploratory data analysis (EDA) with Shakespeare. | Presentation | Elli
 **30 min** | **Transformation: how do I transform, what do I transform to? We also introduce the model-view-controller (MVC) architecture we’ll use in app development later on.** | **Presentation** | **Leif-Jöran**
 
 ### Tuesday, July 12, 2022
@@ -30,11 +30,11 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-10 min | Plan goals and pipeline organization. | Discussion | Gabi
-10 min | Create the model, part 1: find the information you need. | Code lab | Gabi
-**30 min** | **Create the model, part 2: construct model in model namespace.** | **Code lab** | **Leif-Jöran**
-**10 min** | **Prepare to connect the model and the view: save the model to a variable.** | **Code lab** | **Leif-Jöran**
-30 min | Create the view: transform the model to HTML. | Code lab | Cliff
+10 min | Building a title list with XQuery: Plan goals and pipeline organization. | Discussion | Gabi
+10 min | Building a title list with XQuery: Create the model, part 1: find the information you need. | Code lab | Gabi
+**30 min** | **Building a title list with XQuery: Create the model, part 2: construct model in model namespace.** | **Code lab** | **Leif-Jöran**
+**10 min** | **Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable.** | **Code lab** | **Leif-Jöran**
+30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab | Cliff
 
 ### Thursday, July 14, 2022
 
@@ -53,9 +53,16 @@ Time | Topic | Type | Instructor
 20 min | Where are we in the project? Planning for the next step? | Talk lab | Chelcie
 15 min | What is a controller? Why do we need it? What factors determine controller design? | Discussion | Hugh
 **15 min** | **Explore how the out-of-the-box controller works, along with what it can and cannot do.** | **Presentation** | **Leif-Jöran**
-**10 min** | **URL rewriting: configure the controller to return the combined model plus view.** | **Code lab** | **Leif-Jöran**
-**10 min** | **Configure controller to return just the model.** | **Code lab** | **Leif-Jöran**
-**20 min** | **The full controller pipeline: returning the view.** | **Code lab** | **Leif-Jöran**
+**10 min** | **URL rewriting: configure the controller to return the combined model plus view (title-list query).** | **Code lab** | **Leif-Jöran**
+**10 min** | **Configure controller to return just the model (title-list query).** | **Code lab** | **Leif-Jöran**
+**20 min** | **The full controller pipeline: returning the view (title-list query).** | **Code lab** | **Leif-Jöran**
+
+#### 4:00–5:30: Collation
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+45 min | Collation. | Presentation | Ronald
+**45 min** | **Participant project presentations.** | **Discussion** | **Leif-Jöran**
 
 ### Friday, July 15, 2022
 
@@ -63,9 +70,9 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-20 min | Issues and pull requests. | Code lab | Elli
 40 min | Branches and you. | Presentation | Ronald
-**30 min** | **Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a VIM black hole).** | **Code lab** | **Leif-Jöran**
+20 min | Issues and pull requests. | Code lab | Elli
+**30 min** | **Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a [vim black hole](https://dev.to/matthew_collison/comment/fi9p)).** | **Code lab** | **Leif-Jöran**
 
 ## Week 2
 
@@ -75,8 +82,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**30 min** | **Using typeswitch and local functions.** | **Code lab** | **Leif-Jöran**
-60 min | Using typeswitch and local functions to create rich text reading views. | Code lab | Cliff
+**30 min** | **Using typeswitch and local functions (title-list query).** | **Code lab** | **Leif-Jöran**
+60 min | Using typeswitch and local functions to create rich text views (title-list query). | Code lab | Cliff
 
 ### Wednesday, July 20, 2022
 
@@ -122,8 +129,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **30 min** | **Understanding eXist-db indexing.** | **Presentation** | **Leif-Jöran**
-20 min | Examining indexes in Monex. | Code lab | David
-**20 min** | **Profiling queries.** | **Code lab** | **Leif-Jöran**
+**40 min** | **Examining indexes and profiling queries in Monex.** | **Code lab** | **David, Leif-Jöran**
 **20 min** | **Optimizing queries.** | **Code lab** | **Leif-Jöran**
 
 ### Friday, July 22, 2022
