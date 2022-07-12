@@ -20,7 +20,8 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Ronald, Introduction to git](./day02_session02_dekker_version_control_with_git.pdf)
 * [Leif-Jöran, FLWOR with Hoax data](./day02_session02_ljo_FLWOR-with-Hoax-data.pdf) 
 * [Elli, File management first steps](./day02_session03_bleeker_file-management.pdf)
-* [Cliff, Introduction to FLWOR](./day02_session04_anderson_xquery_practice_flwor.pdf)
+* [Cliff, Introduction to FLWOR (HTML)](./day02_session03_anderson_xquery_practice_flwor.md)
+* [Cliff, Introduction to FLWOR (PDF)](./day02_session03_anderson_xquery_practice_flwor.pdf)
 
 ----
 
