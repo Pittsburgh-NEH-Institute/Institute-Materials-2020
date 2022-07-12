@@ -51,6 +51,8 @@ Type `git` at the command line. If it isn’t installed, accept the prompt to in
 ### Install *npm* and *nvm*
 
 1. Install *npm* (node package manager) with `brew install npm`
+(In case this does not find any npm package to install, try 
+`brew install nodejs.commandline`)
 2. Install *nvm* (node version manager) with `brew install nvm`. (Why? *nvm* lets you install and choose among different *node* releases, and Yeoman requires node v. 14, which is not the most recent version.)
 2. **Don’t skip this step!** Run `brew info nvm` and follow the “caveats” instructions.
 2. Install *node* v. 14 with `nvm install 14`.
