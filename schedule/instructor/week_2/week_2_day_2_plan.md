@@ -88,4 +88,4 @@ Time | Topic | Type | Instructor
 15 min | Choose the right mapping tools for your project. | Talk lab|Gabi
 60 min | Together, we integrate basic map functionality into the app using a mapping JS library. | Code lab|Gabi
 
-We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.
+We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms are in our Slack workspace in the #daily-feedback channel (posting from Mason on Mon, July 11).

@@ -131,7 +131,7 @@
             <!-- tables for slots -->
             <xsl:apply-templates select="slot" mode="daily"/>
             <!-- feedback -->
-            <xsl:text>We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.</xsl:text>
+            <xsl:text>We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms are in our Slack workspace in the #daily-feedback channel (posting from Mason on Mon, July 11).</xsl:text>
         </xsl:result-document>
     </xsl:template>
     <xsl:template match="syn" mode="daily">
@@ -270,7 +270,7 @@
             <!-- tables for slots -->
             <xsl:apply-templates select="slot" mode="instructor_daily"/>
             <!-- feedback -->
-            <xsl:text>We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms will be provided in our Slack workspace, to which we’ll subscribe all Institute participants.</xsl:text>
+            <xsl:text>We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms are in our Slack workspace in the #daily-feedback channel (posting from Mason on Mon, July 11).</xsl:text>
         </xsl:result-document>
     </xsl:template>
     <xsl:template match="syn" mode="instructor_daily">
