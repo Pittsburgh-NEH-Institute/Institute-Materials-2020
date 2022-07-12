@@ -8,4 +8,4 @@ Time | [Monday](week_2_day_1_plan.md) |[Tuesday](week_2_day_2_plan.md) |[Wednesd
 12:30–2:00 |  Lunch | Lunch | Lunch | Lunch | Lunch 
 2:00–3:30 |  HTML and CSS | XQuery functions and unit testing | Special topic: Introducing network analysis with Elisa Beshero-Bondar | Database indexes, queries, and profiling | Your edition 
 3:30–4:00 |  Coffee break | Coffee break | Coffee break | Coffee break | Coffee break 
-4:00–5:30 |  Special topic: User-oriented design principles with Shea Higgins | Visualizing our geodata and integrating external APIs | Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar | Catchup session | Your edition 
+4:00–5:30 |  Special topic: User-oriented design principles with Shea Higgins | Visualizing our geodata and integrating external APIs | Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar | Special topic: IIIF with Jeffrey Witt | Your edition 

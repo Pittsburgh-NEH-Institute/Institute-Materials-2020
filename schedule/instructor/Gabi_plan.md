@@ -34,18 +34,18 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Translating your research goals into your work plan. | Talk lab | Chelcie
-30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation | Hugh
+30 min | TEI XML in context: rationales, alternatives. | Presentation | Hugh
 **30 min** | **Encoding data in TEI XML together in small groups.** | **Code lab** | **Gabi**
 
 #### 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**10 min** | **Plan goals and pipeline organization.** | **Discussion** | **Gabi**
-**10 min** | **Create the model, part 1: find the information you need.** | **Code lab** | **Gabi**
-30 min | Create the model, part 2: construct model in model namespace. | Code lab | Leif-Jöran
-10 min | Prepare to connect the model and the view: save the model to a variable. | Code lab | Leif-Jöran
-30 min | Create the view: transform the model to HTML. | Code lab | Cliff
+**10 min** | **Building a title list with XQuery: Plan goals and pipeline organization.** | **Discussion** | **Gabi**
+**10 min** | **Building a title list with XQuery: Create the model, part 1: find the information you need.** | **Code lab** | **Gabi**
+30 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab | Leif-Jöran
+10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab | Leif-Jöran
+30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab | Cliff
 
 ### Thursday, July 14, 2022
 
@@ -63,7 +63,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **30 min** | **Create Kanban boards and discuss other project management tools.** | **Presentation** | **Chelcie, Gabi**
-**30 min** | **Writing the ODD and other mechanisms for document control and documentation.** | **Discussion** | **Elli, Gabi**
+**30 min** | **Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)).** | **Discussion** | **Elli, Gabi**
 30 min | XQuery: taking stock. | Code lab | Cliff
 
 #### 2:00–3:30: Search functionality
@@ -74,6 +74,12 @@ Time | Topic | Type | Instructor
 15 min | Facet theory. | Presentation | David
 20 min | Facets in eXist-db searching. | Presentation | Cliff, David
 40 min | Facets and you: thinking about your search interface. | Talk lab | David
+
+#### 4:00–5:30: Catchup session
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+**90 min** | **Participants’ choice.** | **Code lab** | **Gabi**
 
 ## Week 2
 
@@ -93,9 +99,9 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**30 min** | **The Model in action.** | **Code lab** | **Gabi**
-30 min | The View in action. | Code lab | Cliff
-30 min | The Model, View, and Controller in action. | Code lab | David
+**30 min** | **The Model in action (article reading-view query).** | **Code lab** | **Gabi**
+30 min | The View in action (article reading-view query). | Code lab | Cliff
+30 min | The Model, View, and Controller in action (article reading-view query). | Code lab | David
 
 #### 4:00–5:30: Visualizing our geodata and integrating external APIs
 
@@ -121,7 +127,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-15 min | Stylesheet, template, and function variables. | Code lab | David
+15 min | Stylesheet variables and function variables. | Code lab | David
 **30 min** | **Create the model.** | **Code lab** | **Gabi**
 **45 min** | **Implement the planned visualization using the model.** | **Code lab** | **Gabi**
 
@@ -134,12 +140,6 @@ Time | Topic | Type | Instructor
 30 min | What is an Application Programming Interface (API)? | Presentation | Hugh
 **30 min** | **Our verb and noun choices, how we made them, what we might have done differently.** | **Presentation** | **Gabi**
 30 min | Documenting our decisions. | Talk lab | Leif-Jöran
-
-#### 4:00–5:30: Catchup session
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**90 min** | **Participants’ choice.** | **Code lab** | **Gabi**
 
 ### Friday, July 22, 2022
 

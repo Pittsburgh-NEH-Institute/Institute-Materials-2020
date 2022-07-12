@@ -15,8 +15,9 @@ Project management and planning the edition. After the first day’s emphasis on
 ## Outcome goals
 * Learn project management basics.
 * Practice using GitHub and IDEs to manage your workflow.
+* Clone an eXist-db app, build with ant, install in local eXist-db instance.
 * Know your machine better.
-* Initiate an eXist-db app using Yeoman and push it to GitHub.
+* Learn how to look stuff up.
 * Learn to create sustainability plans.
 
 ## Legend

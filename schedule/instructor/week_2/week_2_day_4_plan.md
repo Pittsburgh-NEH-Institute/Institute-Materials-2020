@@ -64,16 +64,15 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Understanding eXist-db indexing. | Presentation|Leif-Jöran
-20 min | Examining indexes in Monex. | Code lab|David
-20 min | Profiling queries. | Code lab|Leif-Jöran
+40 min | Examining indexes and profiling queries in Monex. | Code lab|David, Leif-Jöran
 20 min | Optimizing queries. | Code lab|Leif-Jöran
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Catchup session
+## 4:00–5:30: Special topic: IIIF with Jeffrey Witt
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-90 min | Participants’ choice. | Code lab|Gabi
+90 min | International Image Interoperability Framework (IIIF) and Linked Open Data (LOD). | Presentation|Jeffrey
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms are in our Slack workspace in the #daily-feedback channel (posting from Mason on Mon, July 11).

@@ -79,7 +79,7 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | HTML basics. | Code lab | Emma
 30 min | CSS basics. | Code lab | Mason
-**30 min** | **Flexbox.** | **Code lab** | **David**
+**30 min** | **Flexbox basics ([Complete guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)).** | **Code lab** | **David**
 
 ### Tuesday, July 19, 2022
 
@@ -87,9 +87,9 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | The Model in action. | Code lab | Gabi
-30 min | The View in action. | Code lab | Cliff
-**30 min** | **The Model, View, and Controller in action.** | **Code lab** | **David**
+30 min | The Model in action (article reading-view query). | Code lab | Gabi
+30 min | The View in action (article reading-view query). | Code lab | Cliff
+**30 min** | **The Model, View, and Controller in action (article reading-view query).** | **Code lab** | **David**
 
 ### Wednesday, July 20, 2022
 
@@ -107,7 +107,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**15 min** | **Stylesheet, template, and function variables.** | **Code lab** | **David**
+**15 min** | **Stylesheet variables and function variables.** | **Code lab** | **David**
 30 min | Create the model. | Code lab | Gabi
 45 min | Implement the planned visualization using the model. | Code lab | Gabi
 
@@ -118,8 +118,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Understanding eXist-db indexing. | Presentation | Leif-Jöran
-**20 min** | **Examining indexes in Monex.** | **Code lab** | **David**
-20 min | Profiling queries. | Code lab | Leif-Jöran
+**40 min** | **Examining indexes and profiling queries in Monex.** | **Code lab** | **David, Leif-Jöran**
 20 min | Optimizing queries. | Code lab | Leif-Jöran
 
 ### Friday, July 22, 2022

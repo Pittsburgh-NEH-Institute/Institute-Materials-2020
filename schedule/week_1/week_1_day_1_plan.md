@@ -52,7 +52,7 @@ Time | Topic | Type
 Time | Topic | Type
 ---- | ---- | ---- 
 30 min | We introduce the computational pipeline as a way of modeling the development of a digital edition. | Presentation
-30 min | Initial stages: TEI XML (base view), exploring with XPath, and exploratory data analysis (EDA). | Presentation
+30 min | Initial stages: TEI XML (base view), exploring with XPath, and exploratory data analysis (EDA) with Shakespeare. | Presentation
 30 min | Transformation: how do I transform, what do I transform to? We also introduce the model-view-controller (MVC) architecture we’ll use in app development later on. | Presentation
 
 ## 12:30–2:00: Lunch
@@ -66,11 +66,6 @@ Time | Topic | Type
 ## 3:30–4:00: Coffee break
 
 ## 4:00–5:30: XQuery and digital editions
-
-
-### Edition repo stages for session
-
-* [Base view: TEI data](https://github.com/Pittsburgh-NEH-Institute/placeholder)
 
 Time | Topic | Type
 ---- | ---- | ---- 

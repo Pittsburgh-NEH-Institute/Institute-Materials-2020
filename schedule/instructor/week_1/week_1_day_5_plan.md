@@ -17,8 +17,8 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 ## Outcome goals
 * Introduce Kanban and other software for task and issue management.
 * Enable better collaborative encoding for projects.
-* Create pull requests on the institute repositories.
 * Understand tracking branches, development branches, pull requests as branches.
+* Create pull requests on the institute repositories.
 * Become comfortable with merge conflicts and using Git.
 * Understand the development process for creating advanced features.
 * Use several advanced features in eXist-db to support research outcomes.
@@ -40,7 +40,7 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Create Kanban boards and discuss other project management tools. | Presentation|Chelcie, Gabi
-30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion|Elli, Gabi
+30 min | Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)). | Discussion|Elli, Gabi
 30 min | XQuery: taking stock. | Code lab|Cliff
 
 ## 10:30–11:00: Coffee break
@@ -53,9 +53,9 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-20 min | Issues and pull requests. | Code lab|Elli
 40 min | Branches and you. | Presentation|Ronald
-30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a VIM black hole). | Code lab|Leif-Jöran
+20 min | Issues and pull requests. | Code lab|Elli
+30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a [vim black hole](https://dev.to/matthew_collison/comment/fi9p)). | Code lab|Leif-Jöran
 
 ## 12:30–2:00: Lunch
 
@@ -74,10 +74,10 @@ Time | Topic | Type | Instructor
 
 ## 3:30–4:00: Coffee break
 
-## 4:00–5:30: Special topic: IIIF with Jeffrey Witt
+## 4:00–5:30: Catchup session
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-90 min | International Image Interoperability Framework (IIIF) and Linked Open Data (LOD). | Presentation|Jeffrey
+90 min | Participants’ choice. | Code lab|Gabi
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms are in our Slack workspace in the #daily-feedback channel (posting from Mason on Mon, July 11).

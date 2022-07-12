@@ -34,7 +34,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **30 min** | **Translating your research goals into your work plan.** | **Talk lab** | **Chelcie**
-30 min | TEI XML in context: rationales, alternatives, and the ODD. | Presentation | Hugh
+30 min | TEI XML in context: rationales, alternatives. | Presentation | Hugh
 30 min | Encoding data in TEI XML together in small groups. | Code lab | Gabi
 
 ### Thursday, July 14, 2022
@@ -46,9 +46,9 @@ Time | Topic | Type | Instructor
 **20 min** | **Where are we in the project? Planning for the next step?** | **Talk lab** | **Chelcie**
 15 min | What is a controller? Why do we need it? What factors determine controller design? | Discussion | Hugh
 15 min | Explore how the out-of-the-box controller works, along with what it can and cannot do. | Presentation | Leif-Jöran
-10 min | URL rewriting: configure the controller to return the combined model plus view. | Code lab | Leif-Jöran
-10 min | Configure controller to return just the model. | Code lab | Leif-Jöran
-20 min | The full controller pipeline: returning the view. | Code lab | Leif-Jöran
+10 min | URL rewriting: configure the controller to return the combined model plus view (title-list query). | Code lab | Leif-Jöran
+10 min | Configure controller to return just the model (title-list query). | Code lab | Leif-Jöran
+20 min | The full controller pipeline: returning the view (title-list query). | Code lab | Leif-Jöran
 
 ### Friday, July 15, 2022
 
@@ -57,7 +57,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **30 min** | **Create Kanban boards and discuss other project management tools.** | **Presentation** | **Chelcie, Gabi**
-30 min | Writing the ODD and other mechanisms for document control and documentation. | Discussion | Elli, Gabi
+30 min | Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)). | Discussion | Elli, Gabi
 30 min | XQuery: taking stock. | Code lab | Cliff
 
 ## Week 2

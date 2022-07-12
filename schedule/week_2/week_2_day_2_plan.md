@@ -39,8 +39,8 @@ Implementing publication strategies. The morning is devoted to typeswitch, an
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Using typeswitch and local functions. | Code lab
-60 min | Using typeswitch and local functions to create rich text reading views. | Code lab
+30 min | Using typeswitch and local functions (title-list query). | Code lab
+60 min | Using typeswitch and local functions to create rich text views (title-list query). | Code lab
 
 ## 10:30–11:00: Coffee break
 
@@ -54,9 +54,9 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | The Model in action. | Code lab
-30 min | The View in action. | Code lab
-30 min | The Model, View, and Controller in action. | Code lab
+30 min | The Model in action (article reading-view query). | Code lab
+30 min | The View in action (article reading-view query). | Code lab
+30 min | The Model, View, and Controller in action (article reading-view query). | Code lab
 
 ## 12:30–2:00: Lunch
 
