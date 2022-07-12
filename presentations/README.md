@@ -1,10 +1,21 @@
-# Presentations for the sessions
-Here we put a pdf or markdown version of all presentations as they are delivered.
-Sources are optional, but if possible, put in sources subdirectory.
+# Presentations slides for the sessions
 
-Suggested naming convention: dayNN_sessionNN_author_title-without-spaces.pdf
+This folder contains pdf or markdown versions of all presentations slides.
 
-- including a leading zero, e.g., 01, 02, 03, ... 10
-- do not capitalize
+## Available slides
 
-For example: day01_session01_rowell_edition-goals.md
+* (Begin list here)
+
+----
+
+## Information for instructors
+
+1. If you upload source files (e.g., PowerPoint), put them into the *sources* subdirectory.
+2. Filenaming convention is *dayNN_sessionNN_author_title-without-spaces.pdf* (see notes and examples below).
+
+### Notes about filenaming, with example
+
+* Single-digit day and session numbers should have a leading zero, e.g., *day01* (not *day1*)
+* Major sections of the filename (day, session, instructor name, title) are separated by **underscores**.
+* Title is separated by **hyphens**.
+* Example: *, e.g., *day01_session01_rowell_edition-goals.md*.
