@@ -11,7 +11,8 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, Transformation and model-view-controller](./day01_session02-ljo-transformation_and_mvc.pdf)
 * [Ronald, Computational pipelines](./day01_session02_dekker_computational-pipelines.pdf)
 * [Elli, Introduction to XPath](./day01_session02_bleeker_xpath.pdf)
-* [Cliff, Exploratory data analysis in eXide](./day01_session04_anderson_exploratory_data_analysis_in_exide.pdf)
+* [Cliff, Exploratory data analysis in eXide (HTML)](./day01_session04_anderson_exploratory_data_analysis_in_exide.pdf)
+* [Cliff, Exploratory data analysis in eXide (PDF)](./day01_session04_anderson_exploratory_data_analysis_in_exide.pdf)
 * [Elli, Exemplary editions](./day01_session04_bleeker_exemp-editions.pdf)
 
 ### Day 2
@@ -19,7 +20,8 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Ronald, Introduction to git](./day02_session02_dekker_version_control_with_git.pdf)
 * [Leif-Jöran, FLWOR with Hoax data](./day02_session02_ljo_FLWOR-with-Hoax-data.pdf) 
 * [Elli, File management first steps](./day02_session03_bleeker_file-management.pdf)
-* [Cliff, Introduction to FLWOR](./day02_session03_anderson_xquery_practice_flwor.pdf)
+* [Cliff, Introduction to FLWOR (HTML)](./day02_session03_anderson_xquery_practice_flwor.md)
+* [Cliff, Introduction to FLWOR (PDF)](./day02_session03_anderson_xquery_practice_flwor.pdf)
 
 ----
 
