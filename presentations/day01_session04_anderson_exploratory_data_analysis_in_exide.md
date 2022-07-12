@@ -1,4 +1,4 @@
-# Exploratory Data Analysus in Exide
+# Exploratory Data Analysis in Exide
 
 ## Open a collection in eXist
 
