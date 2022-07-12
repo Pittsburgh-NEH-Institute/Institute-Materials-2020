@@ -17,6 +17,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ### Day 2
 
+* [Ronald, Introduction to git](./day02_session02_dekker_version_control_with_git.pdf)
 * [Elli, File management first steps](./day02_session03_bleeker_file-management.pdf)
 * [Cliff, Introduction to FLWOR](./day02_session04_anderson_xquery_practice_flwor.pdf)
 
