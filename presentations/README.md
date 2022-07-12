@@ -4,8 +4,16 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ## Available slides
 
-* (Begin list here)
+### Day 1
 
+* [Gabi, Research questions](./day01_session01_keane_research-questions.md)
+* [Chelcie, Edition goals](./day01_session01_rowell_edition-goals.md)
+* [Leif-Jöran, Transformation and model-view-controller](./day01_session02-ljo-transformation_and_mvc.pdf)
+* [Ronald, Computational pipelines](./day01_session02_dekker_computational-pipelines.pdf)
+
+### Day 2
+
+* Watch this space!
 ----
 
 ## Information for instructors
