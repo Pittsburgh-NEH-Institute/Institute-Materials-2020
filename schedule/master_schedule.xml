@@ -274,7 +274,7 @@
                         <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
                     </repo>
                 </repos>
-                <act time="30" type="Code_lab">
+                <act time="25" type="Code_lab">
                     <desc>Working on the command line.</desc>
                     <outcome>
                         <goal>Practice file management at the command line.</goal>
@@ -283,7 +283,14 @@
                         <instructor>Emma</instructor>
                     </instructors>
                 </act>
-                <act time="30" type="Code_lab">
+                <act time="15" type="Code_lab">
+                    <desc>Generating your personal access token.</desc>
+                        <outcome><goal>Push your personal repository to GitHub.</goal></outcome>
+                    <instructors>
+                        <instructor>Mason</instructor>
+                    </instructors>
+                </act>
+                <act time="25" type="Code_lab">
                     <desc>Practice Git on the command line.</desc>
                     <outcome>
                         <goal>Practice Git at the command line.</goal>
@@ -292,7 +299,7 @@
                         <instructor>Emma</instructor>
                     </instructors>
                 </act>
-                <act time="30" type="Code_lab">
+                <act time="25" type="Code_lab">
                     <desc>Command line tips and tricks.</desc>
                     <instructors>
                         <instructor>Elli</instructor>

@@ -14,6 +14,7 @@ Moving from model to implementation. The third day is devoted to developing the
 
 ## Outcome goals
 * Practice file management at the command line.
+* Push your personal repository to GitHub.
 * Practice Git at the command line.
 * Explore how data models and the computational pipeline work together.
 * Navigate enabling and enforcing schema paradigms.
@@ -41,9 +42,10 @@ Practice navigating your file system and using tools at the command line,
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Working on the command line. | Code lab|Emma
-30 min | Practice Git on the command line. | Code lab|Emma
-30 min | Command line tips and tricks. | Code lab|Elli
+25 min | Working on the command line. | Code lab|Emma
+15 min | Generating your personal access token. | Code lab|Mason
+25 min | Practice Git on the command line. | Code lab|Emma
+25 min | Command line tips and tricks. | Code lab|Elli
 
 ## 10:30–11:00: Coffee break
 
