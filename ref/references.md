@@ -89,6 +89,7 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 
 ### Project management
 * NPR Training. 2018. "[A Blueprint for Planning Storytelling Projects](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects)."
+* Burress, Theresa, and Chelcie Juliet Rowell. 2017. "[Project Management for Digital Projects with Collaborators Beyond the Library](https://doi.org/10.1080/10691316.2017.1336954)." _College & Undergraduate Libraries_, vol. 24, no. 2–4, pp. 300-321. 
 * Siemens, Lynn. 2012. "[Issues in Large-Project Planning and Management](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf)" [PDF], Digital Humanities Summer Institute, University of Victoria.
 * Siemens, Lynn. 2016. "Project Management and the Digital Humanist." _Doing Digital Humanities: Practice, Training, Research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
 
