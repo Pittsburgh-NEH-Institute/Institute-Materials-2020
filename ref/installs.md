@@ -16,11 +16,13 @@ everyone’s installations are up to date.
 
 ### Install *homebrew*
 
-*Homebrew* is a package manager for MacOS, that is, an application that helps you install other applications. Read [About Homebrew](https://brew.sh/) and install with:
+*Homebrew* is a package manager for MacOS, that is, an application that helps you install other applications. Read [About Homebrew](https://brew.sh/).
+Unless you have XCode installed previously this step will require sudo access and ask for your password. Install homebrew with:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
 
 ### Install *eXist-db*
 
@@ -31,6 +33,8 @@ recommended Java version.
 
 Once you’ve confirmed that Java is installed, install the current stable version of eXist-db from 
 <http://exist-db.org/exist/apps/homepage/index.html>. We recommend the *.dmg* version for MacOS users.
+
+*NB!* eXist-db is running even if you close the browser window. Don't start it from the dock again to open eXide (or any other app), just open a new tab in brower with e.g. http://localhost:8080/exist/apps/eXide/.
 
 ### Install *git*
 
@@ -92,6 +96,8 @@ decline that option.
    - Reinstall eXist-db and verify that it launches successfully. 
 4. If eXist-db still will not run, follow the [troubleshooting instructions](https://exist-db.org/exist/apps/doc/troubleshooting) or [advanced installation guide](https://exist-db.org/exist/apps/doc/advanced-installation).
 
+5. Before installing the "Shakespeare's Plays (TEI Publisher Edition)" (short name shakespeare-pm) also install the package "Open API Router library for eXist" (short name oas-router). Go to the package manager in eXist-db E.g. <http://localhost:8198/exist/apps/dashboard/admin>. Make sure to login to see the package manager. Click Available (NN) and put "rout" in filter upper right. 
+
 ### Install *git*
 
 Type `git` at the command line. If it isn't installed, type `choco install git`. This will also install Git Bash. From now on, instead of using PowerShell, you will use Git Bash as your command line interface. (**Important:** Remember to launch Git Bash as Administrator when installing anything. You can do that by navigating to Git Bash in the Windows Start menu, right clicking, and selecting *Run as administrator*.) 
@@ -117,6 +123,10 @@ If at any point you have issues using *npm* or *nvm*, check your Program Files d
 1. `npm i -g yo`
 2. `npm i -g @existdb/generator-exist`
 
+You then can run it with:
+1. `yo @existdb/exist`
+to scaffold an app.
+ 
 ### Install *ant*
 
 1. `choco install ant`

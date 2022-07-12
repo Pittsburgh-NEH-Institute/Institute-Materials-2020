@@ -4,13 +4,13 @@
 
 ### Digital Humanities and Digital Literary Studies
 
-* Berry, David M. (editor). 2012. _Understanding Digital Humanities_.Basingstoke: Palgrave Macmillan.
-* Berry, David M., 2014. _Critical theory and the digital._ New York, London, New Delhi etc.: Bloomsbury Academic. 
+* Berry, David M. (editor). 2012. _Understanding Digital Humanities_. Basingstoke: Palgrave Macmillan.
+* Berry, David M., 2014. _Critical theory and the digital._ New York, London, New Delhi, etc.: Bloomsbury Academic. 
 * Jockers, Matthew L., 2013. _Macroanalysis: digital methods and literary history._ Urbana: University of Illinois Press.
 * Jones, Steven E. 2014. _The emergence of the Digital Humanities._ New York, London: Routledge.
 * McCarty, Willard. 2005. _Humanities computing_. Basingstroke: Palgrave Macmillan.
 * Ramsay, Stephen. 2011. _Reading machines: toward an algorithmic criticism._ Urbana: University of Illinois Press.
-* Röhle, Bernhard and Theo Rieder. "Digital methods: Five challenges." _Understanding Digital Humanities_, pp. 67-84. Palgrave Macmillan, London, 2012. .
+* Röhle, Bernhard and Theo Rieder. "Digital methods: Five challenges." _Understanding Digital Humanities_, pp. 67-84. Palgrave Macmillan, London, 2012.
 * Schreibman, Susan, Ray Siemens, and John Unsworth (editors). 2016. _A new companion to Digital Humanities._ 2nd Edition. Oxford: Wiley-Blackwell. (First edition: _A companion to Digital Humanities._ Oxford: Blackwell, 2004.)
 * Siemens, Ray, Susan Schreibman (editors). 2008. _A companion to Digital Literary Studies._ Oxford: Blackwell.
 * Terras, Melissa, Julienne Nyhan, and Edward Vanhoutte (editors). 2014. _Defining Digital Humanities: a reader._ Oxford: Routledge.
@@ -87,6 +87,14 @@ Access to Textual Cultural Heritage._ New York: ACM.
 
 See also the Modern language association (MLA) [Guidelines for editors of scholarly editions](https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Guidelines-for-Editors-of-Scholarly-Editions) and [Annotated bibliography: key works in the theory of textual editing](https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Annotated-Bibliography-Key-Works-in-the-Theory-of-Textual-Editing).
 
+### Project management
+* NPR Training. 2018. "[A Blueprint for Planning Storytelling Projects](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects)."
+* Burress, Theresa, and Chelcie Juliet Rowell. 2017. "[Project Management for Digital Projects with Collaborators Beyond the Library](https://doi.org/10.1080/10691316.2017.1336954)." _College & Undergraduate Libraries_, vol. 24, no. 2–4, pp. 300-321. 
+* Siemens, Lynn. 2012. "[Issues in Large-Project Planning and Management](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf)" [PDF], Digital Humanities Summer Institute, University of Victoria.
+* Siemens, Lynn. 2016. "Project Management and the Digital Humanist." _Doing Digital Humanities: Practice, Training, Research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
+
+* Visual Media Workshop at the University of Pittsburgh. 2019. "[The Socio-Technical Sustainability Roadmap](http://sustainingdh.net)."
+
 ### Text Encoding (TEI, XML, and Beyond)
 * André, Julie and Elena Pierazzo. 2013. "Le codage en TEI des brouillons de Proust: vers l'édition numérique". _Genesis_ vol. 36, pp. 155-161.
 * Elliott, Tom, Bodard, Gabriel, Milonas, Elli, Stoyanova, Simona, and Charlotte Tupman. 2007. _EpiDoc guidelines: Ancient documents in TEI XML_. <http://www.stoa.org/epidoc/gl/latest/>.
@@ -95,9 +103,8 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 * Renear, Allen, David Dubin, and C. Michael Sperberg-McQueen. 2002. "Towards a semantics for XML markup." _Proceedings of the 2002 ACM symposium on Document engineering_, New York: ACM.
 * Sperberg-McQueen, Christopher Michael, Claus Huitfeldt, and Allen Renear. 2000. "Meaning and interpretation of markup." _Markup Languages 2.3_, pp. 215-234.
 * Stadler, Peter, Marcel Illetschko, and Sabine Seifert. 2016. "Towards a Model for Encoding Correspondence in the TEI: Developing and Implementing correspDesc." _Journal of the Text Encoding Initiative_, vol. 9.
-* Stella, Francesco. 2006. "Digital Philology, medieval texts, and the Corpus of Latin Rhythms, a Digital Edition of Music and Poems." _Digital Philology and Medieval Texts_, edited by Arianna Ciula and Fransesco Stella, pp. 223-249. Pisa: Pacini editore, .
+* Stella, Francesco. 2006. "Digital Philology, medieval texts, and the Corpus of Latin Rhythms, a Digital Edition of Music and Poems." _Digital Philology and Medieval Texts_, edited by Arianna Ciula and Fransesco Stella, pp. 223-249. Pisa: Pacini editore.
 * Tennison, Jeni, and Wendell Piez. "The Layered Markup and Annotation Language (LMNL)." _Extreme Markup Languages_.
-
 
 ### Textual variance and collation
 * Baret, Philippe V., and Caroline Macé. 2004. "Why phylogenetic methods work: the theory of evolution and textual criticism." _Linguistica computazionale_, vol. 24, no. 24/25, pp. 1000-1020.
