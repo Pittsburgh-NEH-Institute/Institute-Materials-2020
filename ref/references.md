@@ -36,6 +36,7 @@
 * Zundert, Joris van, 2012. "If you build it, will we come? Large scale digital infrastructures as a dead end for Digital Humanities." _Historical social research–Historische Sozialforschung_ 37(3), 165–86.
 
 ### Stylometry
+
 * Bird, Steven, Ewan Klein, and Edward Loper. 2009. _Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit._ Sebastopol: O’Reilly Media. <http://www.nltk.org/book/ch06.html>
 * Hoover, David. 2013. "Text Analysis." _Literary Studies in the Digital Age: An Evolving Anthology_, edited by Kenneth Price and Ray Siemens. New York: Modern Language Association.
 * Jurafsky, Daniel, and James H. Martin. 2009. _Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition_. Second edition. Upper Saddle River: Pearson Prentice Hall.
@@ -88,14 +89,15 @@ Access to Textual Cultural Heritage._ New York: ACM.
 See also the Modern language association (MLA) [Guidelines for editors of scholarly editions](https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Guidelines-for-Editors-of-Scholarly-Editions) and [Annotated bibliography: key works in the theory of textual editing](https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Annotated-Bibliography-Key-Works-in-the-Theory-of-Textual-Editing).
 
 ### Project management
-* NPR Training. 2018. "[A Blueprint for Planning Storytelling Projects](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects)."
-* Burress, Theresa, and Chelcie Juliet Rowell. 2017. "[Project Management for Digital Projects with Collaborators Beyond the Library](https://doi.org/10.1080/10691316.2017.1336954)." _College & Undergraduate Libraries_, vol. 24, no. 2–4, pp. 300-321. 
-* Siemens, Lynn. 2012. "[Issues in Large-Project Planning and Management](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf)" [PDF], Digital Humanities Summer Institute, University of Victoria.
-* Siemens, Lynn. 2016. "Project Management and the Digital Humanist." _Doing Digital Humanities: Practice, Training, Research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
 
-* Visual Media Workshop at the University of Pittsburgh. 2019. "[The Socio-Technical Sustainability Roadmap](http://sustainingdh.net)."
+* NPR Training. 2018. [“A blueprint for planning storytelling projects”](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects).
+* Burress, Theresa and Chelcie Juliet Rowell. 2017. [“Project management for digital projects with collaborators beyond the library”](https://doi.org/10.1080/10691316.2017.1336954)." _College & undergraduate libraries_, vol. 24, no. 2–4, pp. 300–21. 
+* Siemens, Lynn. 2012. [“Issues in large-project planning and management”](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf) [PDF], Digital Humanities Summer Institute, University of Victoria.
+* Siemens, Lynn. 2016. “Project management and the digital humanist”, _Doing Digital Humanities: practice, training, research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
+* Visual Media Workshop at the University of Pittsburgh. 2019. [“The socio-technical sustainability roadmap”](http://sustainingdh.net).
 
-### Text Encoding (TEI, XML, and Beyond)
+### Text encoding (TEI, XML, and beyond)
+
 * André, Julie and Elena Pierazzo. 2013. "Le codage en TEI des brouillons de Proust: vers l'édition numérique". _Genesis_ vol. 36, pp. 155-161.
 * Elliott, Tom, Bodard, Gabriel, Milonas, Elli, Stoyanova, Simona, and Charlotte Tupman. 2007. _EpiDoc guidelines: Ancient documents in TEI XML_. <http://www.stoa.org/epidoc/gl/latest/>.
 * Hockey, Susan. _Electronic Texts in the Humanities: Principles and Practice_. Oxford: Oxford University Press.
