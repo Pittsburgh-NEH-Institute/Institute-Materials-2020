@@ -29,6 +29,9 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Emma, Command line and Git](./day03_session04_schwarz_git-practice.pdf)
 * [Hugh, TEI XML in context](./day03_session02_cayless_tei_rationale_alternatives.pdf)
 * [Gabi, Data modeling](./day03_session02_keane_TEI_modeling.md)
+* [Cliff, Creating the view](./day03_session03_anderson_create-the-view.md)
+* [Leif-Jöran, Building a title list (HTML)](./day03_session03_ljo_Building-a-title-list-with-XQuery.md)
+* [Leif-Jöran, Building a title list (PDF)](./day03_session03_ljo_Building-a-title-list-with-XQuery.pdf)
 
 ----
 
