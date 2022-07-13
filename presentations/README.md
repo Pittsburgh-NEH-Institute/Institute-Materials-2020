@@ -25,12 +25,9 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ### Day 3
 
-* [Emma, Command line practice](./day03_session02_schwarz_command-line-practice.pdf)
+* [Emma, Command line practice](./day03_session01_schwarz_command-line-practice-updated.pdf)
 * [Emma, Command line and Git](./day03_session04_schwarz_git-practice.pdf)
 * [Gabi, Data modeling](./day03_session_02_keane_TEI_modeling.md)
-* [Elli, File management](./day02_session03_bleeker_file-management.pdf)
-* [Emma, Command line practice](./day03_session01_schwarz_command-line-practice-updated.pdf)
-* [Gabi, TEI modeling](./day03_session_02_keane_TEI_modeling.md)
 
 ----
 
