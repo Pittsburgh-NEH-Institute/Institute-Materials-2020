@@ -34,6 +34,8 @@ recommended Java version.
 Once you’ve confirmed that Java is installed, install the current stable version of eXist-db from 
 <http://exist-db.org/exist/apps/homepage/index.html>. We recommend the *.dmg* version for MacOS users.
 
+*NB!* Before installing the "Shakespeare's Plays (TEI Publisher Edition)" (short name shakespeare-pm) also install the package "Open API Router library for eXist" (short name oas-router). Go to the package manager in eXist-db E.g. <http://localhost:8198/exist/apps/dashboard/admin>. Make sure to login to see the package manager. Click Available (NN) and put "rout" in filter upper right. 
+
 *NB!* eXist-db is running even if you close the browser window. Don't start it from the dock again to open eXide (or any other app), just open a new tab in brower with e.g. http://localhost:8080/exist/apps/eXide/.
 
 ### Install *git*
@@ -62,6 +64,18 @@ Type `git` at the command line. If it isn’t installed, accept the prompt to in
 
 1. `npm i -g yo`
 1. `npm i -g @existdb/generator-exist`
+### Install *yeoman* for eXist-db
+
+1. `npm i -g yo`
+2. `npm i -g @existdb/generator-exist`
+
+You then can run it with:
+1. `yo @existdb/exist`
+to scaffold an app.
+ 
+### Install *ant*
+
+1. `brew install ant`
 
 ## Instructions for Windows users
 
@@ -89,8 +103,7 @@ from this general download site select Java version 8, Windows operating system,
 1. Install the current stable version of eXist-db from <http://exist-db.org/exist/apps/homepage/index.html> We
 recommend downloading *exist-installer-6.0.1.jar*. Once you’ve downloaded it, run it by opening a shell (terminal) in your
 Downloads directory and running `java -jar exist-installer-6.0.1.jar`.
-If you are given the option of installing eXist-db “as a service”, 
-decline that option.
+***If you are given the option of installing eXist-db “as a service”, decline that option.***
 2. You will know that the installation has been successful if, after following all prompts, the eXist-db launcher opens when you navigate to <http://localhost:8080/> in your browser. 
 3. If you are having trouble getting eXist-db to run:
    - Uninstall eXist-db.
@@ -99,6 +112,8 @@ decline that option.
 4. If eXist-db still will not run, follow the [troubleshooting instructions](https://exist-db.org/exist/apps/doc/troubleshooting) or [advanced installation guide](https://exist-db.org/exist/apps/doc/advanced-installation).
 
 5. Before installing the "Shakespeare's Plays (TEI Publisher Edition)" (short name shakespeare-pm) also install the package "Open API Router library for eXist" (short name oas-router). Go to the package manager in eXist-db E.g. <http://localhost:8198/exist/apps/dashboard/admin>. Make sure to login to see the package manager. Click Available (NN) and put "rout" in filter upper right. 
+
+*NB!* eXist-db is running even if you close the browser window. Don't start it from the dock again to open eXide (or any other app), just open a new tab in brower with e.g. http://localhost:8080/exist/apps/eXide/.
 
 ### Install *git*
 
@@ -132,3 +147,8 @@ to scaffold an app.
 ### Install *ant*
 
 1. `choco install ant`
+
+If ant is not found after successful installation, try:
+ 1. `choco install -y -f ant --package-parameters="/User"`
+ to relocate it.
+ 

@@ -10,9 +10,9 @@
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Translating your research goals into your work plan. | Talk lab | Chelcie
 **30 min** | **TEI XML in context: rationales, alternatives.** | **Presentation** | **Hugh**
-30 min | Encoding data in TEI XML together in small groups. | Code lab | Gabi
+40 min | Encoding data in TEI XML together in small groups. | Code lab | Gabi
+20 min | Building a title list with XQuery: Plan goals, pipeline, and find the data. | Discussion | Gabi
 
 ### Thursday, July 14, 2022
 

@@ -14,12 +14,13 @@ Moving from model to implementation. The third day is devoted to developing the
 
 ## Outcome goals
 * Practice file management at the command line.
+* Push your personal repository to GitHub.
 * Practice Git at the command line.
-* Explore how data models and the computational pipeline work together.
 * Navigate enabling and enforcing schema paradigms.
 * Make explicit our assumptions about TEI, our data, markup decisions, and edition goals.
 * Explore the relationship between research questions and markup decisions.
 * Consider how the laboratory edition data might look different with different research questions and markup.
+* Explore how data models and the computational pipeline work together.
 * Create our first computational pipeline together.
 
 ## Legend
@@ -41,9 +42,10 @@ Practice navigating your file system and using tools at the command line,
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Working on the command line. | Code lab|Emma
+20 min | Command line basics. | Code lab|Elli
+25 min | Working on the command line. | Code lab|Emma
+15 min | Generating your personal access token. | Code lab|Mason
 30 min | Practice Git on the command line. | Code lab|Emma
-30 min | Command line tips and tricks. | Code lab|Elli
 
 ## 10:30–11:00: Coffee break
 
@@ -55,9 +57,9 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Translating your research goals into your work plan. | Talk lab|Chelcie
 30 min | TEI XML in context: rationales, alternatives. | Presentation|Hugh
-30 min | Encoding data in TEI XML together in small groups. | Code lab|Gabi
+40 min | Encoding data in TEI XML together in small groups. | Code lab|Gabi
+20 min | Building a title list with XQuery: Plan goals, pipeline, and find the data. | Discussion|Gabi
 
 ## 12:30–2:00: Lunch
 
@@ -70,9 +72,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-10 min | Building a title list with XQuery: Plan goals and pipeline organization. | Discussion|Gabi
-10 min | Building a title list with XQuery: Create the model, part 1: find the information you need. | Code lab|Gabi
-30 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab|Leif-Jöran
+30 min | Translating your research goals into your work plan. | Talk lab|Chelcie
+20 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab|Leif-Jöran
 10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab|Leif-Jöran
 30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab|Cliff
 

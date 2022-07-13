@@ -2,6 +2,22 @@
 
 [Link to instructor-view navigation page](daily_instructor_view.md)
 
+## Week 1
+
+### Wednesday, July 13, 2022
+
+#### 9:00–10:30: Command line
+
+Practice navigating your file system and using tools at the command line,
+                    including Git. 
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+20 min | Command line basics. | Code lab | Elli
+25 min | Working on the command line. | Code lab | Emma
+**15 min** | **Generating your personal access token.** | **Code lab** | **Mason**
+30 min | Practice Git on the command line. | Code lab | Emma
+
 ## Week 2
 
 ### Monday, July 18, 2022

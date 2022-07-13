@@ -90,11 +90,19 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 
 ### Project management
 
-* NPR Training. 2018. [“A blueprint for planning storytelling projects”](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects).
-* Burress, Theresa and Chelcie Juliet Rowell. 2017. [“Project management for digital projects with collaborators beyond the library”](https://doi.org/10.1080/10691316.2017.1336954)." _College & undergraduate libraries_, vol. 24, no. 2–4, pp. 300–21. 
-* Siemens, Lynn. 2012. [“Issues in large-project planning and management”](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf) [PDF], Digital Humanities Summer Institute, University of Victoria.
-* Siemens, Lynn. 2016. “Project management and the digital humanist”, _Doing Digital Humanities: practice, training, research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
-* Visual Media Workshop at the University of Pittsburgh. 2019. [“The socio-technical sustainability roadmap”](http://sustainingdh.net).
+* NPR Training. 2018. "[A blueprint for planning storytelling projects](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects)."
+* Burress, Theresa and Chelcie Juliet Rowell. 2017. "[Project management for digital projects with collaborators beyond the library](https://doi.org/10.1080/10691316.2017.1336954)." _College & undergraduate libraries_, vol. 24, no. 2–4, pp. 300–21.
+
+  * See an [open access version of the article by Burress and Rowell](http://hdl.handle.net/2345/bc-ir:107641).
+
+* Siemens, Lynn. 2012. "[Issues in large-project planning and management](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf)" [PDF], Digital Humanities Summer Institute, University of Victoria.
+* Siemens, Lynn. 2016. "[Project management and the digital humanist](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315707860-35/project-management-digital-humanist-lynne-siemens)," _Doing Digital Humanities: practice, training, research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
+* Varner, Stewart. 2014. "[Project charter](https://stewartvarner.com/2014/05/project-charter)." Stewart Varner: Scholarship, Libraries, Technology (blog).
+* Varner, Stewart. 2014. "[Project proposal form](https://stewartvarner.com/2014/05/project-proposal-form)." Stewart Varner: Scholarship, Libraries, Technology (blog).
+* Visual Media Workshop at the University of Pittsburgh. 2019. "[The socio-technical sustainability roadmap](http://sustainingdh.net)."
+* Yale Digital Humanities Lab. 2019. "[Defining your project: A DHLab toolkit](https://dhlab.yale.edu/guides/project-planning.html)."
+
+  * See especially the lean canvas (which is akin to a project proposal) and the project charter.
 
 ### Text encoding (TEI, XML, and beyond)
 

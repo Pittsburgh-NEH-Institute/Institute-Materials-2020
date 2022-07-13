@@ -29,13 +29,14 @@ Time | Topic | Type | Instructor
 
 ### Wednesday, July 13, 2022
 
-#### 11:00–12:30: Modeling the data for the edition
+#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **30 min** | **Translating your research goals into your work plan.** | **Talk lab** | **Chelcie**
-30 min | TEI XML in context: rationales, alternatives. | Presentation | Hugh
-30 min | Encoding data in TEI XML together in small groups. | Code lab | Gabi
+20 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab | Leif-Jöran
+10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab | Leif-Jöran
+30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab | Cliff
 
 ### Thursday, July 14, 2022
 
