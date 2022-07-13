@@ -215,7 +215,7 @@
                 <repos>
                     <repo>
                         <repo-name>Base view: TEI</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/01-data</repo-link>
                     </repo>
                 </repos>
                 <act time="60" type="Code_lab">
@@ -271,7 +271,7 @@
                 <repos>
                     <repo>
                         <repo-name>Base view: TEI</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/01-data</repo-link>
                     </repo>
                 </repos>
                 <act time="20" type="Code_lab">
@@ -318,7 +318,7 @@
                 <repos>
                     <repo>
                         <repo-name>Base view: TEI</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/01-data</repo-link>
                     </repo>
                 </repos>
                 
@@ -364,11 +364,11 @@
                 <repos>
                     <repo>
                         <repo-name>Base view: TEI</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/01-data</repo-link>
                     </repo>
                     <repo>
                         <repo-name>Creating title list: model and view in a module</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/02-titles-no-controller</repo-link>
                     </repo>
                 </repos>
                 <!-- Build list of titles -->
@@ -437,11 +437,11 @@
                 <repos>
                     <repo>
                         <repo-name>Creating title list: model only</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/03-titles-model</repo-link>
                     </repo>
                     <repo>
                         <repo-name>Creating index: collection.xconf</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/04-index</repo-link>
                     </repo>
                 </repos>
                 <act time="30" type="Presentation">
@@ -485,11 +485,11 @@
                 <repos>
                     <repo>
                         <repo-name>Creating index: collection.xconf</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/04-index</repo-link>
                     </repo>
                     <repo>
                         <repo-name>Creating models: feature base models</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/05-base-models</repo-link>
                     </repo>
                 </repos>
                 <act time="30" type="Code_lab">
@@ -526,11 +526,11 @@
                 <repos>
                     <repo>
                         <repo-name>Creating models: feature base models</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/05-base-models</repo-link>
                     </repo>
                     <repo>
                         <repo-name>Creating a controller</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/06-controller</repo-link>
                     </repo>
                 </repos>
                 <act time="20" type="Talk_lab">
@@ -618,7 +618,7 @@
                 <repos>
                     <repo>
                         <repo-name>Base view: TEI</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/01-data</repo-link>
                     </repo>
                 </repos>
                 <act time="30" type="Presentation">
@@ -661,7 +661,7 @@
                 <repos>
                     <repo>
                         <repo-name>Your own repo</repo-name>
-                        <repo-link>https://example.com</repo-link>
+                        <repo-link>https://github.com</repo-link>
                     </repo>
                 </repos>
                 <act time="40" type="Presentation">
@@ -776,7 +776,7 @@
                 <repos>
                     <repo>
                         <repo-name>Creating a controller</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/06-controller</repo-link>
                     </repo>
                     <repo>
                         <repo-name>Final edition</repo-name>
@@ -888,7 +888,7 @@
             <date>July 19, 2022</date>
             <syn>Implementing publication strategies. The morning is devoted to typeswitch, an
                 operator that helps us mimic XSLT template processing in XQuery. With typeswitch, we
-                begin to develop the *view* compenents of the laboratory edition’s MVC architecture.
+                begin to develop the *view* components of the laboratory edition’s MVC architecture.
                 In session two, participants return to the application in eXist-db and gain
                 experience with application requirements. In the afternoon, we introduce writing and
                 testing user-defined functions. To close out the day, we discuss mapping features

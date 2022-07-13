@@ -35,7 +35,7 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 
 ### Edition repo stages for session
 
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -49,7 +49,7 @@ Time | Topic | Type | Instructor
 
 ### Edition repo stages for session
 
-* [Your own repo](https://example.com)
+* [Your own repo](https://github.com)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

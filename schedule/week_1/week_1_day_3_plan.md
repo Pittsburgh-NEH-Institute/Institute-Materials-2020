@@ -35,7 +35,7 @@ Practice navigating your file system and using tools at the command line,
                     including Git.
 ### Edition repo stages for session
 
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -51,7 +51,7 @@ Time | Topic | Type
 
 ### Edition repo stages for session
 
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -66,8 +66,8 @@ Time | Topic | Type
 
 ### Edition repo stages for session
 
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating title list: model and view in a module](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
+* [Creating title list: model and view in a module](https://github.com/Pittsburgh-NEH-Institute/02-titles-no-controller)
 
 Time | Topic | Type
 ---- | ---- | ---- 

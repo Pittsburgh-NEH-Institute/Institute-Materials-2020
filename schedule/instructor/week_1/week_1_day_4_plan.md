@@ -34,8 +34,8 @@ XQuery in XML databases. Day four reimagines the edition in a research-driven wa
 
 ### Edition repo stages for session
 
-* [Creating title list: model only](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating title list: model only](https://github.com/Pittsburgh-NEH-Institute/03-titles-model)
+* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/04-index)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -49,8 +49,8 @@ Time | Topic | Type | Instructor
 
 ### Edition repo stages for session
 
-* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/04-index)
+* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/05-base-models)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -63,8 +63,8 @@ Time | Topic | Type | Instructor
 
 ### Edition repo stages for session
 
-* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/05-base-models)
+* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/06-controller)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
