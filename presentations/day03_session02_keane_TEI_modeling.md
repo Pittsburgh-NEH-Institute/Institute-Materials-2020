@@ -1,17 +1,19 @@
 # Laboratory encoding: what matters for the model?
 
 ## Goals
-Gain experience with laboratory materials
-Reflect on encoding decisions
-
+- Gain experience with laboratory materials
+- Reflect on your encoding decisions
 
 ## Resources
 
+- [sample text files](https://github.com/Pittsburgh-NEH-Institute/pr-app/tree/main/pr-app-tutorials/TEI-tutorial)
+- [TEI-C](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
 - [a sketch map of Hammersmith](https://www.british-history.ac.uk/survey-london/vol6/sketch-plan-hammersmith)
 - [Black Lion pub](https://historicengland.org.uk/listing/the-list/list-entry/1192979)
 - [impacts on British law](https://blogs.loc.gov/law/2015/10/the-case-of-a-ghost-haunted-england-for-over-two-hundred-years/)
-- text files
-- [TEI-C](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html)
+
+## Hammersmith ghost story
+
 
 ## The edition IS the model IS the encoding.
 
@@ -43,9 +45,22 @@ What should live within the document markup, and what should we separate? How sh
 
 How can we avoid repetition and keep references consistent?
 
-## Mark up the data
+## View laboratory encoding
+What did you include that I didn't?
 
-Spend 20 minutes marking up the data in a way you think is relevant to the research approaches listed above (or your own stated research goal).
+What did I include that you did not, or would not include?
+
+(Feel free to critique my TEI here too! or file an issue!)
+
+## Preparing our first feature task: create a title list
+
+Working backwards from the feature, how do we think we're going to build a list of titles? What is step 1?
+
+How do we divide the roles of project manager, researcher, and developer when we think about building this feature up?
+
+
+
+
 
 
 
