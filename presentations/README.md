@@ -24,8 +24,10 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Cliff, Introduction to FLWOR (PDF)](./day02_session03_anderson_xquery_practice_flwor.pdf)
 
 ### Day 3
-* [Emma, Command line](./day03_session04_schwarz_git-practice.pdf)
-* [Gabi, data modeling](./day03_session_02_keane_TEI_modeling.md)
+
+* [Emma, Command line practice](./day03_session02_schwarz_command-line-practice.pdf)
+* [Emma, Command line and Git](./day03_session04_schwarz_git-practice.pdf)
+* [Gabi, Data modeling](./day03_session_02_keane_TEI_modeling.md)
 
 ----
 
