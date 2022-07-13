@@ -13,10 +13,10 @@ Practice navigating your file system and using tools at the command line,
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
+20 min | Command line basics. | Code lab | Elli
 **25 min** | **Working on the command line.** | **Code lab** | **Emma**
 15 min | Generating your personal access token. | Code lab | Mason
-**25 min** | **Practice Git on the command line.** | **Code lab** | **Emma**
-25 min | Command line tips and tricks. | Code lab | Elli
+**30 min** | **Practice Git on the command line.** | **Code lab** | **Emma**
 
 ## Week 2
 
