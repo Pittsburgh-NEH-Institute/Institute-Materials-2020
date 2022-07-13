@@ -383,25 +383,13 @@
                     </instructors>
                 </act>
             
-                <act time="20" type="Code_lab">
+                <act time="60" type="Code_lab">
                     <desc>Building a title list with XQuery: Create the model, part 2: construct model in model namespace.</desc>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
-                <act time="10" type="Code_lab">
-                    <desc>Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable.</desc>
-                    <instructors>
-                        <instructor>Leif-Jöran</instructor>
-                    </instructors>
-                </act>
-                <act time="30" type="Code_lab">
-                    <desc>Building a title list with XQuery: Create the view: transform the model to HTML.</desc>
-                    <!-- Instead of using typeswitch, we'll use FLWOR to address the list and transform to HTML. -->
-                    <instructors>
-                        <instructor>Cliff</instructor>
-                    </instructors>
-                </act>
+               
                 <outcome>
                     <goal>Create our first computational pipeline together.</goal>
                 </outcome>
@@ -493,13 +481,10 @@
                     </repo>
                 </repos>
                 <act time="30" type="Code_lab">
-                    <desc>Add your fields to the index and begin querying.</desc>
-                    <outcome>
-                        <goal>Become familiar with eXist-db index syntax.</goal>
-                        <goal>Implement fields.</goal>
-                    </outcome>
+                    <desc>Building a title list with XQuery: Create the view: transform the model to HTML.</desc>
+                    <!-- Instead of using typeswitch, we'll use FLWOR to address the list and transform to HTML. -->
                     <instructors>
-                        <instructor>David</instructor>
+                        <instructor>Cliff</instructor>
                     </instructors>
                 </act>
                 <act time="60" type="Code_lab">

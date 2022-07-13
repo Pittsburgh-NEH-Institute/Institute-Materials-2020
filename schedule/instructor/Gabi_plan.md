@@ -43,7 +43,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Add your fields to the index and begin querying. | Code lab | David
+30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab | Cliff
 **60 min** | **Participants work together on preliminary code that they would like to develop into a feature.** | **Code lab** | **Gabi**
 
 ### Friday, July 15, 2022

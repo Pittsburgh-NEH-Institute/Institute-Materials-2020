@@ -43,13 +43,6 @@ Time | Topic | Type | Instructor
 30 min | Indexing and profiling. Examine indexes and profiles in Monex. | Code lab | Leif-Jöran
 **30 min** | **Using Lucene indexes. What are facets and fields?** | **Code lab** | **David**
 
-#### 11:00–12:30: Developing the model to support a feature
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**30 min** | **Add your fields to the index and begin querying.** | **Code lab** | **David**
-60 min | Participants work together on preliminary code that they would like to develop into a feature. | Code lab | Gabi
-
 ### Friday, July 15, 2022
 
 #### 2:00–3:30: Search functionality

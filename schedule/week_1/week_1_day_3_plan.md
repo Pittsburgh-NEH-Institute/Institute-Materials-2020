@@ -72,9 +72,7 @@ Time | Topic | Type
 Time | Topic | Type
 ---- | ---- | ---- 
 30 min | Translating your research goals into your work plan. | Talk lab
-20 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab
-10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab
-30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab
+60 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab
 
 ## 3:30–4:00: Coffee break
 

@@ -13,8 +13,6 @@ XQuery in XML databases. Day four reimagines the edition in a research-driven wa
 * Understand the benefits and limitations of XML databases.
 * Become familiar with the different types of indexes one can use in an XML database.
 * Understand indexes by running queries with and without indexed data.
-* Become familiar with eXist-db index syntax.
-* Implement fields.
 * Gain experience writing code aligned with research goals.
 * Use MVC framework to output *model* data.
 * Prepare to write your own controller.
@@ -54,7 +52,7 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Add your fields to the index and begin querying. | Code lab
+30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab
 60 min | Participants work together on preliminary code that they would like to develop into a feature. | Code lab
 
 ## 12:30–2:00: Lunch
