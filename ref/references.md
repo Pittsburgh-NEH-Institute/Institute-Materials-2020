@@ -97,12 +97,12 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 
 * Siemens, Lynn. 2012. "[Issues in large-project planning and management](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf)" [PDF], Digital Humanities Summer Institute, University of Victoria.
 * Siemens, Lynn. 2016. "[Project management and the digital humanist](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315707860-35/project-management-digital-humanist-lynne-siemens)," _Doing Digital Humanities: practice, training, research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
-* Varner, Stewart. 2014. "[Project charter](https://stewartvarner.com/2014/05/project-charter)." Stewart Varner: Scholarship, Libraries, Technology (blog).
-* Varner, Stewart. 2014. "[Project proposal form](https://stewartvarner.com/2014/05/project-proposal-form)." Stewart Varner: Scholarship, Libraries, Technology (blog).
+* Varner, Stewart. 2014. "[Project charter](https://web.archive.org/web/20200204172442/https://stewartvarner.com/2014/05/project-charter/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
+* Varner, Stewart. 2014. "[Project proposal form](https://web.archive.org/web/20200420145209/https://stewartvarner.com/2014/05/project-proposal-form/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
 * Visual Media Workshop at the University of Pittsburgh. 2019. "[The socio-technical sustainability roadmap](http://sustainingdh.net)."
 * Yale Digital Humanities Lab. 2019. "[Defining your project: A DHLab toolkit](https://dhlab.yale.edu/guides/project-planning.html)."
 
-  * See especially the lean canvas (which is akin to a project proposal) and the project charter.
+  * See especially the [lean canvas](https://dhlab.yale.edu/assets/docs/DH-LeanCanvas.pdf) (which is akin to a project proposal) and the [project charter](https://dhlab.yale.edu/assets/docs/ProjectCharter-RPG.pdf).
 
 ### Text encoding (TEI, XML, and beyond)
 
