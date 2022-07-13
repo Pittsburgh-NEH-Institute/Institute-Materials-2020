@@ -70,6 +70,7 @@ Panther Funds are accepted at [many University merchants](https://www.pc.pitt.ed
 
 * **The Eatery** (one of the campus student dining halls), located in Litchfield Hall, is open M–F 11–2 and accepts Panther funds. They have a variety of food stations.  Enter through the lobby of Litchfield (the apparently more convenient door directly on Forbes is locked).
 * The **Forbes Street Market**, 3955 Forbes Ave, is open 7:00 a.m.–9:00 p.m. and accepts Panther funds. It sells grocery products and quick meals.
+* **[Uzima](https://www.uzima.live/)**, 3400 Fifth Ave, although not listed on <https://acceptinglocations.com/pantherfunds/> as accepting Panther funds, *does* accept Panther funds. They feature juices, smoothies, and bowls.
 
 #### Places that unexpectedly do not accept Panther funds
 
