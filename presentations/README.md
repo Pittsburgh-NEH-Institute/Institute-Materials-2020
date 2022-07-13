@@ -27,6 +27,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 * [Emma, Command line practice](./day03_session01_schwarz_command-line-practice-updated.pdf)
 * [Emma, Command line and Git](./day03_session04_schwarz_git-practice.pdf)
+* [Hugh, TEI XML in context](./day03_session02_cayless_tei_rationale_alternatives.pdf)
 * [Gabi, Data modeling](./day03_session02_keane_TEI_modeling.md)
 
 ----
