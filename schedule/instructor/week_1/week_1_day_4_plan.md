@@ -47,7 +47,7 @@ Time | Topic | Type | Instructor
 
 ### Edition repo stages for session
 
-* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/04-index)
+* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/02-titles-no-controller)
 * [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/05-base-models)
 
 Time | Topic | Type | Instructor
