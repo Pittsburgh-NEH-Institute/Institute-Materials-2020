@@ -599,39 +599,25 @@
                 the International Image Interoperability Framework (IIIF), a community-focused
                 Linked Open Data (LOD) standard for image sharing, closes the day.</syn>
             <slot time="09:00:00">
-                <title>ODDs and collaborative encoding</title>
-                <repos>
-                    <repo>
-                        <repo-name>Base view: TEI</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/01-data</repo-link>
-                    </repo>
-                </repos>
-                <act time="30" type="Presentation">
-                    <desc>Create Kanban boards and discuss other project management tools.</desc>
+                <title>Setting up an app with Yeoman and VSCode sync</title>
+                <act time="20" type="Presentation">
+                    <desc>Project management tasks.</desc>
                     <outcome>
-                        <goal>Introduce Kanban and other software for task and issue
+                        <goal>Introduce tools for task and issue
                             management.</goal>
                     </outcome>
                     <instructors>
                         <instructor>Chelcie</instructor>
-                        <instructor>Gabi</instructor>
+                        
                     </instructors>
                 </act>
-                <act time="30" type="Discussion">
-                    <desc>Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)).</desc>
+                <act time="70" type="Discussion">
+                    <desc>Yeoman and VSCode.</desc>
                     <outcome>
-                        <goal>Enable better collaborative encoding for projects.</goal>
+                        <goal>Get ready to make your own app and set up your workspace.</goal>
                     </outcome>
                     <instructors>
-                        <instructor>Elli</instructor>
                         <instructor>Gabi</instructor>
-                    </instructors>
-                </act>
-                <act time="30" type="Code_lab">
-                    <desc>XQuery: taking stock.</desc>
-                    <!-- More specific title? -->
-                    <instructors>
-                        <instructor>Cliff</instructor>
                     </instructors>
                 </act>
             </slot>
@@ -734,10 +720,23 @@
             </slot>
             <slot time="16:00:00">
                 <title>Catchup session</title>
-                <act time="90" type="Code_lab">
-                    <desc>Participants’ choice.</desc>
+                <act time="30" type="Code_lab">
+                    <desc>XQuery: taking stock.</desc>
+                    <!-- More specific title? -->
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>Cliff</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Command line tips and tricks.</desc>
+                    <instructors>
+                        <instructor>Elli</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Code_lab">
+                    <desc>Slide slam.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
             </slot>

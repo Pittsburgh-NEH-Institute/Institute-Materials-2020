@@ -51,13 +51,12 @@ Time | Topic | Type | Instructor
 
 ### Friday, July 15, 2022
 
-#### 9:00–10:30: ODDs and collaborative encoding
+#### 9:00–10:30: Setting up an app with Yeoman and VSCode sync
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**30 min** | **Create Kanban boards and discuss other project management tools.** | **Presentation** | **Chelcie, Gabi**
-30 min | Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)). | Discussion | Elli, Gabi
-30 min | XQuery: taking stock. | Code lab | Cliff
+**20 min** | **Project management tasks.** | **Presentation** | **Chelcie**
+70 min | Yeoman and VSCode. | Discussion | Gabi
 
 ## Week 2
 

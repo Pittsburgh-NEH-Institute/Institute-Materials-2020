@@ -13,8 +13,8 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
                 Linked Open Data (LOD) standard for image sharing, closes the day.
 
 ## Outcome goals
-* Introduce Kanban and other software for task and issue management.
-* Enable better collaborative encoding for projects.
+* Introduce tools for task and issue management.
+* Get ready to make your own app and set up your workspace.
 * Understand tracking branches, development branches, pull requests as branches.
 * Create pull requests on the institute repositories.
 * Become comfortable with merge conflicts and using Git.
@@ -29,18 +29,12 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 * **Code lab:** participants code alone or in small groups
 
 * * *
-## 9:00–10:30: ODDs and collaborative encoding
-
-
-### Edition repo stages for session
-
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
+## 9:00–10:30: Setting up an app with Yeoman and VSCode sync
 
 Time | Topic | Type
 ---- | ---- | ---- 
-30 min | Create Kanban boards and discuss other project management tools. | Presentation
-30 min | Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)). | Discussion
-30 min | XQuery: taking stock. | Code lab
+20 min | Project management tasks. | Presentation
+70 min | Yeoman and VSCode. | Discussion
 
 ## 10:30–11:00: Coffee break
 
@@ -79,6 +73,8 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | Participants’ choice. | Code lab
+30 min | XQuery: taking stock. | Code lab
+30 min | Command line tips and tricks. | Code lab
+30 min | Slide slam. | Code lab
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms are in our Slack workspace in the #daily-feedback channel (posting from Mason on Mon, July 11).

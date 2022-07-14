@@ -41,14 +41,6 @@ Time | Topic | Type | Instructor
 
 ### Friday, July 15, 2022
 
-#### 9:00–10:30: ODDs and collaborative encoding
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-30 min | Create Kanban boards and discuss other project management tools. | Presentation | Chelcie, Gabi
-30 min | Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)). | Discussion | Elli, Gabi
-**30 min** | **XQuery: taking stock.** | **Code lab** | **Cliff**
-
 #### 2:00–3:30: Search functionality
 
 Time | Topic | Type | Instructor
@@ -57,6 +49,14 @@ Time | Topic | Type | Instructor
 15 min | Facet theory. | Presentation | David
 **20 min** | **Facets in eXist-db searching.** | **Presentation** | **Cliff, David**
 40 min | Facets and you: thinking about your search interface. | Talk lab | David
+
+#### 4:00–5:30: Catchup session
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+**30 min** | **XQuery: taking stock.** | **Code lab** | **Cliff**
+30 min | Command line tips and tricks. | Code lab | Elli
+30 min | Slide slam. | Code lab | Leif-Jöran
 
 ## Week 2
 
