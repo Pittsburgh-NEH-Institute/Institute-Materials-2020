@@ -1,14 +1,12 @@
 # Explore how the out-of-the-box controller works, along with what it can and cannot do
 Day 04 Session 03 slot 02
 
-## URL mapping using URL-rewriting
-1. Anatomy of an URL-rewriting-based app 
-2. How eXist Finds the Controller
-3. The URL Rewriting Controller’s Environment
-4. The Controller’s Output XML Format
-5. Advanced URL Control
-6. Changing the URL for URL Rewriting
-7. The controller-config.xml Configuration File
+## URL mapping using URL-rewriting 
+1. you put the controller in the root of your app collection
+2. A few sections in the controller.xql: step by step
+3. How eXist Finds the Controller
+The Controller Outputs XML in exist namespace
+4. The controller-config.xml Configuration File
 
 ## Rule 1: you put the controller in the root of your app collection
 And you name it `controller.xql`.
