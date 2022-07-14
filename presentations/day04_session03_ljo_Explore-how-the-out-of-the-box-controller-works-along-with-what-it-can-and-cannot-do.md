@@ -7,9 +7,9 @@ Day 04 Session 03 slot 02
 3. How eXist Finds the Controller
 The controller outputs XML in the eXist-db specific namespace:
  `http://exist.sourceforge.net/NS/exist`
-4. The controller-config.xml Configuration File
+4. The controller-config.xml file
 
-## Rule 1: you put the controller in the root of your app collection
+## Rule 1: you put the controller in the root collection of your app
 And you name it `controller.xql`.
 
 
