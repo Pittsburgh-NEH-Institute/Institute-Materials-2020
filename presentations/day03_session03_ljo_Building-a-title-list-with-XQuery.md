@@ -86,7 +86,7 @@ declare variable $articles as element(tei:TEI)+ := $articles-coll/tei:TEI;
 
 ## Step 7: The result of the query
 
-Our title listing in the Hoax model nmamespace 
+Our title listing in the Hoax model namespace 
 
 ```xquery
 <hoax-model:titles xmlns:hoax-model="http://www.obdurodon.org/model">

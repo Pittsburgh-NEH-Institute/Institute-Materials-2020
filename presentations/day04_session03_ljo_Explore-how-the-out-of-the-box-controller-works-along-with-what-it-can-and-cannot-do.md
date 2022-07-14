@@ -1,16 +1,15 @@
 # Explore how the out-of-the-box controller works, along with what it can and cannot do
 Day 04 Session 03 slot 02
 
-## URL mapping using URL-rewriting
-1. Anatomy of an URL-rewriting-based app 
-2. How eXist Finds the Controller
-3. The URL Rewriting Controller’s Environment
-4. The Controller’s Output XML Format
-5. Advanced URL Control
-6. Changing the URL for URL Rewriting
-7. The controller-config.xml Configuration File
+## URL mapping using URL-rewriting 
+1. you put the controller in the root of your app collection
+2. A few sections in the controller.xql: step by step
+3. How eXist Finds the Controller
+The controller outputs XML in the eXist-db specific namespace:
+ `http://exist.sourceforge.net/NS/exist`
+4. The controller-config.xml file
 
-## Rule 1: you put the controller in the root of your app collection
+## Rule 1: you put the controller in the root collection of your app
 And you name it `controller.xql`.
 
 
@@ -24,7 +23,7 @@ declare variable $exist:controller external;
 declare variable $exist:prefix external;
 declare variable $exist:root external;
 
-(: The most used ones: $exist:path external $exist:resource  $exist:controller :)
+(: The most used ones: $exist:path, $exist:resource,  $exist:controller :)
 
 (: The start page :)
 declare variable $index-page-url := "index";
@@ -49,7 +48,7 @@ will pass through the controller again.
 ```xquery
 if($exist:resource eq "")then
 <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-  <redirect url="{$home-page-url}"/>
+  <redirect url="{$index-page-url}"/>
 </dispatch>
 ```
 ### No extension? 
@@ -58,7 +57,7 @@ We assume it is an XQuery file and forward to it. By doing a forward, the browse
 ```xquery
 else if (local:get-extension($exist:resource) eq "")then
 <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-  <forward url="{concat($exist:controller, $exist:path, ".xq")}"/>
+  <forward url="{concat($exist:controller, $exist:path, ".xqm")}"/>
 </dispatch>
 
 ### Everything else is just passed through 
@@ -129,7 +128,7 @@ An example:
 Or a server name match:
 ```xquery
 <root server-name="dms.tei-exist.info" pattern=".*"
-path="xmldb:exist:///db/myapp/"/>
+path="xmldb:exist:///db/apps/dms"/>
 ```
 
 ## Further exploration
