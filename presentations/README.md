@@ -34,6 +34,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, Building a title list (PDF)](./day03_session03_ljo_Building-a-title-list-with-XQuery.pdf)
 
 ### Day 4
+* [Leif-Jöran, Examine indexes and profiles in Monex](./day04_session01_ljo_Examine-indexes-and-profiles-in-Monex.md)
 * [David, Facets and fields tutorial](https://github.com/Pittsburgh-NEH-Institute/pr-app/blob/main/pr-app-tutorials/facets-and-fields.md)
 * [David, adding a word-count field to your query](./day04_session01_birnbaum_fields.md)
 * [Gabi, building the model for a feature](./day04_session02_keane_xquery_feature_model.md)
