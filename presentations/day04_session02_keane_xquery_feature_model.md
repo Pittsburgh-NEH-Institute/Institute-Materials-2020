@@ -1,6 +1,17 @@
 # Expanding the model
 
-## Let's get a list of places in the hoax-model namespace
+## Let's get a list of places in the m namespace
+
+We'll be working from the stages repository [03-titles-model](https://github.com/Pittsburgh-NEH-Institute/03-titles-model) today. First let's git clone that one together.
+
+Next we'll use `ant` to build the app. Recall that `ant` is a software that we are using to construct a .xar file (ie, the web application be installed on eXist-db). 
+
+Now we want to open eXist and log in. We do this by going to localhost:8080 in a web browser after we've started the server. We check the server is running by looking in our docks (top of the screen on a mac, bottom of the screen on windows) for the eXist logo.
+
+After logging in, we'll go to the Package manager and click Upload. Then we navigate to 03-titles-model and find the build folder. We want to select the .xar file that doesn't say "dev" in the filename.
+
+Now we can open eXide and navigate to the folder in our directory tab! We're all set up. Use a green square when your screen looks like mine please.
+
 
 We copy our statements first. Recall that a *statement* does not evaluate to anything-- it sets information that we'll want to use later on when we write *expressions*:
 
@@ -15,7 +26,7 @@ xquery version "3.1";
 Declare namespaces
 ==:)
 declare namespace hoax = "http://obdurodon.org/hoax";
-declare namespace hoax-model = "http://www.obdurodon.org/model";
+declare namespace m = "http://www.obdurodon.org/model";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 ```
 
@@ -45,25 +56,25 @@ declare variable $places as element(tei:TEI)+ := $place-coll//tei:TEI;
 Next, we want to write some output. We'll steal from titles.xql in this case too.
 
 ```
-<hoax-model:places> 
+<m:places> 
 {
     for $place in $places
     return
-        <hoax-model:place>
+        <m:place>
         { 
             $place//tei:place/tei:placeName ! string(.)
         }
-        </hoax-model:place>
+        </m:place>
 }
-</hoax-model:places>
+</m:places>
 ```
 
 What does the output look like?
 ```
-<hoax-model:places xmlns:hoax-model="http://www.obdurodon.org/model">
-    <hoax-model:place>London The Lord Mayor's Mansion House Hampstead Hampstead Ilford Kensington Peckham Acton Fulham North-end Chiswick-lane Kew Bow Street Magistrates Court Turnham Green Hammersmith Webb's Lane Brandenburgh House Margrave of Anspach's Starch Green Angel Lane Angel Public House the field adjacent Black-lion Lane Black-lion Lane Black Lion Pub alley between Beaver Lane and Black-lion Lane White Hart Public House Holborn St. Paul's Cathedral Fetter-lane St. Dunstan's-in-the-West Westminster Whitehall St. James's Park The Royal Cockpit St. James's Canal London-street, Dockhead Bermondsey Grange road United States of America Stone/Hayden Residence France Cock Lane St. Sepulchre Clerkenwell Pentonville French Colony Rhode Island New York Auburn Arcadia Bath Wolverton Station Holy Trinity Church Wolverton Churchyard London Bridge Gützkow Wolgast Usedom Strellin Dammbecke Hatton Garden Hatton Garden Police Station White Conduit House Islington Copenhagen House Cut-throat Lane Haggerstone Haggerstone Church Yard, St Marys Station-house at Robert Street Hull Anlaby-road (sic) Wellington Lane Cardross Drumhead Sale The Brooklands Sale Canal Altrincham</hoax-model:place>
-    <hoax-model:place/>
-</hoax-model:places>
+<m:places xmlns:m="http://www.obdurodon.org/model">
+    <m:place>London The Lord Mayor's Mansion House Hampstead Hampstead Ilford Kensington Peckham Acton Fulham North-end Chiswick-lane Kew Bow Street Magistrates Court Turnham Green Hammersmith Webb's Lane Brandenburgh House Margrave of Anspach's Starch Green Angel Lane Angel Public House the field adjacent Black-lion Lane Black-lion Lane Black Lion Pub alley between Beaver Lane and Black-lion Lane White Hart Public House Holborn St. Paul's Cathedral Fetter-lane St. Dunstan's-in-the-West Westminster Whitehall St. James's Park The Royal Cockpit St. James's Canal London-street, Dockhead Bermondsey Grange road United States of America Stone/Hayden Residence France Cock Lane St. Sepulchre Clerkenwell Pentonville French Colony Rhode Island New York Auburn Arcadia Bath Wolverton Station Holy Trinity Church Wolverton Churchyard London Bridge Gützkow Wolgast Usedom Strellin Dammbecke Hatton Garden Hatton Garden Police Station White Conduit House Islington Copenhagen House Cut-throat Lane Haggerstone Haggerstone Church Yard, St Marys Station-house at Robert Street Hull Anlaby-road (sic) Wellington Lane Cardross Drumhead Sale The Brooklands Sale Canal Altrincham</m:place>
+    <m:place/>
+</m:places>
 ```
 
 ### Where are we going wrong?
@@ -74,17 +85,17 @@ What does the output look like?
 declare variable $place-coll := doc($path-to-data || '/aux_xml/places.xml');
 declare variable $places as element(tei:place)+ := $place-coll//tei:place;
 
-<hoax-model:places> 
+<m:places> 
 {
     for $place in $places
     return
-        <hoax-model:place>
+        <m:place>
         { 
             $place/tei:placeName ! string(.)
         }
-        </hoax-model:place>
+        </m:place>
 }
-</hoax-model:places>
+</m:places>
 ```
 
 What changed?
@@ -101,20 +112,20 @@ Let's add the latitude and longitude!
   <summary>add geo</summary>
 
 ```
-<hoax-model:places> 
+<m:places> 
 {
     for $place in $places
     return
-        <hoax-model:place>
-            <hoax-model:name>
+        <m:place>
+            <m:name>
                 {$place/tei:placeName ! string(.)}
-            </hoax-model:name>
-            <hoax-model:geo>
+            </m:name>
+            <m:geo>
                 {$place/tei:location/tei:geo ! string(.)}
-            </hoax-model:geo>
-        </hoax-model:place>
+            </m:geo>
+        </m:place>
 }
-</hoax-model:places>
+</m:places>
 ```
 
 </details>
@@ -125,22 +136,22 @@ Looks excellent, but it's getting kind of hard to read, and harder to control th
 	<summary>use let statements</summary>
 	
 ```
-<hoax-model:places> 
+<m:places> 
 {
     for $place in $places
         let $name as xs:string* := $place/tei:placeName ! string(.)
         let $geo as xs:string* := $place/tei:location/tei:geo ! string(.)
     return
-        <hoax-model:place>
-            <hoax-model:name>
+        <m:place>
+            <m:name>
                 {$name}
-            </hoax-model:name>
-            <hoax-model:geo>
+            </m:name>
+            <m:geo>
                 {$geo}
-            </hoax-model:geo>
-        </hoax-model:place>
+            </m:geo>
+        </m:place>
 }
-</hoax-model:places>
+</m:places>
 ```	
 </details>
 
@@ -150,7 +161,7 @@ Okay! That's some good looking XQuery. Let's address the latitude and longitude 
 	<summary>geo string surgery</summary>
 	
 ```
-<hoax-model:places> 
+<m:places> 
 {
     for $place in $places
         let $name as xs:string* := $place/tei:placeName ! string(.)
@@ -158,18 +169,18 @@ Okay! That's some good looking XQuery. Let's address the latitude and longitude 
         let $lat as xs:double := substring-before($geo, " ") ! number(.)
         let $long as xs:double := substring-after($geo, " ") ! number(.)
     return
-        <hoax-model:place>
-            <hoax-model:name>
+        <m:place>
+            <m:name>
                 {$name}
-            </hoax-model:name>
-            <hoax-model:geo>
-                <hoax-model:lat>{$lat}</hoax-model:lat>
-                <hoax-model:long>{$long}</hoax-model:long>
+            </m:name>
+            <m:geo>
+                <m:lat>{$lat}</m:lat>
+                <m:long>{$long}</m:long>
                 
-            </hoax-model:geo>
-        </hoax-model:place>
+            </m:geo>
+        </m:place>
 }
-</hoax-model:places>
+</m:places>
 ```	
 
 </details>
@@ -181,7 +192,7 @@ Last thing we care about today: I don't care about places that don't have any ge
 
 
 ```
-<hoax-model:places> 
+<m:places> 
 {
     for $place in $places
         let $name as xs:string* := $place/tei:placeName ! string(.)
@@ -190,23 +201,53 @@ Last thing we care about today: I don't care about places that don't have any ge
         let $long as xs:double := substring-after($geo, " ") ! number(.)
         where $geo
     return
-        <hoax-model:place>
-            <hoax-model:name>
+        <m:place>
+            <m:name>
                 {$name}
-            </hoax-model:name>
-            <hoax-model:geo>
-                <hoax-model:lat>{$lat}</hoax-model:lat>
-                <hoax-model:long>{$long}</hoax-model:long>
+            </m:name>
+            <m:geo>
+                <m:lat>{$lat}</m:lat>
+                <m:long>{$long}</m:long>
                 
-            </hoax-model:geo>
-        </hoax-model:place>
+            </m:geo>
+        </m:place>
 }
-</hoax-model:places>
+</m:places>
 ```
 
 </details>
 
+Bonus round: Get parent places!
 
+<details>
+	<summary>filtering results</summary>
+
+
+```
+<m:places> 
+{
+    for $place in $places
+        let $name as xs:string* := $place/tei:placeName ! string(.)
+        let $geo as element(tei:geo)? := $place/tei:location/tei:geo
+        let $lat as xs:double := substring-before($geo, " ") ! number(.)
+        let $long as xs:double := substring-after($geo, " ") ! number(.)
+        where $geo
+    return
+        <m:place>
+            <m:name>
+                {$name}
+            </m:name>
+            <m:geo>
+                <m:lat>{$lat}</m:lat>
+                <m:long>{$long}</m:long>
+                
+            </m:geo>
+        </m:place>
+}
+</m:places>
+```
+
+</details>
 
 
 

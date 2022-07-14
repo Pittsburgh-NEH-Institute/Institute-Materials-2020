@@ -472,8 +472,8 @@
                 <title>Developing the model to support a feature</title>
                 <repos>
                     <repo>
-                        <repo-name>Creating index: collection.xconf</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/02-titles-no-controller</repo-link>
+                        <repo-name>Creating titles.xql</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/03-titles-model</repo-link>
                     </repo>
                     <repo>
                         <repo-name>Creating models: feature base models</repo-name>
