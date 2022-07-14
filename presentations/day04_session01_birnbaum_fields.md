@@ -9,8 +9,8 @@
 
 ## Copy *titles.xql* into the app (from below)
 
-1. Use the eXide File → Manage menus to create a subdirectory called `modules` inside your app.
-2. Click the “New XQuery” button in eXide to open a new XQuery window, copy and paste the `titles.xql` file below into it, and save it into the new `modules` subdirectory.
+1. Use the eXide File → Manage menus to create a subdirectory called *modules* inside your app.
+2. Click the “New XQuery” button in eXide to open a new XQuery window, copy and paste the *titles.xql* file below into it, and save it into the new *modules* subdirectory.
 
 ```
 (:
@@ -77,7 +77,7 @@ declare variable $articles as element(tei:TEI)+ := $articles-coll/tei:TEI;
 
 ## Inside eXide create and save an index
 
-Copy the following code and save it in the root of your app with the filename `collection.xconf` (based on <http://exist-db.org/exist/apps/doc/lucene>):
+Copy the following code and save it in the root of your app with the filename *collection.xconf* (based on <http://exist-db.org/exist/apps/doc/lucene>):
 
 ```
 <collection xmlns="http://exist-db.org/collection-config/1.0"
@@ -98,6 +98,10 @@ Copy the following code and save it in the root of your app with the filename `c
     </index>
 </collection>
 ```
+
+When you save changes to your index file, eXide asks whether you want to reindex the collection. You do.
+
+(Optional: You can launch Monex from the eXist-db dashboard and verify there that your field has been created and is populated.)
 
 ## Change the query to use the field
 
@@ -140,7 +144,6 @@ declare variable $articles as element(tei:TEI)+ :=
             }</hoax-model:word-count>
         </hoax-model:article>
 }</hoax-model:titles>
-
 ```
 
 
