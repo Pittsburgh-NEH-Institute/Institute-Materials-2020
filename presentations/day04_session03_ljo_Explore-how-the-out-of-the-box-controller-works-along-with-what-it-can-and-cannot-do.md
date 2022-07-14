@@ -22,7 +22,7 @@ declare variable $exist:controller external;
 declare variable $exist:prefix external;
 declare variable $exist:root external;
 
-(: The most used ones: $exist:path external $exist:resource  $exist:controller :)
+(: The most used ones: $exist:path, $exist:resource,  $exist:controller :)
 
 (: The start page :)
 declare variable $index-page-url := "index";
