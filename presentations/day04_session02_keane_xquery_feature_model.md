@@ -220,7 +220,7 @@ get parent places
         let $geo as element(tei:geo)? := $place/tei:location/tei:geo
         let $lat as xs:double := substring-before($geo, " ") ! number(.)
         let $long as xs:double := substring-after($geo, " ") ! number(.)
-        let $parentname as xs:string? := $place/parent::tei:place/tei:placeName
+        let $parentname as xs:string? := $place/parent::tei:place/tei:placeName ! string(.)
         where $geo
     return
         <m:place>
