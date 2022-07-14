@@ -85,7 +85,7 @@ else
 </dispatch>
 ```
 
-### MVC
+### A dispatch for MVC
 ```xquery
 <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
   <forward url="{concat($exist:controller, "/createmodel.xq")}"/>
@@ -113,9 +113,23 @@ to the eXist-db main servlet.
 4. If no match is found, it uses the rest of the URL to try to find the controller. It
 starts at the most specific path and works backward until it finds a controller.
 
-### Rule 2: controller-config.xml will allow rule 1 
+### Rule 2: controller-config.xml will bootstrap your controller 
+The full controller config syntax: 
+```xquery
+The content of the controller-config.xml file must be in the http://exist.source
+forge.net/NS/exist namespace. The format is:
+<configuration xmlns="http://exist.sourceforge.net/NS/exist">
+( forward | root )+
+</configuration>
+```
+An example:
 ```xquery
 <root pattern="/apps" path="xmldb:exist:///db/apps"/>
+```
+Or a server name match:
+```xquery
+<root server-name="dms.tei-exist.info" pattern=".*"
+path="xmldb:exist:///db/myapp/"/>
 ```
 
 ## Further exploration
