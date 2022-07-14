@@ -67,8 +67,9 @@ What does the output look like?
 ```
 
 ### Where are we going wrong?
-
-Here's the fix:
+<details>
+	<summary>Here's the fix:</summary>
+	
 ```
 declare variable $place-coll := doc($path-to-data || '/aux_xml/places.xml');
 declare variable $places as element(tei:place)+ := $place-coll//tei:place;
@@ -85,10 +86,13 @@ declare variable $places as element(tei:place)+ := $place-coll//tei:place;
 }
 </hoax-model:places>
 ```
+
 What changed?
 1. instead of looking at a collection, we're just looking at one document. So we want to use the doc() function instead of the collection() function.
 2. We don't care about the whole TEI document, we just care about each place in it. Let's get those rather than getting TEI elements.
 3. Now we can iterate over the sequence of place elements instead of trying to iterate on something like `listPlace`, of which there's only one.
+
+</details>
 
 ### What should we add next?
 Let's add the latitude and longitude!
@@ -140,6 +144,67 @@ Looks excellent, but it's getting kind of hard to read, and harder to control th
 ```	
 </details>
 
+Okay! That's some good looking XQuery. Let's address the latitude and longitude separately and as numbers rather than strings.
+
+<details>
+	<summary>geo string surgery</summary>
+	
+```
+<hoax-model:places> 
+{
+    for $place in $places
+        let $name as xs:string* := $place/tei:placeName ! string(.)
+        let $geo as element(tei:geo)? := $place/tei:location/tei:geo
+        let $lat as xs:double := substring-before($geo, " ") ! number(.)
+        let $long as xs:double := substring-after($geo, " ") ! number(.)
+    return
+        <hoax-model:place>
+            <hoax-model:name>
+                {$name}
+            </hoax-model:name>
+            <hoax-model:geo>
+                <hoax-model:lat>{$lat}</hoax-model:lat>
+                <hoax-model:long>{$long}</hoax-model:long>
+                
+            </hoax-model:geo>
+        </hoax-model:place>
+}
+</hoax-model:places>
+```	
+
+</details>
+
+Last thing we care about today: I don't care about places that don't have any geo information. This is because they're just parent elements of other places. How can we ensure we only return a result when there's a geo element present?
+
+<details>
+	<summary>filtering results</summary>
+
+
+```
+<hoax-model:places> 
+{
+    for $place in $places
+        let $name as xs:string* := $place/tei:placeName ! string(.)
+        let $geo as element(tei:geo)? := $place/tei:location/tei:geo
+        let $lat as xs:double := substring-before($geo, " ") ! number(.)
+        let $long as xs:double := substring-after($geo, " ") ! number(.)
+        where $geo
+    return
+        <hoax-model:place>
+            <hoax-model:name>
+                {$name}
+            </hoax-model:name>
+            <hoax-model:geo>
+                <hoax-model:lat>{$lat}</hoax-model:lat>
+                <hoax-model:long>{$long}</hoax-model:long>
+                
+            </hoax-model:geo>
+        </hoax-model:place>
+}
+</hoax-model:places>
+```
+
+</details>
 
 
 

@@ -33,6 +33,9 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, Building a title list (HTML)](./day03_session03_ljo_Building-a-title-list-with-XQuery.md)
 * [Leif-Jöran, Building a title list (PDF)](./day03_session03_ljo_Building-a-title-list-with-XQuery.pdf)
 
+### Day 4
+* [Gabi, building the model for a feature](./day04_session02_keane_xquery_feature_model.md)
+
 ----
 
 ## Information for instructors
