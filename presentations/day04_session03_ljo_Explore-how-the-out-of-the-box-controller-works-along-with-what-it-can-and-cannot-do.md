@@ -47,7 +47,7 @@ will pass through the controller again.
 ```xquery
 if($exist:resource eq "")then
 <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-  <redirect url="{$home-page-url}"/>
+  <redirect url="{$index-page-url}"/>
 </dispatch>
 ```
 ### No extension? 
