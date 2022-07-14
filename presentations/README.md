@@ -17,6 +17,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ### Day 2
 
+* [Chelcie, Project management](./day02_session01_rowell_project-management.md)
 * [Ronald, Introduction to git](./day02_session02_dekker_version_control_with_git.pdf)
 * [Leif-Jöran, FLWOR with Hoax data](./day02_session02_ljo_FLWOR-with-Hoax-data.pdf) 
 * [Elli, File management first steps](./day02_session03_bleeker_file-management.pdf)
