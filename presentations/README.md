@@ -30,7 +30,6 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Emma, Command line and Git](./day03_session04_schwarz_git-practice.pdf)
 * [Hugh, TEI XML in context](./day03_session02_cayless_tei_rationale_alternatives.pdf)
 * [Gabi, Data modeling](./day03_session02_keane_TEI_modeling.md)
-* [Cliff, Creating the view](./day03_session03_anderson_create-the-view.md)
 * [Leif-Jöran, Building a title list (HTML)](./day03_session03_ljo_Building-a-title-list-with-XQuery.md)
 * [Leif-Jöran, Building a title list (PDF)](./day03_session03_ljo_Building-a-title-list-with-XQuery.pdf)
 
@@ -38,7 +37,9 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, Examine indexes and profiles in Monex](./day04_session01_ljo_Examine-indexes-and-profiles-in-Monex.md)
 * [David, Facets and fields tutorial](https://github.com/Pittsburgh-NEH-Institute/pr-app/blob/main/pr-app-tutorials/facets-and-fields.md)
 * [David, adding a word-count field to your query](./day04_session01_birnbaum_fields.md)
+* [Cliff, Creating the view](./day04_session02_anderson_create-the-view.md)
 * [Gabi, building the model for a feature](./day04_session02_keane_xquery_feature_model.md)
+* [Hugh, What's a Controller?](./day04_session03_cayless_what_is_a_controller.md)
 
 ----
 
