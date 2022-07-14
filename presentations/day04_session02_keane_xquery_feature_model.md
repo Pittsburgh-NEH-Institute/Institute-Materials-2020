@@ -78,8 +78,7 @@ What does the output look like?
 ```
 
 ### Where are we going wrong?
-<details>
-	<summary>Here's the fix:</summary>
+Here's the fix:
 	
 ```
 declare variable $place-coll := doc($path-to-data || '/aux_xml/places.xml');
@@ -103,13 +102,11 @@ What changed?
 2. We don't care about the whole TEI document, we just care about each place in it. Let's get those rather than getting TEI elements.
 3. Now we can iterate over the sequence of place elements instead of trying to iterate on something like `listPlace`, of which there's only one.
 
-</details>
 
 ### What should we add next?
 Let's add the latitude and longitude!
 
-<details>
-  <summary>add geo</summary>
+add geo
 
 ```
 <m:places> 
@@ -128,12 +125,9 @@ Let's add the latitude and longitude!
 </m:places>
 ```
 
-</details>
-
 Looks excellent, but it's getting kind of hard to read, and harder to control the data. Let's put everything in `let` statements so we can do some datatyping and keep everything tidy.
 
-<details>
-	<summary>use let statements</summary>
+use let statements
 	
 ```
 <m:places> 
@@ -153,13 +147,12 @@ Looks excellent, but it's getting kind of hard to read, and harder to control th
 }
 </m:places>
 ```	
-</details>
+
 
 Okay! That's some good looking XQuery. Let's address the latitude and longitude separately and as numbers rather than strings.
 
-<details>
-	<summary>geo string surgery</summary>
-	
+geo string surgery
+
 ```
 <m:places> 
 {
@@ -183,13 +176,10 @@ Okay! That's some good looking XQuery. Let's address the latitude and longitude 
 </m:places>
 ```	
 
-</details>
 
 Last thing we care about today: I don't care about places that don't have any geo information. This is because they're just parent elements of other places. How can we ensure we only return a result when there's a geo element present?
 
-<details>
-	<summary>filtering results</summary>
-
+filtering results
 
 ```
 <m:places> 
@@ -215,12 +205,11 @@ Last thing we care about today: I don't care about places that don't have any ge
 </m:places>
 ```
 
-</details>
+
 
 Bonus round: Get parent places!
 
-<details>
-	<summary>filtering results</summary>
+get parent places
 
 
 ```
@@ -231,6 +220,7 @@ Bonus round: Get parent places!
         let $geo as element(tei:geo)? := $place/tei:location/tei:geo
         let $lat as xs:double := substring-before($geo, " ") ! number(.)
         let $long as xs:double := substring-after($geo, " ") ! number(.)
+        let $parentname as xs:string? := $place/parent::tei:place/tei:placeName ! string(.)
         where $geo
     return
         <m:place>
@@ -240,14 +230,15 @@ Bonus round: Get parent places!
             <m:geo>
                 <m:lat>{$lat}</m:lat>
                 <m:long>{$long}</m:long>
-                
+                if ($parentname)
+                	then <m:parent>{$parentname}</m:parent>
+                	else () 
             </m:geo>
         </m:place>
 }
 </m:places>
 ```
 
-</details>
 
 
 
