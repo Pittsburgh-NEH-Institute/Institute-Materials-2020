@@ -34,12 +34,21 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, Building a title list (PDF)](./day03_session03_ljo_Building-a-title-list-with-XQuery.pdf)
 
 ### Day 4
+
 * [Leif-Jöran, Examine indexes and profiles in Monex](./day04_session01_ljo_Examine-indexes-and-profiles-in-Monex.md)
 * [David, Facets and fields tutorial](https://github.com/Pittsburgh-NEH-Institute/pr-app/blob/main/pr-app-tutorials/facets-and-fields.md)
 * [David, adding a word-count field to your query](./day04_session01_birnbaum_fields.md)
 * [Cliff, Creating the view](./day04_session02_anderson_create-the-view.md)
 * [Gabi, building the model for a feature](./day04_session02_keane_xquery_feature_model.md)
 * [Hugh, What's a Controller?](./day04_session03_cayless_what-is-a-controller.pdf)
+
+### Day 5
+
+* [Ronald, Git branches and you](./day05_session02_dekker_git-branches-and-you.pdf)
+* [Elli, Working with branches in Git](./day05_session02_bleeker_branches-issues-prs.pdf)
+* [David, Introduction to Git (supplementary tutorial)](http://dh.obdurodon.org/git/)
+* [Elli, Command line tips and tricks](./day05_session04_bleeker_CLI-tips-tricks.pdf)
+* [Gabi, VSCode](./day05_session01_keane_vscode.md)
 
 ----
 
