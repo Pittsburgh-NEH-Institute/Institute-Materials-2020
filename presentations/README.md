@@ -45,8 +45,8 @@ This folder contains pdf or markdown versions of all presentations slides.
 ### Day 5
 
 * [Elli, Working with branches in Git](./day05_session02_bleeker_branches-issues-prs.pdf)
-* [Elli, Command line tips and tricks](./day05_session04_bleeker_CLI-tips-tricks.pdf)
 * [David, Introduction to Git (supplementary tutorial)](http://dh.obdurodon.org/git/)
+* [Elli, Command line tips and tricks](./day05_session04_bleeker_CLI-tips-tricks.pdf)
 * [Gabi, VSCode](./day05_session01_keane_vscode.md)
 
 ----
