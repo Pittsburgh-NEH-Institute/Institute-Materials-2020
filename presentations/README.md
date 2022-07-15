@@ -44,6 +44,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ### Day 5
 
+* [Ronald, Git branches and you](./day05_session02_dekker_git-branches-and-you.pdf)
 * [Elli, Working with branches in Git](./day05_session02_bleeker_branches-issues-prs.pdf)
 * [David, Introduction to Git (supplementary tutorial)](http://dh.obdurodon.org/git/)
 * [Elli, Command line tips and tricks](./day05_session04_bleeker_CLI-tips-tricks.pdf)
