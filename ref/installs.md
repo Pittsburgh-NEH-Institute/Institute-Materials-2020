@@ -64,10 +64,6 @@ Type `git` at the command line. If it isn’t installed, accept the prompt to in
 
 1. `npm i -g yo`
 1. `npm i -g @existdb/generator-exist`
-### Install *yeoman* for eXist-db
-
-1. `npm i -g yo`
-2. `npm i -g @existdb/generator-exist`
 
 You then can run it with:
 1. `yo @existdb/exist`
