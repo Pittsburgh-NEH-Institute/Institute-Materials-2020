@@ -55,15 +55,6 @@ Time | Topic | Type | Instructor
 20 min | Project management tasks. | Presentation | Chelcie
 **70 min** | **Yeoman and VSCode.** | **Discussion** | **Gabi**
 
-#### 2:00–3:30: Search functionality
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**15 min** | **Review of fields.** | **Presentation** | **Gabi**
-15 min | Facet theory. | Presentation | David
-20 min | Facets in eXist-db searching. | Presentation | Cliff, David
-40 min | Facets and you: thinking about your search interface. | Talk lab | David
-
 ## Week 2
 
 ### Monday, July 18, 2022

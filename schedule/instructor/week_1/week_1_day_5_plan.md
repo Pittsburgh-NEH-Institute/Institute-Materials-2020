@@ -18,7 +18,7 @@ Collaborating on the edition. In session one we introduce the TEI ODD (One Docum
 * Introduce tools for task and issue management.
 * Get ready to make your own app and set up your workspace.
 * Understand tracking branches, development branches, pull requests as branches.
-* Create pull requests on the institute repositories.
+* Use your own repository to practice branches.
 * Become comfortable with merge conflicts and using Git.
 * Understand the development process for creating advanced features.
 * Use several advanced features in eXist-db to support research outcomes.
@@ -49,7 +49,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 40 min | Branches and you. | Presentation|Ronald
-20 min | Issues and pull requests. | Code lab|Elli
+20 min | Practice with branches. | Code lab|Elli
 30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a [vim black hole](https://dev.to/matthew_collison/comment/fi9p)). | Code lab|Leif-Jöran
 
 ## 12:30–2:00: Lunch
@@ -62,10 +62,9 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-15 min | Review of fields. | Presentation|Gabi
-15 min | Facet theory. | Presentation|David
-20 min | Facets in eXist-db searching. | Presentation|Cliff, David
-40 min | Facets and you: thinking about your search interface. | Talk lab|David
+15 min | Facet theory. | Presentation|Cliff
+30 min | Facets and fields in eXist-db searching. | Presentation|David
+45 min | Facets and you: thinking about your search interface. | Talk lab|David
 
 ## 3:30–4:00: Coffee break
 
