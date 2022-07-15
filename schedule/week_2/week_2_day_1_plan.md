@@ -35,7 +35,7 @@ Planning for deployment. In week two, participants prepare the laboratory editio
 
 ### Edition repo stages for session
 
-* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/06-controller)
 * [Final edition](https://github.com/Pittsburgh-NEH-Institute/pr-app)
 
 Time | Topic | Type

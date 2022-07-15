@@ -22,17 +22,6 @@ Time | Topic | Type | Instructor
 60 min | File management and command line basics. | Code lab | Elli
 **30 min** | **XQuery: practice FLWOR (Shakespeare data).** | **Code lab** | **Cliff**
 
-### Wednesday, July 13, 2022
-
-#### 2:00–3:30: Creating a pipeline with XQuery: you are the controller (Ghost Hoax data).
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-30 min | Translating your research goals into your work plan. | Talk lab | Chelcie
-20 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab | Leif-Jöran
-10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab | Leif-Jöran
-**30 min** | **Building a title list with XQuery: Create the view: transform the model to HTML.** | **Code lab** | **Cliff**
-
 ### Thursday, July 14, 2022
 
 #### 9:00–10:30: XML databases and indexes
@@ -43,24 +32,30 @@ Time | Topic | Type | Instructor
 30 min | Indexing and profiling. Examine indexes and profiles in Monex. | Code lab | Leif-Jöran
 30 min | Using Lucene indexes. What are facets and fields? | Code lab | David
 
-### Friday, July 15, 2022
-
-#### 9:00–10:30: ODDs and collaborative encoding
+#### 11:00–12:30: Developing the model to support a feature
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Create Kanban boards and discuss other project management tools. | Presentation | Chelcie, Gabi
-30 min | Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)). | Discussion | Elli, Gabi
-**30 min** | **XQuery: taking stock.** | **Code lab** | **Cliff**
+**30 min** | **Building a title list with XQuery: Create the view: transform the model to HTML.** | **Code lab** | **Cliff**
+60 min | Participants work together on preliminary code that they would like to develop into a feature. | Code lab | Gabi
+
+### Friday, July 15, 2022
 
 #### 2:00–3:30: Search functionality
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-15 min | Review of fields. | Presentation | Gabi
-15 min | Facet theory. | Presentation | David
-**20 min** | **Facets in eXist-db searching.** | **Presentation** | **Cliff, David**
-40 min | Facets and you: thinking about your search interface. | Talk lab | David
+**15 min** | **Facet theory.** | **Presentation** | **Cliff**
+30 min | Facets and fields in eXist-db searching. | Presentation | David
+45 min | Facets and you: thinking about your search interface. | Talk lab | David
+
+#### 4:00–5:30: Catchup session
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+**30 min** | **XQuery: taking stock.** | **Code lab** | **Cliff**
+30 min | Command line tips and tricks. | Code lab | Elli
+30 min | Slide slam. | Code lab | Leif-Jöran
 
 ## Week 2
 

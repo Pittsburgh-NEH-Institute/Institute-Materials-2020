@@ -51,7 +51,7 @@ Time | Topic | Type
 
 ### Edition repo stages for session
 
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
 
 Time | Topic | Type
 ---- | ---- | ---- 

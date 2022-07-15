@@ -15,8 +15,6 @@ XQuery in XML databases. Day four reimagines the edition in a research-driven wa
 * Understand the benefits and limitations of XML databases.
 * Become familiar with the different types of indexes one can use in an XML database.
 * Understand indexes by running queries with and without indexed data.
-* Become familiar with eXist-db index syntax.
-* Implement fields.
 * Gain experience writing code aligned with research goals.
 * Use MVC framework to output *model* data.
 * Prepare to write your own controller.
@@ -34,8 +32,8 @@ XQuery in XML databases. Day four reimagines the edition in a research-driven wa
 
 ### Edition repo stages for session
 
-* [Creating title list: model only](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating title list: model only](https://github.com/Pittsburgh-NEH-Institute/03-titles-model)
+* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/04-index)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -49,12 +47,12 @@ Time | Topic | Type | Instructor
 
 ### Edition repo stages for session
 
-* [Creating index: collection.xconf](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating titles.xql](https://github.com/Pittsburgh-NEH-Institute/03-titles-model)
+* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/05-base-models)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Add your fields to the index and begin querying. | Code lab|David
+30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab|Cliff
 60 min | Participants work together on preliminary code that they would like to develop into a feature. | Code lab|Gabi
 
 ## 12:30–2:00: Lunch
@@ -63,8 +61,8 @@ Time | Topic | Type | Instructor
 
 ### Edition repo stages for session
 
-* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Creating models: feature base models](https://github.com/Pittsburgh-NEH-Institute/05-base-models)
+* [Creating a controller](https://github.com/Pittsburgh-NEH-Institute/06-controller)
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 

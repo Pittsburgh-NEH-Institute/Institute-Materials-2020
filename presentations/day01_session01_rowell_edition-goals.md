@@ -1,8 +1,8 @@
-# Goals for your own editions
+## Goals for your own editions
 
 Chelcie Juliet Rowell • Monday, July 11, 2022 • Advanced Digital Editing: Modeling the Text & Making the Edition • NEH Institute for Advanced Topics in the Digital Humanities
 
-## Who is your edition designed for?
+### 1. Who is your edition designed for?
 
 **Speaker notes:**
 Let’s dive right in!
@@ -19,7 +19,7 @@ Identifying the audience and purpose of your digital edition helps you to make i
 
 Adapted from [Module A3](https://sites.haa.pitt.edu/sustainabilityroadmap/a3-audience), Socio-Technical Sustainability Roadmap, The Visual Media Workshop, University of Pittsburgh.
 
-## Reflecting on your audience(s)
+### 2. Reflecting on your audience(s)
 
 - Did you list several types of users? Sort them into primary and secondary. Your primary audience(s) are the users you’re intentionally designing for.
 - If you listed the “general public,” could you be more specific about the types of people you feel constitute that group?
@@ -35,13 +35,13 @@ When the project was first conceived, the project team identified their audience
 But as the project unfolded, they developed a more specific idea of “enthusiasts of the long 18th century who are outside the academy.”
 So perhaps lifelong readers of Georgette Hayer romances, or folks who watched *Bridgerton* or the 2005 film adaptation of *Pride & Prejudice*, for example. 
 
-## What are you making?
+### 3. What are you making?
 
-1. **Format.** What format will your edition take? What features will it include?
-2. **Need or opportunity.** What might your audience need from your edition and why?
-3. **Key benefit.** How might your edition address the audience needs?
-4. **Alternatives.** What are alternate ways the audience might have this need met?
-5. **Advantage.** How is your edition’s approach different or better? Or both!
+- **Format.** What format will your edition take? What features will it include?
+- **Need or opportunity.** What might your audience need from your edition and why?
+- **Key benefit.** How might your edition address the audience needs?
+- **Alternatives.** What are alternate ways the audience might have this need met?
+- **Advantage.** How is your edition’s approach different or better? Or both!
 
 Adapted from [Project Blueprint](https://training.npr.org/2018/05/07/a-blueprint-for-planning-storytelling-projects), National Public Radio (NPR) Training.
 
@@ -54,7 +54,7 @@ Or perhaps the alternatives you identify aren’t so much competitors to your ed
 For example, perhaps an alternative to a published digital edition, is to encode the text and perform queries locally on your machine, without making the edition public to viewers in order for them to perform their own interpretation.
 In this case the alternative is like a more minimal version of your project, which you pursued due to limited resources, which you’re now committed to expanding upon because you’ve got more money or time. Woohoo!
 
-## Mad lib for refining your edition goals
+### 4. Mad lib for refining your edition goals
 
 **[ Edition title ]** is a **[ format ]** that **[ key benefit ]** for **[ audience ]** who **[ need or opportunity ]**.
 

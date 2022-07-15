@@ -31,9 +31,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | Translating your research goals into your work plan. | Talk lab | Chelcie
-**20 min** | **Building a title list with XQuery: Create the model, part 2: construct model in model namespace.** | **Code lab** | **Leif-Jöran**
-**10 min** | **Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable.** | **Code lab** | **Leif-Jöran**
-30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab | Cliff
+**60 min** | **Building a title list with XQuery: Create the model, part 2: construct model in model namespace.** | **Code lab** | **Leif-Jöran**
 
 ### Thursday, July 14, 2022
 
@@ -70,8 +68,16 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 40 min | Branches and you. | Presentation | Ronald
-20 min | Issues and pull requests. | Code lab | Elli
+20 min | Practice with branches. | Code lab | Elli
 **30 min** | **Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a [vim black hole](https://dev.to/matthew_collison/comment/fi9p)).** | **Code lab** | **Leif-Jöran**
+
+#### 4:00–5:30: Catchup session
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+30 min | XQuery: taking stock. | Code lab | Cliff
+30 min | Command line tips and tricks. | Code lab | Elli
+**30 min** | **Slide slam.** | **Code lab** | **Leif-Jöran**
 
 ## Week 2
 

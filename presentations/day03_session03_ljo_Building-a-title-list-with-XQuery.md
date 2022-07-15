@@ -33,9 +33,12 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 2. And the familiar from yesterday `$path-to-data`, `$articles-coll` and `$articles`
 
 ```xquery
-declare variable $exist:root as xs:string := request:get-parameter("exist:root", "xmldb:exist:///db/apps");
-declare variable $exist:controller as xs:string := request:get-parameter("exist:controller", "/pr-app");
-declare variable $path-to-data as xs:string := $exist:root || $exist:controller || '/data';
+declare variable $exist:root as xs:string := 
+    request:get-parameter("exist:root", "xmldb:exist:///db/apps");
+declare variable $exist:controller as xs:string := 
+    request:get-parameter("exist:controller", "/pr-app");
+declare variable $path-to-data as xs:string := 
+    $exist:root || $exist:controller || '/data';
 (: Cf day 2
  : declare variable $path-to-data as xs:string := '/db/data'; 
  :)
@@ -83,7 +86,7 @@ declare variable $articles as element(tei:TEI)+ := $articles-coll/tei:TEI;
 
 ## Step 7: The result of the query
 
-Our title listing in the Hoax model nmamespace 
+Our title listing in the Hoax model namespace 
 
 ```xquery
 <hoax-model:titles xmlns:hoax-model="http://www.obdurodon.org/model">
@@ -113,9 +116,12 @@ Our title listing in the Hoax model nmamespace
     <hoax-model:title>Resuscitation of The Hammersmith Ghost</hoax-model:title>
     <hoax-model:title>The Ghost</hoax-model:title>
     <hoax-model:title>Thoughts On Seeing Ghosts</hoax-model:title>
-    <hoax-model:title>The Hampstead Ghost? Legal Proceedings against the Police</hoax-model:title>
-    <hoax-model:title>A Black Ghost on the London and Birmingham Railway</hoax-model:title>
-    <hoax-model:title>Fears of a Ghost, and the Fatal Catastrophe</hoax-model:title>
+    <hoax-model:title>
+    The Hampstead Ghost? Legal Proceedings against the Police</hoax-model:title>
+    <hoax-model:title>
+    A Black Ghost on the London and Birmingham Railway</hoax-model:title>
+    <hoax-model:title>
+    Fears of a Ghost, and the Fatal Catastrophe</hoax-model:title>
     <hoax-model:title>A Ghost! A Ghost!</hoax-model:title>
     <hoax-model:title>The New Hammersmith Ghost</hoax-model:title>
     <hoax-model:title>All the world...</hoax-model:title>

@@ -46,21 +46,21 @@ Time | Topic | Type | Instructor
 
 ### Friday, July 15, 2022
 
-#### 9:00–10:30: ODDs and collaborative encoding
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-30 min | Create Kanban boards and discuss other project management tools. | Presentation | Chelcie, Gabi
-**30 min** | **Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)).** | **Discussion** | **Elli, Gabi**
-30 min | XQuery: taking stock. | Code lab | Cliff
-
 #### 11:00–12:30: Git and GitHub in Real Life
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 40 min | Branches and you. | Presentation | Ronald
-**20 min** | **Issues and pull requests.** | **Code lab** | **Elli**
+**20 min** | **Practice with branches.** | **Code lab** | **Elli**
 30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a [vim black hole](https://dev.to/matthew_collison/comment/fi9p)). | Code lab | Leif-Jöran
+
+#### 4:00–5:30: Catchup session
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+30 min | XQuery: taking stock. | Code lab | Cliff
+**30 min** | **Command line tips and tricks.** | **Code lab** | **Elli**
+30 min | Slide slam. | Code lab | Leif-Jöran
 
 ## Week 2
 

@@ -40,6 +40,6 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **40 min** | **Branches and you.** | **Presentation** | **Ronald**
-20 min | Issues and pull requests. | Code lab | Elli
+20 min | Practice with branches. | Code lab | Elli
 30 min | Create merge conflicts on purpose to gain familiarity with resolving them (without being thrown into a [vim black hole](https://dev.to/matthew_collison/comment/fi9p)). | Code lab | Leif-Jöran
 

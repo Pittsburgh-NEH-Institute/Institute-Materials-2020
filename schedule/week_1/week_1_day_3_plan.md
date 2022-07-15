@@ -35,7 +35,7 @@ Practice navigating your file system and using tools at the command line,
                     including Git.
 ### Edition repo stages for session
 
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -51,7 +51,7 @@ Time | Topic | Type
 
 ### Edition repo stages for session
 
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
 
 Time | Topic | Type
 ---- | ---- | ---- 
@@ -66,15 +66,13 @@ Time | Topic | Type
 
 ### Edition repo stages for session
 
-* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/placeholder)
-* [Creating title list: model and view in a module](https://github.com/Pittsburgh-NEH-Institute/placeholder)
+* [Base view: TEI](https://github.com/Pittsburgh-NEH-Institute/01-data)
+* [Creating title list: model and view in a module](https://github.com/Pittsburgh-NEH-Institute/02-titles-no-controller)
 
 Time | Topic | Type
 ---- | ---- | ---- 
 30 min | Translating your research goals into your work plan. | Talk lab
-20 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab
-10 min | Building a title list with XQuery: Prepare to connect the model and the view: save the model to a variable. | Code lab
-30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab
+60 min | Building a title list with XQuery: Create the model, part 2: construct model in model namespace. | Code lab
 
 ## 3:30–4:00: Coffee break
 

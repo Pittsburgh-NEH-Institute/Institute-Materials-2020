@@ -43,33 +43,17 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Add your fields to the index and begin querying. | Code lab | David
+30 min | Building a title list with XQuery: Create the view: transform the model to HTML. | Code lab | Cliff
 **60 min** | **Participants work together on preliminary code that they would like to develop into a feature.** | **Code lab** | **Gabi**
 
 ### Friday, July 15, 2022
 
-#### 9:00–10:30: ODDs and collaborative encoding
+#### 9:00–10:30: Setting up an app with Yeoman and VSCode sync
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**30 min** | **Create Kanban boards and discuss other project management tools.** | **Presentation** | **Chelcie, Gabi**
-**30 min** | **Writing the ODD and other mechanisms for document control and documentation ([TEI Roma](https://romabeta.tei-c.org/)).** | **Discussion** | **Elli, Gabi**
-30 min | XQuery: taking stock. | Code lab | Cliff
-
-#### 2:00–3:30: Search functionality
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**15 min** | **Review of fields.** | **Presentation** | **Gabi**
-15 min | Facet theory. | Presentation | David
-20 min | Facets in eXist-db searching. | Presentation | Cliff, David
-40 min | Facets and you: thinking about your search interface. | Talk lab | David
-
-#### 4:00–5:30: Catchup session
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**90 min** | **Participants’ choice.** | **Code lab** | **Gabi**
+20 min | Project management tasks. | Presentation | Chelcie
+**70 min** | **Yeoman and VSCode.** | **Discussion** | **Gabi**
 
 ## Week 2
 
