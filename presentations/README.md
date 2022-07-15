@@ -39,7 +39,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [David, adding a word-count field to your query](./day04_session01_birnbaum_fields.md)
 * [Cliff, Creating the view](./day04_session02_anderson_create-the-view.md)
 * [Gabi, building the model for a feature](./day04_session02_keane_xquery_feature_model.md)
-* [Hugh, What's a Controller?](./day04_session03_cayless_what_is_a_controller.md)
+* [Hugh, What's a Controller?](./day04_session03_cayless_what-is-a-controller.pdf)
 
 ----
 
