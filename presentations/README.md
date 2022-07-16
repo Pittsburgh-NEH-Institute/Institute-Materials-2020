@@ -32,6 +32,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Gabi, Data modeling](./day03_session02_keane_TEI_modeling.md)
 * [Leif-Jöran, Building a title list (HTML)](./day03_session03_ljo_Building-a-title-list-with-XQuery.md)
 * [Leif-Jöran, Building a title list (PDF)](./day03_session03_ljo_Building-a-title-list-with-XQuery.pdf)
+* [Patrick, Stylometric authorship attribution](./day03_session04_juola_stylometry.pdf)
 
 ### Day 4
 
