@@ -67,16 +67,16 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion | David
-30 min | Assess the project’s current state and critique user experience. | Talk lab | Gabi
+30 min | Assess the laboratory edition project’s current state and look ahead at our tasks for the week. | Talk lab | Gabi
 **40 min** | **Making collaboration work.** | **Discussion** | **Chelcie**
 
 ### Thursday, July 21, 2022
 
-#### 9:00–10:30: Review and practice: version control and project management with git and GitHub.
+#### 2:00–3:30: Review and practice: version control and project management with git and GitHub.
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-20 min | Development and feature branches, tracking branches, and branch strategies. | Code lab | Leif-Jöran
+20 min | Github projects. | Code lab | Gabi
 20 min | Releases and semantic versioning. | Presentation | Hugh
 **15 min** | **Project management reflections.** | **Discussion** | **Chelcie**
 **35 min** | **Planning our own projects.** | **Talk lab** | **Chelcie**
