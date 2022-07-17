@@ -17,7 +17,11 @@ We haven’t built stages for some subsequent housekeeping, but the preceding on
 
 ## 01-data
 
-**Synopsis:** This stage contains just the app data. The hierarchical organization of this part of the repo looks like:
+**Synopsis:** This stage contains just the app data. 
+
+**URL:** <https://github.com/Pittsburgh-NEH-Institute/01-data>
+
+The hierarchical organization of the data part of the repo looks like:
 
 ```
 pr-app
@@ -32,8 +36,6 @@ The *pr-app* main directory has several subdirectories, one of which is called *
 * *aux_xml* contains auxiliary TEI XML files with information about persons and places mentioned in the corpus. We use these for our persons and places lists.
 * *hoax_xml* contains TEI XML files for the newspaper articles that form the main focus of the research. We use these for the titles list (including the search interface), the formatted reading view, and the TEI view.
 * *schemas* contains ODD, Relax NG, and Schematron files used for validating the data. We do not use these files for processing. 
-
-**URL:** <https://github.com/Pittsburgh-NEH-Institute/01-data>
 
 When you install and launch this app you see an XML representation of the hierarchical structure of the app. In the next stage we’ll enhance the app by created a formatted list of article titles.
 
@@ -84,9 +86,46 @@ For reasons we explained when we introduced MVC architecture, in Real Life we do
 
 # 04-index
 
-**Synopsis:** This stage 
+**Synopsis:** This stage add a *collection.xconf* file to support indexed retrieval. 
 
 **URL:** <https://github.com/Pittsburgh-NEH-Institute/04-index>
+
+eXist-db can perform most XQuery operations with or without indexing, but:
+
+1. Some eXist-db functions and features are supported only if the developer has created an appropriate index.
+2. Some functions operate more quickly, especially with large amounts of data, if a supporting index is present.
+
+eXist-db provides an `ft:query()` function that can be used to search for words or other strings of text. Some of the functionality of `ft:query()` can be mimicked with standard XPath functions (e.g., `contains()`, `matches()`), but one unique feature of `ft:query()` is that provides straightforward support for highlighting words that are searched in a text. For example, we can search for all articles in our collection that contain the word “constable” and `ft:query()` provides a simple way of highlighting that word when it returns the document.
+
+In this sample repo we add a *collection.xconf* that configures a full-text index for `<TEI>` elements. We then modify *titles.xql* by making the following changes:
+
+```
+declare variable $articles as element(tei:TEI)+ 
+    := $articles-coll/tei:TEI[ft:query(., 'ghost')];
+```
+
+Instead of setting the variable `$articles` equal to all `<TEI>` elements in the corpus, we use the full-text index to filter those articles and keep only those that contain the word “ghost”. We’ll talk about how `ft:query()` does that filtering later. Since all of our articles contain the word “ghost” we aren’t really filtering anything, but the full-text index makes it possible to highlight all matches, which we do with:
+
+```
+declare variable $data as element(m:titles) :=
+<m:titles>{
+    for $article in $articles 
+    return
+        <m:title>{$article//tei:titleStmt/tei:title => util:expand()}</m:title>
+}</m:titles>;
+```
+
+Instead of stringifying the title we arrow it into the eXist-db `util:expand()` function, which highlights all matches identified by the `ft:query()` function. The output now looks like (excerpt):
+
+```
+<title xmlns="http://www.tei-c.org/ns/1.0">
+Fears of a
+<exist:match xmlns:exist="http://exist.sourceforge.net/NS/exist">Ghost</exist:match>
+, and the Fatal Catastrophe
+</title>
+```
+
+The `ft:query()` and `util:expand()` functions conspire to wrap `<exist:match>` tags around all parts of the result that matched the string specified as the second argument to `ft:query()`. We can’t just stringify the title now because we would lose that highlighting, but in Real Life the XQuery that transforms the model into the view would throw away the `<title>` tags and translate `<exist:match>` into an HTML `<span>` with a `@class` value that can be used for CSS styling. 
 
 # 05-base-models
 
