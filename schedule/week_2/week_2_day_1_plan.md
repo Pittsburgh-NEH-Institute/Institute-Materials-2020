@@ -13,8 +13,7 @@ Planning for deployment. In week two, participants prepare the laboratory editio
 
 ## Outcome goals
 * Take stock.
-* Revisit scope and prevent scope creep.
-* Establish good collaborative critique practices.
+* Look ahead at week 2.
 * Figure out “get smart” tasks.
 * Plan next steps.
 * Assess benefits and limitations of frameworks vs bespoke editions.
@@ -41,7 +40,7 @@ Planning for deployment. In week two, participants prepare the laboratory editio
 Time | Topic | Type
 ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion
-30 min | Assess the project’s current state and critique user experience. | Talk lab
+30 min | Assess the laboratory edition project’s current state and look ahead at our tasks for the week. | Talk lab
 40 min | Making collaboration work. | Discussion
 
 ## 10:30–11:00: Coffee break

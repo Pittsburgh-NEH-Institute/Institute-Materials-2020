@@ -64,12 +64,12 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 20 min | Looking back on week 1. | Discussion | David
-**30 min** | **Assess the project’s current state and critique user experience.** | **Talk lab** | **Gabi**
+**30 min** | **Assess the laboratory edition project’s current state and look ahead at our tasks for the week.** | **Talk lab** | **Gabi**
 40 min | Making collaboration work. | Discussion | Chelcie
 
 ### Tuesday, July 19, 2022
 
-#### 11:00–12:30: Putting MVC together: building the reading view
+#### 2:00–3:30: Putting MVC together: building the reading view
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -77,13 +77,13 @@ Time | Topic | Type | Instructor
 30 min | The View in action (article reading-view query). | Code lab | Cliff
 30 min | The Model, View, and Controller in action (article reading-view query). | Code lab | David
 
-#### 4:00–5:30: Visualizing our geodata and integrating external APIs
+#### 4:00–5:30: XQuery topics + review
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**15 min** | **Write the model for our geodata and explore our ideas on how visual information can be displayed.** | **Talk lab** | **Gabi**
-**15 min** | **Choose the right mapping tools for your project.** | **Talk lab** | **Gabi**
-**60 min** | **Together, we integrate basic map functionality into the app using a mapping JS library.** | **Code lab** | **Gabi**
+30 min | Using regular expressions to clean and encode our data. | Code lab | Cliff
+30 min | Find all the TEI elements used / attribute values used / etc. | Code lab | Leif-Jöran
+**30 min** | **GEOJSON for maps.** | **Code lab** | **Gabi**
 
 ### Wednesday, July 20, 2022
 
@@ -107,6 +107,14 @@ Time | Topic | Type | Instructor
 
 ### Thursday, July 21, 2022
 
+#### 9:00–10:30: Visualizing our geodata and integrating external APIs
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+**15 min** | **Write the model for our geodata and explore our ideas on how visual information can be displayed.** | **Talk lab** | **Gabi**
+**15 min** | **Choose the right mapping tools for your project.** | **Talk lab** | **Gabi**
+**60 min** | **Together, we integrate basic map functionality into the app using a mapping JS library.** | **Code lab** | **Gabi**
+
 #### 11:00–12:30: Application programming interfaces (API)
 
 Time | Topic | Type | Instructor
@@ -114,6 +122,15 @@ Time | Topic | Type | Instructor
 30 min | What is an Application Programming Interface (API)? | Presentation | Hugh
 **30 min** | **Our verb and noun choices, how we made them, what we might have done differently.** | **Presentation** | **Gabi**
 30 min | Documenting our decisions. | Talk lab | Leif-Jöran
+
+#### 2:00–3:30: Review and practice: version control and project management with git and GitHub.
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+**20 min** | **Github projects.** | **Code lab** | **Gabi**
+20 min | Releases and semantic versioning. | Presentation | Hugh
+15 min | Project management reflections. | Discussion | Chelcie
+35 min | Planning our own projects. | Talk lab | Chelcie
 
 ### Friday, July 22, 2022
 

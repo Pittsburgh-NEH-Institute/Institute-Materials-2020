@@ -83,12 +83,20 @@ Time | Topic | Type | Instructor
 
 ### Tuesday, July 19, 2022
 
-#### 9:00–10:30: Creating views and using typeswitch
+#### 9:00–10:30: XQuery: model and view from the ground up
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**30 min** | **Using typeswitch and local functions (title-list query).** | **Code lab** | **Leif-Jöran**
-60 min | Using typeswitch and local functions to create rich text views (title-list query). | Code lab | Cliff
+**45 min** | **Enhancing the title list model.** | **Code lab** | **Leif-Jöran**
+45 min | Adapt the view to the model using `typeswitch`. | Code lab | Cliff
+
+#### 4:00–5:30: XQuery topics + review
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+30 min | Using regular expressions to clean and encode our data. | Code lab | Cliff
+**30 min** | **Find all the TEI elements used / attribute values used / etc.** | **Code lab** | **Leif-Jöran**
+30 min | GEOJSON for maps. | Code lab | Gabi
 
 ### Wednesday, July 20, 2022
 
@@ -112,15 +120,6 @@ Time | Topic | Type | Instructor
 
 ### Thursday, July 21, 2022
 
-#### 9:00–10:30: Review and practice: version control and project management with git and GitHub.
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**20 min** | **Development and feature branches, tracking branches, and branch strategies.** | **Code lab** | **Leif-Jöran**
-20 min | Releases and semantic versioning. | Presentation | Hugh
-15 min | Project management reflections. | Discussion | Chelcie
-35 min | Planning our own projects. | Talk lab | Chelcie
-
 #### 11:00–12:30: Application programming interfaces (API)
 
 Time | Topic | Type | Instructor
@@ -128,14 +127,6 @@ Time | Topic | Type | Instructor
 30 min | What is an Application Programming Interface (API)? | Presentation | Hugh
 30 min | Our verb and noun choices, how we made them, what we might have done differently. | Presentation | Gabi
 **30 min** | **Documenting our decisions.** | **Talk lab** | **Leif-Jöran**
-
-#### 2:00–3:30: Database indexes, queries, and profiling
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**30 min** | **Understanding eXist-db indexing.** | **Presentation** | **Leif-Jöran**
-**40 min** | **Examining indexes and profiling queries in Monex.** | **Code lab** | **David, Leif-Jöran**
-**20 min** | **Optimizing queries.** | **Code lab** | **Leif-Jöran**
 
 ### Friday, July 22, 2022
 

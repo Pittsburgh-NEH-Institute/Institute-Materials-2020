@@ -28,5 +28,5 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **30 min** | **HTML basics.** | **Code lab** | **Emma**
 30 min | CSS basics. | Code lab | Mason
-30 min | Flexbox basics ([Complete guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)). | Code lab | David
+30 min | Flexbox basics ([Complete guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)). | Code lab | Mason
 

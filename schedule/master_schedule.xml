@@ -763,6 +763,11 @@
                 </repos>
                 <act time="20" type="Discussion">
                     <desc>Looking back on week 1.</desc>
+                    <!-- What you've learned
+                         How does what you've learned work?
+                         Where are we in app development?
+                         Where do we go from here?
+                    -->
                     <outcome>
                         <goal>Take stock.</goal>
                     </outcome>
@@ -770,11 +775,28 @@
                         <instructor>David</instructor>
                     </instructors>
                 </act>
+                <!-- 
+                    wary of asking questions here, how should we structure?
+                     Organize review in a more responsive way.
+                     DO: talk/write pseudo-code for search?
+                     sticking points: XQuery
+                -->
                 <act time="30" type="Talk_lab">
-                    <desc>Assess the project’s current state and critique user experience.</desc>
+                    <desc>Assess the laboratory edition project’s current state and look ahead at our tasks for the week.</desc>
+                    
+                    <!-- 
+                    state of pr-app
+                    what's on their computer
+                    review each stage we have so far
+                    how would I move forward with my own app?
+                    here's day 1, day 2, day 3, day 4, day 5.
+                    how do we get from the skeleton to the functional app.
+                    goal setting.
+                    assign Cliff's chapter.
+                    
+                    -->
                     <outcome>
-                        <goal>Revisit scope and prevent scope creep.</goal>
-                        <goal>Establish good collaborative critique practices.</goal>
+                        <goal>Look ahead at week 2.</goal>
                     </outcome>
                     <instructors>
                         <instructor>Gabi</instructor>
@@ -842,7 +864,7 @@
                 <act time="30" type="Code_lab">
                     <desc>Flexbox basics ([Complete guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)).</desc>
                     <instructors>
-                        <instructor>David</instructor>
+                        <instructor>Mason</instructor>
                     </instructors>
                 </act>
             </slot>
@@ -868,12 +890,10 @@
                 operator that helps us mimic XSLT template processing in XQuery. With typeswitch, we
                 begin to develop the *view* components of the laboratory edition’s MVC architecture.
                 In session two, participants return to the application in eXist-db and gain
-                experience with application requirements. In the afternoon, we introduce writing and
-                testing user-defined functions. To close out the day, we discuss mapping features
-                and use an external JavaScript library and API to create embed a map in our
-                application.</syn>
+                experience with application requirements for search and reading view features. To close out the day, we work on XQuery problems
+                and concepts that appear in real life project issues.</syn>
             <slot time="09:00:00">
-                <title>Creating views and using typeswitch</title>
+                <title>XQuery: model and view from the ground up</title>
                 <repos>
                     <repo>
                         <repo-name>Creating index</repo-name>
@@ -885,17 +905,18 @@
                     </repo>
                 </repos>
                 <!-- Titles list using FLWOR => titles list using typeswitch -->
-                <act time="30" type="Code_lab">
-                    <desc>Using typeswitch and local functions (title-list query).</desc>
+                <act time="45" type="Code_lab">
+                    <desc>Enhancing the title list model.</desc>
                     <outcome>
-                        <goal>Learn how to use `typeswitch` for dispatch.</goal>
+                        <goal>Add more information to this feature.</goal>
+                        <goal>Practice XQuery.</goal>
                     </outcome>
                     <instructors>
                         <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
-                <act time="60" type="Code_lab">
-                    <desc>Using typeswitch and local functions to create rich text views (title-list query).</desc>
+                <act time="45" type="Code_lab">
+                    <desc>Adapt the view to the model using `typeswitch`.</desc>
                     <outcome>
                         <goal>Focus on the *view* in MVC in an eXist-db context.</goal>
                     </outcome>
@@ -904,7 +925,7 @@
                     </instructors>
                 </act>
                 <outcome>
-                    <goal>Connect the data model and view by enhancing the controller.</goal>
+                    <goal>Connect the data, model, and view.</goal>
                 </outcome>
             </slot>
             <slot time="10:30:00">
@@ -914,6 +935,39 @@
                 </act>
             </slot>
             <slot time="11:00:00">
+                <title>Search function</title>
+                <repos>
+                    <repo>
+                        <repo-name>Creating reading view</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Creating functions.xqm</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                </repos>
+                <!-- Code to create field values was originally inline; now create function library-->
+                
+                <!-- search interface discussion here instead? -->
+                <act time="90" type="Code_lab">
+                    <desc>Search interface.</desc>
+                    <instructors>
+                        <instructor>David</instructor>
+                        <instructor>Hugh</instructor>
+                    </instructors>
+                </act>
+                <outcome>
+                    <goal>Build a simplified search.</goal>
+                </outcome>
+            </slot>
+            
+            <slot time="12:30:00">
+                <title>Lunch</title>
+                <act time="90">
+                    <desc>Lunch</desc>
+                </act>
+            </slot>
+            <slot time="14:00:00">
                 <!-- Same as above, but for simplified reading view -->
                 <title>Putting MVC together: building the reading view</title>
                 <repos>
@@ -945,49 +999,6 @@
                     </instructors>
                 </act>
             </slot>
-            <slot time="12:30:00">
-                <title>Lunch</title>
-                <act time="90">
-                    <desc>Lunch</desc>
-                </act>
-            </slot>
-            <slot time="14:00:00">
-                <title>XQuery functions and unit testing</title>
-                <repos>
-                    <repo>
-                        <repo-name>Creating reading view</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
-                    </repo>
-                    <repo>
-                        <repo-name>Creating functions.xqm</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
-                    </repo>
-                </repos>
-                <!-- Code to create field values was originally inline; now create function library-->
-                <act time="35" type="Code_lab">
-                    <desc>Writing user-defined functions.</desc>
-                    <instructors>
-                        <instructor>Hugh</instructor>
-                    </instructors>
-                </act>
-                <act time="40" type="Code_lab">
-                    <desc>Testing user-defined functions with XQSuite.</desc>
-                    <instructors>
-                        <instructor>Cliff</instructor>
-                    </instructors>
-                </act>
-                <act time="15" type="Presentation">
-                    <desc>Testing and continuous integration (CI).</desc>
-                    <instructors>
-                        <instructor>Hugh</instructor>
-                    </instructors>
-                </act>
-                <outcome>
-                    <goal>Modularize your code with user-defined functions.</goal>
-                    <goal>Write and run your first tests.</goal>
-                    <goal>Create the gazetteer model for use later.</goal>
-                </outcome>
-            </slot>
             <slot time="15:30:00">
                 <title>Coffee break</title>
                 <act time="30">
@@ -995,39 +1006,21 @@
                 </act>
             </slot>
             <slot time="16:00:00">
-                <title>Visualizing our geodata and integrating external APIs</title>
-                <repos>
-                    <repo>
-                        <repo-name>Creating functions.xqm</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
-                    </repo>
-                    <repo>
-                        <repo-name>Maps and `map`: implementing a map</repo-name>
-                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
-                    </repo>
-                </repos>
-                <act time="15" type="Talk_lab">
-                    <desc>Write the model for our geodata and explore our ideas on how visual information can be displayed.</desc>
+                <title>XQuery topics + review</title>
+                <act time="30" type="Code_lab">
+                    <desc>Using regular expressions to clean and encode our data.</desc>
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>Cliff</instructor>
                     </instructors>
                 </act>
-                <act time="15" type="Talk_lab">
-                    <desc>Choose the right mapping tools for your project.</desc>
-                    <outcome>
-                        <goal>Evaluate whether the best visualization for your data is a map.</goal>
-                    </outcome>
+                <act time="30" type="Code_lab">
+                   <desc>Find all the TEI elements used / attribute values used / etc.</desc>
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
-                <act time="60" type="Code_lab">
-                    <desc>Together, we integrate basic map functionality into the app using a mapping JS library.</desc>
-                    <outcome>
-                        <goal>Use external documentation and tutorials to create and adapt code for
-                            your project.</goal>
-                        <goal>Introduce external APIs.</goal>
-                    </outcome>
+                <act type="Code_lab" time="30">
+                    <desc>GEOJSON for maps.</desc>
                     <instructors>
                         <instructor>Gabi</instructor>
                     </instructors>
@@ -1200,49 +1193,46 @@
         <day d="Thursday">
             <date>July 21, 2022</date>
             <syn>Data access and APIs. The morning sessions focus on accommodating both the
-                developer-user and the eventual end-user. First, participants learn to collaborate
-                using branches and implement semantic versioning. In the second session we introduce
-                Application Programming Interfaces (APIs). The afternoon’s session allows
-                participants to profile and optimize their queries using Monex. The final session is
-                reserved for review and catch-up.</syn>
+                developer-user and the eventual end-user. First, we live code the map feature using a Mapbox JS library. In the second session we introduce
+                Application Programming Interfaces (APIs). Next, participants learn to collaborate
+                using Github projects and implement semantic versioning. The special topic session is a presentation on IIIF from Jeffrey Witt.</syn>
+            
             <slot time="09:00:00">
-                <title>Review and practice: version control and project management with git and GitHub.</title>
+                <title>Visualizing our geodata and integrating external APIs</title>
                 <repos>
                     <repo>
-                        <repo-name>Your repo</repo-name>
-                        <repo-link>https://example.com</repo-link>
+                        <repo-name>Creating functions.xqm</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
+                    </repo>
+                    <repo>
+                        <repo-name>Maps and `map`: implementing a map</repo-name>
+                        <repo-link>https://github.com/Pittsburgh-NEH-Institute/placeholder</repo-link>
                     </repo>
                 </repos>
-                <act time="20" type="Code_lab">
-                    <desc>Development and feature branches, tracking branches, and branch
-                        strategies.</desc>
+                <act time="15" type="Talk_lab">
+                    <desc>Write the model for our geodata and explore our ideas on how visual information can be displayed.</desc>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="15" type="Talk_lab">
+                    <desc>Choose the right mapping tools for your project.</desc>
                     <outcome>
-                        <goal>Use branches effectively.</goal>
+                        <goal>Evaluate whether the best visualization for your data is a map.</goal>
                     </outcome>
                     <instructors>
-                        <instructor>Leif-Jöran</instructor>
+                        <instructor>Gabi</instructor>
                     </instructors>
                 </act>
-                <act time="20" type="Presentation">
-                    <desc>Releases and semantic versioning.</desc>
+                <act time="60" type="Code_lab">
+                    <desc>Together, we integrate basic map functionality into the app using a mapping JS library.</desc>
                     <outcome>
-                        <goal>Learn about version numbering.</goal>
+                        <goal>Use external documentation and tutorials to create and adapt code for
+                            your project.</goal>
+                        <goal>Introduce external APIs.</goal>
                     </outcome>
                     <instructors>
-                        <instructor>Hugh</instructor>
-                    </instructors>
-                </act>
-                <act time="15" type="Discussion">
-                    <desc>Project management reflections.</desc>
-                    <!-- Part of the look-back that is otherwise on Friday, session 2 -->
-                    <instructors>
-                        <instructor>Chelcie</instructor>
-                    </instructors>
-                </act>
-                <act time="35" type="Talk_lab">
-                    <desc>Planning our own projects.</desc>
-                    <instructors>
-                        <instructor>Chelcie</instructor>
+                        <instructor>Gabi</instructor>
                     </instructors>
                 </act>
             </slot>
@@ -1303,6 +1293,46 @@
                 </act>
             </slot>
             <slot time="14:00:00">
+                <title>Review and practice: version control and project management with git and GitHub.</title>
+                <repos>
+                    <repo>
+                        <repo-name>Your repo</repo-name>
+                        <repo-link>https://example.com</repo-link>
+                    </repo>
+                </repos>
+                <act time="20" type="Code_lab">
+                    <desc>Github projects.</desc>
+                    <outcome>
+                        <goal>Use branches effectively.</goal>
+                    </outcome>
+                    <instructors>
+                        <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="20" type="Presentation">
+                    <desc>Releases and semantic versioning.</desc>
+                    <outcome>
+                        <goal>Learn about version numbering.</goal>
+                    </outcome>
+                    <instructors>
+                        <instructor>Hugh</instructor>
+                    </instructors>
+                </act>
+                <act time="15" type="Discussion">
+                    <desc>Project management reflections.</desc>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
+                </act>
+                <act time="35" type="Talk_lab">
+                    <desc>Planning our own projects.</desc>
+                    <instructors>
+                        <instructor>Chelcie</instructor>
+                    </instructors>
+                </act> 
+            </slot>
+            <!--  
+            <slot time="14:00:00">
                 <title>Database indexes, queries, and profiling</title>
                 <repos>
                     <repo>
@@ -1333,6 +1363,7 @@
                     <goal>Learn to optimize queries.</goal>
                 </outcome>
             </slot>
+            -->
             <slot time="15:30:00">
                 <title>Coffee break</title>
                 <act time="30">

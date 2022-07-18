@@ -39,13 +39,11 @@ Time | Topic | Type | Instructor
 
 ### Tuesday, July 19, 2022
 
-#### 2:00–3:30: XQuery functions and unit testing
+#### 11:00–12:30: Search function
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**35 min** | **Writing user-defined functions.** | **Code lab** | **Hugh**
-40 min | Testing user-defined functions with XQSuite. | Code lab | Cliff
-**15 min** | **Testing and continuous integration (CI).** | **Presentation** | **Hugh**
+**90 min** | **Search interface.** | **Code lab** | **David, Hugh**
 
 ### Wednesday, July 20, 2022
 
@@ -61,15 +59,6 @@ Time | Topic | Type | Instructor
 
 ### Thursday, July 21, 2022
 
-#### 9:00–10:30: Review and practice: version control and project management with git and GitHub.
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-20 min | Development and feature branches, tracking branches, and branch strategies. | Code lab | Leif-Jöran
-**20 min** | **Releases and semantic versioning.** | **Presentation** | **Hugh**
-15 min | Project management reflections. | Discussion | Chelcie
-35 min | Planning our own projects. | Talk lab | Chelcie
-
 #### 11:00–12:30: Application programming interfaces (API)
 
 Time | Topic | Type | Instructor
@@ -77,6 +66,15 @@ Time | Topic | Type | Instructor
 **30 min** | **What is an Application Programming Interface (API)?** | **Presentation** | **Hugh**
 30 min | Our verb and noun choices, how we made them, what we might have done differently. | Presentation | Gabi
 30 min | Documenting our decisions. | Talk lab | Leif-Jöran
+
+#### 2:00–3:30: Review and practice: version control and project management with git and GitHub.
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+20 min | Github projects. | Code lab | Gabi
+**20 min** | **Releases and semantic versioning.** | **Presentation** | **Hugh**
+15 min | Project management reflections. | Discussion | Chelcie
+35 min | Planning our own projects. | Talk lab | Chelcie
 
 ### Friday, July 22, 2022
 

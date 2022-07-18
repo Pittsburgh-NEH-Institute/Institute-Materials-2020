@@ -61,14 +61,14 @@ Time | Topic | Type | Instructor
 
 ### Tuesday, July 19, 2022
 
-#### 9:00–10:30: Creating views and using typeswitch
+#### 9:00–10:30: XQuery: model and view from the ground up
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-30 min | Using typeswitch and local functions (title-list query). | Code lab | Leif-Jöran
-**60 min** | **Using typeswitch and local functions to create rich text views (title-list query).** | **Code lab** | **Cliff**
+45 min | Enhancing the title list model. | Code lab | Leif-Jöran
+**45 min** | **Adapt the view to the model using `typeswitch`.** | **Code lab** | **Cliff**
 
-#### 11:00–12:30: Putting MVC together: building the reading view
+#### 2:00–3:30: Putting MVC together: building the reading view
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
@@ -76,13 +76,13 @@ Time | Topic | Type | Instructor
 **30 min** | **The View in action (article reading-view query).** | **Code lab** | **Cliff**
 30 min | The Model, View, and Controller in action (article reading-view query). | Code lab | David
 
-#### 2:00–3:30: XQuery functions and unit testing
+#### 4:00–5:30: XQuery topics + review
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-35 min | Writing user-defined functions. | Code lab | Hugh
-**40 min** | **Testing user-defined functions with XQSuite.** | **Code lab** | **Cliff**
-15 min | Testing and continuous integration (CI). | Presentation | Hugh
+**30 min** | **Using regular expressions to clean and encode our data.** | **Code lab** | **Cliff**
+30 min | Find all the TEI elements used / attribute values used / etc. | Code lab | Leif-Jöran
+30 min | GEOJSON for maps. | Code lab | Gabi
 
 ### Friday, July 22, 2022
 
