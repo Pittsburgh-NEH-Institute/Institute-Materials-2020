@@ -40,8 +40,8 @@ Think of a particular partner (for example, scholars, technologists, library wor
 
 ### References
 
-- Gavia Libraria. 2011. "[The c-word](https://web.archive.org/web/20180126163329/https://gavialib.com/2011/12/the-c-word/)."
-
 - Appleford, Simon, and Jennifer Guiliano. 2013. "[Recruiting Partners](https://web.archive.org/web/20140219212931/http://devdh.org/lectures/teams/partners/)." DevDH.
+
+- Gavia Libraria. 2011. "[The c-word](https://web.archive.org/web/20180126163329/https://gavialib.com/2011/12/the-c-word/)."
 
 - Rowell, Chelcie Juliet, and Alix Keener. 2021. [Pre-print of "Sharing Authority in Collaborative Digital Humanities Pedagogy: Library Workers' Perspectives."](https://hcommons.org/deposits/item/hc:41125) In *Debates in Digital Humanities Pedagogy*, edited by Brian Croxall and Diane Jakacki, forthcoming from the University of Minnesota Press.
