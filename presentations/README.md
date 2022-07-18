@@ -55,6 +55,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 ### Day 6 | Monday of Week 1
 
 * [Rowell, Making collaboration work](./day06_session01_rowell_making-collaboration-work.md)
+* [Cayless, A Wander Through the Digtal Edition Landscape](./day06_session02_cayless.pdf)
 
 ----
 
