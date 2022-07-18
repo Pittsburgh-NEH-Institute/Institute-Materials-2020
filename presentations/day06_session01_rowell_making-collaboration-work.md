@@ -18,4 +18,4 @@ Think of a particular partner (for example, scholars, technologists, library wor
 
 2. What is the **value** of the project *to the partner*?
 
-3. What is the pattern of their engagement? For example, the **frequency** of their contributions (one-time, semesterly, monthly, daily or embedded). But also the **density** of their contribution (what authority they have over the nature of the project).
+3. What is the pattern of their engagement? For example, the **frequency** of their contributions (one-time, semesterly, monthly, daily or embedded), but also the **density** of their contribution (what authority they have over the nature of the project).
