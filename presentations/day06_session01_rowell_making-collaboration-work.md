@@ -4,11 +4,11 @@
 
 Think of a past project. You may draw from your professional life (for example, co-teaching a course or carrying out a grant-funded project) or personal life (for example, planning a move or an event).
 
-1. What were the most pleasurable parts of working with your collaborator(s)?
+1. What were the most **pleasurable** parts of working with your collaborator(s)?
 
-2. What were the most challenging parts of working with your collaborator(s)?
+2. What were the most **challenging** parts of working with your collaborator(s)?
 
-3. What contributed to making the experience of this project pleasurable and/or challenging?
+3. What **contributing factors** made the experience of carrying out this project pleasurable and/or challenging?
 
 ### Discussion 2: Reflecting on Current Edition Collaborators
 
