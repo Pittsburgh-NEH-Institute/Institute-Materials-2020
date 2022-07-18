@@ -129,13 +129,14 @@ The `ft:query()` and `util:expand()` functions conspire to wrap `<exist:match>` 
 
 # 05-base-models
 
-**Synopsis:** This stage 
+**Synopsis:** This stage creates models for article titles, persons,
+and places (the persons and places are new). There is no controller yet and it does not create views.
 
 **URL:** <https://github.com/Pittsburgh-NEH-Institute/05-base-models>
 
 # 06-controller
 
-**Synopsis:** This stage 
+**Synopsis:** This stage builds on 05-base-models by using the controller to creates views for titles, persons, and places.
 
 **URL:** <https://github.com/Pittsburgh-NEH-Institute/06-controller>
 
