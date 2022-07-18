@@ -42,6 +42,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Cliff, Creating the view](./day04_session02_anderson_create-the-view.md)
 * [Gabi, building the model for a feature](./day04_session02_keane_xquery_feature_model.md)
 * [Hugh, What's a Controller?](./day04_session03_cayless_what-is-a-controller.pdf)
+* [Ronald, Collation](./day04_session04_dekker_collation.pdf)
 
 ### Day 5 | Friday of Week 1
 
