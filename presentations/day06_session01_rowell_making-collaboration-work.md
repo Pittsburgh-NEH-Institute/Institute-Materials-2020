@@ -14,8 +14,8 @@ Think of a past project. You may draw from your professional life (for example, 
 
 Think of a particular partner (for example, scholars, technologists, library workers, students enrolled in a course centered upon your edition, members of the public who are contributing through crowdsourcing). You can repeat this reflective exercise, answering this set of questions for each type of partner.
 
-1. What will this partner contribute?
+1. What will be this partner's **contributions**?
 
-2. What is the value of the project **to the partner**?
+2. What is the **value** of the project *to the partner*?
 
 3. What is the pattern of their engagement? For example, the **frequency** of their contributions (one-time, semesterly, monthly, daily or embedded). But also the **density** of their contribution (what authority they have over the nature of the project).
