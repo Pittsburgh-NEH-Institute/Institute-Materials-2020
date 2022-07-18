@@ -2,11 +2,9 @@
 ## Synopsis
 
 Data access and APIs. The morning sessions focus on accommodating both the
-                developer-user and the eventual end-user. First, participants learn to collaborate
-                using branches and implement semantic versioning. In the second session we introduce
-                Application Programming Interfaces (APIs). The afternoon’s session allows
-                participants to profile and optimize their queries using Monex. The final session is
-                reserved for review and catch-up.
+                developer-user and the eventual end-user. First, we live code the map feature using a Mapbox JS library. In the second session we introduce
+                Application Programming Interfaces (APIs). Next, participants learn to collaborate
+                using Github projects and implement semantic versioning. The special topic session is a presentation on IIIF from Jeffrey Witt.
 
 ## Outcome goals
 * Evaluate whether the best visualization for your data is a map.

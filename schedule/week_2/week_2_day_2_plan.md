@@ -5,10 +5,8 @@ Implementing publication strategies. The morning is devoted to typeswitch, an
                 operator that helps us mimic XSLT template processing in XQuery. With typeswitch, we
                 begin to develop the *view* components of the laboratory edition’s MVC architecture.
                 In session two, participants return to the application in eXist-db and gain
-                experience with application requirements. In the afternoon, we introduce writing and
-                testing user-defined functions. To close out the day, we discuss mapping features
-                and use an external JavaScript library and API to create embed a map in our
-                application.
+                experience with application requirements for search and reading view features. To close out the day, we work on XQuery problems
+                and concepts that appear in real life project issues.
 
 ## Outcome goals
 * Add more information to this feature.
