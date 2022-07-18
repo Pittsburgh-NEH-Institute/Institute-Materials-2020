@@ -92,11 +92,14 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 
 ### Project management
 
+* Appleford, Simon, and Jennifer Guiliano. 2013. [DevDH.org](https://web.archive.org/web/20220620025624/https://devdh.org/).
 * Burress, Theresa and Chelcie Juliet Rowell. 2017. "[Project management for digital projects with collaborators beyond the library](https://doi.org/10.1080/10691316.2017.1336954)." _College & undergraduate libraries_, vol. 24, no. 2–4, pp. 300–21.
 
   * See an [open access version of the article by Burress and Rowell](http://hdl.handle.net/2345/bc-ir:107641).
 
+* Gavia Libraria. 2011. "[The c-word](https://web.archive.org/web/20180126163329/https://gavialib.com/2011/12/the-c-word/)."
 * NPR Training. 2018. "[A blueprint for planning storytelling projects](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects)."
+* Rowell, Chelcie Juliet, and Alix Keener. 2021. [Pre-print of "Sharing Authority in Collaborative Digital Humanities Pedagogy: Library Workers' Perspectives."](https://hcommons.org/deposits/item/hc:41125) In *Debates in Digital Humanities Pedagogy*, edited by Brian Croxall and Diane Jakacki, forthcoming from the University of Minnesota Press.
 * Siemens, Lynn. 2012. "[Issues in large-project planning and management](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf)" [PDF], Digital Humanities Summer Institute, University of Victoria.
 * Siemens, Lynn. 2016. "[Project management and the digital humanist](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315707860-35/project-management-digital-humanist-lynne-siemens)," _Doing Digital Humanities: practice, training, research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
 * Varner, Stewart. 2014. "[Project charter](https://web.archive.org/web/20200204172442/https://stewartvarner.com/2014/05/project-charter/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
