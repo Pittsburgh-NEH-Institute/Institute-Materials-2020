@@ -39,6 +39,8 @@
 
 * Bird, Steven, Ewan Klein, and Edward Loper. 2009. _Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit._ Sebastopol: O’Reilly Media. <http://www.nltk.org/book/ch06.html>
 * Hoover, David. 2013. "Text Analysis." _Literary Studies in the Digital Age: An Evolving Anthology_, edited by Kenneth Price and Ray Siemens. New York: Modern Language Association.
+* Juola, Patrick. 2006. “Authorship attribution.” _Foundations and trends in information retrieval_, Vol. 1, No. 3, pp. 233–334. <http://www.mathcs.duq.edu/~juola/papers.d/fnt-aa.pdf>
+* Juola, Patrick. N.D. “JGAAP: Java Graphical Authorship Attribution Program” (software). <https://evllabs.github.io/JGAAP/>
 * Jurafsky, Daniel, and James H. Martin. 2009. _Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition_. Second edition. Upper Saddle River: Pearson Prentice Hall.
 * Luyckx, Kim, Walter Daelemans, and Edward Vanhoutte. 2006. "Stylogenetics: Clustering-based stylistic analysis of literary corpora." _Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC’06)_, Genova, Italy.
 * Schomaker, Lambert. 2007. "Advances in writer identification and verification." _ICDAR 2007: Ninth International Conference on Document Analysis and Recognition_, vol. 2, pp. 1268-1273.
