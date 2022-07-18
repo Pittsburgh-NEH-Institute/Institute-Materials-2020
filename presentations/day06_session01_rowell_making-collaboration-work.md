@@ -37,3 +37,11 @@ Think of a particular partner (for example, scholars, technologists, library wor
 - We're a linked data project, and our post-docs perform the most substantial labor. We asked them, "What aspects of linked data interest you?" One post-doc was especially interested in places, so the value of the project to that partner was to deepen their skills in developing a gazetteer. In this case, there was good alignment of interests, but challenges of sustainability: The post-doc moved on.
 
 - For my project, the partner I'm thinking of is a 3D modeller, probably someone who makes miniatures for table-top gaming. For this partner, the value of the project is geeking out on gaming history (looking for someone who makes gaming miniatures). And let's be real: money.
+
+### References
+
+- Gavia Libraria. 2011. "[The c-word](https://web.archive.org/web/20180126163329/https://gavialib.com/2011/12/the-c-word/)."
+
+- Appleford, Simon, and Jennifer Guiliano. 2013. "[Recruiting Partners](https://web.archive.org/web/20140219212931/http://devdh.org/lectures/teams/partners/)." DevDH.
+
+- Rowell, Chelcie Juliet, and Alix Keener. 2021. [Pre-print of "Sharing Authority in Collaborative Digital Humanities Pedagogy: Library Workers' Perspectives."](https://hcommons.org/deposits/item/hc:41125) In *Debates in Digital Humanities Pedagogy*, edited by Brian Croxall and Diane Jakacki, forthcoming from the University of Minnesota Press.
