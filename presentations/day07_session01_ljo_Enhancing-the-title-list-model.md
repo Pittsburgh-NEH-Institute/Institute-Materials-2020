@@ -17,7 +17,7 @@ Choose the one for your method:
  * respStmt/name
  * respStmt/resp
 
-### Wrap them in titleStmt element
+### Wrap them in respStmt inside titleStmt element
 
 ## The code after enhancement 
 

@@ -101,3 +101,7 @@ return
       </element>
   }</elements>
 ```
+
+## Your own extensions
+ * Values of attributes
+ * Tokens of text
