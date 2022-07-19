@@ -54,11 +54,12 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ### Day 6 | Monday of Week 2
 
-* [Rowell, Making collaboration work](./day06_session01_rowell_making-collaboration-work.md)
-* [Cayless, A Wander Through the Digtal Edition Landscape](./day06_session02_cayless.pdf)
+* [Chelcie, Making collaboration work](./day06_session01_rowell_making-collaboration-work.md)
+* [Hugh, A wander through the digtal edition landscape](./day06_session02_cayless.pdf)
 
 ### Day 7 | Monday of Week 2
-* [Birnbaum, Cayless, Search](./day07_session02_search.md)
+* [David and Hugh, Search](./day07_session02_search.md)
+* [David, Linking titles to reading](./day07_session03_david_link-titles-to-reading.md)
 
 ----
 
