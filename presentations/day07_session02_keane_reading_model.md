@@ -332,7 +332,6 @@ Declare namespaces
 ===== :)
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace m="http://www.obdurodon.org/model";
-import module namespace hoax ="http://obdurodon.org/hoax" at "functions.xqm";
 
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
