@@ -2,11 +2,12 @@
 
 ## Hugh: Clone, build, install
 
-1. Clone <https://github.com/Pittsburgh-NEH-Institute/06-controller>
+1. Clone <https://github.com/Pittsburgh-NEH-Institute/06-controller> (hopefully you already did this in the first session; if you did, do `git pull`).
 2. `cd` into the repo and type `ant` to build
 3. Make sure eXist-db is started (if it is running, don’t start a second instance!), open it, log in as userid “admin”, open the package manager, and install the new repo that you just built.
 4. Switch to the launcher and launch “My amazing 06-controller application”. You’ll see an error message; this is correct, and we fix it in the next step.
 5. Edit the browser address bar to read `<http://localhost:8080/exist/apps/06-controller/titles>`. If you see a list of titles, put up your green sticky note. If you don’t, put up your red sticky note.
+6. We're going to work in VS Code and sync to eXist. Open the `06-controller` directory in VS Code (hint: if you're on a Mac, do View -> Command Palette..., start typing "shell", and then choose "Install 'code' command in PATH, then you can open folders from the terminal by typing `code <directory_name>`). You will need to start synchronization (lower right status bar, where it says "Off").
 
 If you built and installed this repo earlier, just install the new one over the old one.
  
@@ -29,6 +30,13 @@ collection('/db/apps/06-controller/data/hoax_xml')/descendant::tei:TEI[matches(.
 ```
 
 ## Hugh: Add `request:get-parameter()` to retrieve search term
+
+```xquery
+declare variable $term as xs:string := request:get-parameter('term','');
+declare variable $articles-coll := collection($path-to-data || '/hoax_xml');
+declare variable $articles as element(tei:TEI)* := $articles-coll/tei:TEI[matches(., $term, 'i')];
+```
+
 
 Test by specifying parameter in browser address bar:
 
