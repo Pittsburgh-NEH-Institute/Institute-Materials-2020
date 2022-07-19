@@ -60,6 +60,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 ### Day 7 | Monday of Week 2
 * [David and Hugh, Search](./day07_session02_search.md)
 * [David, Linking titles to reading](./day07_session03_david_link-titles-to-reading.md)
+* [David, Creating a main page](./day07_session03_david_site-index.md)
 
 ----
 
