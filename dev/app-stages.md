@@ -8,6 +8,7 @@ We build the hoax app in several stages, which we’ve saved in separate GitHub 
 * **04-index:** Adds *collection.xconf* to support indexed querying
 * **05-base-models:** Adds base models for persons and places
 * **06-controller:** Adds a *controller.xql* for MVC output of formatted views
+* **06a-controller-search:** Adds word-search functionality to the preceding stage (06-controller).
 
 Note that there is a **03a-titles-model** but not a **03-titles-model**.
 
@@ -78,13 +79,13 @@ This creates a representation of the table in the model namespace and binds the 
 
 For reasons we explained when we introduced MVC architecture, in Real Life we don’t normally transform TEI XML source to HTML output in a single script. What we do instead is create two separate XQuery modules (files), one to build the model and the other to transform the model into the view. These two modules form a *computational pipeline*, where the controller ensures that the output of the first module functions as the input to the second module. We’ve put all of the functionality into a single XQuery module in this repo just to illustrate our target output, but it isn’t what we do in real projects.
 
-# 03a-titles-model
+## 03a-titles-model
 
 **Synopsis:** This stage removes the second step in the preceding pipeline, so we create the model for the titles list (in the model namespace) and return it directly. 
 
 **URL:** <https://github.com/Pittsburgh-NEH-Institute/03a-titles-model>
 
-# 04-index
+## 04-index
 
 **Synopsis:** This stage add a *collection.xconf* file to support indexed retrieval. 
 
@@ -127,15 +128,33 @@ Fears of a
 
 The `ft:query()` and `util:expand()` functions conspire to wrap `<exist:match>` tags around all parts of the result that matched the string specified as the second argument to `ft:query()`. We can’t just stringify the title now because we would lose that highlighting, but in Real Life the XQuery that transforms the model into the view would throw away the `<title>` tags and translate `<exist:match>` into an HTML `<span>` with a `@class` value that can be used for CSS styling. 
 
-# 05-base-models
+## 05-base-models
 
-**Synopsis:** This stage 
+**Synopsis:** This stage creates models for article titles, persons,
+and places (the persons and places are new). There is no controller yet and it does not create views.
 
 **URL:** <https://github.com/Pittsburgh-NEH-Institute/05-base-models>
 
-# 06-controller
+## 06-controller
 
-**Synopsis:** This stage 
+**Synopsis:** This stage builds on *05-base-models* by using the controller to creates views for titles, persons, and places.
 
 **URL:** <https://github.com/Pittsburgh-NEH-Institute/06-controller>
+
+## 06a-controller-search
+
+**Synopsis:** This stage builds on *06-controller* to add word-search filtering. 
+
+**URL:** <https://github.com/Pittsburgh-NEH-Institute/06a-controller-search>
+
+You can perform the filtering either with the search form shown on the page or by specifying the term in the address bar of the browser. For example (you must enable search filtering for this to work; see below):
+
+1. <http://localhost:8080/exist/apps/06a-controller-search/titles> returns all titles
+2. <http://localhost:8080/exist/apps/06a-controller-search/titles?term=constable> returns titles of all articles where the article text (not necessarily the title) contains the word “constable”
+3. <http://localhost:8080/exist/apps/06a-controller-search/titles?term=potato> returns an informative error message because no article in the collection happens to contain the word “potato”
+
+This stage builds changes two files from *06-controller*:
+
+1. *modules/titles.xql* retrieves a user-specified `$term` parameter and uses it to show titles only for articles that contain the term. If no term is specified, it shows all titles. There are three declarations in *titles.xql* for the `$articles` variable, only one of which can be active at a time (you must comment out the other two). The first does no filtering, the second filters by exact string (so specifying “Constable” will not find articles that contain “constable”), and the third does case-insensitive filtering.
+2. *views/titles-to-html.xql* displays the search form.
 
