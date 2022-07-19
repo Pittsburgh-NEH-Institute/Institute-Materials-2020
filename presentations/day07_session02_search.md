@@ -31,6 +31,13 @@ collection('/db/apps/06-controller/data/hoax_xml')/descendant::tei:TEI[matches(.
 
 ## Hugh: Add `request:get-parameter()` to retrieve search term
 
+```xquery
+declare variable $term as xs:string := request:get-parameter('term','');
+declare variable $articles-coll := collection($path-to-data || '/hoax_xml');
+declare variable $articles as element(tei:TEI)* := $articles-coll/tei:TEI[matches(., $term, 'i')];
+```
+
+
 Test by specifying parameter in browser address bar:
 
 ```
