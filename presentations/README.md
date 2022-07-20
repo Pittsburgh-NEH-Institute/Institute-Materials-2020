@@ -61,12 +61,14 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, Enhancing the title list model](./day07_session01_ljo_Enhancing-the-title-list-model.md)
 * [David and Hugh, Search](./day07_session02_search.md)
 * [David, Linking titles to reading](./day07_session03_david_link-titles-to-reading.md)
+* [Gabi, Reading model code-along](./day07_session02_keane_reading_model.md)
 * [David, Creating a main page](./day07_session03_david_site-index.md)
 * [Leif-Jöran, Find all the TEI elements used / attribute values used / etc](./day07_session04_ljo_Find-all-the-TEI-elements-used.md)
 
 ### Day 8 | Wednesday of Week 2
 
 * [David, the SVG coordinate system and viewBox](./day08_session01_david_svg-coordinates.md)
+* [Gabi, visualization code-along](./day08_session02_keane_visualization.md)
 
 ### Day 9 | Thursday of Week 2
 
