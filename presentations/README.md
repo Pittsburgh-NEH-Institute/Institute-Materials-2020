@@ -66,7 +66,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ### Day 8 | Wednesday of Week 2
 
-Watch this space!
+* [David, the SVG coordinate system and viewBox](./day08_session01_david_svg-coordinates.md)
 
 ### Day 9 | Thursday of Week 2
 
