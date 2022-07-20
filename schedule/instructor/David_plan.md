@@ -93,6 +93,16 @@ Time | Topic | Type | Instructor
 25 min | SVG basic shapes. | Code lab | Leif-Jöran
 25 min | Planning a sample visualization. | Talk lab | Gabi
 
+### Thursday, July 21, 2022
+
+#### 11:00–12:30: Application programming interfaces (API)
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+30 min | What is an Application Programming Interface (API)? | Presentation | Hugh
+**30 min** | **Our verb and noun choices, how we made them, what we might have done differently.** | **Presentation** | **David**
+30 min | Documenting our decisions. | Talk lab | Leif-Jöran
+
 ### Friday, July 22, 2022
 
 #### 11:00–12:30: Implementation choices

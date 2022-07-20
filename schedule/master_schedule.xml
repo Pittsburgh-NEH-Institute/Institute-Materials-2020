@@ -1196,7 +1196,6 @@
                 developer-user and the eventual end-user. First, we live code the map feature using a Mapbox JS library. In the second session we introduce
                 Application Programming Interfaces (APIs). Next, participants learn to collaborate
                 using Github projects and implement semantic versioning. The special topic session is a presentation on IIIF from Jeffrey Witt.</syn>
-            
             <slot time="09:00:00">
                 <title>Visualizing our geodata and integrating external APIs</title>
                 <repos>
@@ -1266,7 +1265,7 @@
                     <desc>Our verb and noun choices, how we made them, what we might have done
                         differently.</desc>
                     <instructors>
-                        <instructor>Gabi</instructor>
+                        <instructor>David</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Talk_lab">

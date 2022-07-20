@@ -115,14 +115,6 @@ Time | Topic | Type | Instructor
 **15 min** | **Choose the right mapping tools for your project.** | **Talk lab** | **Gabi**
 **60 min** | **Together, we integrate basic map functionality into the app using a mapping JS library.** | **Code lab** | **Gabi**
 
-#### 11:00–12:30: Application programming interfaces (API)
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-30 min | What is an Application Programming Interface (API)? | Presentation | Hugh
-**30 min** | **Our verb and noun choices, how we made them, what we might have done differently.** | **Presentation** | **Gabi**
-30 min | Documenting our decisions. | Talk lab | Leif-Jöran
-
 #### 2:00–3:30: Review and practice: version control and project management with git and GitHub.
 
 Time | Topic | Type | Instructor
