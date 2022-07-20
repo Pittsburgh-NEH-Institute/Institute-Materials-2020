@@ -14,9 +14,8 @@ The APIs used in this process are more noun-oriented-- in the point-of-sale syst
 
 Your payment method has nouns like "CARD NUMBER" and "EXP DATE". This are used to complete actions, but they aren't actions themselves. For that reason, you might see the API call look something like this: 
 
-`card_processor_company_name/v1/transactions/authorize/card_id`
+`card_processor_company_name/transactions/authorize/card_id`
 
 And the parameters might be something like 
 
 
-Filenames are always a mess-- programmatic reason is that you can use the ID function. IDs are indexed automatically, filenames are not.
