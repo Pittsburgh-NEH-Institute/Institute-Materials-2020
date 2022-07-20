@@ -64,6 +64,18 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [David, Creating a main page](./day07_session03_david_site-index.md)
 * [Leif-Jöran, Find all the TEI elements used / attribute values used / etc](./day07_session04_ljo_Find-all-the-TEI-elements-used.md)
 
+### Day 8 | Wednesday of Week 2
+
+* [David, the SVG coordinate system and viewBox](./day08_session01_david_svg-coordinates.md)
+
+### Day 9 | Thursday of Week 2
+
+Watch this space!
+
+### Day 10 | Friday of Week 2
+
+Watch this space!
+
 ----
 
 ## Information for instructors
