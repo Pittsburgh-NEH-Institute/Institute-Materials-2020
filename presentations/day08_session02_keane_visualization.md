@@ -9,6 +9,10 @@ Drucker, Johanna. *Graphesis: Visual Forms of Knowledge Production*. Harvard Uni
 - What specific choices did you make? Think about moments of indecision or grey area.
 - What about that visualization are you unable to describe with human language? (Tricky, I realize).
 - How would you frame your question or inquiry to help guide your visualization decisions?
+- When we count, what are we using that count as a proxy for?
+
+## Resources
+- [Visualization resources on Obdurodon](http://dh.obdurodon.org/#visualization)
 
 ## Build the model
 First, we create a new file in the 'modules' subdirectory.
