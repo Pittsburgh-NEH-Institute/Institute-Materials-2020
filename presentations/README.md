@@ -57,10 +57,12 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Chelcie, Making collaboration work](./day06_session01_rowell_making-collaboration-work.md)
 * [Hugh, A wander through the digtal edition landscape](./day06_session02_cayless.pdf)
 
-### Day 7 | Monday of Week 2
+### Day 7 | Tuesday of Week 2
+* [Leif-Jöran, Enhancing the title list model](./day07_session01_ljo_Enhancing-the-title-list-model.md)
 * [David and Hugh, Search](./day07_session02_search.md)
 * [David, Linking titles to reading](./day07_session03_david_link-titles-to-reading.md)
 * [David, Creating a main page](./day07_session03_david_site-index.md)
+* [Leif-Jöran, Find all the TEI elements used / attribute values used / etc](./day07_session04_ljo_Find-all-the-TEI-elements-used.md)
 
 ----
 
