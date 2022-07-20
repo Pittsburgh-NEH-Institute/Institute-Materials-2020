@@ -3,7 +3,7 @@
 ## Goals
 - output in model namespace
 - include any relevant auxiliary data
-- prepare to write the view using `typeswitch`
+- prepare to write the view (using `typeswitch`)
 
 ### Housekeeping
 
@@ -29,7 +29,7 @@ Retrieve controller parameters
 Default path to data is xmldb:exist:///db/apps/pr-app/data/hoax_xml
 ===== :)
 declare variable $exist:root as xs:string := request:get-parameter("exist:root", "xmldb:exist:///db/apps");
-declare variable $exist:controller as xs:string := request:get-parameter("exist:controller", "/pr-app");
+declare variable $exist:controller as xs:string := request:get-parameter("exist:controller", "/06-controller");
 declare variable $path-to-data as xs:string := $exist:root || $exist:controller || '/data/hoax_xml//';
 ```
 
@@ -47,7 +47,9 @@ declare variable $id as xs:string? := request:get-parameter('id', ());
 declare variable $id as xs:string? := 'GH-19CUK-18381104';
 
 (: === from eXist-db book by Priscilla Walmsley, pg 55
-"request:get-parameter is an extension function from the request extension module (see “The request Extension Module” on page 209) that returns the value of a parameter passed in the URL (or of a control in an HTML form−driven request). The second parameter, which in this example is the empty sequence (), can be used to pass a default value."
+"request:get-parameter() is an extension function from the request extension module 
+(see “The request Extension Module” on page 209) that returns the value of a 
+parameter passed in the URL (or of a control in an HTML form−driven request). The second parameter, which in this example is the empty sequence (), can be used to pass a default value."
 
 ```
 
@@ -71,10 +73,9 @@ Retrieve article using $id
 === :)
 declare variable $article as element(tei:TEI)? := 
     collection($path-to-data)//id($id);
-    
 ```
 
-eXist-db automatically indexes any xml:ids like the ones on our data's root TEI elements. We can access them using fn:id(), which is also written as id(), as a path step. Rather than calling the `@xml:id = "$id"` value as a predicate (in pseudocode "only give me the article where the $id variable passed by request:get-parameter() is equal to the one on the article), we can use the id function to call on that indexed ID to locate the article. This is faster (it's indexed, and doesn't need to do that comparison, instead we're just navigating the XML tree) and it also prepares us to pass the current context into ft:query() as well.
+eXist-db automatically indexes any `xml:id` values like the ones on our data's root TEI elements. We can access them using `id()`, which is also written as `fn:id()`, as a path step. Rather than calling the `@xml:id = "$id"` value as a predicate (in pseudocode "only give me the article where the `$id` value assigned by `request:get-parameter()` is equal to the one on the article), we can use the `id()` function to call on that indexed ID to locate the article. This is faster (it's indexed, and doesn't need to do that comparison, instead we're just navigating the XML tree) and it also prepares us to pass the current context into `ft:query()` as well.
 
 ### Add `$article` and execute query
 
@@ -93,7 +94,7 @@ We do have some information that we want to meaningfully rearrange, though, name
 
 ```
 <m:result>
-{article}
+{$article}
 </m:result>
 ```
 
@@ -102,7 +103,7 @@ What do we think we'll get? Is that good enough? What if someone types in an XML
 ```
 if ($article) then
     <m:result>
-    $article
+    {$article}
     </m:result>
 else
     <m:no-result>
@@ -139,7 +140,7 @@ if ($article) then
     return
     <m:result>
     <m:publisher>{$pub-string}</m:publisher>
-    $article
+    {$article}
     </m:result>
 else
     <m:no-result>
@@ -148,12 +149,14 @@ else
 
 ```
 
-Great! This article was published by John Bull, but for data reasons we removed any leading article-parts-of-speech and placed them in an @rend attribute in the source description, so we should test this for an article from The Times, like `GH-TIMES-18040106`. Let's use `string-join()` from pg. 289 of XQuery (Walmsley 289). It accepts as parameters a sequence of strings, one of which can be a separator, so we want to use `@rend`, a `.` for the current context, and then a white space character in quotes as our separator string `' '`. If we just needed to append something to this (or if we wanted to format it as “Times, The”), I would use `concat()` or the handy `||` union operator. This is a matter of preference more than anything else.
+Great! This article was published by John Bull, but for data reasons we removed any leading article-parts-of-speech and placed them in an @rend attribute in the source description, so we should test this for an article from The Times, like `GH-TIMES-18040106`. Let's use `string-join()` from pg. 289 of XQuery (Walmsley 289). It accepts as parameters a sequence of strings, one of which can be a separator, so we want to use `@rend`, a dot for the current context, and then a white space character in quotes as our separator string `' '`. If we just needed to append something to this (or if we wanted to format it as “Times, The”), I would use `concat()` or the handy `||` union operator. This is a matter of preference more than anything else.
 
 
 ```
 if ($article) then
-    let $pub-string as xs:string := $article//tei:sourceDesc//tei:publisher ! string-join((@rend, .), ' ') => normalize-space()
+    let $pub-string as xs:string := $article//tei:sourceDesc//tei:publisher 
+    	! string-join((@rend, .), ' ') 
+    	=> normalize-space()
     return
     <m:result>
     <m:publisher>{$pub-string}</m:publisher>
@@ -257,11 +260,12 @@ else
 
 ```
 
-Fantastic work, let's move on and talk about getting those places. We only care about the places in the article, but it's WAY easier for us to find all the places and then whittle down to the ones in the current context. This is a mistake you're going to make a lot as you start-- you're going to think the easiest pattern to solve a problem is the most incisive one.
+Fantastic work, let's move on and talk about getting those places.
 
-## Ask for David's input here - am I using this correctly?
+## Finding places
 
-Here's the [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) in pseudo code
+Here's the first approach in pseudo code:
+
 > Go find me all the places in my current article. Then, go compare that list to the big gazetteer list and return the ones that match.
 
 This is mostly fine, but you run into issues when you find something in the current article that isn't in the gazetteer. That's a very real possibility in our data, because they're historical places that may represent an idea of a place, a place that you, the researcher, couldn't geolocate, etc.
@@ -302,23 +306,21 @@ else
 What is the syntax for filtering in XQuery and XPath?
 
 ```
-            <m:places>
-                {for $place in $gazetteer//tei:place[@xml:id = $article//tei:placeName]
-                    return <m:place/>}
-            </m:places>
-
+<m:places>
+    {for $place in $gazetteer//tei:place[@xml:id = $article//tei:placeName]
+        return <m:place/>}
+</m:places>
 ```
 
 Doesn't work! Why not? We use `#` marks on the `@ref` attribute values that can be dereferenced to the gazetteer. This is helpful because we don't have to worry about matching anything by accident we're not actually looking for. We can use a nested predicate here! We use the `starts-with()` function (XQuery, pg 285) and `substring()`	 (XQuery, pg 287).
 
 ```
-			<m:places>
-                {for $place in $gazetteer//tei:place
-                [@xml:id = $article//tei:placeName[starts-with(@ref, '#')]/@ref 
-                   ! substring(., 2)]
-                    return <m:place/>}
-           </m:places>
-
+<m:places>
+    {for $place in $gazetteer//tei:place
+          [@xml:id = $article//tei:placeName[starts-with(@ref, '#')]/@ref 
+          ! substring(., 2)]
+          return <m:place/>}
+</m:places>
 ```
 
 Where do we end up? The full XQuery is below, with the placeholder variable removed. We're ready to begin constructing the view!
@@ -330,7 +332,6 @@ Declare namespaces
 ===== :)
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace m="http://www.obdurodon.org/model";
-import module namespace hoax ="http://obdurodon.org/hoax" at "functions.xqm";
 
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
