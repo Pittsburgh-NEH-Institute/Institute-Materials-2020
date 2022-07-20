@@ -68,6 +68,8 @@ This folder contains pdf or markdown versions of all presentations slides.
 ### Day 8 | Wednesday of Week 2
 
 * [David, the SVG coordinate system and viewBox](./day08_session01_david_svg-coordinates.md)
+* [Leif-Jöran, SVG basic shapes](./day08_session01_ljo_svg-basic-shapes.md)
+
 * [Gabi, visualization code-along](./day08_session02_keane_visualization.md)
 
 ### Day 9 | Thursday of Week 2
