@@ -1109,9 +1109,9 @@
                     </repo>
                 </repos>
                 <act time="15" type="Code_lab">
-                    <desc>Stylesheet variables and function variables.</desc>
+                    <desc>Scope of variables.</desc>
                     <instructors>
-                        <instructor>David</instructor>
+                        <instructor>Gabi</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">

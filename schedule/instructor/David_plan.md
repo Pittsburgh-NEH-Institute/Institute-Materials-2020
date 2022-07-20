@@ -93,14 +93,6 @@ Time | Topic | Type | Instructor
 25 min | SVG basic shapes. | Code lab | Leif-Jöran
 25 min | Planning a sample visualization. | Talk lab | Gabi
 
-#### 11:00–12:30: Creating SVG visualizations for the edition
-
-Time | Topic | Type | Instructor
----- | ---- | ---- | ---- 
-**15 min** | **Stylesheet variables and function variables.** | **Code lab** | **David**
-30 min | Create the model. | Code lab | Gabi
-45 min | Implement the planned visualization using the model. | Code lab | Gabi
-
 ### Friday, July 22, 2022
 
 #### 11:00–12:30: Implementation choices
