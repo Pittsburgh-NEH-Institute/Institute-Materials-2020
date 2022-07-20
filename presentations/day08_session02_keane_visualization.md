@@ -31,7 +31,7 @@ Retrieve controller parameters
 Default path to data is xmldb:exist:///db/apps/pr-app/data/hoax_xml
 ===== :)
 declare variable $exist:root as xs:string := request:get-parameter("exist:root", "xmldb:exist:///db/apps");
-declare variable $exist:controller as xs:string := request:get-parameter("exist:controller", "/REPLACE");
+declare variable $exist:controller as xs:string := request:get-parameter("exist:controller", "/06-controller");
 declare variable $path-to-data as xs:string := $exist:root || $exist:controller || '/data/hoax_xml';
 ```
 
@@ -162,14 +162,27 @@ We choose a scale factor of -10x so we can have a manageable y-axis length.
 We need to use a higher order function. This is just a special way of calling a function so that either its input or output is a function too (read more on page 191 of *XQuery for Humanists*). Let's not sweat the syntax right now and just take a look at what this is doing.
 
 ```
-for $article at $pos in ($data/descendant::m:by-article/m:article =>
+{for $article at $pos in ($data//m:article =>
          sort((),function($a){$a/m:date}))
     return
         <svg:rect
-            x="{45}" 
+            x="45" 
             y="{-$y-axis-height}" 
             width="30" 
-            height="{$y-axis-height}"/> 
+            height="{$y-axis-height}"/>
+                                            
+}                                                                      
 ```
 
-Pseudo code for every article
+Pseudo code: for each article (at a position determined by its date, which we ordered), return a rectangle that is 30 pixels wide and as tall as the y-axis.
+
+This took a ton of debugging! You will not get these things right on your first try.
+
+## Build the view: circles
+
+
+
+
+
+
+
