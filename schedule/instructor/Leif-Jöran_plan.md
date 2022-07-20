@@ -114,8 +114,8 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-45 min | Upload TSV and explore data. | Code lab | Elisa
-30 min | Export SVG from Cytoscape and upload to the edition. | Code lab | Elisa
+30 min | Import TSV and explore network analysis data. | Code lab | Elisa
+45 min | Style nodes and edges, create sub-networks from a complex network, and explore export formats from Cytoscape. | Code lab | Elisa
 **15 min** | **(TEI) graphing for eXist-db.** | **Presentation** | **Leif-Jöran**
 
 ### Thursday, July 21, 2022
