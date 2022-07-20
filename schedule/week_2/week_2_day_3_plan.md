@@ -52,7 +52,7 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-15 min | Stylesheet variables and function variables. | Code lab
+15 min | Scope of variables. | Code lab
 30 min | Create the model. | Code lab
 45 min | Implement the planned visualization using the model. | Code lab
 
@@ -72,8 +72,8 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-45 min | Upload TSV and explore data. | Code lab
-30 min | Export SVG from Cytoscape and upload to the edition. | Code lab
+30 min | Import TSV and explore network analysis data. | Code lab
+45 min | Style nodes and edges, create sub-networks from a complex network, and explore export formats from Cytoscape. | Code lab
 15 min | (TEI) graphing for eXist-db. | Presentation
 
 We’ll end each day with a request for feedback, based on a general version of the day’s outcome goals, and we’ll try to adapt on the fly to your responses. Links to the feedback forms are in our Slack workspace in the #daily-feedback channel (posting from Mason on Mon, July 11).

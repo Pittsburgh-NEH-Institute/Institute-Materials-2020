@@ -1109,9 +1109,9 @@
                     </repo>
                 </repos>
                 <act time="15" type="Code_lab">
-                    <desc>Stylesheet variables and function variables.</desc>
+                    <desc>Scope of variables.</desc>
                     <instructors>
-                        <instructor>David</instructor>
+                        <instructor>Gabi</instructor>
                     </instructors>
                 </act>
                 <act time="30" type="Code_lab">
@@ -1170,14 +1170,14 @@
             </slot>
             <slot time="16:00:00">
                 <title>Special topic: Using Cytoscape to visualize network relationships with Elisa Beshero-Bondar</title>
-                <act time="45" type="Code_lab">
-                    <desc>Upload TSV and explore data.</desc>
+                <act time="30" type="Code_lab">
+                    <desc>Import TSV and explore network analysis data.</desc>
                     <instructors>
                         <instructor>Elisa</instructor>
                     </instructors>
                 </act>
-                <act time="30" type="Code_lab">
-                    <desc>Export SVG from Cytoscape and upload to the edition.</desc>
+                <act time="45" type="Code_lab">
+                    <desc>Style nodes and edges, create sub-networks from a complex network, and explore export formats from Cytoscape.</desc>
                     <instructors>
                         <instructor>Elisa</instructor>
                     </instructors>
