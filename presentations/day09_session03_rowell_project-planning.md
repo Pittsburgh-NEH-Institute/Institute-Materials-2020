@@ -22,8 +22,8 @@ Now let's reflect on what we've learned:
 ### A note about sketching
 
 One aspect of the project plan that we haven't yet learned about together is wireframing—though I prefer the word 'sketching' because it feels more humanistic somehow!
-Much of the text in this 'note about sketching' comes from an assignment in a course taught by Ryan Shaw that I took when I was in my master's program.
-Ryan in turn drew heavily on a syllabus by Melandie Feinberg.
+Much of the text in this 'note about sketching' comes from an assignment in a course taught by [Ryan Shaw](https://sils.unc.edu/people/faculty/profiles/Ryan-Shaw) that I took when I was in my master's program.
+Ryan in turn drew heavily on a syllabus by [Melandie Feinberg](https://sils.unc.edu/people/faculty/profiles/Melanie-Feinberg).
 I have since used this assignment as the foundation of in-class activities for small digital projects in courses where I'm a guest instructor, such as guiding biomedical engineers through designing a static website for a medical device they design in their senior year.
 In their case, they are not designing a user interface from scratch, but their sketches serve as a requirements analysis for selecting a Jekyll theme for their website.
 
