@@ -78,6 +78,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, TEI graphing with eXist-db](./day09_session01_ljo_TEI-graphing-with-eXist-db.md)
 * [Hugh, What's an API?](./day09_session02_cayless_apis.pdf)
 * [David, API nouns and verbs](./day09_session02_birnbaum_nouns-and-verbs.md)
+* [Leif-Jöran, TEI graphing with eXist-db](./day09_session02_ljo_Documenting-our-decisions.md)
 * [Chelcie, project planning (and project sketching!)](./day09_session03_rowell_project-planning.md)
 
 ### Day 10 (Friday of Week 2)
