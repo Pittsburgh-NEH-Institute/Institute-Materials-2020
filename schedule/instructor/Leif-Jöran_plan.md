@@ -125,7 +125,7 @@ Time | Topic | Type | Instructor
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 30 min | What is an Application Programming Interface (API)? | Presentation | Hugh
-30 min | Our verb and noun choices, how we made them, what we might have done differently. | Presentation | Gabi
+30 min | Our verb and noun choices, how we made them, what we might have done differently. | Presentation | David
 **30 min** | **Documenting our decisions.** | **Talk lab** | **Leif-Jöran**
 
 ### Friday, July 22, 2022
