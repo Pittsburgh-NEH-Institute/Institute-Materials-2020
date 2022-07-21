@@ -38,7 +38,7 @@ Later, your sketches will be more detailed: coherent and consistent, and showing
 Today we will sketch using paper and pencil.
 Later in the process of developing your edition, you will be 'sketching in software.'
 
-Shaw, Ryan. "[Sketching Assignment](https://aeshin.org/teaching/inls-890-186/2012/fa/assignments/#sketching)." University of North Carolina–Chapel Hill, School of Information and Library Science, INLS 890: Making the Humanities Digital, Fall 2012.
+Shaw, Ryan. "[Sketching assignment](https://aeshin.org/teaching/inls-890-186/2012/fa/assignments/#sketching)." University of North Carolina–Chapel Hill, School of Information and Library Science, INLS 890: Making the Humanities Digital, Fall 2012.
 
 Let's look together at some of Gabi Keane's [wireframes for the pr-app sample edition](https://github.com/Pittsburgh-NEH-Institute/pr-app/tree/main/pr-app-tutorials/wireframe).
 
@@ -60,8 +60,8 @@ As you complete this exercise, you may wish to draw upon the list of [exemplary 
 
       - search results page
       - page listing a particular type of named entity
-      - item page for a document
       - item page for a named entity
+      - item page for a document
       - particular type of visualization
       - etc.
 
