@@ -30,7 +30,7 @@ Read | Get/Post
 Update | Post/Put/Patch
 Delete | Delete
 
-HTTP supports other interactions, e.g., reboot the server. 
+HTTP supports other interactions, e.g., Hugh used the GitHub API in the TEI repos to create a new Git branch. 
 
 *pr-app* requires only Read, which we implement only with Get.
 
