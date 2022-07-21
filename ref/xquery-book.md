@@ -46,8 +46,8 @@ This page provides suggestions for further reading in [XQuery for Humanists](htt
 
 * [Creating SVG visualizations for the edition (Day 8, Session 2)](https://pittsburgh-neh-institute.github.io/Institute-Materials-2020/schedule/week_2/week_2_day_3_plan.html) - Chapter 7.2. *Maps and Arrays*
 
-* [Creating SVG visualizations for the edition (Day 8, Session 3)](https://pittsburgh-neh-institute.github.io/Institute-Materials-2020/schedule/week_2/week_2_day_3_plan.html) - Chapter 12.2 *XQuery and CSV*
+* [Creating the model as tab-separated values (TSV) using XQuery (Day 8, Session 3)](https://pittsburgh-neh-institute.github.io/Institute-Materials-2020/schedule/week_2/week_2_day_3_plan.html) - Chapter 12.2 *XQuery and CSV*
 
 ### Day 10
 
-* [Creating SVG visualizations for the edition (Day 10, Session 2)](https://pittsburgh-neh-institute.github.io/Institute-Materials-2020/schedule/week_2/week_2_day_5_plan.html) - Chapter 12.3 *XQuery and XSLT*
+* [Why not XSLT? Can I use XSLT? (Day 10, Session 2)](https://pittsburgh-neh-institute.github.io/Institute-Materials-2020/schedule/week_2/week_2_day_5_plan.html) - Chapter 12.3 *XQuery and XSLT*
