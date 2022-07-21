@@ -192,4 +192,4 @@ graphing:relation-graph($doc//tei:listPerson[not(parent::tei:listPerson)], $doc/
 ## and finally a w3c and exist-db example to show it can do other graphs than from full TEI documents
 
 
-![eXist-db related to W3C](./sources/exist-db-relations.svg)
+![eXist-db related to XML and other W3C standards](./sources/exist-db-relations.svg)
