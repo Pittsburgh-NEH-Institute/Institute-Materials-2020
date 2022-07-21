@@ -45,9 +45,9 @@ Let's look together at some of Gabi Keane's [wireframes for the pr-app sample ed
 ### Sketching your digital edition
 
 Tomorrow (Friday) you will have the opportunity to present a 5-minute presentation about your digital edition, during [Friday's concluding session](./day10_session0304_bleeker_participant-editions.md) facilitated by Elli Bleeker.
-A potential **topic** for your presentation is user interface design, and a suggested means of your presentation is your wireframes (created using pen and paper, presented by taking a picture).
-So carrying out this exercise is also, potentially, preparation for your presentation tomorrow!
-As you complete this exercise, you may wish to draw upon the list of [exemplary digital editions](../ref/exemplary-editions.md) that Elli put together for inspiration!
+A potential **topic** for your presentation is user interface design, and a suggested **means** of your presentation is your wireframes (created using pen and paper, presented by taking a picture).
+So carrying out this exercise is also, potentially, preparation for your presentation tomorrow.
+As you complete this exercise, you may wish to draw upon the list of [exemplary digital editions](../ref/exemplary-editions.md) that Elli put together for inspiration.
 
 #### Round 1
 
