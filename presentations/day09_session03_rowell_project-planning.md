@@ -19,3 +19,30 @@ Now let's reflect on what we've learned:
 
 ## Planning our own projects
 
+### A note about sketching
+
+One aspect of the project plan that we haven't yet learned about together is wireframing—though I prefer the word 'sketching' because it feels more humanistic somehow!
+For designers, initial sketches function as low-effort idea generators.
+The goal is to give an idea enough structure to see what it reveals about the design situation and to invite comment, from oneself and others.
+Most of the literature on sketching comes from product design and architecture, but information architects and user interface designers also sketch.
+Web site maps and wireframes show structural components in schematic form and are a form of sketch.
+At the beginning of a project, these representations are rough and tenuous, ready to be changed or scrapped.
+As the project continues and the design begins to solidify, the sketches become more detailed and represent the results of one’s various design decisions.
+At first, your sketches should truly be just sketches: loose, disposable, and multiple.
+Later, your sketches will be more detailed: coherent and consistent, and showing enough to clarify what your finished website would look like.
+Today we will sketch using paper and pencil.
+Later in the process of developing your edition, you will be 'sketching in software.'
+
+Shaw, Ryan. "[Sketching Assignment](https://aeshin.org/teaching/inls-890-186/2012/fa/assignments/#sketching)." University of North Carolina–Chapel Hill, School of Information and Library Science, INLS 890-186, Fall 2012.
+
+### Sketching your digital edition
+
+#### Round 1
+
+1. Sketch 2–3 possible versions of the home page of your digital edition. What are the design elements and organization?
+2. Compare sketches. What design choices are similar? What choices are different? Which might better reach your primary intended audiences?
+
+#### Round 2
+
+1. Choose another page type of your digital edition (for example, a search results page, a page listing a particular type of named entity, or a particular type of visualization). Sketch 2–3 possible versions of this page type.
+2. Once again, compare sketches. What design choices are similar? What choices are different? Which might better reach your primary intended audiences?
