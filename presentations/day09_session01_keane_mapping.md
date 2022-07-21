@@ -13,14 +13,14 @@
 My mapping feature is meant to be an article discovery tool for users of the app, so it wasn't a priority for me to georeference and use historical tiles. Instead, I worked with a variety of sources that helped me understand places relationally. In some cases, I drew out those relationships by hand. In those cases, geodata was not as useful, but still helped me be precise when I had opportunities to not be so precise.
 
 ## Big question: is what I have worth mapping?
-People love looking at maps, but you should have a clear goal in mind when you set out to do mapping. In my case, I want to visualize distribution of place mentions and connect back to reading texts by listing titles. A future iteration of this could have links instead of just listing the titles. I could also choose to incorporate maps for individual articles, but I think the low density of the data might limit the usefulness of that as a visualization.
+People love looking at maps, but you should have a clear goal in mind when you set out to do mapping. In my case, I want to visualize distribution of place mentions and connect back to reading texts by listing titles. I was more interested in showing density and outliers, but the map I chose doesn't do a great job of highlighting that. This isn't a particularly data-rich visualization, which is fine for what I wanted. A future iteration of this could have links instead of just listing the titles. I could also choose to incorporate maps for individual articles, but I think the low density of the data might limit the usefulness of that as a visualization.
 
 I have more skepticism about maps than I do about visualizations. Proceed with caution!
 
-## Bigger question: do I need to learn JavaScript?
-I think you should be on a need-to-know basis with most technologies. I do not write JavaScript, I can parse what it's doing and not much else. But I do use a JS library pretty frequently in my job, so I know the basics for most of them. You need a link in the head of your HTML, you need the object you want to parse, and you need something that executes the script. When you can identify those parts (and the libraries that want you to use them are going to help you out), the rest is just finicky syntax.
+## Do I need to learn JavaScript? Or GIS?
+I do not write JavaScript, I can parse what it's doing and not much else. But I do use a JS library pretty frequently in my job, so I know the basics for most of them. You need a link in the head of your HTML, you need the object you want to parse, and you need something that executes the script. When you can identify those parts (and the libraries that want you to use them are going to help you out), the rest is just finicky syntax.
 
-There are plenty of other ways to make maps that do not require you to write any code. I've used them, they can be great tools, but they have their own unique and steep learning curves. I would be skeptical of anything marketing itself as easy, geographers study for a long time to be good at even basic versions of this stuff.
+There are plenty of other ways to make maps that do not require you to write any code. I've used them, they can be great tools, but they have their own unique and steep learning curves. I would be skeptical of anything marketing itself as easy, geographers study for a long time to be good at even basic versions of this stuff. Today we'll mostly focus on how to “get smart” about this stuff.
 
 ## Resources
 - [GEOJSON playground](https://geojson.io/#map=2/22.4/0.0)
