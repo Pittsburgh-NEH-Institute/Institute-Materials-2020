@@ -8,7 +8,7 @@ Data access and APIs. The morning sessions focus on accommodating both the
 
 ## Outcome goals
 * Evaluate whether the best visualization for your data is a map.
-* Use external documentation and tutorials to create and adapt code for your project.
+* Learn how to use external documentation and tutorials to create and adapt code for your project.
 * Introduce external APIs.
 * Understand CRUD, nouns, and verbs.
 * Understand REST, HTTP, and URIs.
@@ -36,7 +36,8 @@ Time | Topic | Type
 ---- | ---- | ---- 
 15 min | Write the model for our geodata and explore our ideas on how visual information can be displayed. | Talk lab
 15 min | Choose the right mapping tools for your project. | Talk lab
-60 min | Together, we integrate basic map functionality into the app using a mapping JS library. | Code lab
+30 min | Integrate basic map functionality into the app using a mapping JS library. | Presentation
+30 min | (TEI) Graphing inside eXist-db. | Presentation
 
 ## 10:30–11:00: Coffee break
 

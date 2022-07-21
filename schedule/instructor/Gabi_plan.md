@@ -113,7 +113,8 @@ Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
 **15 min** | **Write the model for our geodata and explore our ideas on how visual information can be displayed.** | **Talk lab** | **Gabi**
 **15 min** | **Choose the right mapping tools for your project.** | **Talk lab** | **Gabi**
-**60 min** | **Together, we integrate basic map functionality into the app using a mapping JS library.** | **Code lab** | **Gabi**
+**30 min** | **Integrate basic map functionality into the app using a mapping JS library.** | **Presentation** | **Gabi**
+30 min | (TEI) Graphing inside eXist-db. | Presentation | Leif-Jöran
 
 #### 2:00–3:30: Review and practice: version control and project management with git and GitHub.
 

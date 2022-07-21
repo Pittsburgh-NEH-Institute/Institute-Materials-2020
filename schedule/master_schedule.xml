@@ -1223,15 +1223,21 @@
                         <instructor>Gabi</instructor>
                     </instructors>
                 </act>
-                <act time="60" type="Code_lab">
-                    <desc>Together, we integrate basic map functionality into the app using a mapping JS library.</desc>
+                <act time="30" type="Presentation">
+                    <desc>Integrate basic map functionality into the app using a mapping JS library.</desc>
                     <outcome>
-                        <goal>Use external documentation and tutorials to create and adapt code for
+                        <goal>Learn how to use external documentation and tutorials to create and adapt code for
                             your project.</goal>
                         <goal>Introduce external APIs.</goal>
                     </outcome>
                     <instructors>
                         <instructor>Gabi</instructor>
+                    </instructors>
+                </act>
+                <act time="30" type="Presentation">
+                    <desc>(TEI) Graphing inside eXist-db.</desc>
+                    <instructors>
+                        <instructor>Leif-Jöran</instructor>
                     </instructors>
                 </act>
             </slot>
