@@ -1,5 +1,10 @@
 # Verbs and nouns in the *pr-app* API
 
+## Preliminary
+
+1. The eXist-db controller is a type of API.
+2. This Institute activity focuses on **human** interactions with the **eXist-db controller** in a **web browser** (that is, on how the **URL** in the **browser address bar** is processed). There are other ways that users (and machines) interact with APIs.
+
 ## Conclusion
 
 1. Think about project goals, services, and resources.
