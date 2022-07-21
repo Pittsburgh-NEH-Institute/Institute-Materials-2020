@@ -10,8 +10,8 @@
 	- If you aren't paying for it, you're the product
 
 ## Geolocating historical maps
-My mapping feature is meant to be an article discovery tool for users of the app, so it wasn't a priority for me to georeference and use historical tiles. Instead, I worked with a variety of sources that helped me understand places relationally. In some cases, I drew out those relationships by hand. In those cases, geodata was not useful at all.
-	
+My mapping feature is meant to be an article discovery tool for users of the app, so it wasn't a priority for me to georeference and use historical tiles. Instead, I worked with a variety of sources that helped me understand places relationally. In some cases, I drew out those relationships by hand. In those cases, geodata was not as useful, but still helped me be precise when I had opportunities to not be so precise.
+
 ## Big question: is what I have worth mapping?
 People love looking at maps, but you should have a clear goal in mind when you set out to do mapping. In my case, I want to visualize distribution of place mentions and connect back to reading texts by listing titles. A future iteration of this could have links instead of just listing the titles. I could also choose to incorporate maps for individual articles, but I think the low density of the data might limit the usefulness of that as a visualization.
 

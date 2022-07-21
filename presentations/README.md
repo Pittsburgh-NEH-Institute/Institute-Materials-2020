@@ -74,7 +74,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ### Day 9 | Thursday of Week 2
 
-Watch this space!
+* [Gabi, mapping](./day09_session01_keane_mapping.md)
 
 ### Day 10 | Friday of Week 2
 
