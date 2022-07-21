@@ -74,6 +74,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 ### Day 9 | Thursday of Week 2
 
 * [Gabi, mapping](./day09_session01_keane_mapping.md)
+* [Leif-Jöran, TEI graphing with eXist-db](./day09_session01_ljo_TEI-graphing-with-eXist-db.md)
 * [David, API nouns and verbs](./day09_session02_birnbaum_nouns-and-verbs.md)
 * [Chelcie, project planning (and project sketching!)](./day09_session03_rowell_project-planning.md)
 
