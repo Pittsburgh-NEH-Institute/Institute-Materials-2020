@@ -69,13 +69,13 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 * [David, the SVG coordinate system and viewBox](./day08_session01_david_svg-coordinates.md)
 * [Leif-Jöran, SVG basic shapes](./day08_session01_ljo_svg-basic-shapes.md)
-
 * [Gabi, visualization code-along](./day08_session02_keane_visualization.md)
 
 ### Day 9 | Thursday of Week 2
 
 * [Gabi, mapping](./day09_session01_keane_mapping.md)
-* [Chelcie, project planning (and project sketching!)](./day09_session01_rowell_project-planning.md)
+* [David, API nouns and verbs](./day09_session02_birnbaum_nouns-and-verbs.md)
+* [Chelcie, project planning (and project sketching!)](./day09_session03_rowell_project-planning.md)
 
 ### Day 10 | Friday of Week 2
 
