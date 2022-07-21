@@ -75,3 +75,11 @@ declare option output:media-type "application/json";
 declare option output:indent "yes";
 
 ```
+
+
+
+
+
+
+
+# Using the Mapbox JavaScript Library to render a map
