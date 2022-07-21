@@ -3,7 +3,10 @@
 ## Preliminary
 
 1. The eXist-db controller is a type of API.
-2. This Institute activity focuses on **human** interactions with the **eXist-db controller** in a **web browser** (that is, on how the **URL** in the **browser address bar** is processed). There are other ways that users (and machines) interact with APIs.
+2. This Institute activity focuses on **human** interactions with the **eXist-db controller** in a **web browser** (that is, on how the **URL** in the **browser address bar** is processed). 
+3. There are other ways that users (and machines) interact with APIs:
+    * Mapbox server (Gabi’s geo presentation)
+    * IIIF server interactions (Jeffrey’s upcoming IIIF guest lecture) 
 
 ## Conclusion
 
