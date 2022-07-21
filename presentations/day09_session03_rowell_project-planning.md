@@ -9,7 +9,7 @@ We've paid particular attention to some components that are commonly part of pro
 - project team expertise, roles, and responsibilities
 - communication norms
 - sustainability
-- project tasks & schedule
+- project tasks and schedule
 
 Now let's reflect on what we've learned:
 
@@ -18,3 +18,4 @@ Now let's reflect on what we've learned:
 3. What questions about project management do you still have?
 
 ## Planning our own projects
+
