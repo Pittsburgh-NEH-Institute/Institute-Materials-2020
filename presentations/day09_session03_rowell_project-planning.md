@@ -34,3 +34,15 @@ Today we will sketch using paper and pencil.
 Later in the process of developing your edition, you will be 'sketching in software.'
 
 Shaw, Ryan. "[Sketching Assignment](https://aeshin.org/teaching/inls-890-186/2012/fa/assignments/#sketching)." University of North Carolina–Chapel Hill, School of Information and Library Science, INLS 890-186, Fall 2012.
+
+### Sketching your digital edition
+
+#### Round 1
+
+1. Sketch 2–3 possible versions of the home page of your digital edition. What are the design elements and organization?
+2. Compare sketches. What design choices are similar? What choices are different? Which might better reach your primary intended audiences?
+
+#### Round 2
+
+1. Choose another page type of your digital edition (for example, a search results page, a page listing a particular type of named entity, or a particular type of visualization). Sketch 2–3 possible versions of this page type.
+2. Once again, compare sketches. What design choices are similar? What choices are different? Which might better reach your primary intended audiences?
