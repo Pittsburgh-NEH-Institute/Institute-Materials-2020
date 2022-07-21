@@ -7,9 +7,8 @@ There will be a dedicated check-out table on Saturday, July 23, from 8 a.m. to 6
 Before you check out, please be sure to keep the following move-out instructions in mind: 
 
 * You will be required to turn in your PUC card at check out.
-* Any PUC card not returned will result in a $10 charge.  
-* Leave your accommodations in broom-clean condition  
-* Clean MicroFridges and any University-owned appliances.  
+* Any PUC card not returned will result in a $10 charge.    
+* Empty MicroFridges and any University-owned appliances.  
 * Remove all personal belongings.
 * Leave only sealed bags of dry trash in your room.  
 * Seal all wet and food-related garbage and place in the appropriate landfill of your residence hall.
