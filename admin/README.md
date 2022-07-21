@@ -5,6 +5,7 @@ permalink: /admin/
 
 * [Before you arrive](before-you-arrive.md)
 * [Arrival](arrival.md)
+* [Departure](departure.md)
 * [Housing information](housing.md)
 * [Classroom schedule](room-schedule.md)
 * [Pittsburgh visitor’s guide](things-to-do.md)
