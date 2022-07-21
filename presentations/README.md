@@ -75,6 +75,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 ### Day 9 | Thursday of Week 2
 
 * [Gabi, mapping](./day09_session01_keane_mapping.md)
+* [Chelcie, project planning (and project sketching!)](./day09_session01_rowell_project-planning.md)
 
 ### Day 10 | Friday of Week 2
 
