@@ -25,7 +25,7 @@
 * Mateas, Michael. 2005. “Procedural literacy: educating the new media practitioner.” _On the horizon: special issue on games in education_, vol 13, number 2, pp. 101–11. <https://users.soe.ucsc.edu/~michaelm/publications/mateas-oth-2005.pdf>
 * Mahony, Simon, and Elena Pierazzo. 2012. "Teaching Skills or Teaching Methodology?" _Digital Humanities Pedagogy: practices, principles and politics._, pp. 215-225. Cambridge: OpenBook Publishers.
 * Rehbein, Malte and Christiane Fritze. 2012. “Hands-on teaching Digital Humanities: a didactic analysis of a summer school course on digital editing.” _Digital humanities pedagogy_, edited by Brett D. Hirsch. Cambridge: Open Book Publishers. <https://www.openbookpublishers.com/htmlreader/DHP/chap02.html#ch02>
-* * Rowell, Chelcie Juliet, and Alix Keener. 2021. [Pre-print of "Sharing authority in collaborative Digital Humanities pedagogy: Library workers' perspectives."](https://hcommons.org/deposits/item/hc:41125) In *Debates in Digital Humanities pedagogy*, edited by Brian Croxall and Diane Jakacki, forthcoming from the University of Minnesota Press.
+* Rowell, Chelcie Juliet, and Alix Keener. 2021. [Pre-print of "Sharing authority in collaborative Digital Humanities pedagogy: Library workers' perspectives."](https://hcommons.org/deposits/item/hc:41125) In *Debates in Digital Humanities pedagogy*, edited by Brian Croxall and Diane Jakacki, forthcoming from the University of Minnesota Press.
 * Unsworth, John. 2000. "Scholarly primitives: What methods do humanities researchers have in common, and how might our tools reflect this." _Symposium on Humanities Computing: Formal Methods, Experimental Practice_. King’s College, London. Vol. 13.
 
 ### Digital infrastructure
