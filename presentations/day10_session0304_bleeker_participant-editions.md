@@ -8,7 +8,7 @@ Presenting to the whole group your application of Institute concepts in your own
 ## Presenting your edition
 Prepare a **five minute presentation** about your edition.   
 
-###Suggested topics:
+### Suggested topics:
 You can either present (your ideas about) your edition as a whole, or choose to focus on one particular aspect related to a topic we discussed in the past two weeks, e.g.
 
 - The computational pipeline of your edition: what data do you have? What views would you like? How would you get from data to view? These questions can be discussed on a higher level _or_ you could present some of your data;
