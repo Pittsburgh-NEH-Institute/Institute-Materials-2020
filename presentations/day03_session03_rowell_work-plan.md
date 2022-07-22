@@ -18,7 +18,7 @@ Additionally, your team is committing, logistically and emotionally, to this pla
 Today I'm going to through you into the deep end. Choose one of the two project charters below, from either Emory's Center for Digital Scholarship or Yale's DH Lab:
 
 - Varner, Stewart. 2014. "[Project charter](https://web.archive.org/web/20200204172442/https://stewartvarner.com/2014/05/project-charter/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
-- Yale Digital Humanities Lab. 2019. "[Project Charter](https://dhlab.yale.edu/assets/docs/ProjectCharter-RPG.pdf)."
+- Yale Digital Humanities Lab. 2019. "[Project charter](https://dhlab.yale.edu/assets/docs/ProjectCharter-RPG.pdf)."
 
 Take 15–20 minutes to draft your project charter using either of these templates.
 
