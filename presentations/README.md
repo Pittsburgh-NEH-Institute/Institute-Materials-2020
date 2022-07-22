@@ -80,9 +80,11 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [David, API nouns and verbs](./day09_session02_birnbaum_nouns-and-verbs.md)
 * [Leif-Jöran, Documenting our decisions](./day09_session02_ljo_Documenting-our-decisions.md)
 * [Chelcie, project planning (and project sketching!)](./day09_session03_rowell_project-planning.md)
+* [Jeffrey, IIIF and digital editions](https://jeffreycwitt.com/slides/2022-07-21-iiif-and-digital-editions/)
 
 ### Day 10 (Friday of Week 2)
 
+* [Gabi, Reflections](./day10_session01_keane_reflection.md)
 * [Elli, examining modeling decisions](./day10_session01_bleeker_modeling-choices.md)
 * [Elli, participant editions](./day10_session0304_bleeker_participant-editions.md)
 
