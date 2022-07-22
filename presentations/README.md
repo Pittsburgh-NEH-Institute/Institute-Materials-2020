@@ -30,6 +30,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Emma, Command line and Git](./day03_session04_schwarz_git-practice.pdf)
 * [Hugh, TEI XML in context](./day03_session02_cayless_tei_rationale_alternatives.pdf)
 * [Gabi, Data modeling](./day03_session02_keane_TEI_modeling.md)
+* [Chelcie, research goals to work plan](./day03_session03_rowell_work-plan.md)
 * [Leif-Jöran, Building a title list (HTML)](./day03_session03_ljo_Building-a-title-list-with-XQuery.md)
 * [Leif-Jöran, Building a title list (PDF)](./day03_session03_ljo_Building-a-title-list-with-XQuery.pdf)
 * [Patrick, Stylometric authorship attribution (slides)](./day03_session04_juola_stylometry.pdf)
