@@ -4,7 +4,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ## Available slides
 
-### Day 1 | Monday of Week 1
+### Day 1 (Monday of Week 1)
 
 * [Gabi, Research questions](./day01_session01_keane_research-questions.md)
 * [Chelcie, Edition goals](./day01_session01_rowell_edition-goals.md)
@@ -15,7 +15,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Cliff, Exploratory data analysis in eXide (PDF)](./day01_session04_anderson_exploratory_data_analysis_in_exide.pdf)
 * [Elli, Exemplary editions](./day01_session04_bleeker_exemp-editions.pdf)
 
-### Day 2 | Tuesday of Week 1
+### Day 2 (Tuesday of Week 1)
 
 * [Chelcie, Project management](./day02_session01_rowell_project-management.md)
 * [Ronald, Introduction to git](./day02_session02_dekker_version_control_with_git.pdf)
@@ -24,7 +24,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Cliff, Introduction to FLWOR (HTML)](./day02_session03_anderson_xquery_practice_flwor.md)
 * [Cliff, Introduction to FLWOR (PDF)](./day02_session03_anderson_xquery_practice_flwor.pdf)
 
-### Day 3 | Wednesday of Week 1
+### Day 3 (Wednesday of Week 1)
 
 * [Emma, Command line practice](./day03_session01_schwarz_command-line-practice-updated.pdf)
 * [Emma, Command line and Git](./day03_session04_schwarz_git-practice.pdf)
@@ -34,7 +34,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, Building a title list (PDF)](./day03_session03_ljo_Building-a-title-list-with-XQuery.pdf)
 * [Patrick, Stylometric authorship attribution (slides)](./day03_session04_juola_stylometry.pdf)
 
-### Day 4 | Thursday of Week 1
+### Day 4 (Thursday of Week 1)
 
 * [Leif-Jöran, Examine indexes and profiles in Monex](./day04_session01_ljo_Examine-indexes-and-profiles-in-Monex.md)
 * [David, Facets and fields tutorial](https://github.com/Pittsburgh-NEH-Institute/pr-app/blob/main/pr-app-tutorials/facets-and-fields.md)
@@ -44,7 +44,7 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Hugh, What's a Controller?](./day04_session03_cayless_what-is-a-controller.pdf)
 * [Ronald, Collation](./day04_session04_dekker_collation.pdf)
 
-### Day 5 | Friday of Week 1
+### Day 5 (Friday of Week 1)
 
 * [Ronald, Git branches and you](./day05_session02_dekker_git-branches-and-you.pdf)
 * [Elli, Working with branches in Git](./day05_session02_bleeker_branches-issues-prs.pdf)
@@ -52,12 +52,13 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Elli, Command line tips and tricks](./day05_session04_bleeker_CLI-tips-tricks.pdf)
 * [Gabi, VSCode](./day05_session01_keane_vscode.md)
 
-### Day 6 | Monday of Week 2
+### Day 6 (Monday of Week 2)
 
 * [Chelcie, Making collaboration work](./day06_session01_rowell_making-collaboration-work.md)
 * [Hugh, A wander through the digtal edition landscape](./day06_session02_cayless.pdf)
 
-### Day 7 | Tuesday of Week 2
+### Day 7 (Tuesday of Week 2)
+
 * [Leif-Jöran, Enhancing the title list model](./day07_session01_ljo_Enhancing-the-title-list-model.md)
 * [David and Hugh, Search](./day07_session02_search.md)
 * [David, Linking titles to reading](./day07_session03_david_link-titles-to-reading.md)
@@ -65,20 +66,25 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [David, Creating a main page](./day07_session03_david_site-index.md)
 * [Leif-Jöran, Find all the TEI elements used / attribute values used / etc](./day07_session04_ljo_Find-all-the-TEI-elements-used.md)
 
-### Day 8 | Wednesday of Week 2
+### Day 8 (Wednesday of Week 2)
 
 * [David, the SVG coordinate system and viewBox](./day08_session01_david_svg-coordinates.md)
 * [Leif-Jöran, SVG basic shapes](./day08_session01_ljo_svg-basic-shapes.md)
-
 * [Gabi, visualization code-along](./day08_session02_keane_visualization.md)
 
-### Day 9 | Thursday of Week 2
+### Day 9 (Thursday of Week 2)
 
 * [Gabi, mapping](./day09_session01_keane_mapping.md)
+* [Leif-Jöran, TEI graphing with eXist-db](./day09_session01_ljo_TEI-graphing-with-eXist-db.md)
+* [Hugh, What's an API?](./day09_session02_cayless_apis.pdf)
+* [David, API nouns and verbs](./day09_session02_birnbaum_nouns-and-verbs.md)
+* [Leif-Jöran, Documenting our decisions](./day09_session02_ljo_Documenting-our-decisions.md)
+* [Chelcie, project planning (and project sketching!)](./day09_session03_rowell_project-planning.md)
 
-### Day 10 | Friday of Week 2
+### Day 10 (Friday of Week 2)
 
-Watch this space!
+* [Elli, examining modeling decisions](./day10_session01_bleeker_modeling-choices.md)
+* [Elli, participant editions](./day10_session0304_bleeker_participant-editions.md)
 
 ----
 

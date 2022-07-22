@@ -120,6 +120,15 @@ Time | Topic | Type | Instructor
 
 ### Thursday, July 21, 2022
 
+#### 9:00–10:30: Visualizing our geodata and integrating external APIs
+
+Time | Topic | Type | Instructor
+---- | ---- | ---- | ---- 
+15 min | Write the model for our geodata and explore our ideas on how visual information can be displayed. | Talk lab | Gabi
+15 min | Choose the right mapping tools for your project. | Talk lab | Gabi
+30 min | Integrate basic map functionality into the app using a mapping JS library. | Presentation | Gabi
+**30 min** | **(TEI) Graphing inside eXist-db.** | **Presentation** | **Leif-Jöran**
+
 #### 11:00–12:30: Application programming interfaces (API)
 
 Time | Topic | Type | Instructor

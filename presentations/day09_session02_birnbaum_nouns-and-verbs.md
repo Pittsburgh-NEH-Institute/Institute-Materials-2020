@@ -1,5 +1,13 @@
 # Verbs and nouns in the *pr-app* API
 
+## Preliminary
+
+1. The eXist-db controller is a type of API.
+2. This Institute activity focuses on **human** interactions with the **eXist-db controller** in a **web browser** (that is, on how the **URL** in the **browser address bar** is processed). 
+3. There are other ways that users (and machines) interact with APIs:
+    * Mapbox server (Gabi’s geo presentation)
+    * IIIF server interactions (Jeffrey’s upcoming IIIF guest lecture) 
+
 ## Conclusion
 
 1. Think about project goals, services, and resources.
@@ -22,7 +30,7 @@ Read | Get/Post
 Update | Post/Put/Patch
 Delete | Delete
 
-HTTP supports other interactions, e.g., reboot the server. 
+HTTP supports other interactions, e.g., Hugh used the GitHub API in the TEI repos to create a new Git branch. 
 
 *pr-app* requires only Read, which we implement only with Get.
 
