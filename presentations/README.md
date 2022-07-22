@@ -91,6 +91,8 @@ This folder contains PDF or markdown versions of all presentation slides.
 * [Elli, examining modeling decisions](./day10_session01_bleeker_modeling-choices.md)
 * [Gabi, API design](./day10_session02_keane_api-design.md)
 * [Elli, participant editions](./day10_session0304_bleeker_participant-editions.md)
+* [Leif-Jöran, Why use eXist-db?](./day10_session02_ljo_why-use-eXist-db.md)
+* [Leif-Jöran, Why use Git and GitHub? What are some management alternatives?](./day10_session02_ljo_Why-use-git-and-GitHub-What-are-some-management-alternatives.md)
 
 ----
 
