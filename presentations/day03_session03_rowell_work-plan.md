@@ -37,4 +37,4 @@ So, I offer this as a resource for those of you who are a team of one.
 
 Also, as a side note, I will say that I have heavily used these project charter templates in the past. But lately the resource I am finding most useful for structuring my thoughts around service development in academic libraries is this resource, which my colleague at Tufts, Kylie Burnham, introduced me to when they took a for-credit course on program evaluation in Tufts' museum education department:
 
-W.K. Kellogg Foundation. 2004. "[Logic model development guide](https://wkkf.issuelab.org/resource/logic-model-development-guide.html)." Battle Creek, Michigan: W.K. Kellogg Foundation, January 2004.
+- W.K. Kellogg Foundation. 2004. "[Logic model development guide](https://wkkf.issuelab.org/resource/logic-model-development-guide.html)." Battle Creek, Michigan: W.K. Kellogg Foundation, January 2004.
