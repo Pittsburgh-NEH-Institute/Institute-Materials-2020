@@ -71,6 +71,8 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [David, the SVG coordinate system and viewBox](./day08_session01_david_svg-coordinates.md)
 * [Leif-Jöran, SVG basic shapes](./day08_session01_ljo_svg-basic-shapes.md)
 * [Gabi, visualization code-along](./day08_session02_keane_visualization.md)
+* [Elisa, Using XQuery to create tsv](./day08_session03_beshero_xquery_to_tsv.md)
+* [Elisa, Exploring networks with Cytoscape](./day08_session04_beshero_exploring_cytoscape.md)
 
 ### Day 9 (Thursday of Week 2)
 
@@ -78,12 +80,15 @@ This folder contains pdf or markdown versions of all presentations slides.
 * [Leif-Jöran, TEI graphing with eXist-db](./day09_session01_ljo_TEI-graphing-with-eXist-db.md)
 * [Hugh, What's an API?](./day09_session02_cayless_apis.pdf)
 * [David, API nouns and verbs](./day09_session02_birnbaum_nouns-and-verbs.md)
-* [Leif-Jöran, Documenting our decisions](./day09_session02_ljo_Documenting-our-decisions.md)
+* [Leif-Jöran, Documenting our decisions](./day09_session02_ljo_documenting-our-decisions.md)
 * [Chelcie, project planning (and project sketching!)](./day09_session03_rowell_project-planning.md)
+* [Jeffrey, IIIF and digital editions](https://jeffreycwitt.com/slides/2022-07-21-iiif-and-digital-editions/)
 
 ### Day 10 (Friday of Week 2)
 
+* [Gabi, Reflections](./day10_session01_keane_reflection.md)
 * [Elli, examining modeling decisions](./day10_session01_bleeker_modeling-choices.md)
+* [Gabi, API design](./day10_session02_keane_api-design.md)
 * [Elli, participant editions](./day10_session0304_bleeker_participant-editions.md)
 
 ----

@@ -12,10 +12,21 @@ The authorization comes back through the card network, to the card processor, an
 
 The APIs used in this process are more noun-oriented-- in the point-of-sale system, you're order is probably called "ORDER" and it has a couple different fields like "ITEMS" and "PAYMENT METHOD" and "PAYMENT STATUS". Depending on the place, you might have a rewards account that gets you points, so your order necessarily also has a field like "CUSTOMER" that helps the business keep track of what you buy and how much you spend.
 
-Your payment method has nouns like "CARD NUMBER" and "EXP DATE". This are used to complete actions, but they aren't actions themselves. For that reason, you might see the API call look something like this: 
+Your payment method has nouns like "CARD NUMBER" and "EXP DATE". These are used to complete actions, but they aren't actions themselves. For that reason, you might see the API call look something like this: 
 
 `card_processor_company_name/transactions/authorize/card_id`
 
-And the parameters might be something like 
+And the parameters might be something like the amount, details about the purchase, etc. This is all about the exchange of money and goods and services.
+
+I work with transactional APIs all the time, and knowing what I know about them, I wanted to make choices for my edition that would not be focused on transaction.
+
+For one thing, we were focused on read-only: a model for an app where people co-edit materials using your interface might *benefit* from a transactional model.
+
+For those reasons, we chose a verb-first approach. I care about what a user can do, and I want to be able to pass a parameter to that verb which will inform what it does. We have a lot more nouns than verbs (normal!) and we either want to do something to all of them or just one of them.
+
+Here are three questions that might help you when considering your own API design?
+- What is the smallest possible unit of 'thing I care about'?
+- Which actions take similar inputs?
+- What is my user's ideal path through the information?
 
 
