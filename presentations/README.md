@@ -1,6 +1,6 @@
 # Presentations slides for the sessions
 
-This folder contains pdf or markdown versions of all presentations slides.
+This folder contains PDF or markdown versions of all presentation slides.
 
 ## Available slides
 
