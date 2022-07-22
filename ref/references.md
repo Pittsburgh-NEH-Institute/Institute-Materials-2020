@@ -1,6 +1,90 @@
 # Bibliography and other references
 
+## Practice
+
+### General
+* “Computational methods in the humanities.” Course materials for David J. Birnbaum’s computational digital humanities course at the University of Pittsburgh. <http://dh.obdurodon.org>;
+* Women Writers Project (WWP) [tutorials](https://www.wwp.northeastern.edu/outreach/resources/tutorial_all.html) on XML, XSLT, XPath, and ODD (among others);
+
+### XPath
+* James Cummings’ [introduction to XPath](https://dixit.uni-koeln.de/wp-content/uploads/2015/04/Camp2-4-James_Cummings_-_An_introduction_to_searching_in_oXygen_using_XPath__talk.pdf) as part of the DiXiT project materials.
+
+### XSLT 
+* David J. Birnbaum's [course](http://dh.obdurodon.org/xslt-basics.xhtml) on XSLT basics.
+
+### XQuery
+* XQuery function [website](http://www.xqueryfunctions.com/);
+* Elisa Beshero-Bondar's [DSHI course](https://ebeshero.github.io/UpTransformation/xquery_setup.html) on using XQuery in eXide;
+
+### Commandline 
+* Software carpentry [introduction to shell]( https://swcarpentry.github.io/shell-novice/reference.html)
+
+### Schematron
+* Mulberry Technologies’ [Introduction to Schematron](http://www.mulberrytech.com/papers/schematron-Philly.pdf), by Wendell Piez and Debbie Lapeyre.
+
+### Git
+- Hugh Cayless' [presentation](https://docs.google.com/presentation/d/1EuC_mLqGSMUoQ8QedMAtuT1Oz0A92nhcBMffCoGR62U/edit?usp=sharing) on why Git is the way it is.
+
+### CSS
+- David J. Birnbaum CSS [course](http://dh.obdurodon.org/cssAnimationsIntro.xhtml);
+- CSS tips and tricks: [a guide on Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+
+### Regular expressions
+- Jeffrey Riedel, [Mastering Regular Expressions](http://regex.info/book.html);
+- Elisa Beshero-Bondar's [tutorial](https://newtfire.org/courses/tutorials/explainRegex.html) on regex;
+- Online website for [regular expressions](https://www.regular-expressions.info/quickstart.html);
+ 
+### Network analysis
+- Elisa Beshero-Bondar's tutorial on network analysis with Cytoscape [pt.1](https://github.com/DigitalMitford/DigMitCS/blob/master/networkAnalysis/1-xqueryToCytoscape.md);
+- Elisa Beshero-Bondar's tutorial on network analysis Cytoscape [pt.2](https://github.com/DigitalMitford/DigMitCS/blob/master/networkAnalysis/2-exploringCytoscape.md)
+
+
 ## Readings
+
+### Digital Humanities pedagogy and learning
+
+* Birnbaum, David J., 2014. Address read at the University of Pittsburgh Faculty Senate annual spring plenary session, 2014-03-19. <http://www.obdurodon.org/slides/2014-03-19_senate-plenary.pdf>
+* Birnbaum, David J. and Alison Langmead. 2017. "Task-driven programming pedagogy in the Digital Humanities." _New directions for computing education. Embedding computing across disciplines_, edited by Samuel B. Fee, Amanda Holland-Minkley, and Thomas E. Lombardi, pp. 63–85. NY: Springer.
+* Hirsch, Brett D. (editor). 2012. _Digital Humanities pedagogy: practices, principles and politics._ Cambridge: Open Book Publishers. <https://www.openbookpublishers.com/product/161>
+* Mateas, Michael. 2005. “Procedural literacy: educating the new media practitioner.” _On the horizon: special issue on games in education_, vol 13, number 2, pp. 101–11. <https://users.soe.ucsc.edu/~michaelm/publications/mateas-oth-2005.pdf>
+* Mahony, Simon, and Elena Pierazzo. 2012. "Teaching Skills or Teaching Methodology?" _Digital Humanities Pedagogy: practices, principles and politics._, pp. 215-225. Cambridge: OpenBook Publishers.
+* Rehbein, Malte and Christiane Fritze. 2012. “Hands-on teaching Digital Humanities: a didactic analysis of a summer school course on digital editing.” _Digital humanities pedagogy_, edited by Brett D. Hirsch. Cambridge: Open Book Publishers. <https://www.openbookpublishers.com/htmlreader/DHP/chap02.html#ch02>
+* Unsworth, John. 2000. "Scholarly primitives: What methods do humanities researchers have in common, and how might our tools reflect this." _Symposium on Humanities Computing: Formal Methods, Experimental Practice_. King’s College, London. Vol. 13.
+
+## Software projects, tools, toolkits, guidelines and methods
+
+* Agile Manifesto. <http://www.agilemanifesto.org>;
+* Converting documents with pandoc: <https://pandoc.org/>;
+* Birnbaum, David and Gabi Keane. Command line fundamentals (course materials). <https://github.com/djbpitt/command-line-fundamentals/tree/2019>
+* Martin, Robert C. 2002. _Agile software development: principles, patterns, and practices._ Upper Saddle River: Prentice Hall.
+* CollateX. Software for collating textual sources. <http://collatex.net>
+* DiXiT. Digital Scholarly Editions Initial Training Network. Convention 1 (<http://dixit.huygens.knaw.nl/>) and Convention 2 (<http://dixit.uni-koeln.de/programme/convention-2/>)
+* Edition visualization technology (EVT). <http://evt.labcd.unipi.it>
+* eXist-db. XML database. <http://exist-db.org>
+* Interedition. EU COST Action to promote the interoperability of the tools and methodology in the field of digital scholarly editing and research. <http://www.interedition.eu/>
+* JGAAP. Java graphical authorship attribution program. <https://evllabs.github.io/JGAAP/>
+* LexiconSE. A lexicon for scholarly editing. <https://lexiconse.uantwerpen.be/>.
+* Parvum lexicon stemmatologicum (PLS). A scholarly digital resource providing explanations for technical terms related to stemmatology. <https://wiki.helsinki.fi/display/stemmatology>
+* PyStyl. Python package for stylometry. <https://github.com/mikekestemont/pystyl>
+* StemmaWeb. A collection of tools for analysis of collated text. <http://stemmaweb.net>
+* Tapas. <http://tapasproject.org/>
+* TEI. Text Encoding Initiative. <http://tei-c.org>
+* VMR CRE. Virtual manuscript room collaborative research environment. <http://vmrcre.org>
+
+### Text analysis and visualization
+
+* Drucker, Johanna. 2011. "Humanities approaches to graphical display". _Digital Humanities quarterly_, vol. 5, no. 1. <http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html>
+* Ingersoll, Grant S., Thomas S. Morton, and Andrew L. Farris. 2012. _Taming text. How to find, organize, and manipulate it._ Shelter Island, NY: Manning.
+* Janicke, Stefan, Annette Gessner, Greta Franzini, Melissa Terras, Simon Mahony, and Gerik Scheuermann. 2015. “TRAViz: a visualization for variant graphs”. _Digital scholarship in the humanities_, vol. 30, pp. 83–99.
+* Jessop, Martyn. 2008. “Digital visualization as a scholarly activity”. _Literary and linguistic computing_, vol. 23, no. 3, pp. 281–93.
+* Kirschenbaum, Matthew. 2004. “‘So the colours cover the wires’: interface, aesthetics and usability.” _A companion to Digital Humanities_, edited by Susan Schreibman, Ray Siemens, and John Unsworth, chapter 34. Oxford: Blackwell. <http://www.digitalhumanities.org/companion/>
+* Ruecker, Stan, Milena Radzikowska, and Stefan Sinclair. 2011. _Visual interface design for digital cultural heritage: a guide to rich-prospect browsing._ Surrey: Ashgate.
+
+### Journals and publication venues
+* _RIDE. A review journal for digital editions and resources._ <https://ride.i-d-e.de/>
+* _Scholarly Editing: The Annual of the Association for Documentary Editing_. <https://scholarlyediting.org/>.
+* _Variants. The journal of the European Society for Textual Scholarship._ <http://www.brill.com/products/book/journal-european-society-textual-scholarship-0>
+* _jTEI: the journal of the Text Encoding Initiative_. <https://journals.openedition.org/jtei/>.
 
 ### Digital Humanities and Digital Literary Studies
 
@@ -16,20 +100,10 @@
 * Terras, Melissa, Julienne Nyhan, and Edward Vanhoutte (editors). 2014. _Defining Digital Humanities: a reader._ Oxford: Routledge.
 * Unsworth, John. 2016. "What is humanities computing and what is not?." _Defining Digital Humanities_, pp. 51-63. Oxford: Routledge.
 
-### Digital Humanities pedagogy and learning
-
-* Birnbaum, David J., 2014. Address read at the University of Pittsburgh Faculty Senate annual spring plenary session, 2014-03-19. <http://www.obdurodon.org/slides/2014-03-19_senate-plenary.pdf>
-* Birnbaum, David J. and Alison Langmead. 2017. "Task-driven programming pedagogy in the Digital Humanities." _New directions for computing education. Embedding computing across disciplines_, edited by Samuel B. Fee, Amanda Holland-Minkley, and Thomas E. Lombardi, pp. 63–85. NY: Springer.
-* “Computational methods in the humanities.” Course materials for David J. Birnbaum’s computational digital humanities course at the University of Pittsburgh. <http://dh.obdurodon.org>
-* Hirsch, Brett D. (editor). 2012. _Digital Humanities pedagogy: practices, principles and politics._ Cambridge: Open Book Publishers. <https://www.openbookpublishers.com/product/161>
-* Mateas, Michael. 2005. “Procedural literacy: educating the new media practitioner.” _On the horizon: special issue on games in education_, vol 13, number 2, pp. 101–11. <https://users.soe.ucsc.edu/~michaelm/publications/mateas-oth-2005.pdf>
-* Mahony, Simon, and Elena Pierazzo. 2012. "Teaching Skills or Teaching Methodology?" _Digital Humanities Pedagogy: practices, principles and politics._, pp. 215-225. Cambridge: OpenBook Publishers.
-* Rehbein, Malte and Christiane Fritze. 2012. “Hands-on teaching Digital Humanities: a didactic analysis of a summer school course on digital editing.” _Digital humanities pedagogy_, edited by Brett D. Hirsch. Cambridge: Open Book Publishers. <https://www.openbookpublishers.com/htmlreader/DHP/chap02.html#ch02>
-* Unsworth, John. 2000. "Scholarly primitives: What methods do humanities researchers have in common, and how might our tools reflect this." _Symposium on Humanities Computing: Formal Methods, Experimental Practice_. King’s College, London. Vol. 13.
-
 ### Digital infrastructure
 
 * Boot, Peter, and Joris van Zundert. 2011. "The Digital Edition 2.0 and the Digital Library: Services, not Resources". _Digitale Edition und Forschungsbibliothek, Bibliothek und Wissenschaft_, vol. 44, pp. 141-152.
+* Birnbaum, David J., Hugh Cayless, Emmanuelle Morlock, Leif-Jöran Olsson and Joseph Wicentowski. “The integration of XML databases and content management systems in digital editions: Understanding eXist-db through Reese’s Peanut Butter Cups.” Presented at Balisage: The Markup Conference 2019, Washington, DC, July 30 - August 2, 2019. In Proceedings of Balisage: The Markup Conference 2019. Balisage Series on Markup Technologies, vol. 23 (2019). <https://doi.org/10.4242/BalisageVol23.Birnbaum01>; 
 * Borgman, Christine. 2010. _Scholarship in the digital age: Information, infrastructure, and the Internet_. Cambridge, MA: MIT press.
 * Kaltenbrunner, Wolfgang. 2015. “Reflexive inertia: reinventing scholarship through digital practices.” Ph.D. thesis, Leiden University.
 * Unsworth, John. 1997. "Documenting the Reinvention of Text. The Importance of Failure." _Journal of Electronic Publishing_, vol. 3, issue 2. <http://hdl.handle.net/2142/192>
@@ -135,41 +209,11 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 
 ### Text as graph (TAG)
 
-The repo and portal for the Huygens Institute TAG model introduced in the Institute is <https://github.com/HuygensING/TAG>. Read up on graphs here:
+In addition to the tree data model, scholars have experimented with a graph model for text. You can read up on graphs for texts and digital scholarly editions here:
 
 * Eide, Øyvind, 2014. “Sequence, tree and graph at the tip of your Java classes,” <http://dharchive.org/paper/DH2014/Paper-639.xml>
 * Haentjens Dekker, Ronald, and David J. Birnbaum. 2017. “It's more than just overlap: Text As Graph.” Presented at Balisage: The Markup Conference 2017, Washington, DC, August 1–4, 2017. In *Proceedings of Balisage: The Markup Conference 2017.* Balisage Series on Markup Technologies, vol. 19. doi:10.4242/BalisageVol19.Dekker01. <https://www.balisage.net/Proceedings/vol19/html/Dekker01/BalisageVol19-Dekker01.html>
 * Ide, Nancy and Keith Suderman, 2007. “GrAF: A graph-based format for linguistic annotations.” _Proceedings of the Linguistic annotation workshop, held in conjunction with ACL 2007, Prague, June 28-29_, 1-8. <http://www.cs.vassar.edu/~ide/papers/LAW.pdf>
-* Marcoux, Yves, C. Michael Sperberg-McQueen, and Claus Huitfeldt. 2011. “Expressive power of markup languages and graph structures”. Presented at the DH 2011 Stanford University conference (<http://xtf-prod.stanford.edu/xtf/view?docId=tei/ab-390.xml;query=;brand=default>).
+* Marcoux, Yves, C. Michael Sperberg-McQueen, and Claus Huitfeldt. 2011. “Expressive power of markup languages and graph structures”. Presented at the DH 2011 Stanford University conference (<http://xtf-prod.stanford.edu/xtf/view?docId=tei/ab-390.xml;query=;brand=default
 
-### Text analysis and visualization
 
-* Drucker, Johanna. 2011. "Humanities approaches to graphical display". _Digital Humanities quarterly_, vol. 5, no. 1. <http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html>
-* Ingersoll, Grant S., Thomas S. Morton, and Andrew L. Farris. 2012. _Taming text. How to find, organize, and manipulate it._ Shelter Island, NY: Manning.
-* Janicke, Stefan, Annette Gessner, Greta Franzini, Melissa Terras, Simon Mahony, and Gerik Scheuermann. 2015. “TRAViz: a visualization for variant graphs”. _Digital scholarship in the humanities_, vol. 30, pp. 83–99.
-* Jessop, Martyn. 2008. “Digital visualization as a scholarly activity”. _Literary and linguistic computing_, vol. 23, no. 3, pp. 281–93.
-* Kirschenbaum, Matthew. 2004. “‘So the colours cover the wires’: interface, aesthetics and usability.” _A companion to Digital Humanities_, edited by Susan Schreibman, Ray Siemens, and John Unsworth, chapter 34. Oxford: Blackwell. <http://www.digitalhumanities.org/companion/>
-* Ruecker, Stan, Milena Radzikowska, and Stefan Sinclair. 2011. _Visual interface design for digital cultural heritage: a guide to rich-prospect browsing._ Surrey: Ashgate.
-
-### Journals
-* _RIDE. A review journal for digital editions and resources._ <https://ride.i-d-e.de/>
-* _Variants. The journal of the European Society for Textual Scholarship._ <http://www.brill.com/products/book/journal-european-society-textual-scholarship-0>
-
-## Software projects, tools, toolkits, guidelines and methods
-
-* Agile Manifesto. <http://www.agilemanifesto.org>
-* Birnbaum, David and Gabi Keane. Command line fundamentals (course materials). <https://github.com/djbpitt/command-line-fundamentals/tree/2019>
-* Martin, Robert C. 2002. _Agile software development: principles, patterns, and practices._ Upper Saddle River: Prentice Hall.
-* CollateX. Software for collating textual sources. <http://collatex.net>
-* DiXiT. Digital Scholarly Editions Initial Training Network. Convention 1 (<http://dixit.huygens.knaw.nl/>) and Convention 2 (<http://dixit.uni-koeln.de/programme/convention-2/>)
-* Edition visualization technology (EVT). <http://evt.labcd.unipi.it>
-* eXist-db. XML database. <http://exist-db.org>
-* Interedition. EU COST Action to promote the interoperability of the tools and methodology in the field of digital scholarly editing and research. <http://www.interedition.eu/>
-* JGAAP. Java graphical authorship attribution program. <https://evllabs.github.io/JGAAP/>
-* LexiconSE. A lexicon for scholarly editing. <https://lexiconse.uantwerpen.be/>.
-* Parvum lexicon stemmatologicum (PLS). A scholarly digital resource providing explanations for technical terms related to stemmatology. <https://wiki.helsinki.fi/display/stemmatology>
-* PyStyl. Python package for stylometry. <https://github.com/mikekestemont/pystyl>
-* StemmaWeb. A collection of tools for analysis of collated text. <http://stemmaweb.net>
-* Tapas. <http://tapasproject.org/>
-* TEI. Text Encoding Initiative. <http://tei-c.org>
-* VMR CRE. Virtual manuscript room collaborative research environment. <http://vmrcre.org>
