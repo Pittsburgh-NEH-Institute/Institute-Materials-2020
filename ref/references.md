@@ -108,7 +108,7 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
 * Varner, Stewart. 2014. "[Project charter](https://web.archive.org/web/20200204172442/https://stewartvarner.com/2014/05/project-charter/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
 * Varner, Stewart. 2014. "[Project proposal form](https://web.archive.org/web/20200420145209/https://stewartvarner.com/2014/05/project-proposal-form/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
 * Visual Media Workshop at the University of Pittsburgh. 2019. "[The socio-technical sustainability roadmap](http://sustainingdh.net)."
-* W.K. Kellogg Foundation. 2004. "[Logic Model Development Guide](https://wkkf.issuelab.org/resource/logic-model-development-guide.html)." Battle Creek, Michigan: W.K. Kellogg Foundation, January 2004.
+* W.K. Kellogg Foundation. 2004. "[Logic model development guide](https://wkkf.issuelab.org/resource/logic-model-development-guide.html)." Battle Creek, Michigan: W.K. Kellogg Foundation, January 2004.
 * Yale Digital Humanities Lab. 2019. "[Defining your project: A DHLab toolkit](https://dhlab.yale.edu/guides/project-planning.html)."
 
   * See especially the [lean canvas](https://dhlab.yale.edu/assets/docs/DH-LeanCanvas.pdf) (which is akin to a project proposal) and the [project charter](https://dhlab.yale.edu/assets/docs/ProjectCharter-RPG.pdf).
