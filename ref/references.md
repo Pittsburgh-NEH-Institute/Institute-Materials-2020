@@ -98,14 +98,17 @@ See also the Modern language association (MLA) [Guidelines for editors of schola
   * See an [open access version of the article by Burress and Rowell](http://hdl.handle.net/2345/bc-ir:107641).
 
 * Gavia Libraria. 2011. "[The c-word](https://web.archive.org/web/20180126163329/https://gavialib.com/2011/12/the-c-word/)."
-* NPR Training. 2018. "[A blueprint for planning storytelling projects](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects)."
+* National Center for Faculty Development & Diversity. "[Monday motivator email newsletter](https://www.facultydiversity.org/the-monday-motivator)." 
+* National Public Radio (NPR) Training. 2018. "[A blueprint for planning storytelling projects](https://training.npr.org/audio/a-blueprint-for-planning-storytelling-projects)."
 * Rowell, Chelcie Juliet, and Alix Keener. 2021. [Pre-print of "Sharing authority in collaborative Digital Humanities pedagogy: Library workers' perspectives."](https://hcommons.org/deposits/item/hc:41125) In *Debates in Digital Humanities pedagogy*, edited by Brian Croxall and Diane Jakacki, forthcoming from the University of Minnesota Press.
 * Shaw, Ryan. "[Sketching assignment](https://aeshin.org/teaching/inls-890-186/2012/fa/assignments/#sketching)." University of North Carolina–Chapel Hill, School of Information and Library Science, INLS 890: Making the Humanities Digital, Fall 2012.
 * Siemens, Lynn. 2012. "[Issues in large-project planning and management](https://web.archive.org/web/20140606183525/https://dhsi.org/content/2012Curriculum/12.ProjectPlanning.pdf)" [PDF], Digital Humanities Summer Institute, University of Victoria.
 * Siemens, Lynn. 2016. "[Project management and the digital humanist](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315707860-35/project-management-digital-humanist-lynne-siemens)," _Doing Digital Humanities: Practice, training, research_, edited by Constance Crompton, Richard Lane, and Ray Siemens, pp. 343–57. London: Routledge.
+* Schwarz, Roger. 2015. "[How to Design an Agenda for an Effective Meeting](https://hbr.org/2015/03/how-to-design-an-agenda-for-an-effective-meeting)." Harvard Business Review.
 * Varner, Stewart. 2014. "[Project charter](https://web.archive.org/web/20200204172442/https://stewartvarner.com/2014/05/project-charter/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
 * Varner, Stewart. 2014. "[Project proposal form](https://web.archive.org/web/20200420145209/https://stewartvarner.com/2014/05/project-proposal-form/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
 * Visual Media Workshop at the University of Pittsburgh. 2019. "[The socio-technical sustainability roadmap](http://sustainingdh.net)."
+* W.K. Kellogg Foundation. 2004. "[Logic Model Development Guide](https://wkkf.issuelab.org/resource/logic-model-development-guide.html)." Battle Creek, Michigan: W.K. Kellogg Foundation, January 2004.
 * Yale Digital Humanities Lab. 2019. "[Defining your project: A DHLab toolkit](https://dhlab.yale.edu/guides/project-planning.html)."
 
   * See especially the [lean canvas](https://dhlab.yale.edu/assets/docs/DH-LeanCanvas.pdf) (which is akin to a project proposal) and the [project charter](https://dhlab.yale.edu/assets/docs/ProjectCharter-RPG.pdf).
