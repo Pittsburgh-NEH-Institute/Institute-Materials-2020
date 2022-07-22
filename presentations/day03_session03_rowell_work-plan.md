@@ -15,7 +15,7 @@ The project plan is a turning point in the life of a project.
 You're moving from research goals (which is the heart of the project proposal) to the plan of work.
 Additionally, your team is committing, logistically and emotionally, to this plan of work.
 
-Today I'm going to through you into the deep end. Choose one of the two project charters below, from either Emory's Center for Digital Scholarship or Yale's DH Lab:
+Today I'm going to throw you into the deep end. Choose one of the two project charters below, from either Emory's Center for Digital Scholarship or Yale's DH Lab:
 
 - Varner, Stewart. 2014. "[Project charter](https://web.archive.org/web/20200204172442/https://stewartvarner.com/2014/05/project-charter/)." Stewart Varner: Scholarship, Libraries, Technology (blog).
 - Yale Digital Humanities Lab. 2019. "[Project charter](https://dhlab.yale.edu/assets/docs/ProjectCharter-RPG.pdf)."
