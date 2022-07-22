@@ -31,12 +31,17 @@ left side) and turn on Graph.
 * **Thomas Gray Archive** (<http://www.thomasgray.org/cgi-bin/display.cgi?text=elcc#panel_ana>). The metrical and other structures underlying poetic texts constitute an annotation layer that may be difficult to integrate into a textual publication. This edition of the complete works of Thomas Grey (prose, poetry, correspondence, *and* the author's reading material) is enriched with a computationally facilitated analysis of the text, with richer commentary exposed in the notes and queries.
 * **Peter Plaoul, Commentarius in libros Sententiarum, de Fide** (<https://scta.lombardpress.org/text?resourceid=http://scta.info/resource/lectio1>) presents information from TEI XML transcriptions of Peter Plaoul’s *Commentary on the Sentences of Peter Lombard*. This edition integrates data and document views from multiple witnesses in both transcription and facsimile, and the best way to learn about it is to click on different moments in the text and experiment with the different interface widgets..
 
-
 ## Correspondence
 
 * **Van Gogh Letters** (<http://vangoghletters.org/vg/>) offer a subtle but powerful navigational platform for exploring Van Gogh’s correspondence, and can serve as an example of how developer perspectives and user affordances can be combined to support user-directed exploration.
 * **Welscher Gast digital project** (<http://digi.ub.uni-heidelberg.de/wgd/>) is impressive for its linking of text to iconography in illustrations.
 * **The Darwin Project** (<https://www.darwinproject.ac.uk/>) presents a comprehensive digital edition of the thousands of letters from and to Charles Darwin. The website offers an intuitive search functionality to explore the corpus of letters as well as useful historical background in the form of explanatory notes and extensive contextual essays.
 * **Busoni edition** (<https://www.busoni-nachlass.org/en/Index>) is a critical, TEI XML-based edition of selected correspondence and writings of Ferruccio Busoni. Especially interesting is that the Busoni edition is based on a dynamic exist-db app that has been developed for two other editions, illustrating that it's possible for edition projects to share software solutions as long as these have been documented.
+
+## Suggested by Institute participants
+
+* [Furnace and fugue](https://furnaceandfugue.org/). A digital edition of Michael Maier’s *Atalanta fugiens* (1618) with scholarly commentary.
+* [Jane Austen’s fiction manuscripts](https://janeausten.ac.uk/index.html) The *Jane Austen’s fiction manuscripts digital edition* gathers together in the virtual space of the web some 1100 pages of fiction written in Jane Austen’s own hand. Through digital reunification, it is now possible to access, read, and compare high quality images of original manuscripts whose material forms are scattered around the world in libraries and private collections.
+* [Reading with Austen](https://www.readingwithausten.com/index.html) A reconstruction of the library of Edward Austen Knight, with skeuomorphic interface. (Compare to [Melville’s marginalia](http://melvillesmarginalia.org/).)
 
 See also _A catalogue of digital editions_ (Franzini, Terras, and Mahony, 2012) at <https://github.com/gfranzini/digEds_cat> and the editions discussed in [Ride](https://ride.i-d-e.de/issues/), a English review journal for digital scholarly editions published by the German Institut für Dokumentologie und Editorik.

@@ -1,5 +1,7 @@
 ## Making collaboration work
 
+Chelcie Juliet Rowell • Monday, July 18, 2022 • Advanced Digital Editing: Modeling the Text & Making the Edition • NEH Institute for Advanced Topics in the Digital Humanities
+
 ### Discussion 1: Reflecting on past collaborations
 
 #### Questions for discussion
