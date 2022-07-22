@@ -83,7 +83,8 @@ This folder contains pdf or markdown versions of all presentations slides.
 
 ### Day 10 (Friday of Week 2)
 
-Watch this space!
+* [Elli, examining modeling decisions](./day10_session01_bleeker_modeling-choices.md)
+* [Elli, participant editions](./day10_session0304_bleeker_participant-editions.md)
 
 ----
 
