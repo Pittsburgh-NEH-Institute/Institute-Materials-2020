@@ -1,4 +1,8 @@
-## Project management reflections
+## Reflecting upon & planning projects
+
+Chelcie Juliet Rowell • Monday, July 11, 2022 • Advanced Digital Editing: Modeling the Text & Making the Edition • NEH Institute for Advanced Topics in the Digital Humanities
+
+### Project management reflections
 
 We've learned about project proposals and project charters (also known as project plans) as structures that help you to identify the intermediate steps of pursuing your research questions, as well as collaborative processes when working on a project team whose members have a wide range of experiences, perspectives, and expertise.
 We've paid particular attention to some components that are commonly part of projects proposals and/or project plans:
@@ -17,9 +21,9 @@ Now let's reflect on what we've learned:
 2. What aspects of project management do you find most counterintuitive and/or least likely to be helpful for your digital edition project?
 3. What questions about project management do you still have?
 
-## Planning our own projects
+### Planning our own projects
 
-### A note about sketching
+#### A note about sketching
 
 One aspect of the project plan that we haven't yet learned about together is wireframing—though I prefer the word 'sketching' because it feels more humanistic somehow!
 Much of the text in this 'note about sketching' comes from an assignment in a course taught by [Ryan Shaw](https://sils.unc.edu/people/faculty/profiles/Ryan-Shaw) that I took when I was in my master's program.
@@ -42,19 +46,19 @@ Shaw, Ryan. "[Sketching assignment](https://aeshin.org/teaching/inls-890-186/201
 
 Let's look together at some of Gabi Keane's [wireframes for the pr-app sample edition](https://github.com/Pittsburgh-NEH-Institute/pr-app/tree/main/pr-app-tutorials/wireframe).
 
-### Sketching your digital edition
+#### Sketching your digital edition
 
 Tomorrow (Friday) you will have the opportunity to present a 5-minute presentation about your digital edition, during [Friday's concluding session](./day10_session0304_bleeker_participant-editions.md) facilitated by Elli Bleeker.
 A potential **topic** for your presentation is user interface design, and a suggested **means** of your presentation is your wireframes (created using pen and paper, presented by taking a picture).
 So carrying out this exercise is also, potentially, preparation for your presentation tomorrow.
 As you complete this exercise, you may wish to draw upon the list of [exemplary digital editions](../ref/exemplary-editions.md) that Elli put together for inspiration.
 
-#### Round 1
+##### Round 1
 
 1. Sketch 2–3 possible versions of the home page of your digital edition. What are the design elements and organization?
 2. Compare sketches. What design choices are similar? What choices are different? Which might better serve your research goals and edition goals? Which might better serve your primary intended audiences?
 
-#### Round 2
+##### Round 2
 
 1. Sketch 2–3 possible versions of another page type within your digital edition, for example:
 
