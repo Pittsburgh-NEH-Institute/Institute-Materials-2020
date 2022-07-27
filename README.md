@@ -37,7 +37,7 @@ Digital humanists already have access to workshops and tutorials to help them le
 
 ### Participants
 
-<img src="images/participants.png" width="1200px" max-width="1200px"/>
+<img src="images/participants.png" width="1200px" max-width="1200px !important"/>
 
 ### Acknowledgements
 <table style="border: none;">
