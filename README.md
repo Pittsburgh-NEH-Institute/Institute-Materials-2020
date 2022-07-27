@@ -35,6 +35,10 @@ Digital humanists already have access to workshops and tutorials to help them le
 <tr><td><img src="images/witt.jpg" width="200px" alt="[Witt picture]"/></td><td style="vertical-align: middle">Jeffrey Witt<br/>Loyola University</td></tr>
 </table>
 
+### Participants
+
+<img src="images/participants.png"/>
+
 ### Acknowledgements
 <table style="border: none;">
     <tr style="border: none;">
