@@ -36,7 +36,7 @@ Introductions, research questions, schedules, outcome goals.
 Time | Topic | Type
 ---- | ---- | ---- 
 15 min | Introductions. | Presentation
-30 min | Research questions and choosing our technologies. | Presentation
+30 min | [Research questions](../presentations/day01_session01_keane_research-questions.md) and choosing our technologies. | Presentation
 15 min | Discuss two-week schedule and day plans. | Presentation
 30 min | Review laboratory outcome goals and explore participant goals for their own editions. | Talk lab
 

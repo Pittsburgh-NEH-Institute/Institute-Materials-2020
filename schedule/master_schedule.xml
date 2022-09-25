@@ -32,7 +32,7 @@
                     </instructors>
                 </act>
                 <act time="30" type="Presentation">
-                    <desc>Research questions and choosing our technologies.</desc>
+                    <desc>[Research questions](../presentations/day01_session01_keane_research-questions.md) and choosing our technologies.</desc>
                     <outcome>
                         <goal>Make informed methodological and technical decisions based on our
                             research questions.</goal>
