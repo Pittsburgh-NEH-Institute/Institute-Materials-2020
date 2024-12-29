@@ -111,7 +111,7 @@
             <slot time="14:00:00">
                 <title>Selecting your tools and software installation best practices</title>
                 <act time="90" type="Code_lab">
-                    <desc>[Software installation instructions](installs.md).</desc>
+                    <desc>[Software installation instructions](../../ref/installs.md).</desc>
                     <instructors>
                         <instructor>David</instructor>
                     </instructors>

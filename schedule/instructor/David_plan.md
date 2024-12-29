@@ -21,7 +21,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-**90 min** | **[Software installation instructions](installs.md).** | **Code lab** | **David**
+**90 min** | **[Software installation instructions](../../ref/installs.md).** | **Code lab** | **David**
 
 ### Tuesday, July 12, 2022
 

@@ -61,7 +61,7 @@ Time | Topic | Type
 
 Time | Topic | Type
 ---- | ---- | ---- 
-90 min | [Software installation instructions](installs.md). | Code lab
+90 min | [Software installation instructions](../../ref/installs.md). | Code lab
 
 ## 3:30–4:00: Coffee break
 

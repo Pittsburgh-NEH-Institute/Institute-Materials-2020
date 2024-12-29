@@ -63,7 +63,7 @@ Time | Topic | Type | Instructor
 
 Time | Topic | Type | Instructor
 ---- | ---- | ---- | ---- 
-90 min | [Software installation instructions](installs.md). | Code lab|David
+90 min | [Software installation instructions](../../ref/installs.md). | Code lab|David
 
 ## 3:30–4:00: Coffee break
 
